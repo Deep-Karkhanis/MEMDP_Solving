@@ -1,0 +1,56 @@
+
++++---------------------------------------------------------------+++
+			OVERALL STATS
++++---------------------------------------------------------------+++
+Total Evaluations run				: 1000
+Evaluations per Environment			: 125
+Number of crashes				: 505
+Number of successes				: 495
+Failed to reach a terminal state (T or G)	: 0
+Number of times tried risky path		: 495
+Number of times avoided risk and succeeded	: 0
++++---------------------------------------------------------------+++
+			PER ENVIRONMENT STATS
++++---------------------------------------------------------------+++
+Environment 1 (p=0)
+Number of times tried risky path		: 79
+Number of times avoided risk and succeeded	: 0
+Successes, crashes and give ups (not T, not G)	: 79 <--> 46 <--> 0
+
+Environment 2 (p=0.01)
+Number of times tried risky path		: 64
+Number of times avoided risk and succeeded	: 0
+Successes, crashes and give ups (not T, not G)	: 64 <--> 61 <--> 0
+
+Environment 3 (p=0.02)
+Number of times tried risky path		: 78
+Number of times avoided risk and succeeded	: 0
+Successes, crashes and give ups (not T, not G)	: 78 <--> 47 <--> 0
+
+Environment 4 (p=0.04)
+Number of times tried risky path		: 75
+Number of times avoided risk and succeeded	: 0
+Successes, crashes and give ups (not T, not G)	: 75 <--> 50 <--> 0
+
+Environment 5 (p=0.08)
+Number of times tried risky path		: 64
+Number of times avoided risk and succeeded	: 0
+Successes, crashes and give ups (not T, not G)	: 64 <--> 61 <--> 0
+
+Environment 6 (p=0.16)
+Number of times tried risky path		: 61
+Number of times avoided risk and succeeded	: 0
+Successes, crashes and give ups (not T, not G)	: 61 <--> 64 <--> 0
+
+Environment 7 (p=0.32)
+Number of times tried risky path		: 43
+Number of times avoided risk and succeeded	: 0
+Successes, crashes and give ups (not T, not G)	: 43 <--> 82 <--> 0
+
+Environment 8 (p=0.45)
+Number of times tried risky path		: 31
+Number of times avoided risk and succeeded	: 0
+Successes, crashes and give ups (not T, not G)	: 31 <--> 94 <--> 0
+
++++---------------------------------------------------------------+++
+

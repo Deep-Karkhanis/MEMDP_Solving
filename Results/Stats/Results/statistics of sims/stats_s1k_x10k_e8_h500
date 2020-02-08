@@ -1,0 +1,56 @@
+
++++---------------------------------------------------------------+++
+			OVERALL STATS
++++---------------------------------------------------------------+++
+Total Evaluations run				: 1000
+Evaluations per Environment			: 125
+Number of crashes				: 378
+Number of successes				: 299
+Failed to reach a terminal state (T or G)	: 323
+Number of times tried risky path		: 282
+Number of times avoided risk and succeeded	: 142
++++---------------------------------------------------------------+++
+			PER ENVIRONMENT STATS
++++---------------------------------------------------------------+++
+Environment 1 (p=0)
+Number of times tried risky path		: 47
+Number of times avoided risk and succeeded	: 23
+Successes, crashes and give ups (not T, not G)	: 52 <--> 55 <--> 18
+
+Environment 2 (p=0.01)
+Number of times tried risky path		: 53
+Number of times avoided risk and succeeded	: 17
+Successes, crashes and give ups (not T, not G)	: 49 <--> 64 <--> 12
+
+Environment 3 (p=0.02)
+Number of times tried risky path		: 48
+Number of times avoided risk and succeeded	: 22
+Successes, crashes and give ups (not T, not G)	: 51 <--> 56 <--> 18
+
+Environment 4 (p=0.04)
+Number of times tried risky path		: 47
+Number of times avoided risk and succeeded	: 18
+Successes, crashes and give ups (not T, not G)	: 46 <--> 54 <--> 25
+
+Environment 5 (p=0.08)
+Number of times tried risky path		: 43
+Number of times avoided risk and succeeded	: 20
+Successes, crashes and give ups (not T, not G)	: 41 <--> 59 <--> 25
+
+Environment 6 (p=0.16)
+Number of times tried risky path		: 27
+Number of times avoided risk and succeeded	: 22
+Successes, crashes and give ups (not T, not G)	: 37 <--> 53 <--> 35
+
+Environment 7 (p=0.32)
+Number of times tried risky path		: 15
+Number of times avoided risk and succeeded	: 20
+Successes, crashes and give ups (not T, not G)	: 23 <--> 28 <--> 74
+
+Environment 8 (p=0.45)
+Number of times tried risky path		: 2
+Number of times avoided risk and succeeded	: 0
+Successes, crashes and give ups (not T, not G)	: 0 <--> 9 <--> 116
+
++++---------------------------------------------------------------+++
+

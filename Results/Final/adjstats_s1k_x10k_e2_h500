@@ -1,0 +1,56 @@
+
++++---------------------------------------------------------------+++
+			OVERALL STATS
++++---------------------------------------------------------------+++
+Total Evaluations run				: 261
+Evaluations per Environment			: 32
+Number of crashes				: 89
+Number of successes				: 93
+Failed to reach a terminal state (T or G)	: 79
+Number of times tried risky path		: 80
+Number of times avoided risk and succeeded	: 53
++++---------------------------------------------------------------+++
+			PER ENVIRONMENT STATS
++++---------------------------------------------------------------+++
+Environment 1 (p=0)
+Number of times tried risky path		: 48
+Number of times avoided risk and succeeded	: 24
+Successes, crashes and give ups (not T, not G)	: 56 <--> 45 <--> 30
+
+Environment 2 (p=0.01)
+Number of times tried risky path		: 32
+Number of times avoided risk and succeeded	: 29
+Successes, crashes and give ups (not T, not G)	: 37 <--> 44 <--> 49
+
+Environment 3 (p=0.02)
+Number of times tried risky path		: 0
+Number of times avoided risk and succeeded	: 0
+Successes, crashes and give ups (not T, not G)	: 0 <--> 0 <--> 0
+
+Environment 4 (p=0.04)
+Number of times tried risky path		: 0
+Number of times avoided risk and succeeded	: 0
+Successes, crashes and give ups (not T, not G)	: 0 <--> 0 <--> 0
+
+Environment 5 (p=0.08)
+Number of times tried risky path		: 0
+Number of times avoided risk and succeeded	: 0
+Successes, crashes and give ups (not T, not G)	: 0 <--> 0 <--> 0
+
+Environment 6 (p=0.16)
+Number of times tried risky path		: 0
+Number of times avoided risk and succeeded	: 0
+Successes, crashes and give ups (not T, not G)	: 0 <--> 0 <--> 0
+
+Environment 7 (p=0.32)
+Number of times tried risky path		: 0
+Number of times avoided risk and succeeded	: 0
+Successes, crashes and give ups (not T, not G)	: 0 <--> 0 <--> 0
+
+Environment 8 (p=0.45)
+Number of times tried risky path		: 0
+Number of times avoided risk and succeeded	: 0
+Successes, crashes and give ups (not T, not G)	: 0 <--> 0 <--> 0
+
++++---------------------------------------------------------------+++
+

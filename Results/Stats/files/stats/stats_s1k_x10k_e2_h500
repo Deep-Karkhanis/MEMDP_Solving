@@ -1,0 +1,26 @@
+
++++---------------------------------------------------------------+++
+			OVERALL STATS
++++---------------------------------------------------------------+++
+Total Evaluations run				: 261
+Evaluations per Environment			: 130
+Number of crashes				: 89
+Number of successes				: 93
+Failed to reach a terminal state (T or G)	: 79
+Number of times tried risky path		: 80
+Number of times avoided risk and succeeded	: 53
++++---------------------------------------------------------------+++
+			PER ENVIRONMENT STATS
++++---------------------------------------------------------------+++
+Environment 1 (p=0.05)
+Number of times tried risky path		: 48
+Number of times avoided risk and succeeded	: 24
+Successes, crashes and give ups (not T, not G)	: 56 <--> 45 <--> 30
+
+Environment 2 (p=0.20)
+Number of times tried risky path		: 32
+Number of times avoided risk and succeeded	: 29
+Successes, crashes and give ups (not T, not G)	: 37 <--> 44 <--> 49
+
++++---------------------------------------------------------------+++
+

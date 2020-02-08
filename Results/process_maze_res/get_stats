@@ -1,0 +1,48 @@
+#!/bin/bash
+echo
+echo "+++---------------------------------------------------------------+++"
+echo -e "\t\t\tOVERALL STATS"
+echo "+++---------------------------------------------------------------+++"
+DATA="$(cat $1)"
+NOF_EVALS=$(echo "$DATA" | grep 'Path followed: ' | wc -l)
+FAILS=$(echo "$DATA" | grep '.x.x[NSEW] T' | wc -l)
+SUCC=$(echo "$DATA" | grep '2x2x[NSEW] G' | wc -l)
+GIVUP=$(echo "$DATA" | grep '.x.x[NEWS] $' | wc -l)
+echo -e "Total Evaluations run\t\t\t\t: $NOF_EVALS"
+echo -e "Evaluations per Environment\t\t\t: $(($NOF_EVALS/6))"
+echo -e "Number of crashes\t\t\t\t: $FAILS"
+echo -e "Number of successes\t\t\t\t: $SUCC"
+echo -e "Failed to reach a terminal state (T or G)\t: $GIVUP"
+
+RISK_TAKEN=$(echo "$DATA" | egrep '(4x2x[NSEW])|(3x2x[NSEW])' | wc -l)
+
+RISK_AVOID=$(($SUCC - $(echo "$DATA" | egrep '2x2x[NSEW] G' | egrep '(4x2x[NSEW])|(3x2x[NSEW])' | wc -l)))
+
+# RISK_AVOID=$(echo "$DATA" | egrep '^((?!((4x2x[NSEW])|(3x2x[NSEW]))).)*$' | wc -l)
+
+echo -e "Number of times tried risky path\t\t: $RISK_TAKEN"
+echo -e "Number of times avoided risk and succeeded\t: $RISK_AVOID"
+echo "+++---------------------------------------------------------------+++"
+echo -e "\t\t\tPER ENVIRONMENT STATS"
+echo "+++---------------------------------------------------------------+++"
+
+DRIFT_PROB=( 0 0.01 0.02 0.04 0.08 0.16 0.32 0.45 )
+#DRIFT_PROB=( 0.05 0.20 )
+
+for i in {0..5}
+do
+	echo -e "Environment $(($i + 1)) (p=${DRIFT_PROB[$i]})"
+	INENV_i=$(echo "$DATA" | egrep "Environment Chosen :$i")
+	RISK_TAKEN_i=$(echo "$INENV_i" | egrep '(4x2x[NSEW])|(3x2x[NSEW])' | wc -l)
+	SUCC_i=$(echo "$INENV_i" | grep '2x2x[NSEW] G' | wc -l)
+	FAILS_i=$(echo "$INENV_i" | grep '.x.x[NSEW] T' | wc -l)
+	RISK_AVOID_i=$(($SUCC_i - $(echo "$INENV_i" | egrep '2x2x[NSEW] G' | egrep '(4x2x[NSEW])|(3x2x[NSEW])' | wc -l)))
+	GIVUP_i=$(echo "$INENV_i" | grep '.x.x[NEWS] $' | wc -l)
+	echo -e "Number of times tried risky path\t\t: $RISK_TAKEN_i"
+	echo -e "Number of times avoided risk and succeeded\t: $RISK_AVOID_i"
+	echo -e "Successes, crashes and give ups (not T, not G)\t: $SUCC_i <--> $FAILS_i <--> $GIVUP_i"
+	echo
+done
+
+echo "+++---------------------------------------------------------------+++"
+echo ""

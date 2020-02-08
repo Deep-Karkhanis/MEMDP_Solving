@@ -1,0 +1,56 @@
+
++++---------------------------------------------------------------+++
+			OVERALL STATS
++++---------------------------------------------------------------+++
+Total Evaluations run				: 1000
+Evaluations per Environment			: 125
+Number of crashes				: 508
+Number of successes				: 492
+Failed to reach a terminal state (T or G)	: 0
+Number of times tried risky path		: 484
+Number of times avoided risk and succeeded	: 8
++++---------------------------------------------------------------+++
+			PER ENVIRONMENT STATS
++++---------------------------------------------------------------+++
+Environment 1 (p=0)
+Number of times tried risky path		: 113
+Number of times avoided risk and succeeded	: 2
+Successes, crashes and give ups (not T, not G)	: 115 <--> 10 <--> 0
+
+Environment 2 (p=0.01)
+Number of times tried risky path		: 99
+Number of times avoided risk and succeeded	: 1
+Successes, crashes and give ups (not T, not G)	: 100 <--> 25 <--> 0
+
+Environment 3 (p=0.02)
+Number of times tried risky path		: 102
+Number of times avoided risk and succeeded	: 0
+Successes, crashes and give ups (not T, not G)	: 102 <--> 23 <--> 0
+
+Environment 4 (p=0.04)
+Number of times tried risky path		: 81
+Number of times avoided risk and succeeded	: 1
+Successes, crashes and give ups (not T, not G)	: 82 <--> 43 <--> 0
+
+Environment 5 (p=0.08)
+Number of times tried risky path		: 62
+Number of times avoided risk and succeeded	: 2
+Successes, crashes and give ups (not T, not G)	: 64 <--> 61 <--> 0
+
+Environment 6 (p=0.16)
+Number of times tried risky path		: 21
+Number of times avoided risk and succeeded	: 2
+Successes, crashes and give ups (not T, not G)	: 23 <--> 102 <--> 0
+
+Environment 7 (p=0.32)
+Number of times tried risky path		: 4
+Number of times avoided risk and succeeded	: 0
+Successes, crashes and give ups (not T, not G)	: 4 <--> 121 <--> 0
+
+Environment 8 (p=0.45)
+Number of times tried risky path		: 2
+Number of times avoided risk and succeeded	: 0
+Successes, crashes and give ups (not T, not G)	: 2 <--> 123 <--> 0
+
++++---------------------------------------------------------------+++
+
