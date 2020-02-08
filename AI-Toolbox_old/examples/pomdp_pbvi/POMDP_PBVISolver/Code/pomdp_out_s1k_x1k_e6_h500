@@ -1,0 +1,5002 @@
+/home/dkarkhan/ReCA_MEMDP/AI-Toolbox/examples/pomdp_pbvi/POMDP_PBVISolver/Code
+
+Compiling mainMDP
+/usr/bin/g++-7 -O3 -Wl,-rpath,/usr/lib/gcc/x86_64-linux-gnu/7.3.0/ -DNITEMSPRM= -DHISTPRM=2 -DNPROFILESPRM= -std=c++11 mazemodel.cpp recomodel.cpp main_POMDP.cpp -o mainPOMDP -I ../../../..//include -I /usr/local/include/eigen3/ -L ../../../..//build -l AIToolboxMDP -l AIToolboxPOMDP -l lpsolve55 -lz -lboost_iostreams
+
+Running mainMDP on /home/dkarkhan/ReCA_MEMDP/AI-Toolbox/examples/pomdp_pbvi/POMDP_PBVISolver/Code/Models/s1k_x1k_e6_h500/s1k_x1k_e6_h500
+
+02-07-2018 03:11:43 - Loading appropriate model
+/home/dkarkhan/ReCA_MEMDP/AI-Toolbox/examples/pomdp_pbvi/POMDP_PBVISolver/Code/Models/s1k_x1k_e6_h500/s1k_x1k_e6_h500
+   -> The model contains 223 observations
+   -> The model contains 3 actions
+   -> The model contains 1338 states
+   -> The model contains 6 environments
+
+02-07-2018 03:11:43 - Starting POMDP ValueIteration solver
+02-07-2018 03:13:41 - Convergence criterion e = 0.01 reached ? true
+
+02-07-2018 03:13:41 - Starting evaluation!
+
+
+EVALUATION NUMBER 1 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 1 Done
+
+
+EVALUATION NUMBER 2 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 2 Done
+
+
+EVALUATION NUMBER 3 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 3 Done
+
+
+EVALUATION NUMBER 4 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 4 Done
+
+
+EVALUATION NUMBER 5 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 5 Done
+
+
+EVALUATION NUMBER 6 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 6 Done
+
+
+EVALUATION NUMBER 7 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 7 Done
+
+
+EVALUATION NUMBER 8 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 8 Done
+
+
+EVALUATION NUMBER 9 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 9 Done
+
+
+EVALUATION NUMBER 10 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 10 Done
+
+
+EVALUATION NUMBER 11 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 11 Done
+
+
+EVALUATION NUMBER 12 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 12 Done
+
+
+EVALUATION NUMBER 13 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 13 Done
+
+
+EVALUATION NUMBER 14 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 14 Done
+
+
+EVALUATION NUMBER 15 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 15 Done
+
+
+EVALUATION NUMBER 16 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 16 Done
+
+
+EVALUATION NUMBER 17 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 17 Done
+
+
+EVALUATION NUMBER 18 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 18 Done
+
+
+EVALUATION NUMBER 19 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 19 Done
+
+
+EVALUATION NUMBER 20 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 20 Done
+
+
+EVALUATION NUMBER 21 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 21 Done
+
+
+EVALUATION NUMBER 22 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 22 Done
+
+
+EVALUATION NUMBER 23 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 23 Done
+
+
+EVALUATION NUMBER 24 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 24 Done
+
+
+EVALUATION NUMBER 25 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 25 Done
+
+
+EVALUATION NUMBER 26 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 26 Done
+
+
+EVALUATION NUMBER 27 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 27 Done
+
+
+EVALUATION NUMBER 28 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 28 Done
+
+
+EVALUATION NUMBER 29 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 29 Done
+
+
+EVALUATION NUMBER 30 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 30 Done
+
+
+EVALUATION NUMBER 31 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 31 Done
+
+
+EVALUATION NUMBER 32 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 32 Done
+
+
+EVALUATION NUMBER 33 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 33 Done
+
+
+EVALUATION NUMBER 34 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 34 Done
+
+
+EVALUATION NUMBER 35 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 35 Done
+
+
+EVALUATION NUMBER 36 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 36 Done
+
+
+EVALUATION NUMBER 37 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 37 Done
+
+
+EVALUATION NUMBER 38 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 38 Done
+
+
+EVALUATION NUMBER 39 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 39 Done
+
+
+EVALUATION NUMBER 40 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 40 Done
+
+
+EVALUATION NUMBER 41 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 41 Done
+
+
+EVALUATION NUMBER 42 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 42 Done
+
+
+EVALUATION NUMBER 43 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 43 Done
+
+
+EVALUATION NUMBER 44 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 44 Done
+
+
+EVALUATION NUMBER 45 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 45 Done
+
+
+EVALUATION NUMBER 46 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 46 Done
+
+
+EVALUATION NUMBER 47 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 47 Done
+
+
+EVALUATION NUMBER 48 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 48 Done
+
+
+EVALUATION NUMBER 49 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 49 Done
+
+
+EVALUATION NUMBER 50 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 50 Done
+
+
+EVALUATION NUMBER 51 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 51 Done
+
+
+EVALUATION NUMBER 52 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 52 Done
+
+
+EVALUATION NUMBER 53 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 53 Done
+
+
+EVALUATION NUMBER 54 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 54 Done
+
+
+EVALUATION NUMBER 55 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 55 Done
+
+
+EVALUATION NUMBER 56 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 56 Done
+
+
+EVALUATION NUMBER 57 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 57 Done
+
+
+EVALUATION NUMBER 58 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 58 Done
+
+
+EVALUATION NUMBER 59 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 59 Done
+
+
+EVALUATION NUMBER 60 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 60 Done
+
+
+EVALUATION NUMBER 61 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 61 Done
+
+
+EVALUATION NUMBER 62 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 62 Done
+
+
+EVALUATION NUMBER 63 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 63 Done
+
+
+EVALUATION NUMBER 64 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 64 Done
+
+
+EVALUATION NUMBER 65 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 65 Done
+
+
+EVALUATION NUMBER 66 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 66 Done
+
+
+EVALUATION NUMBER 67 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 67 Done
+
+
+EVALUATION NUMBER 68 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 68 Done
+
+
+EVALUATION NUMBER 69 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 69 Done
+
+
+EVALUATION NUMBER 70 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 70 Done
+
+
+EVALUATION NUMBER 71 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 71 Done
+
+
+EVALUATION NUMBER 72 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 72 Done
+
+
+EVALUATION NUMBER 73 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 73 Done
+
+
+EVALUATION NUMBER 74 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 74 Done
+
+
+EVALUATION NUMBER 75 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 75 Done
+
+
+EVALUATION NUMBER 76 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 76 Done
+
+
+EVALUATION NUMBER 77 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 77 Done
+
+
+EVALUATION NUMBER 78 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 78 Done
+
+
+EVALUATION NUMBER 79 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 79 Done
+
+
+EVALUATION NUMBER 80 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 80 Done
+
+
+EVALUATION NUMBER 81 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 81 Done
+
+
+EVALUATION NUMBER 82 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 82 Done
+
+
+EVALUATION NUMBER 83 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 83 Done
+
+
+EVALUATION NUMBER 84 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 84 Done
+
+
+EVALUATION NUMBER 85 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 85 Done
+
+
+EVALUATION NUMBER 86 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 86 Done
+
+
+EVALUATION NUMBER 87 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 87 Done
+
+
+EVALUATION NUMBER 88 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 88 Done
+
+
+EVALUATION NUMBER 89 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 89 Done
+
+
+EVALUATION NUMBER 90 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 90 Done
+
+
+EVALUATION NUMBER 91 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 91 Done
+
+
+EVALUATION NUMBER 92 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 92 Done
+
+
+EVALUATION NUMBER 93 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 93 Done
+
+
+EVALUATION NUMBER 94 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 94 Done
+
+
+EVALUATION NUMBER 95 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 95 Done
+
+
+EVALUATION NUMBER 96 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 96 Done
+
+
+EVALUATION NUMBER 97 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 97 Done
+
+
+EVALUATION NUMBER 98 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 98 Done
+
+
+EVALUATION NUMBER 99 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 99 Done
+
+
+EVALUATION NUMBER 100 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 100 Done
+
+
+EVALUATION NUMBER 101 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 101 Done
+
+
+EVALUATION NUMBER 102 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 102 Done
+
+
+EVALUATION NUMBER 103 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 103 Done
+
+
+EVALUATION NUMBER 104 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 104 Done
+
+
+EVALUATION NUMBER 105 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 105 Done
+
+
+EVALUATION NUMBER 106 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 106 Done
+
+
+EVALUATION NUMBER 107 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 107 Done
+
+
+EVALUATION NUMBER 108 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 108 Done
+
+
+EVALUATION NUMBER 109 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 109 Done
+
+
+EVALUATION NUMBER 110 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 110 Done
+
+
+EVALUATION NUMBER 111 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 111 Done
+
+
+EVALUATION NUMBER 112 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 112 Done
+
+
+EVALUATION NUMBER 113 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 113 Done
+
+
+EVALUATION NUMBER 114 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 114 Done
+
+
+EVALUATION NUMBER 115 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 115 Done
+
+
+EVALUATION NUMBER 116 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 116 Done
+
+
+EVALUATION NUMBER 117 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 117 Done
+
+
+EVALUATION NUMBER 118 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 118 Done
+
+
+EVALUATION NUMBER 119 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 119 Done
+
+
+EVALUATION NUMBER 120 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 120 Done
+
+
+EVALUATION NUMBER 121 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 121 Done
+
+
+EVALUATION NUMBER 122 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 122 Done
+
+
+EVALUATION NUMBER 123 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 123 Done
+
+
+EVALUATION NUMBER 124 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 124 Done
+
+
+EVALUATION NUMBER 125 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 125 Done
+
+
+EVALUATION NUMBER 126 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 126 Done
+
+
+EVALUATION NUMBER 127 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 127 Done
+
+
+EVALUATION NUMBER 128 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 128 Done
+
+
+EVALUATION NUMBER 129 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 129 Done
+
+
+EVALUATION NUMBER 130 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 130 Done
+
+
+EVALUATION NUMBER 131 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 131 Done
+
+
+EVALUATION NUMBER 132 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 132 Done
+
+
+EVALUATION NUMBER 133 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 133 Done
+
+
+EVALUATION NUMBER 134 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 134 Done
+
+
+EVALUATION NUMBER 135 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 135 Done
+
+
+EVALUATION NUMBER 136 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 136 Done
+
+
+EVALUATION NUMBER 137 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 137 Done
+
+
+EVALUATION NUMBER 138 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 138 Done
+
+
+EVALUATION NUMBER 139 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 139 Done
+
+
+EVALUATION NUMBER 140 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 140 Done
+
+
+EVALUATION NUMBER 141 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 141 Done
+
+
+EVALUATION NUMBER 142 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 142 Done
+
+
+EVALUATION NUMBER 143 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 143 Done
+
+
+EVALUATION NUMBER 144 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 144 Done
+
+
+EVALUATION NUMBER 145 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 145 Done
+
+
+EVALUATION NUMBER 146 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 146 Done
+
+
+EVALUATION NUMBER 147 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 147 Done
+
+
+EVALUATION NUMBER 148 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 148 Done
+
+
+EVALUATION NUMBER 149 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 149 Done
+
+
+EVALUATION NUMBER 150 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 150 Done
+
+
+EVALUATION NUMBER 151 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 151 Done
+
+
+EVALUATION NUMBER 152 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 152 Done
+
+
+EVALUATION NUMBER 153 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 153 Done
+
+
+EVALUATION NUMBER 154 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 154 Done
+
+
+EVALUATION NUMBER 155 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 155 Done
+
+
+EVALUATION NUMBER 156 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 156 Done
+
+
+EVALUATION NUMBER 157 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 157 Done
+
+
+EVALUATION NUMBER 158 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 158 Done
+
+
+EVALUATION NUMBER 159 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 159 Done
+
+
+EVALUATION NUMBER 160 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 160 Done
+
+
+EVALUATION NUMBER 161 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 161 Done
+
+
+EVALUATION NUMBER 162 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 162 Done
+
+
+EVALUATION NUMBER 163 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 163 Done
+
+
+EVALUATION NUMBER 164 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 164 Done
+
+
+EVALUATION NUMBER 165 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 165 Done
+
+
+EVALUATION NUMBER 166 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 166 Done
+
+
+EVALUATION NUMBER 167 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 167 Done
+
+
+EVALUATION NUMBER 168 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 168 Done
+
+
+EVALUATION NUMBER 169 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 169 Done
+
+
+EVALUATION NUMBER 170 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 170 Done
+
+
+EVALUATION NUMBER 171 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 171 Done
+
+
+EVALUATION NUMBER 172 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 172 Done
+
+
+EVALUATION NUMBER 173 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 173 Done
+
+
+EVALUATION NUMBER 174 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 174 Done
+
+
+EVALUATION NUMBER 175 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 175 Done
+
+
+EVALUATION NUMBER 176 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 176 Done
+
+
+EVALUATION NUMBER 177 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 177 Done
+
+
+EVALUATION NUMBER 178 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 178 Done
+
+
+EVALUATION NUMBER 179 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 179 Done
+
+
+EVALUATION NUMBER 180 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 180 Done
+
+
+EVALUATION NUMBER 181 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 181 Done
+
+
+EVALUATION NUMBER 182 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 182 Done
+
+
+EVALUATION NUMBER 183 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 183 Done
+
+
+EVALUATION NUMBER 184 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 184 Done
+
+
+EVALUATION NUMBER 185 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 185 Done
+
+
+EVALUATION NUMBER 186 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 186 Done
+
+
+EVALUATION NUMBER 187 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 187 Done
+
+
+EVALUATION NUMBER 188 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 188 Done
+
+
+EVALUATION NUMBER 189 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 189 Done
+
+
+EVALUATION NUMBER 190 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 190 Done
+
+
+EVALUATION NUMBER 191 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 191 Done
+
+
+EVALUATION NUMBER 192 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 192 Done
+
+
+EVALUATION NUMBER 193 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 193 Done
+
+
+EVALUATION NUMBER 194 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 194 Done
+
+
+EVALUATION NUMBER 195 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 195 Done
+
+
+EVALUATION NUMBER 196 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 196 Done
+
+
+EVALUATION NUMBER 197 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 197 Done
+
+
+EVALUATION NUMBER 198 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 198 Done
+
+
+EVALUATION NUMBER 199 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 199 Done
+
+
+EVALUATION NUMBER 200 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 200 Done
+
+
+EVALUATION NUMBER 201 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 201 Done
+
+
+EVALUATION NUMBER 202 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 202 Done
+
+
+EVALUATION NUMBER 203 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 203 Done
+
+
+EVALUATION NUMBER 204 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 204 Done
+
+
+EVALUATION NUMBER 205 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 205 Done
+
+
+EVALUATION NUMBER 206 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 206 Done
+
+
+EVALUATION NUMBER 207 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 207 Done
+
+
+EVALUATION NUMBER 208 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 208 Done
+
+
+EVALUATION NUMBER 209 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 209 Done
+
+
+EVALUATION NUMBER 210 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 210 Done
+
+
+EVALUATION NUMBER 211 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 211 Done
+
+
+EVALUATION NUMBER 212 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 212 Done
+
+
+EVALUATION NUMBER 213 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 213 Done
+
+
+EVALUATION NUMBER 214 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 214 Done
+
+
+EVALUATION NUMBER 215 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 215 Done
+
+
+EVALUATION NUMBER 216 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 216 Done
+
+
+EVALUATION NUMBER 217 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 217 Done
+
+
+EVALUATION NUMBER 218 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 218 Done
+
+
+EVALUATION NUMBER 219 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 219 Done
+
+
+EVALUATION NUMBER 220 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 220 Done
+
+
+EVALUATION NUMBER 221 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 221 Done
+
+
+EVALUATION NUMBER 222 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 222 Done
+
+
+EVALUATION NUMBER 223 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 223 Done
+
+
+EVALUATION NUMBER 224 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 224 Done
+
+
+EVALUATION NUMBER 225 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 225 Done
+
+
+EVALUATION NUMBER 226 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 226 Done
+
+
+EVALUATION NUMBER 227 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 227 Done
+
+
+EVALUATION NUMBER 228 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 228 Done
+
+
+EVALUATION NUMBER 229 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 229 Done
+
+
+EVALUATION NUMBER 230 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 230 Done
+
+
+EVALUATION NUMBER 231 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 231 Done
+
+
+EVALUATION NUMBER 232 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 232 Done
+
+
+EVALUATION NUMBER 233 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 233 Done
+
+
+EVALUATION NUMBER 234 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 234 Done
+
+
+EVALUATION NUMBER 235 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 235 Done
+
+
+EVALUATION NUMBER 236 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 236 Done
+
+
+EVALUATION NUMBER 237 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 237 Done
+
+
+EVALUATION NUMBER 238 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 238 Done
+
+
+EVALUATION NUMBER 239 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 239 Done
+
+
+EVALUATION NUMBER 240 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 240 Done
+
+
+EVALUATION NUMBER 241 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 241 Done
+
+
+EVALUATION NUMBER 242 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 242 Done
+
+
+EVALUATION NUMBER 243 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 243 Done
+
+
+EVALUATION NUMBER 244 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 244 Done
+
+
+EVALUATION NUMBER 245 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 245 Done
+
+
+EVALUATION NUMBER 246 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 246 Done
+
+
+EVALUATION NUMBER 247 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 247 Done
+
+
+EVALUATION NUMBER 248 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 248 Done
+
+
+EVALUATION NUMBER 249 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 249 Done
+
+
+EVALUATION NUMBER 250 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 250 Done
+
+
+EVALUATION NUMBER 251 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 251 Done
+
+
+EVALUATION NUMBER 252 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 252 Done
+
+
+EVALUATION NUMBER 253 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 253 Done
+
+
+EVALUATION NUMBER 254 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 254 Done
+
+
+EVALUATION NUMBER 255 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 255 Done
+
+
+EVALUATION NUMBER 256 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 256 Done
+
+
+EVALUATION NUMBER 257 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 257 Done
+
+
+EVALUATION NUMBER 258 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 258 Done
+
+
+EVALUATION NUMBER 259 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 259 Done
+
+
+EVALUATION NUMBER 260 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 260 Done
+
+
+EVALUATION NUMBER 261 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 261 Done
+
+
+EVALUATION NUMBER 262 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 262 Done
+
+
+EVALUATION NUMBER 263 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 263 Done
+
+
+EVALUATION NUMBER 264 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 264 Done
+
+
+EVALUATION NUMBER 265 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 265 Done
+
+
+EVALUATION NUMBER 266 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 266 Done
+
+
+EVALUATION NUMBER 267 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 267 Done
+
+
+EVALUATION NUMBER 268 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 268 Done
+
+
+EVALUATION NUMBER 269 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 269 Done
+
+
+EVALUATION NUMBER 270 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 270 Done
+
+
+EVALUATION NUMBER 271 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 271 Done
+
+
+EVALUATION NUMBER 272 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 272 Done
+
+
+EVALUATION NUMBER 273 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 273 Done
+
+
+EVALUATION NUMBER 274 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 274 Done
+
+
+EVALUATION NUMBER 275 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 275 Done
+
+
+EVALUATION NUMBER 276 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 276 Done
+
+
+EVALUATION NUMBER 277 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 277 Done
+
+
+EVALUATION NUMBER 278 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 278 Done
+
+
+EVALUATION NUMBER 279 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 279 Done
+
+
+EVALUATION NUMBER 280 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 280 Done
+
+
+EVALUATION NUMBER 281 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 281 Done
+
+
+EVALUATION NUMBER 282 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 282 Done
+
+
+EVALUATION NUMBER 283 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 283 Done
+
+
+EVALUATION NUMBER 284 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 284 Done
+
+
+EVALUATION NUMBER 285 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 285 Done
+
+
+EVALUATION NUMBER 286 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 286 Done
+
+
+EVALUATION NUMBER 287 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 287 Done
+
+
+EVALUATION NUMBER 288 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 288 Done
+
+
+EVALUATION NUMBER 289 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 289 Done
+
+
+EVALUATION NUMBER 290 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 290 Done
+
+
+EVALUATION NUMBER 291 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 291 Done
+
+
+EVALUATION NUMBER 292 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 292 Done
+
+
+EVALUATION NUMBER 293 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 293 Done
+
+
+EVALUATION NUMBER 294 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 294 Done
+
+
+EVALUATION NUMBER 295 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 295 Done
+
+
+EVALUATION NUMBER 296 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 296 Done
+
+
+EVALUATION NUMBER 297 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 297 Done
+
+
+EVALUATION NUMBER 298 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 298 Done
+
+
+EVALUATION NUMBER 299 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 299 Done
+
+
+EVALUATION NUMBER 300 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 300 Done
+
+
+EVALUATION NUMBER 301 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 301 Done
+
+
+EVALUATION NUMBER 302 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 302 Done
+
+
+EVALUATION NUMBER 303 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 303 Done
+
+
+EVALUATION NUMBER 304 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 304 Done
+
+
+EVALUATION NUMBER 305 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 305 Done
+
+
+EVALUATION NUMBER 306 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 306 Done
+
+
+EVALUATION NUMBER 307 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 307 Done
+
+
+EVALUATION NUMBER 308 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 308 Done
+
+
+EVALUATION NUMBER 309 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 309 Done
+
+
+EVALUATION NUMBER 310 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 310 Done
+
+
+EVALUATION NUMBER 311 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 311 Done
+
+
+EVALUATION NUMBER 312 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 312 Done
+
+
+EVALUATION NUMBER 313 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 313 Done
+
+
+EVALUATION NUMBER 314 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 314 Done
+
+
+EVALUATION NUMBER 315 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 315 Done
+
+
+EVALUATION NUMBER 316 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 316 Done
+
+
+EVALUATION NUMBER 317 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 317 Done
+
+
+EVALUATION NUMBER 318 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 318 Done
+
+
+EVALUATION NUMBER 319 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 319 Done
+
+
+EVALUATION NUMBER 320 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 320 Done
+
+
+EVALUATION NUMBER 321 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 321 Done
+
+
+EVALUATION NUMBER 322 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 322 Done
+
+
+EVALUATION NUMBER 323 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 323 Done
+
+
+EVALUATION NUMBER 324 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 324 Done
+
+
+EVALUATION NUMBER 325 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 325 Done
+
+
+EVALUATION NUMBER 326 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 326 Done
+
+
+EVALUATION NUMBER 327 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 327 Done
+
+
+EVALUATION NUMBER 328 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 328 Done
+
+
+EVALUATION NUMBER 329 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 329 Done
+
+
+EVALUATION NUMBER 330 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 330 Done
+
+
+EVALUATION NUMBER 331 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 331 Done
+
+
+EVALUATION NUMBER 332 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 332 Done
+
+
+EVALUATION NUMBER 333 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 333 Done
+
+
+EVALUATION NUMBER 334 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 334 Done
+
+
+EVALUATION NUMBER 335 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 335 Done
+
+
+EVALUATION NUMBER 336 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 336 Done
+
+
+EVALUATION NUMBER 337 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 337 Done
+
+
+EVALUATION NUMBER 338 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 338 Done
+
+
+EVALUATION NUMBER 339 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 339 Done
+
+
+EVALUATION NUMBER 340 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 340 Done
+
+
+EVALUATION NUMBER 341 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 341 Done
+
+
+EVALUATION NUMBER 342 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 342 Done
+
+
+EVALUATION NUMBER 343 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 343 Done
+
+
+EVALUATION NUMBER 344 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 344 Done
+
+
+EVALUATION NUMBER 345 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 345 Done
+
+
+EVALUATION NUMBER 346 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 346 Done
+
+
+EVALUATION NUMBER 347 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 347 Done
+
+
+EVALUATION NUMBER 348 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 348 Done
+
+
+EVALUATION NUMBER 349 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 349 Done
+
+
+EVALUATION NUMBER 350 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 350 Done
+
+
+EVALUATION NUMBER 351 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 351 Done
+
+
+EVALUATION NUMBER 352 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 352 Done
+
+
+EVALUATION NUMBER 353 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 353 Done
+
+
+EVALUATION NUMBER 354 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 354 Done
+
+
+EVALUATION NUMBER 355 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 355 Done
+
+
+EVALUATION NUMBER 356 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 356 Done
+
+
+EVALUATION NUMBER 357 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 357 Done
+
+
+EVALUATION NUMBER 358 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 358 Done
+
+
+EVALUATION NUMBER 359 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 359 Done
+
+
+EVALUATION NUMBER 360 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 360 Done
+
+
+EVALUATION NUMBER 361 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 361 Done
+
+
+EVALUATION NUMBER 362 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 362 Done
+
+
+EVALUATION NUMBER 363 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 363 Done
+
+
+EVALUATION NUMBER 364 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 364 Done
+
+
+EVALUATION NUMBER 365 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 365 Done
+
+
+EVALUATION NUMBER 366 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 366 Done
+
+
+EVALUATION NUMBER 367 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 367 Done
+
+
+EVALUATION NUMBER 368 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 368 Done
+
+
+EVALUATION NUMBER 369 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 369 Done
+
+
+EVALUATION NUMBER 370 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 370 Done
+
+
+EVALUATION NUMBER 371 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 371 Done
+
+
+EVALUATION NUMBER 372 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 372 Done
+
+
+EVALUATION NUMBER 373 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 373 Done
+
+
+EVALUATION NUMBER 374 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 374 Done
+
+
+EVALUATION NUMBER 375 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 375 Done
+
+
+EVALUATION NUMBER 376 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 376 Done
+
+
+EVALUATION NUMBER 377 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 377 Done
+
+
+EVALUATION NUMBER 378 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 378 Done
+
+
+EVALUATION NUMBER 379 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 379 Done
+
+
+EVALUATION NUMBER 380 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 380 Done
+
+
+EVALUATION NUMBER 381 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 381 Done
+
+
+EVALUATION NUMBER 382 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 382 Done
+
+
+EVALUATION NUMBER 383 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 383 Done
+
+
+EVALUATION NUMBER 384 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 384 Done
+
+
+EVALUATION NUMBER 385 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 385 Done
+
+
+EVALUATION NUMBER 386 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 386 Done
+
+
+EVALUATION NUMBER 387 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 387 Done
+
+
+EVALUATION NUMBER 388 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 388 Done
+
+
+EVALUATION NUMBER 389 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 389 Done
+
+
+EVALUATION NUMBER 390 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 390 Done
+
+
+EVALUATION NUMBER 391 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 391 Done
+
+
+EVALUATION NUMBER 392 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 392 Done
+
+
+EVALUATION NUMBER 393 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 393 Done
+
+
+EVALUATION NUMBER 394 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 394 Done
+
+
+EVALUATION NUMBER 395 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 395 Done
+
+
+EVALUATION NUMBER 396 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 396 Done
+
+
+EVALUATION NUMBER 397 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 397 Done
+
+
+EVALUATION NUMBER 398 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 398 Done
+
+
+EVALUATION NUMBER 399 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 399 Done
+
+
+EVALUATION NUMBER 400 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 400 Done
+
+
+EVALUATION NUMBER 401 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 401 Done
+
+
+EVALUATION NUMBER 402 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 402 Done
+
+
+EVALUATION NUMBER 403 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 403 Done
+
+
+EVALUATION NUMBER 404 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 404 Done
+
+
+EVALUATION NUMBER 405 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 405 Done
+
+
+EVALUATION NUMBER 406 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 406 Done
+
+
+EVALUATION NUMBER 407 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 407 Done
+
+
+EVALUATION NUMBER 408 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 408 Done
+
+
+EVALUATION NUMBER 409 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 409 Done
+
+
+EVALUATION NUMBER 410 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 410 Done
+
+
+EVALUATION NUMBER 411 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 411 Done
+
+
+EVALUATION NUMBER 412 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 412 Done
+
+
+EVALUATION NUMBER 413 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 413 Done
+
+
+EVALUATION NUMBER 414 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 414 Done
+
+
+EVALUATION NUMBER 415 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 415 Done
+
+
+EVALUATION NUMBER 416 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 416 Done
+
+
+EVALUATION NUMBER 417 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 417 Done
+
+
+EVALUATION NUMBER 418 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 418 Done
+
+
+EVALUATION NUMBER 419 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 419 Done
+
+
+EVALUATION NUMBER 420 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 420 Done
+
+
+EVALUATION NUMBER 421 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 421 Done
+
+
+EVALUATION NUMBER 422 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 422 Done
+
+
+EVALUATION NUMBER 423 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 423 Done
+
+
+EVALUATION NUMBER 424 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 424 Done
+
+
+EVALUATION NUMBER 425 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 425 Done
+
+
+EVALUATION NUMBER 426 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 426 Done
+
+
+EVALUATION NUMBER 427 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 427 Done
+
+
+EVALUATION NUMBER 428 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 428 Done
+
+
+EVALUATION NUMBER 429 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 429 Done
+
+
+EVALUATION NUMBER 430 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 430 Done
+
+
+EVALUATION NUMBER 431 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 431 Done
+
+
+EVALUATION NUMBER 432 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 432 Done
+
+
+EVALUATION NUMBER 433 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 433 Done
+
+
+EVALUATION NUMBER 434 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 434 Done
+
+
+EVALUATION NUMBER 435 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 435 Done
+
+
+EVALUATION NUMBER 436 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 436 Done
+
+
+EVALUATION NUMBER 437 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 437 Done
+
+
+EVALUATION NUMBER 438 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 438 Done
+
+
+EVALUATION NUMBER 439 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 439 Done
+
+
+EVALUATION NUMBER 440 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 440 Done
+
+
+EVALUATION NUMBER 441 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 441 Done
+
+
+EVALUATION NUMBER 442 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 442 Done
+
+
+EVALUATION NUMBER 443 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 443 Done
+
+
+EVALUATION NUMBER 444 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 444 Done
+
+
+EVALUATION NUMBER 445 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 445 Done
+
+
+EVALUATION NUMBER 446 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 446 Done
+
+
+EVALUATION NUMBER 447 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 447 Done
+
+
+EVALUATION NUMBER 448 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 448 Done
+
+
+EVALUATION NUMBER 449 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 449 Done
+
+
+EVALUATION NUMBER 450 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 450 Done
+
+
+EVALUATION NUMBER 451 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 451 Done
+
+
+EVALUATION NUMBER 452 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 452 Done
+
+
+EVALUATION NUMBER 453 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 453 Done
+
+
+EVALUATION NUMBER 454 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 454 Done
+
+
+EVALUATION NUMBER 455 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 455 Done
+
+
+EVALUATION NUMBER 456 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 456 Done
+
+
+EVALUATION NUMBER 457 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 457 Done
+
+
+EVALUATION NUMBER 458 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 458 Done
+
+
+EVALUATION NUMBER 459 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 459 Done
+
+
+EVALUATION NUMBER 460 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 460 Done
+
+
+EVALUATION NUMBER 461 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 461 Done
+
+
+EVALUATION NUMBER 462 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 462 Done
+
+
+EVALUATION NUMBER 463 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 463 Done
+
+
+EVALUATION NUMBER 464 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 464 Done
+
+
+EVALUATION NUMBER 465 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 465 Done
+
+
+EVALUATION NUMBER 466 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 466 Done
+
+
+EVALUATION NUMBER 467 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 467 Done
+
+
+EVALUATION NUMBER 468 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 468 Done
+
+
+EVALUATION NUMBER 469 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 469 Done
+
+
+EVALUATION NUMBER 470 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 470 Done
+
+
+EVALUATION NUMBER 471 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 471 Done
+
+
+EVALUATION NUMBER 472 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 472 Done
+
+
+EVALUATION NUMBER 473 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 473 Done
+
+
+EVALUATION NUMBER 474 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 474 Done
+
+
+EVALUATION NUMBER 475 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 475 Done
+
+
+EVALUATION NUMBER 476 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 476 Done
+
+
+EVALUATION NUMBER 477 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 477 Done
+
+
+EVALUATION NUMBER 478 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 478 Done
+
+
+EVALUATION NUMBER 479 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 479 Done
+
+
+EVALUATION NUMBER 480 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 480 Done
+
+
+EVALUATION NUMBER 481 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 481 Done
+
+
+EVALUATION NUMBER 482 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 482 Done
+
+
+EVALUATION NUMBER 483 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 483 Done
+
+
+EVALUATION NUMBER 484 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 484 Done
+
+
+EVALUATION NUMBER 485 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 485 Done
+
+
+EVALUATION NUMBER 486 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 486 Done
+
+
+EVALUATION NUMBER 487 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 487 Done
+
+
+EVALUATION NUMBER 488 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 488 Done
+
+
+EVALUATION NUMBER 489 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 489 Done
+
+
+EVALUATION NUMBER 490 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 490 Done
+
+
+EVALUATION NUMBER 491 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 491 Done
+
+
+EVALUATION NUMBER 492 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 492 Done
+
+
+EVALUATION NUMBER 493 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 493 Done
+
+
+EVALUATION NUMBER 494 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 494 Done
+
+
+EVALUATION NUMBER 495 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 495 Done
+
+
+EVALUATION NUMBER 496 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 496 Done
+
+
+EVALUATION NUMBER 497 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 497 Done
+
+
+EVALUATION NUMBER 498 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 498 Done
+
+
+EVALUATION NUMBER 499 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 499 Done
+
+
+EVALUATION NUMBER 500 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 500 Done
+
+
+EVALUATION NUMBER 501 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 501 Done
+
+
+EVALUATION NUMBER 502 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 502 Done
+
+
+EVALUATION NUMBER 503 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 503 Done
+
+
+EVALUATION NUMBER 504 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 504 Done
+
+
+EVALUATION NUMBER 505 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 505 Done
+
+
+EVALUATION NUMBER 506 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 506 Done
+
+
+EVALUATION NUMBER 507 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 507 Done
+
+
+EVALUATION NUMBER 508 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 508 Done
+
+
+EVALUATION NUMBER 509 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 509 Done
+
+
+EVALUATION NUMBER 510 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 510 Done
+
+
+EVALUATION NUMBER 511 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 511 Done
+
+
+EVALUATION NUMBER 512 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 512 Done
+
+
+EVALUATION NUMBER 513 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 513 Done
+
+
+EVALUATION NUMBER 514 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 514 Done
+
+
+EVALUATION NUMBER 515 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 515 Done
+
+
+EVALUATION NUMBER 516 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 516 Done
+
+
+EVALUATION NUMBER 517 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 517 Done
+
+
+EVALUATION NUMBER 518 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 518 Done
+
+
+EVALUATION NUMBER 519 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 519 Done
+
+
+EVALUATION NUMBER 520 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 520 Done
+
+
+EVALUATION NUMBER 521 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 521 Done
+
+
+EVALUATION NUMBER 522 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 522 Done
+
+
+EVALUATION NUMBER 523 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 523 Done
+
+
+EVALUATION NUMBER 524 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 524 Done
+
+
+EVALUATION NUMBER 525 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 525 Done
+
+
+EVALUATION NUMBER 526 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 526 Done
+
+
+EVALUATION NUMBER 527 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 527 Done
+
+
+EVALUATION NUMBER 528 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 528 Done
+
+
+EVALUATION NUMBER 529 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 529 Done
+
+
+EVALUATION NUMBER 530 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 530 Done
+
+
+EVALUATION NUMBER 531 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 531 Done
+
+
+EVALUATION NUMBER 532 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 532 Done
+
+
+EVALUATION NUMBER 533 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 533 Done
+
+
+EVALUATION NUMBER 534 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 534 Done
+
+
+EVALUATION NUMBER 535 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 535 Done
+
+
+EVALUATION NUMBER 536 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 536 Done
+
+
+EVALUATION NUMBER 537 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 537 Done
+
+
+EVALUATION NUMBER 538 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 538 Done
+
+
+EVALUATION NUMBER 539 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 539 Done
+
+
+EVALUATION NUMBER 540 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 540 Done
+
+
+EVALUATION NUMBER 541 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 541 Done
+
+
+EVALUATION NUMBER 542 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 542 Done
+
+
+EVALUATION NUMBER 543 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 543 Done
+
+
+EVALUATION NUMBER 544 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 544 Done
+
+
+EVALUATION NUMBER 545 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 545 Done
+
+
+EVALUATION NUMBER 546 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 546 Done
+
+
+EVALUATION NUMBER 547 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 547 Done
+
+
+EVALUATION NUMBER 548 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 548 Done
+
+
+EVALUATION NUMBER 549 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 549 Done
+
+
+EVALUATION NUMBER 550 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 550 Done
+
+
+EVALUATION NUMBER 551 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 551 Done
+
+
+EVALUATION NUMBER 552 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 552 Done
+
+
+EVALUATION NUMBER 553 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 553 Done
+
+
+EVALUATION NUMBER 554 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 554 Done
+
+
+EVALUATION NUMBER 555 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 555 Done
+
+
+EVALUATION NUMBER 556 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 556 Done
+
+
+EVALUATION NUMBER 557 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 557 Done
+
+
+EVALUATION NUMBER 558 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 558 Done
+
+
+EVALUATION NUMBER 559 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 559 Done
+
+
+EVALUATION NUMBER 560 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 560 Done
+
+
+EVALUATION NUMBER 561 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 561 Done
+
+
+EVALUATION NUMBER 562 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 562 Done
+
+
+EVALUATION NUMBER 563 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 563 Done
+
+
+EVALUATION NUMBER 564 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 564 Done
+
+
+EVALUATION NUMBER 565 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 565 Done
+
+
+EVALUATION NUMBER 566 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 566 Done
+
+
+EVALUATION NUMBER 567 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 567 Done
+
+
+EVALUATION NUMBER 568 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 568 Done
+
+
+EVALUATION NUMBER 569 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 569 Done
+
+
+EVALUATION NUMBER 570 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 570 Done
+
+
+EVALUATION NUMBER 571 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 571 Done
+
+
+EVALUATION NUMBER 572 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 572 Done
+
+
+EVALUATION NUMBER 573 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 573 Done
+
+
+EVALUATION NUMBER 574 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 574 Done
+
+
+EVALUATION NUMBER 575 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 575 Done
+
+
+EVALUATION NUMBER 576 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 576 Done
+
+
+EVALUATION NUMBER 577 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 577 Done
+
+
+EVALUATION NUMBER 578 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 578 Done
+
+
+EVALUATION NUMBER 579 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 579 Done
+
+
+EVALUATION NUMBER 580 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 580 Done
+
+
+EVALUATION NUMBER 581 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 581 Done
+
+
+EVALUATION NUMBER 582 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 582 Done
+
+
+EVALUATION NUMBER 583 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 583 Done
+
+
+EVALUATION NUMBER 584 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 584 Done
+
+
+EVALUATION NUMBER 585 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 585 Done
+
+
+EVALUATION NUMBER 586 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 586 Done
+
+
+EVALUATION NUMBER 587 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 587 Done
+
+
+EVALUATION NUMBER 588 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 588 Done
+
+
+EVALUATION NUMBER 589 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 589 Done
+
+
+EVALUATION NUMBER 590 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 590 Done
+
+
+EVALUATION NUMBER 591 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 591 Done
+
+
+EVALUATION NUMBER 592 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 592 Done
+
+
+EVALUATION NUMBER 593 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 593 Done
+
+
+EVALUATION NUMBER 594 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 594 Done
+
+
+EVALUATION NUMBER 595 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 595 Done
+
+
+EVALUATION NUMBER 596 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 596 Done
+
+
+EVALUATION NUMBER 597 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 597 Done
+
+
+EVALUATION NUMBER 598 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 598 Done
+
+
+EVALUATION NUMBER 599 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 599 Done
+
+
+EVALUATION NUMBER 600 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 600 Done
+
+
+EVALUATION NUMBER 601 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 601 Done
+
+
+EVALUATION NUMBER 602 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 602 Done
+
+
+EVALUATION NUMBER 603 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 603 Done
+
+
+EVALUATION NUMBER 604 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 604 Done
+
+
+EVALUATION NUMBER 605 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 605 Done
+
+
+EVALUATION NUMBER 606 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 606 Done
+
+
+EVALUATION NUMBER 607 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 607 Done
+
+
+EVALUATION NUMBER 608 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 608 Done
+
+
+EVALUATION NUMBER 609 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 609 Done
+
+
+EVALUATION NUMBER 610 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 610 Done
+
+
+EVALUATION NUMBER 611 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 611 Done
+
+
+EVALUATION NUMBER 612 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 612 Done
+
+
+EVALUATION NUMBER 613 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 613 Done
+
+
+EVALUATION NUMBER 614 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 614 Done
+
+
+EVALUATION NUMBER 615 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 615 Done
+
+
+EVALUATION NUMBER 616 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 616 Done
+
+
+EVALUATION NUMBER 617 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 617 Done
+
+
+EVALUATION NUMBER 618 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 618 Done
+
+
+EVALUATION NUMBER 619 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 619 Done
+
+
+EVALUATION NUMBER 620 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 620 Done
+
+
+EVALUATION NUMBER 621 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 621 Done
+
+
+EVALUATION NUMBER 622 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 622 Done
+
+
+EVALUATION NUMBER 623 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 623 Done
+
+
+EVALUATION NUMBER 624 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 624 Done
+
+
+EVALUATION NUMBER 625 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 625 Done
+
+
+EVALUATION NUMBER 626 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 626 Done
+
+
+EVALUATION NUMBER 627 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 627 Done
+
+
+EVALUATION NUMBER 628 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 628 Done
+
+
+EVALUATION NUMBER 629 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 629 Done
+
+
+EVALUATION NUMBER 630 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 630 Done
+
+
+EVALUATION NUMBER 631 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 631 Done
+
+
+EVALUATION NUMBER 632 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 632 Done
+
+
+EVALUATION NUMBER 633 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 633 Done
+
+
+EVALUATION NUMBER 634 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 634 Done
+
+
+EVALUATION NUMBER 635 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 635 Done
+
+
+EVALUATION NUMBER 636 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 636 Done
+
+
+EVALUATION NUMBER 637 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 637 Done
+
+
+EVALUATION NUMBER 638 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 638 Done
+
+
+EVALUATION NUMBER 639 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 639 Done
+
+
+EVALUATION NUMBER 640 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 640 Done
+
+
+EVALUATION NUMBER 641 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 641 Done
+
+
+EVALUATION NUMBER 642 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 642 Done
+
+
+EVALUATION NUMBER 643 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 643 Done
+
+
+EVALUATION NUMBER 644 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 644 Done
+
+
+EVALUATION NUMBER 645 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 645 Done
+
+
+EVALUATION NUMBER 646 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 646 Done
+
+
+EVALUATION NUMBER 647 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 647 Done
+
+
+EVALUATION NUMBER 648 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 648 Done
+
+
+EVALUATION NUMBER 649 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 649 Done
+
+
+EVALUATION NUMBER 650 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 650 Done
+
+
+EVALUATION NUMBER 651 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 651 Done
+
+
+EVALUATION NUMBER 652 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 652 Done
+
+
+EVALUATION NUMBER 653 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 653 Done
+
+
+EVALUATION NUMBER 654 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 654 Done
+
+
+EVALUATION NUMBER 655 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 655 Done
+
+
+EVALUATION NUMBER 656 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 656 Done
+
+
+EVALUATION NUMBER 657 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 657 Done
+
+
+EVALUATION NUMBER 658 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 658 Done
+
+
+EVALUATION NUMBER 659 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 659 Done
+
+
+EVALUATION NUMBER 660 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 660 Done
+
+
+EVALUATION NUMBER 661 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 661 Done
+
+
+EVALUATION NUMBER 662 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 662 Done
+
+
+EVALUATION NUMBER 663 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 663 Done
+
+
+EVALUATION NUMBER 664 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 664 Done
+
+
+EVALUATION NUMBER 665 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 665 Done
+
+
+EVALUATION NUMBER 666 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 666 Done
+
+
+EVALUATION NUMBER 667 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 667 Done
+
+
+EVALUATION NUMBER 668 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 668 Done
+
+
+EVALUATION NUMBER 669 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 669 Done
+
+
+EVALUATION NUMBER 670 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 670 Done
+
+
+EVALUATION NUMBER 671 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 671 Done
+
+
+EVALUATION NUMBER 672 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 672 Done
+
+
+EVALUATION NUMBER 673 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 673 Done
+
+
+EVALUATION NUMBER 674 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 674 Done
+
+
+EVALUATION NUMBER 675 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 675 Done
+
+
+EVALUATION NUMBER 676 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 676 Done
+
+
+EVALUATION NUMBER 677 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 677 Done
+
+
+EVALUATION NUMBER 678 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 678 Done
+
+
+EVALUATION NUMBER 679 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 679 Done
+
+
+EVALUATION NUMBER 680 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 680 Done
+
+
+EVALUATION NUMBER 681 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 681 Done
+
+
+EVALUATION NUMBER 682 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 682 Done
+
+
+EVALUATION NUMBER 683 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 683 Done
+
+
+EVALUATION NUMBER 684 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 684 Done
+
+
+EVALUATION NUMBER 685 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 685 Done
+
+
+EVALUATION NUMBER 686 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 686 Done
+
+
+EVALUATION NUMBER 687 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 687 Done
+
+
+EVALUATION NUMBER 688 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 688 Done
+
+
+EVALUATION NUMBER 689 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 689 Done
+
+
+EVALUATION NUMBER 690 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 690 Done
+
+
+EVALUATION NUMBER 691 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 691 Done
+
+
+EVALUATION NUMBER 692 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 692 Done
+
+
+EVALUATION NUMBER 693 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 693 Done
+
+
+EVALUATION NUMBER 694 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 694 Done
+
+
+EVALUATION NUMBER 695 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 695 Done
+
+
+EVALUATION NUMBER 696 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 696 Done
+
+
+EVALUATION NUMBER 697 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 697 Done
+
+
+EVALUATION NUMBER 698 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 698 Done
+
+
+EVALUATION NUMBER 699 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 699 Done
+
+
+EVALUATION NUMBER 700 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 700 Done
+
+
+EVALUATION NUMBER 701 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 701 Done
+
+
+EVALUATION NUMBER 702 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 702 Done
+
+
+EVALUATION NUMBER 703 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 703 Done
+
+
+EVALUATION NUMBER 704 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 704 Done
+
+
+EVALUATION NUMBER 705 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 705 Done
+
+
+EVALUATION NUMBER 706 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 706 Done
+
+
+EVALUATION NUMBER 707 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 707 Done
+
+
+EVALUATION NUMBER 708 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 708 Done
+
+
+EVALUATION NUMBER 709 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 709 Done
+
+
+EVALUATION NUMBER 710 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 710 Done
+
+
+EVALUATION NUMBER 711 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 711 Done
+
+
+EVALUATION NUMBER 712 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 712 Done
+
+
+EVALUATION NUMBER 713 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 713 Done
+
+
+EVALUATION NUMBER 714 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 714 Done
+
+
+EVALUATION NUMBER 715 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 715 Done
+
+
+EVALUATION NUMBER 716 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 716 Done
+
+
+EVALUATION NUMBER 717 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 717 Done
+
+
+EVALUATION NUMBER 718 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 718 Done
+
+
+EVALUATION NUMBER 719 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 719 Done
+
+
+EVALUATION NUMBER 720 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 720 Done
+
+
+EVALUATION NUMBER 721 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 721 Done
+
+
+EVALUATION NUMBER 722 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 722 Done
+
+
+EVALUATION NUMBER 723 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 723 Done
+
+
+EVALUATION NUMBER 724 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 724 Done
+
+
+EVALUATION NUMBER 725 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 725 Done
+
+
+EVALUATION NUMBER 726 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 726 Done
+
+
+EVALUATION NUMBER 727 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 727 Done
+
+
+EVALUATION NUMBER 728 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 728 Done
+
+
+EVALUATION NUMBER 729 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 729 Done
+
+
+EVALUATION NUMBER 730 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 730 Done
+
+
+EVALUATION NUMBER 731 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 731 Done
+
+
+EVALUATION NUMBER 732 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 732 Done
+
+
+EVALUATION NUMBER 733 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 733 Done
+
+
+EVALUATION NUMBER 734 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 734 Done
+
+
+EVALUATION NUMBER 735 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 735 Done
+
+
+EVALUATION NUMBER 736 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 736 Done
+
+
+EVALUATION NUMBER 737 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 737 Done
+
+
+EVALUATION NUMBER 738 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 738 Done
+
+
+EVALUATION NUMBER 739 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 739 Done
+
+
+EVALUATION NUMBER 740 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 740 Done
+
+
+EVALUATION NUMBER 741 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 741 Done
+
+
+EVALUATION NUMBER 742 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 742 Done
+
+
+EVALUATION NUMBER 743 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 743 Done
+
+
+EVALUATION NUMBER 744 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 744 Done
+
+
+EVALUATION NUMBER 745 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 745 Done
+
+
+EVALUATION NUMBER 746 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 746 Done
+
+
+EVALUATION NUMBER 747 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 747 Done
+
+
+EVALUATION NUMBER 748 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 748 Done
+
+
+EVALUATION NUMBER 749 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 749 Done
+
+
+EVALUATION NUMBER 750 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 750 Done
+
+
+EVALUATION NUMBER 751 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 751 Done
+
+
+EVALUATION NUMBER 752 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 752 Done
+
+
+EVALUATION NUMBER 753 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 753 Done
+
+
+EVALUATION NUMBER 754 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 754 Done
+
+
+EVALUATION NUMBER 755 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 755 Done
+
+
+EVALUATION NUMBER 756 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 756 Done
+
+
+EVALUATION NUMBER 757 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 757 Done
+
+
+EVALUATION NUMBER 758 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 758 Done
+
+
+EVALUATION NUMBER 759 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 759 Done
+
+
+EVALUATION NUMBER 760 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 760 Done
+
+
+EVALUATION NUMBER 761 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 761 Done
+
+
+EVALUATION NUMBER 762 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 762 Done
+
+
+EVALUATION NUMBER 763 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 763 Done
+
+
+EVALUATION NUMBER 764 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 764 Done
+
+
+EVALUATION NUMBER 765 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 765 Done
+
+
+EVALUATION NUMBER 766 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 766 Done
+
+
+EVALUATION NUMBER 767 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 767 Done
+
+
+EVALUATION NUMBER 768 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 768 Done
+
+
+EVALUATION NUMBER 769 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 769 Done
+
+
+EVALUATION NUMBER 770 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 770 Done
+
+
+EVALUATION NUMBER 771 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 771 Done
+
+
+EVALUATION NUMBER 772 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 772 Done
+
+
+EVALUATION NUMBER 773 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 773 Done
+
+
+EVALUATION NUMBER 774 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 774 Done
+
+
+EVALUATION NUMBER 775 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 775 Done
+
+
+EVALUATION NUMBER 776 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 776 Done
+
+
+EVALUATION NUMBER 777 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 777 Done
+
+
+EVALUATION NUMBER 778 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 778 Done
+
+
+EVALUATION NUMBER 779 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 779 Done
+
+
+EVALUATION NUMBER 780 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 780 Done
+
+
+EVALUATION NUMBER 781 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 781 Done
+
+
+EVALUATION NUMBER 782 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 782 Done
+
+
+EVALUATION NUMBER 783 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 783 Done
+
+
+EVALUATION NUMBER 784 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 784 Done
+
+
+EVALUATION NUMBER 785 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 785 Done
+
+
+EVALUATION NUMBER 786 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 786 Done
+
+
+EVALUATION NUMBER 787 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 787 Done
+
+
+EVALUATION NUMBER 788 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 788 Done
+
+
+EVALUATION NUMBER 789 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 789 Done
+
+
+EVALUATION NUMBER 790 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 790 Done
+
+
+EVALUATION NUMBER 791 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 791 Done
+
+
+EVALUATION NUMBER 792 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 792 Done
+
+
+EVALUATION NUMBER 793 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 793 Done
+
+
+EVALUATION NUMBER 794 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 794 Done
+
+
+EVALUATION NUMBER 795 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 795 Done
+
+
+EVALUATION NUMBER 796 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 796 Done
+
+
+EVALUATION NUMBER 797 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 797 Done
+
+
+EVALUATION NUMBER 798 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 798 Done
+
+
+EVALUATION NUMBER 799 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 799 Done
+
+
+EVALUATION NUMBER 800 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 800 Done
+
+
+EVALUATION NUMBER 801 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 801 Done
+
+
+EVALUATION NUMBER 802 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 802 Done
+
+
+EVALUATION NUMBER 803 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 803 Done
+
+
+EVALUATION NUMBER 804 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 804 Done
+
+
+EVALUATION NUMBER 805 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 805 Done
+
+
+EVALUATION NUMBER 806 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 806 Done
+
+
+EVALUATION NUMBER 807 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 807 Done
+
+
+EVALUATION NUMBER 808 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 808 Done
+
+
+EVALUATION NUMBER 809 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 809 Done
+
+
+EVALUATION NUMBER 810 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 810 Done
+
+
+EVALUATION NUMBER 811 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 811 Done
+
+
+EVALUATION NUMBER 812 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 812 Done
+
+
+EVALUATION NUMBER 813 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 813 Done
+
+
+EVALUATION NUMBER 814 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 814 Done
+
+
+EVALUATION NUMBER 815 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 815 Done
+
+
+EVALUATION NUMBER 816 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 816 Done
+
+
+EVALUATION NUMBER 817 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 817 Done
+
+
+EVALUATION NUMBER 818 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 818 Done
+
+
+EVALUATION NUMBER 819 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 819 Done
+
+
+EVALUATION NUMBER 820 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 820 Done
+
+
+EVALUATION NUMBER 821 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 821 Done
+
+
+EVALUATION NUMBER 822 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 822 Done
+
+
+EVALUATION NUMBER 823 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 823 Done
+
+
+EVALUATION NUMBER 824 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 824 Done
+
+
+EVALUATION NUMBER 825 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 825 Done
+
+
+EVALUATION NUMBER 826 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 826 Done
+
+
+EVALUATION NUMBER 827 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 827 Done
+
+
+EVALUATION NUMBER 828 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 828 Done
+
+
+EVALUATION NUMBER 829 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 829 Done
+
+
+EVALUATION NUMBER 830 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 830 Done
+
+
+EVALUATION NUMBER 831 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 831 Done
+
+
+EVALUATION NUMBER 832 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 832 Done
+
+
+EVALUATION NUMBER 833 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 833 Done
+
+
+EVALUATION NUMBER 834 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 834 Done
+
+
+EVALUATION NUMBER 835 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 835 Done
+
+
+EVALUATION NUMBER 836 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 836 Done
+
+
+EVALUATION NUMBER 837 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 837 Done
+
+
+EVALUATION NUMBER 838 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 838 Done
+
+
+EVALUATION NUMBER 839 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 839 Done
+
+
+EVALUATION NUMBER 840 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 840 Done
+
+
+EVALUATION NUMBER 841 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 841 Done
+
+
+EVALUATION NUMBER 842 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 842 Done
+
+
+EVALUATION NUMBER 843 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 843 Done
+
+
+EVALUATION NUMBER 844 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 844 Done
+
+
+EVALUATION NUMBER 845 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 845 Done
+
+
+EVALUATION NUMBER 846 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 846 Done
+
+
+EVALUATION NUMBER 847 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 847 Done
+
+
+EVALUATION NUMBER 848 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 848 Done
+
+
+EVALUATION NUMBER 849 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 849 Done
+
+
+EVALUATION NUMBER 850 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 850 Done
+
+
+EVALUATION NUMBER 851 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 851 Done
+
+
+EVALUATION NUMBER 852 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 852 Done
+
+
+EVALUATION NUMBER 853 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 853 Done
+
+
+EVALUATION NUMBER 854 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 854 Done
+
+
+EVALUATION NUMBER 855 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 855 Done
+
+
+EVALUATION NUMBER 856 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 856 Done
+
+
+EVALUATION NUMBER 857 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 857 Done
+
+
+EVALUATION NUMBER 858 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 858 Done
+
+
+EVALUATION NUMBER 859 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 859 Done
+
+
+EVALUATION NUMBER 860 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 860 Done
+
+
+EVALUATION NUMBER 861 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 861 Done
+
+
+EVALUATION NUMBER 862 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 862 Done
+
+
+EVALUATION NUMBER 863 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 863 Done
+
+
+EVALUATION NUMBER 864 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 864 Done
+
+
+EVALUATION NUMBER 865 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 865 Done
+
+
+EVALUATION NUMBER 866 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 866 Done
+
+
+EVALUATION NUMBER 867 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 867 Done
+
+
+EVALUATION NUMBER 868 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 868 Done
+
+
+EVALUATION NUMBER 869 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 869 Done
+
+
+EVALUATION NUMBER 870 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 870 Done
+
+
+EVALUATION NUMBER 871 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 871 Done
+
+
+EVALUATION NUMBER 872 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 872 Done
+
+
+EVALUATION NUMBER 873 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 873 Done
+
+
+EVALUATION NUMBER 874 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 874 Done
+
+
+EVALUATION NUMBER 875 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 875 Done
+
+
+EVALUATION NUMBER 876 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 876 Done
+
+
+EVALUATION NUMBER 877 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 877 Done
+
+
+EVALUATION NUMBER 878 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 878 Done
+
+
+EVALUATION NUMBER 879 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 879 Done
+
+
+EVALUATION NUMBER 880 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 880 Done
+
+
+EVALUATION NUMBER 881 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 881 Done
+
+
+EVALUATION NUMBER 882 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 882 Done
+
+
+EVALUATION NUMBER 883 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 883 Done
+
+
+EVALUATION NUMBER 884 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 884 Done
+
+
+EVALUATION NUMBER 885 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 885 Done
+
+
+EVALUATION NUMBER 886 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 886 Done
+
+
+EVALUATION NUMBER 887 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 887 Done
+
+
+EVALUATION NUMBER 888 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 888 Done
+
+
+EVALUATION NUMBER 889 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 889 Done
+
+
+EVALUATION NUMBER 890 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 890 Done
+
+
+EVALUATION NUMBER 891 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 891 Done
+
+
+EVALUATION NUMBER 892 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 892 Done
+
+
+EVALUATION NUMBER 893 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 893 Done
+
+
+EVALUATION NUMBER 894 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 894 Done
+
+
+EVALUATION NUMBER 895 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 895 Done
+
+
+EVALUATION NUMBER 896 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 896 Done
+
+
+EVALUATION NUMBER 897 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 897 Done
+
+
+EVALUATION NUMBER 898 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 898 Done
+
+
+EVALUATION NUMBER 899 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 899 Done
+
+
+EVALUATION NUMBER 900 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 900 Done
+
+
+EVALUATION NUMBER 901 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 901 Done
+
+
+EVALUATION NUMBER 902 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 902 Done
+
+
+EVALUATION NUMBER 903 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 903 Done
+
+
+EVALUATION NUMBER 904 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 904 Done
+
+
+EVALUATION NUMBER 905 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 905 Done
+
+
+EVALUATION NUMBER 906 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 906 Done
+
+
+EVALUATION NUMBER 907 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 907 Done
+
+
+EVALUATION NUMBER 908 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 908 Done
+
+
+EVALUATION NUMBER 909 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 909 Done
+
+
+EVALUATION NUMBER 910 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 910 Done
+
+
+EVALUATION NUMBER 911 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 911 Done
+
+
+EVALUATION NUMBER 912 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 912 Done
+
+
+EVALUATION NUMBER 913 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 913 Done
+
+
+EVALUATION NUMBER 914 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 914 Done
+
+
+EVALUATION NUMBER 915 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 915 Done
+
+
+EVALUATION NUMBER 916 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 916 Done
+
+
+EVALUATION NUMBER 917 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 917 Done
+
+
+EVALUATION NUMBER 918 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 918 Done
+
+
+EVALUATION NUMBER 919 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 919 Done
+
+
+EVALUATION NUMBER 920 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 920 Done
+
+
+EVALUATION NUMBER 921 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 921 Done
+
+
+EVALUATION NUMBER 922 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 922 Done
+
+
+EVALUATION NUMBER 923 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 923 Done
+
+
+EVALUATION NUMBER 924 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 924 Done
+
+
+EVALUATION NUMBER 925 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 925 Done
+
+
+EVALUATION NUMBER 926 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 926 Done
+
+
+EVALUATION NUMBER 927 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 927 Done
+
+
+EVALUATION NUMBER 928 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 928 Done
+
+
+EVALUATION NUMBER 929 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 929 Done
+
+
+EVALUATION NUMBER 930 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 930 Done
+
+
+EVALUATION NUMBER 931 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 931 Done
+
+
+EVALUATION NUMBER 932 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 932 Done
+
+
+EVALUATION NUMBER 933 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 933 Done
+
+
+EVALUATION NUMBER 934 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 934 Done
+
+
+EVALUATION NUMBER 935 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 935 Done
+
+
+EVALUATION NUMBER 936 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 936 Done
+
+
+EVALUATION NUMBER 937 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 937 Done
+
+
+EVALUATION NUMBER 938 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 938 Done
+
+
+EVALUATION NUMBER 939 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 939 Done
+
+
+EVALUATION NUMBER 940 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 940 Done
+
+
+EVALUATION NUMBER 941 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 941 Done
+
+
+EVALUATION NUMBER 942 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 942 Done
+
+
+EVALUATION NUMBER 943 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 943 Done
+
+
+EVALUATION NUMBER 944 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 944 Done
+
+
+EVALUATION NUMBER 945 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 945 Done
+
+
+EVALUATION NUMBER 946 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 946 Done
+
+
+EVALUATION NUMBER 947 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 947 Done
+
+
+EVALUATION NUMBER 948 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 948 Done
+
+
+EVALUATION NUMBER 949 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 949 Done
+
+
+EVALUATION NUMBER 950 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 950 Done
+
+
+EVALUATION NUMBER 951 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 951 Done
+
+
+EVALUATION NUMBER 952 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 952 Done
+
+
+EVALUATION NUMBER 953 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 953 Done
+
+
+EVALUATION NUMBER 954 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 954 Done
+
+
+EVALUATION NUMBER 955 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 955 Done
+
+
+EVALUATION NUMBER 956 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 956 Done
+
+
+EVALUATION NUMBER 957 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 957 Done
+
+
+EVALUATION NUMBER 958 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 958 Done
+
+
+EVALUATION NUMBER 959 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 959 Done
+
+
+EVALUATION NUMBER 960 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 960 Done
+
+
+EVALUATION NUMBER 961 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 961 Done
+
+
+EVALUATION NUMBER 962 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 962 Done
+
+
+EVALUATION NUMBER 963 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 963 Done
+
+
+EVALUATION NUMBER 964 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 964 Done
+
+
+EVALUATION NUMBER 965 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 965 Done
+
+
+EVALUATION NUMBER 966 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 966 Done
+
+
+EVALUATION NUMBER 967 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 967 Done
+
+
+EVALUATION NUMBER 968 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 968 Done
+
+
+EVALUATION NUMBER 969 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 969 Done
+
+
+EVALUATION NUMBER 970 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 970 Done
+
+
+EVALUATION NUMBER 971 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 971 Done
+
+
+EVALUATION NUMBER 972 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 972 Done
+
+
+EVALUATION NUMBER 973 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 973 Done
+
+
+EVALUATION NUMBER 974 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 974 Done
+
+
+EVALUATION NUMBER 975 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 975 Done
+
+
+EVALUATION NUMBER 976 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 976 Done
+
+
+EVALUATION NUMBER 977 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 977 Done
+
+
+EVALUATION NUMBER 978 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 978 Done
+
+
+EVALUATION NUMBER 979 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 979 Done
+
+
+EVALUATION NUMBER 980 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 980 Done
+
+
+EVALUATION NUMBER 981 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 981 Done
+
+
+EVALUATION NUMBER 982 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 982 Done
+
+
+EVALUATION NUMBER 983 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 983 Done
+
+
+EVALUATION NUMBER 984 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 984 Done
+
+
+EVALUATION NUMBER 985 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 985 Done
+
+
+EVALUATION NUMBER 986 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 986 Done
+
+
+EVALUATION NUMBER 987 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 987 Done
+
+
+EVALUATION NUMBER 988 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 988 Done
+
+
+EVALUATION NUMBER 989 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 989 Done
+
+
+EVALUATION NUMBER 990 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 990 Done
+
+
+EVALUATION NUMBER 991 STARTED
+Environment Chosen :0 Path followed: S 11x2xN 
+Eval 991 Done
+
+
+EVALUATION NUMBER 992 STARTED
+Environment Chosen :1 Path followed: S 11x2xN 
+Eval 992 Done
+
+
+EVALUATION NUMBER 993 STARTED
+Environment Chosen :2 Path followed: S 11x2xN 
+Eval 993 Done
+
+
+EVALUATION NUMBER 994 STARTED
+Environment Chosen :3 Path followed: S 11x2xN 
+Eval 994 Done
+
+
+EVALUATION NUMBER 995 STARTED
+Environment Chosen :4 Path followed: S 11x2xN 
+Eval 995 Done
+
+
+EVALUATION NUMBER 996 STARTED
+Environment Chosen :5 Path followed: S 11x2xN 
+Eval 996 Done
+02-07-2018 03:13:41 - Timings
+   > Training : 118.237s
+   > Testing : 0.019063s
+
