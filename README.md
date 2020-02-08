@@ -13,8 +13,8 @@
    * [lp_solve](http://lpsolve.sourceforge.net/5.5/) library [``lp-solve`` package]
 
 #### installing AIToolbox
-Clone the [AIToolbox repository](https://github.com/Svalorzen/AI-Toolbox), then build and test the installation with the following commands
-Revert to the commit ID: 1403f2ed0929792ca38485e02ca9d4b9a2f10ca1 
+   * Clone the [AIToolbox repository](https://github.com/Svalorzen/AI-Toolbox), then build and test the installation with the following commands.
+   * Revert to the commit ID: 1403f2ed0929792ca38485e02ca9d4b9a2f10ca1 
 
 ```bash
 cd AIToolbox_root
