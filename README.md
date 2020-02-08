@@ -1,6 +1,5 @@
 # MEMDP_Solving
- This code accompanies the ICAPS 2020 publication "Multiple-Environment Markov Decision Processes: Efficient Analysis and Applications, Krishnendu Chatterjee, Martin Chmelík, Deep Karkhanis, Petr Novotný and Amélie Royer"
-
+ This code accompanies the ICAPS 2020 publication "Multiple-Environment Markov Decision Processes: Efficient Analysis and Applications, Krishnendu Chatterjee, Martin Chmelík, Deep Karkhanis, Petr Novotný and Amélie Royer". This repository also borrows from the [AI-Toolbox](https://github.com/Svalorzen/AI-Toolbox) and [ReCA](https://github.com/ameroyer/ReCA.git) repository.
 
 # Installation
 
