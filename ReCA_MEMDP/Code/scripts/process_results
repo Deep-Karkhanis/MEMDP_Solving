@@ -1,0 +1,15 @@
+#!/bin/bash
+
+cd ../Data/
+python ./prepare_maze_with_failures.py -i Mazes/avoid_risk100.maze
+python ./prepare_maze_with_failures.py -i Mazes/avoid_risk1000.maze
+python ./prepare_maze_with_failures.py -i Mazes/avoid_risk10000.maze
+
+cd ../Code/
+
+./run.sh -m pamcp -s 10000 -x 100 -h 1000 -d mz -n avoid_risk100 -c > output_risk_100 &
+echo "Started Simulation 1"
+./run.sh -m pamcp -s 10000 -x 1000 -h 1000 -d mz -n avoid_risk1000 -c > output_risk_1000 &
+echo "Started Simulation 2"
+./run.sh -m pamcp -s 10000 -x 10000 -h 1000 -d mz -n avoid_risk10000 -c > output_risk_10000 &
+echo "Started Simulation 3"

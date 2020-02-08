@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo "Started Simulation 1"
+./run.sh -m pamcp -h 100 -d mz -n avoid_risk100 -c > ../Data/output_esti_risk_100_2
+echo "End"

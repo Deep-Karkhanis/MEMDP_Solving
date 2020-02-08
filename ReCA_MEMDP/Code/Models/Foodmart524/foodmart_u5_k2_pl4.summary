@@ -1,0 +1,34 @@
+13 States
+3 Actions (Items)
+5 user profiles
+2 history length
+1.100000 alpha
+4 product clustering level
+
+
+[92m-----> Load and Cluster products[0m
+   3 product profiles (1561 products)
+     > Food: 71.75%
+     > Drink: 9.29%
+     > Non-Consumable: 18.90%
+
+[92m-----> [Optional] Export states description[0m
+
+[92m-----> Load user sessions and shop profits [0m
+
+[91m-----> Reward function[0m
+   13 States in the database
+   3 Actions in the database
+
+[91m-----> Clustering[0m
+   Create cluster 0 with mean perplexity 2.707
+   Create cluster 1 with mean perplexity 1.765
+   Create cluster 2 with mean perplexity 2.400
+   Create cluster 3 with mean perplexity 1.943
+   Create cluster 4 with mean perplexity 2.283
+
+[91m-----> Probability inference[0m
+
+
+[92m-----> End[0m
+   All outputs are in /home/dkarkhan/ReCA_MEMDP/ReCA/Code/Models/Foodmart524/foodmart_u5_k2_pl4

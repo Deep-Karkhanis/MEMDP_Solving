@@ -1,0 +1,4 @@
+/home/dkarkhan/ReCA_MEMDP/ReCA/Code
+
+Compiling mainMEMDP
+/usr/bin/g++-7 -O3 -Wl,-rpath,/usr/lib/gcc/x86_64-linux-gnu/7.3.0/ -DNITEMSPRM= -DHISTPRM=2 -DNPROFILESPRM= -std=c++11 mazemodel.cpp recomodel.cpp utils.cpp main_MEMDP.cpp -o mainMEMDP -I /home/dkarkhan/ReCA_MEMDP/AI-Toolbox/include -I /usr/local/include/eigen3/ -L /usr/local/include/lpsolve -L /home/dkarkhan/ReCA_MEMDP/AI-Toolbox/build -l AIToolboxMDP -l AIToolboxPOMDP -l lpsolve55 -lz -lboost_iostreams

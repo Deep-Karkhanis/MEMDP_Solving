@@ -1,0 +1,1503 @@
+/home/dkarkhan/ReCA_MEMDP/ReCA/Code
+
+Compiling mainMEMDP
+/usr/bin/g++-7 -O3 -Wl,-rpath,/usr/lib/gcc/x86_64-linux-gnu/7.3.0/ -DNITEMSPRM= -DHISTPRM=2 -DNPROFILESPRM= -std=c++11 mazemodel.cpp recomodel.cpp utils.cpp main_MEMDP.cpp -o mainMEMDP -I /home/dkarkhan/ReCA_MEMDP/AI-Toolbox/include -I /usr/local/include/eigen3/ -L /usr/local/include/lpsolve -L /home/dkarkhan/ReCA_MEMDP/AI-Toolbox/build -l AIToolboxMDP -l AIToolboxPOMDP -l lpsolve55 -lz -lboost_iostreams
+
+Running mainMEMDP on /home/dkarkhan/ReCA_MEMDP/ReCA/Code/Models/avoid_highrisk/avoid_highrisk with pamcpex solver
+./mainMEMDP /home/dkarkhan/ReCA_MEMDP/ReCA/Code/Models/avoid_highrisk/avoid_highrisk maze pamcpex 0.95 10000 1000 0.01 10000 500 0 0
+
+12-06-2018 12:53:38 - Loading appropriate model
+Setting undiscounted model   -> The model contains 123 observations
+   -> The model contains 3 actions
+   -> The model contains 369 states
+   -> The model contains 3 environments
+
+12-06-2018 12:53:38 - Starting pamcpex solver...!
+12-06-2018 12:53:38 - Starting evaluation!
+
+Evaluation Number 1 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xN 5x2xE 5x2xN 5x2xN 5x2xE 5x2xN 4x2xN 4x2xW 4x2xN 4x2xW 4x1xW T Done
+
+Evaluation Number 2 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xN 4x2xN 4x2xW 4x1xW T Done
+
+Evaluation Number 3 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xN 5x2xN 4x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 4 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 4x2xE 4x2xN 4x2xE 4x2xN 4x2xW 4x1xW T Done
+
+Evaluation Number 5 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xN 5x2xN 5x2xW 5x2xN 5x2xE 5x2xN 5x2xE 5x2xN 5x2xE 5x2xN 5x2xE 5x2xN 4x2xN 3x2xN 3x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 6 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xN 5x2xE 5x2xS 5x2xS 5x2xE 5x2xS 5x2xS 5x2xE 5x2xN 4x2xN 4x2xW 4x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 7 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xN 5x2xN 5x2xW 5x2xN 5x2xW 5x2xN 5x2xW 5x2xS 6x2xS 6x2xS 6x2xE 6x2xS 6x2xE 6x2xE 6x2xS 6x2xE 6x2xN 6x2xE 6x3xE 6x3xS 6x3xE 6x4xE 6x5xE 6x5xE 6x5xS 6x5xW 6x4xW 6x4xN 6x4xE 6x4xN 6x4xE 6x4xE 6x4xN 6x4xE 6x4xS 6x4xE 6x5xE 6x5xS 6x5xS 6x5xE 6x5xN 6x5xE 6x5xN 6x5xE 6x5xN 5x5xN 5x5xE 5x5xE 5x5xS 5x5xW 5x5xS 5x5xE 5x5xN 4x5xN 3x5xN 3x5xW 3x5xN 2x5xN 2x5xE 2x5xS 2x5xW 2x5xS 2x5xW 2x5xN 2x5xE 2x5xN 2x5xW 2x5xW 2x5xS 2x5xE 2x5xE 2x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xW 1x4xW 1x4xN 1x4xE 1x4xS 1x4xE 1x4xS 1x4xE 1x4xN 1x4xW 1x4xS 1x4xE 1x4xS 1x4xS 2x4xS 2x4xE 2x4xS 2x4xE 2x4xN 2x4xW 2x4xS 2x4xE 2x5xE 2x5xS 2x5xE 2x5xE 2x5xE 2x5xE 2x5xN 1x5xN 1x5xN 1x5xW 1x4xW 1x4xS 1x4xW 1x4xN 1x4xE 1x4xN 1x4xW 1x4xN 1x4xN 1x4xE 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xS 1x5xW 1x5xS 1x5xW 1x4xW 1x4xN 1x4xN 1x4xN 1x4xW 1x4xS 1x4xE 1x4xN 1x4xN 1x4xE 1x4xS 1x4xE 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xW 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xS 1x5xW 1x5xN 1x5xW 1x5xN 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xE 1x5xS 1x5xS 1x5xW 1x5xS 1x5xW 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE Done
+
+Evaluation Number 8 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 3x2xN 3x2xW 3x2xN 3x2xN 3x2xN 3x2xE 3x2xS 3x2xW 3x2xN 2x2xN G Done
+
+Evaluation Number 9 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xN 4x2xN 4x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 10 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xN 4x2xN 3x2xN 3x2xE 3x2xN 3x2xN 3x2xN 3x2xE 3x3xE T Done
+
+Evaluation Number 11 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 3x2xN 3x2xE 3x2xN 3x2xW 3x2xN 2x2xN G Done
+
+Evaluation Number 12 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x1xW 5x1xS 5x1xW 5x1xW 5x1xW 5x1xN 5x1xW 5x1xS 5x1xE 5x2xE 5x3xE 5x4xE 5x5xE 5x5xN 4x5xN 3x5xN 2x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xW 1x4xW 1x3xW 1x2xW 1x2xN 1x2xW 1x2xS 1x2xW 1x2xN 1x2xE 1x2xN 1x2xN 1x2xW 1x2xS 1x2xS 1x2xE 1x2xS 2x2xS G Done
+
+Evaluation Number 13 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xN 5x2xN 4x2xN 4x2xN 4x2xN 4x2xW 4x2xS 4x2xE 4x2xN 4x2xW 4x2xS 4x2xE 4x3xE T Done
+
+Evaluation Number 14 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x3xE 5x3xE 5x3xN 4x3xN T Done
+
+Evaluation Number 15 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 4x2xW 4x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 16 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 4x2xE 4x2xS 4x2xE 4x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 17 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 3x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 18 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 4x2xE 4x2xN 4x2xN 4x2xW 4x2xS 4x2xE 4x2xS 4x2xW 4x2xN 4x2xW 4x2xN 4x2xW 4x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 19 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xN 5x2xW 5x2xN 5x2xW 5x2xN 5x2xW 5x2xS 5x2xS 6x2xS 6x2xE 6x2xS 6x2xE 6x3xE 6x4xE 6x4xE 6x4xS 6x4xE 6x4xS 6x4xW 6x4xN 6x4xE 6x5xE 6x5xE 6x5xE 6x5xS 6x5xE 6x5xN 6x5xN 6x5xE 6x5xN 6x5xN 6x5xE 6x5xN 6x5xW 6x5xN 6x5xN 6x5xW 6x5xS 6x5xE 6x5xS 6x5xS 6x5xS 6x5xE 6x5xN 5x5xN 5x5xW 5x5xN 4x5xN 3x5xN 3x5xE 3x5xS 3x5xE 3x5xN 2x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xN 1x5xW 1x4xW 1x4xS 2x4xS 2x4xE 2x4xN 2x4xW 2x4xN 2x4xW 2x3xW 2x3xN 1x3xN 1x3xW 1x3xN 1x3xW 1x3xN 1x3xN 1x3xE 1x3xS 2x3xS 3x3xS T Done
+
+Evaluation Number 20 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 3x2xN 3x2xW 3x1xW T Done
+
+Evaluation Number 21 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xN 5x2xW 5x2xN 4x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 22 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xE 5x2xS 5x2xE 5x2xE 5x2xN 5x2xW 5x2xN 5x2xW 5x2xN 5x2xN 4x2xN 3x2xN 3x2xW 3x2xN 2x2xN G Done
+
+Evaluation Number 23 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 3x2xN 3x2xW 3x2xS 3x2xW 3x2xN 2x2xN G Done
+
+Evaluation Number 24 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 4x2xN 4x2xE 4x2xE 4x2xS 4x2xS 4x2xW 4x2xS 5x2xS 5x2xS 5x2xW 5x1xW 5x1xS 6x1xS 6x1xS 6x1xW 6x1xS 6x1xE 6x2xE 6x2xS 6x2xS 6x2xE 6x3xE 6x4xE 6x5xE 6x5xN 6x5xW 6x5xS 6x5xW 6x5xN 6x5xN 6x5xW 6x5xN 5x5xN 5x5xN 5x5xN 5x5xN 5x5xE 5x5xN 5x5xE 5x5xE 5x5xS 5x5xE 5x5xN 4x5xN 3x5xN 3x5xW 3x5xS 3x5xW 3x5xS 3x5xE 3x5xS 3x5xS 3x5xW 3x5xN 2x5xN 2x5xE 2x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xW 1x5xN 1x5xE 1x5xS 2x5xS 2x5xW 2x5xN 2x5xW 2x5xN 1x5xN 1x5xN 1x5xN 1x5xW 1x4xW 1x4xN 1x4xW 1x4xS 1x4xE 1x4xN 1x4xN 1x4xW 1x4xN 1x4xW 1x4xW 1x4xN 1x4xN 1x4xE 1x4xS 1x4xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xE 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xS 1x5xW 1x5xN 1x5xW 1x5xS 1x5xW 1x5xS 1x5xW 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xW 1x5xN 1x5xW 1x4xW 1x4xN 1x4xN 1x4xN 1x4xW 1x4xN 1x4xW 1x3xW 1x2xW 1x2xS 2x2xS G Done
+
+Evaluation Number 25 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 4x2xN 4x2xE 4x2xE 4x3xE T Done
+
+Evaluation Number 26 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xE 5x2xS 5x2xE 5x2xN 4x2xN 4x2xW 4x2xS 4x2xE 4x2xN 4x2xN 4x2xW 4x2xN 3x2xN 3x2xE 3x3xE T Done
+
+Evaluation Number 27 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xN 5x2xE 5x2xN 4x2xN 4x2xW 4x2xN 3x2xN 3x2xN 3x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 28 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xS 6x2xS 6x2xE 6x3xE 6x3xS 6x3xE 6x4xE 6x4xS 6x4xW 6x4xN 5x4xN 4x4xN 4x4xW 4x3xW T Done
+
+Evaluation Number 29 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xN 5x2xN 5x2xN 5x2xE 5x2xS 6x2xS 6x2xW 6x2xS 6x2xE 6x2xN 6x2xN 6x2xE 6x2xN 6x2xE 6x2xN 6x2xE 6x3xE 6x3xN 6x3xN 6x3xW 6x2xW 6x2xN 6x2xW 6x2xS 6x2xW 6x2xS 6x2xS 6x2xE 6x2xE 6x2xE 6x3xE 6x4xE 6x4xN 6x4xE 6x5xE 6x5xE 6x5xE 6x5xE 6x5xN 6x5xW 6x5xN 6x5xE 6x5xS 6x5xE 6x5xN 6x5xE 6x5xE 6x5xS 6x5xS 6x5xE 6x5xN 5x5xN 4x5xN 3x5xN 3x5xE 3x5xE 3x5xN 2x5xN 2x5xW 2x5xS 2x5xW 2x5xS 2x5xW 2x4xW 2x4xN 2x4xE 2x4xN 2x4xN 2x4xE 2x4xS 2x4xE 2x4xN 2x4xE 2x5xE 2x5xE 2x5xS 2x5xE 2x5xE 2x5xE 2x5xN 1x5xN 1x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xS 1x5xW 1x5xW 1x5xS 1x5xW 1x5xN 1x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 1x5xW 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xS 2x5xS 2x5xE 2x5xN 2x5xE 2x5xE 2x5xN 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xW 1x4xW 1x4xN 1x4xN 1x4xN 1x4xW 1x3xW 1x2xW 1x2xN 1x2xE 1x2xN 1x2xN 1x2xN 1x2xE 1x2xS 2x2xS G Done
+
+Evaluation Number 30 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xN 5x2xW 5x2xS 5x2xS 5x2xW 5x2xS 5x2xW 5x2xN 5x2xW 5x2xN 5x2xW 5x2xS 5x2xW 5x2xS 5x2xW 5x2xS 5x2xE 5x2xE 5x2xS 5x2xW 5x2xS 5x2xE 5x2xN 4x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 31 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xN 5x2xN 5x2xE 5x2xN 5x2xN 5x2xE 5x2xN 4x2xN 4x2xW 4x2xS 5x2xS 5x2xE 5x2xN 4x2xN 4x2xW 4x2xW 4x2xS 4x2xW 4x2xN 4x2xW 4x2xW 4x2xS 5x2xS 5x2xE 5x2xS 5x2xS 5x2xE 5x2xN 5x2xE 5x3xE 5x3xN 5x3xW 5x3xS 6x3xS 6x3xW 6x3xN 6x3xE 6x3xS 6x3xE 6x3xE 6x4xE 6x4xN 5x4xN 5x4xW 5x4xN 5x4xW 5x4xS 5x4xE 5x4xE 5x4xS 5x4xW 5x4xS 6x4xS 6x4xE 6x5xE 6x5xE 6x5xN 6x5xE 6x5xN 5x5xN 4x5xN 4x5xE 4x5xN 4x5xE 4x5xN 3x5xN 3x5xN 2x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x4xW 1x4xS 1x4xE 1x4xS 1x4xE 1x4xE 1x4xN 1x4xW 1x4xN 1x4xN 1x4xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xW 1x4xW 1x4xS 1x4xE 1x4xN 1x4xN 1x4xN 1x4xE 1x4xN 1x4xE 1x4xS 1x4xW 1x4xN 1x4xE 1x5xE 1x5xE 1x5xN 1x5xW 1x5xW 1x5xS 1x5xW 1x5xS 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xW 1x4xW 1x4xS 1x4xS 1x4xW 1x4xS 2x4xS 2x4xE 2x5xE 2x5xN 2x5xW 2x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xS 2x5xS 2x5xE 2x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS 2x5xS 2x5xE 2x5xS 2x5xE 2x5xE 2x5xS 2x5xE 2x5xE 2x5xN 2x5xE 2x5xN 2x5xE 2x5xS 2x5xE 2x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xW 1x5xS 1x5xW 1x5xS 1x5xW 1x5xS 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xE 1x5xE 1x5xS 1x5xW 1x4xW 1x4xN 1x4xN 1x4xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xS 2x5xS 2x5xW 2x5xS 2x5xE 2x5xE 2x5xE 2x5xE 2x5xN 2x5xE 2x5xE 2x5xN 2x5xE 2x5xN 2x5xW 2x5xS 2x5xE 2x5xE 2x5xN 2x5xE 2x5xE 2x5xN 2x5xW 2x5xN 2x5xE 2x5xS Done
+
+Evaluation Number 32 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x3xE 5x3xE 5x4xE 5x4xS 5x4xW 5x3xW 5x3xW 5x3xN 4x3xN T Done
+
+Evaluation Number 33 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xS 5x2xW 5x2xS 5x2xW 5x2xS 5x2xE 5x2xN 5x2xE 5x2xN 5x2xN 4x2xN 4x2xW 4x2xS 4x2xW 4x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 34 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xN 5x2xN 5x2xW 5x2xS 5x2xE 5x2xN 5x2xE 5x2xN 5x2xW 5x2xN 4x2xN 4x2xW 4x1xW T Done
+
+Evaluation Number 35 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 3x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 36 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xN 5x2xE 5x2xN 5x2xW 5x2xS 5x2xE 5x3xE 5x3xS 5x3xS 6x3xS 6x3xS 6x3xW 6x3xS 6x3xS 6x3xS 6x3xE 6x4xE 6x4xN 6x4xN 5x4xN 5x4xN 5x4xW 5x4xS 5x4xE 5x4xN 4x4xN 4x4xE 4x5xE 4x5xN 3x5xN 3x5xW 3x5xN 2x5xN 2x5xE 2x5xS 2x5xW 2x5xN 2x5xN 2x5xE 2x5xS 2x5xW 2x4xW 2x4xN 2x4xE 2x4xS 2x4xE 2x4xS 2x4xE 2x5xE 2x5xE 2x5xE 2x5xS 2x5xW 2x5xN 1x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xS 1x5xW 1x5xS 1x5xW 1x4xW 1x4xN 1x4xE 1x4xS 1x4xW 1x4xS 1x4xW 1x4xN 1x4xN 1x4xE 1x4xS 1x4xE 1x4xS 1x4xS 1x4xW 1x4xN 1x4xN 1x4xE 1x4xN 1x4xW 1x4xS 1x4xS 1x4xW 1x3xW 1x2xW 1x2xS 1x2xE 1x2xS 2x2xS G Done
+
+Evaluation Number 37 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xN 5x2xE 5x2xS 5x2xE 5x2xN 4x2xN 4x2xW 4x2xS 4x2xE 4x3xE T Done
+
+Evaluation Number 38 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x3xE 5x3xS 5x3xE 5x4xE 5x4xE 5x4xN 5x4xE 5x5xE 5x5xE 5x5xN 5x5xE 5x5xN 5x5xN 4x5xN 3x5xN 2x5xN 2x5xW 2x5xW 2x4xW 2x3xW 2x2xW G Done
+
+Evaluation Number 39 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xN 4x2xN 4x2xN 4x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 40 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xS 5x2xE 5x2xN 4x2xN 4x2xN 4x2xN 4x2xE 4x2xN 3x2xN 3x2xN 3x2xN 3x2xW 3x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 41 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 42 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 43 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xN 5x2xN 5x2xE 5x2xS 5x2xW 5x2xS 5x2xE 5x2xN 5x2xN 5x2xE 5x3xE 5x3xS 6x3xS 6x3xE 6x3xS 6x3xS 6x3xS 6x3xS 6x3xE 6x3xN 6x3xE 6x4xE 6x4xE 6x4xN 6x4xE 6x5xE 6x5xS 6x5xS 6x5xW 6x5xN 5x5xN 5x5xW 5x4xW 5x4xS 5x4xE 5x4xN 5x4xE 5x4xS 5x4xW 5x4xN 5x4xE 5x4xN 5x4xW 5x4xS 5x4xE 5x5xE 5x5xS 5x5xE 5x5xS 5x5xW 5x5xS 6x5xS 6x5xE 6x5xN 5x5xN 5x5xE 5x5xE 5x5xN 4x5xN 4x5xW 4x5xS 4x5xE 4x5xS 4x5xW 4x5xN 3x5xN 3x5xE 3x5xS 3x5xW 3x5xN 2x5xN 2x5xE 2x5xN 2x5xW 2x5xN 2x5xE 2x5xE 2x5xE 2x5xS 2x5xW 2x5xS 2x5xW 2x5xN 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xW 1x4xW 1x4xS 1x4xW 1x4xS 1x4xE 1x5xE 1x5xE 1x5xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xW 1x5xN 1x5xW 1x5xS 1x5xW 1x5xS 1x5xW 1x5xN 1x5xE 1x5xE 1x5xE 1x5xE 1x5xE 1x5xS 1x5xW 1x5xW 1x5xS 2x5xS 2x5xW 2x5xS 2x5xW 2x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xS 1x5xW 1x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xS 1x5xW 1x4xW 1x4xS 1x4xE 1x4xS 1x4xW 1x4xN 1x4xW 1x4xS 1x4xW 1x4xN 1x4xW 1x4xN 1x4xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 1x5xW 1x5xS 1x5xE 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xS 1x5xW 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xN 1x5xN 1x5xE 1x5xS 2x5xS 2x5xE 2x5xE 2x5xN 2x5xE 2x5xS 2x5xE 2x5xN 2x5xE 2x5xS 2x5xE 2x5xN Done
+
+Evaluation Number 44 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xN 5x2xE 5x3xE 5x3xS 6x3xS 6x3xE 6x3xE 6x3xN 6x3xE 6x3xE 6x4xE 6x5xE 6x5xE 6x5xN 6x5xW 6x5xN 5x5xN 4x5xN 3x5xN 3x5xW 3x5xN 3x5xE 3x5xS 3x5xE 3x5xE 3x5xE 3x5xE 3x5xS 3x5xE 3x5xN 2x5xN 2x5xW 2x4xW 2x4xS 2x4xW 2x4xS 2x4xE 2x5xE 2x5xE 2x5xN 1x5xN 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xW 1x4xW 1x3xW 1x3xS 1x3xW 1x3xN 1x3xE 1x4xE 1x4xS 1x4xW 1x4xN 1x4xW 1x4xS 1x4xE 1x4xN 1x4xN 1x4xW 1x4xS 1x4xW 1x4xN 1x4xN 1x4xW 1x4xN 1x4xN 1x4xN 1x4xE 1x4xN 1x4xN 1x4xW 1x4xS 1x4xE 1x4xS 1x4xE 1x4xN 1x4xN 1x4xW 1x4xS 1x4xS 1x4xW 1x4xS 1x4xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xN 1x5xW 1x5xS 1x5xW 1x5xS 1x5xE 1x5xN 1x5xW 1x5xW 1x5xN 1x5xE 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xS 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xW 1x5xS 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xE 1x5xE 1x5xS 1x5xW 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 1x5xW 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xW 1x5xS 1x5xW 1x5xS 2x5xS 2x5xE 2x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xS 1x5xW 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x5xS 1x5xW 1x5xS 1x5xW 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xS 1x5xW 1x4xW 1x4xN 1x4xE 1x4xS 1x4xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xS 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xW 1x5xS 2x5xS 2x5xE 2x5xE 2x5xN 2x5xW 2x5xN 2x5xE 2x5xE 2x5xE 2x5xS 2x5xE 2x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xE 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xN 1x5xE 1x5xS 1x5xE Done
+
+Evaluation Number 45 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xS 5x2xW 5x2xN 4x2xN 4x2xE 4x2xE 4x3xE T Done
+
+Evaluation Number 46 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xN 5x2xW 5x2xN 4x2xN 4x2xW 4x2xS 4x2xE 4x2xN 4x2xN 4x2xN 4x2xW 4x2xN 4x2xW 4x2xN 4x2xN 4x2xN 4x2xW 4x2xN 3x2xN 3x2xW 3x2xW 3x2xS 3x2xS 4x2xS 4x2xE 4x2xN 4x2xW 4x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 47 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 4x2xW 4x2xS 4x2xE 4x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 48 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 3x2xN 3x2xE 3x2xN 3x2xE 3x2xE 3x2xS 4x2xS 5x2xS 5x2xS 5x2xW 5x2xN 5x2xN 5x2xW 5x2xN 5x2xE 5x2xS 5x2xW 5x2xN 5x2xE 5x2xS 6x2xS 6x2xE 6x2xS 6x2xE 6x2xS 6x2xW 6x2xS 6x2xE 6x3xE 6x4xE 6x5xE 6x5xE 6x5xS 6x5xS 6x5xE 6x5xS 6x5xW 6x5xN 5x5xN 4x5xN 4x5xW 4x4xW 4x4xW 4x4xN 4x4xE 4x4xN 3x4xN 2x4xN 2x4xN 2x4xW 2x4xN 2x4xE 2x4xS 2x4xE 2x4xS 2x4xW 2x3xW 2x2xW G Done
+
+Evaluation Number 49 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xN 4x2xN 4x2xN 4x2xN 4x2xW 4x1xW T Done
+
+Evaluation Number 50 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x3xE 5x3xE 5x4xE 5x5xE 5x5xS 5x5xW 5x5xS 6x5xS 6x5xE 6x5xE 6x5xN 5x5xN 4x5xN 4x5xE 4x5xE 4x5xE 4x5xE 4x5xN 4x5xW 4x5xN 3x5xN 3x5xE 3x5xE 3x5xN 2x5xN 2x5xW 2x5xN 2x5xW 2x4xW 2x4xS 2x4xE 2x5xE 2x5xS 2x5xE 2x5xN 2x5xE 2x5xS 2x5xW 2x4xW 2x4xS 2x4xW 2x4xN 2x4xW 2x4xN 2x4xW 2x4xW 2x4xN 1x4xN 1x4xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xN 1x5xE 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xS 1x5xW 1x5xN 1x5xN 1x5xN 1x5xW 1x5xS 1x5xS 1x5xW 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xS 1x5xW 1x5xS 1x5xW 1x5xN 1x5xW 1x5xS 1x5xW 1x5xS 2x5xS 2x5xW 2x5xS 2x5xW 2x5xS 2x5xE 2x5xN 2x5xE 2x5xN 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xW 1x5xW 1x4xW 1x4xS 1x4xW 1x3xW 1x2xW 1x2xS 2x2xS G Done
+
+Evaluation Number 51 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x1xW 5x1xS 6x1xS 6x1xE 6x2xE 6x3xE 6x3xE 6x4xE 6x5xE 6x5xE 6x5xN 6x5xE 6x5xE 6x5xS 6x5xE 6x5xS 6x5xE 6x5xN 5x5xN 4x5xN 3x5xN 3x5xW 3x5xS 3x5xW 3x5xN 3x5xN 2x5xN 2x5xE 2x5xS 2x5xW 2x5xN 2x5xE 2x5xE 2x5xS 2x5xW 2x4xW 2x4xW 2x3xW 2x3xS 2x3xW 2x3xN 2x3xN 2x3xW 2x3xN 2x3xE 2x3xS 2x3xW 2x2xW G Done
+
+Evaluation Number 52 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xN 4x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 53 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xN 5x2xW 5x2xS 5x2xE 5x3xE 5x3xE 5x3xS 5x3xE 5x3xN 4x3xN T Done
+
+Evaluation Number 54 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xS 6x2xS 6x2xW 6x2xS 6x2xE 6x2xE 6x2xS 6x2xS 6x2xS 6x2xE 6x2xN 6x2xE 6x3xE 6x4xE 6x5xE 6x5xE 6x5xN 5x5xN 4x5xN 3x5xN 2x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xS 1x5xW 1x5xW 1x4xW 1x4xS 2x4xS 2x4xE 2x4xS 2x4xE 2x4xE 2x4xE 2x4xN 2x4xE 2x5xE 2x5xN 2x5xE 2x5xN 2x5xE 2x5xS 2x5xE 2x5xN 2x5xW 2x4xW 2x4xN 2x4xE 2x4xN 1x4xN 1x4xW 1x4xS 2x4xS 2x4xE 2x4xE 2x4xS 2x4xE 2x4xN 1x4xN 1x4xN 1x4xW 1x4xN 1x4xE 1x4xN 1x4xE 1x4xS 1x4xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xE 1x5xE 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xW 1x5xS 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xN 1x5xW 1x5xS 2x5xS 2x5xW 2x5xS 2x5xE 2x5xS 2x5xE 2x5xS 2x5xE 2x5xS 2x5xE 2x5xN 2x5xE 2x5xN 1x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xE 1x5xS 1x5xW 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xS 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xS 1x5xE 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xW 1x5xN 1x5xW 1x4xW 1x4xN 1x4xE 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xS 1x5xW 1x5xS 1x5xW 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xS 1x5xW 1x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xW 1x4xW 1x4xS 1x4xW 1x4xS 2x4xS 2x4xE 2x4xN 1x4xN 1x4xW 1x4xS 1x4xW 1x3xW 1x2xW 1x2xS 1x2xW 1x2xS 2x2xS G Done
+
+Evaluation Number 55 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 4x2xW 4x2xN 3x2xN 3x2xE 3x2xE 3x2xS 3x2xE 3x2xS 3x2xE 3x2xS 3x2xE 3x3xE T Done
+
+Evaluation Number 56 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xN 5x2xW 5x2xS 6x2xS 6x2xE 6x2xS 6x2xS 6x2xE 6x3xE 6x4xE 6x4xN 6x4xE 6x5xE 6x5xS 6x5xE 6x5xN 6x5xW 6x5xN 6x5xE 6x5xE 6x5xN 5x5xN 4x5xN 4x5xE 4x5xS 4x5xW 4x5xN 4x5xW 4x5xS 5x5xS 5x5xE 5x5xN 5x5xN 5x5xE 5x5xS 6x5xS 6x5xS 6x5xE 6x5xS 6x5xE 6x5xE 6x5xN 6x5xN 5x5xN 5x5xE 5x5xN 5x5xW 5x5xS 6x5xS 6x5xW 6x5xN 5x5xN 4x5xN 3x5xN 2x5xN 2x5xW 2x4xW 2x3xW 2x3xS 2x3xW 2x3xW 2x2xW G Done
+
+Evaluation Number 57 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xN 5x2xW 5x2xN 5x2xE 5x2xN 5x2xW 5x2xN 5x2xE 5x2xN 5x2xN 4x2xN 4x2xE 4x2xN 3x2xN 3x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 58 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xN 5x2xN 4x2xN 3x2xN 3x2xE 3x2xN 3x2xN 3x2xW 3x2xS 3x2xW 3x2xN 3x2xN 3x2xE 3x2xS 3x2xW 3x2xS 3x2xE 3x2xN 2x2xN G Done
+
+Evaluation Number 59 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 4x2xW 4x1xW T Done
+
+Evaluation Number 60 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xS 5x2xE 5x2xS 5x2xE 5x2xN 4x2xN 4x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 61 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xN 4x2xN 4x2xN 3x2xN 3x2xW 3x2xN 2x2xN G Done
+
+Evaluation Number 62 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xS 5x2xE 5x2xN 5x2xW 5x2xS 5x2xE 5x2xN 5x2xE 5x3xE 5x4xE 5x5xE 5x5xN 5x5xW 5x5xS 6x5xS 6x5xS 6x5xE 6x5xN 5x5xN 5x5xE 5x5xE 5x5xE 5x5xE 5x5xN 4x5xN 3x5xN 2x5xN 2x5xN 2x5xW 2x4xW 2x4xN 2x4xW 2x4xW 2x4xS 2x4xW 2x3xW 2x2xW G Done
+
+Evaluation Number 63 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 4x2xE 4x2xS 4x2xE 4x2xN 4x2xW 4x1xW T Done
+
+Evaluation Number 64 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 4x2xN 4x2xW 4x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 65 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xS 5x2xW 5x2xS 6x2xS 6x2xW 6x1xW 6x1xN 6x1xW 6x1xS 6x1xE 6x1xS 6x1xE 6x2xE 6x3xE 6x3xN 6x3xE 6x4xE 6x4xS 6x4xS 6x4xW 6x4xS 6x4xE 6x4xS 6x4xE 6x5xE 6x5xE 6x5xS 6x5xS 6x5xW 6x5xN 5x5xN 4x5xN 4x5xE 4x5xN 4x5xE 4x5xN 4x5xE 4x5xN 4x5xN 4x5xW 4x5xN 3x5xN 2x5xN 2x5xE 2x5xN 2x5xW 2x5xS 2x5xW 2x4xW 2x4xS 2x4xW 2x4xN 2x4xW 2x3xW 2x3xS 2x3xW 2x2xW G Done
+
+Evaluation Number 66 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 3x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 67 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xN 5x2xW 5x1xW 5x1xS 6x1xS 6x1xE 6x1xS 6x1xE 6x2xE 6x2xS 6x2xE 6x3xE 6x3xN 6x3xE 6x4xE 6x4xE 6x4xS 6x4xS 6x4xE 6x5xE 6x5xS 6x5xE 6x5xN 6x5xW 6x5xS 6x5xS 6x5xS 6x5xS 6x5xE 6x5xN 6x5xN 5x5xN 5x5xW 5x5xN 5x5xE 5x5xN 5x5xE 5x5xN 4x5xN 3x5xN 3x5xW 3x5xN 3x5xW 3x5xS 3x5xW 3x5xN 2x5xN 2x5xE 2x5xS 2x5xW 2x5xW 2x5xN 2x5xN 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xS 2x5xS 3x5xS 4x5xS 4x5xW 4x5xN 4x5xE 4x5xN 4x5xW 4x5xN 4x5xN 4x5xW 4x5xS 4x5xE 4x5xN 4x5xN 3x5xN 3x5xW 3x5xS 3x5xW 3x5xN 3x5xN 3x5xN 3x5xE 3x5xE 3x5xN 3x5xE 3x5xE 3x5xN 3x5xE 3x5xS 3x5xE 3x5xS 3x5xE 3x5xN 3x5xW 3x5xS 3x5xE 3x5xN 3x5xW 3x5xS 3x5xW 3x5xS 3x5xE 3x5xE 3x5xE 3x5xE 3x5xN 3x5xN 2x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x4xW 1x4xS 1x4xW 1x3xW 1x3xS 1x3xW 1x2xW 1x2xN 1x2xE 1x2xS 2x2xS G Done
+
+Evaluation Number 68 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xN 5x2xW 5x2xN 5x2xE 5x2xS 6x2xS 6x2xW 6x2xN 6x2xE 6x3xE 6x3xS 6x3xE 6x4xE 6x4xS 6x4xE 6x5xE 6x5xN 5x5xN 5x5xE 5x5xN 4x5xN 4x5xE 4x5xN 3x5xN 2x5xN 2x5xE 2x5xN 2x5xW 2x4xW 2x3xW 2x3xN 1x3xN 1x3xW 1x2xW 1x2xS 2x2xS G Done
+
+Evaluation Number 69 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 4x2xE 4x2xN 4x2xE 4x2xS 4x2xW 4x1xW T Done
+
+Evaluation Number 70 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xN 4x2xN 4x2xE 4x2xS 4x2xE 4x3xE T Done
+
+Evaluation Number 71 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xN 5x2xW 5x2xS 5x2xW 5x2xS 5x2xE 5x2xE 5x2xN 4x2xN 4x2xE 4x2xE 4x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 72 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xN 5x2xW 5x2xS 5x2xE 5x2xN 4x2xN 4x2xN 4x2xE 4x2xN 4x2xW 4x2xN 4x2xN 4x2xN 4x2xE 4x3xE T Done
+
+Evaluation Number 73 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xN 5x2xW 5x2xN 5x2xN 5x2xE 5x3xE 5x4xE 5x4xS 5x4xE 5x5xE 5x5xN 5x5xW 5x5xN 4x5xN 4x5xE 4x5xS 5x5xS 5x5xE 5x5xN 5x5xW 5x5xN 4x5xN 3x5xN 2x5xN 2x5xE 2x5xN 2x5xW 2x5xN 2x5xE 2x5xE 2x5xE 2x5xS 2x5xE 2x5xS 2x5xW 2x5xW 2x5xN 2x5xE 2x5xS 2x5xW 2x5xN 1x5xN 1x5xW 1x5xN 1x5xW 1x4xW 1x4xS 1x4xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xW 1x4xW 1x4xN 1x4xW 1x4xN 1x4xE 1x4xN 1x4xE 1x4xN 1x4xN 1x4xW 1x4xN 1x4xN 1x4xE 1x4xS 1x4xW 1x4xS 1x4xW 1x4xS 1x4xS 1x4xE 1x4xN 1x4xW 1x4xS 1x4xW 1x3xW 1x2xW 1x2xN 1x2xE 1x2xS 2x2xS G Done
+
+Evaluation Number 74 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xE 5x2xN 4x2xN 4x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 75 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 76 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xN 4x2xN 4x2xW 4x1xW T Done
+
+Evaluation Number 77 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 4x2xN 4x2xE 4x2xN 4x2xW 4x2xS 5x2xS 6x2xS 6x2xS 6x2xW 6x2xS 6x2xW 6x2xN 6x2xE 6x3xE 6x4xE 6x5xE 6x5xS 6x5xW 6x5xN 6x5xE 6x5xN 6x5xE 6x5xN 6x5xE 6x5xS 6x5xE 6x5xE 6x5xS 6x5xW 6x5xS 6x5xS 6x5xS 6x5xE 6x5xS 6x5xS 6x5xS 6x5xW 6x5xS 6x5xS 6x5xE 6x5xS 6x5xE 6x5xN 5x5xN 5x5xW 5x5xN 5x5xE 5x5xN 5x5xW 5x5xN 4x5xN 4x5xN 4x5xE 4x5xN 4x5xE 4x5xN 3x5xN 3x5xW 3x5xS 3x5xE 3x5xN 3x5xW 3x5xN 3x5xW 3x5xN 2x5xN 2x5xN 2x5xW 2x4xW 2x3xW 2x2xW G Done
+
+Evaluation Number 78 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x3xE 5x3xS 5x3xS 5x3xE 5x3xS 5x3xW 5x3xW 5x3xS 6x3xS 6x3xW 6x3xN 6x3xE 6x3xS 6x3xW 6x3xS 6x3xE 6x4xE 6x5xE 6x5xN 5x5xN 4x5xN 4x5xE 4x5xN 3x5xN 3x5xW 3x4xW 3x4xN 2x4xN 2x4xN 2x4xW 2x4xS 2x4xE 2x4xN 1x4xN 1x4xW 1x3xW 1x3xN 1x3xN 1x3xE 1x3xE 1x3xN 1x3xW 1x3xS 1x3xE 1x3xN 1x3xE 1x3xS 1x3xW 1x3xN 1x3xW 1x3xS 2x3xS 2x3xW 2x3xN 2x3xE 2x3xE 2x3xN 2x3xW 2x2xW G Done
+
+Evaluation Number 79 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 4x2xW 4x1xW T Done
+
+Evaluation Number 80 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xS 5x2xE 5x2xN 5x2xN 5x2xW 5x1xW 5x1xN 4x1xN T Done
+
+Evaluation Number 81 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xN 5x2xW 5x2xN 5x2xE 5x2xS 5x2xW 5x2xN 4x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 82 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 3x2xN 3x2xE 3x3xE T Done
+
+Evaluation Number 83 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xS 5x2xE 5x2xE 5x2xE 5x3xE 5x3xS 5x3xW 5x3xW 5x3xS 6x3xS 6x3xS 6x3xE 6x4xE 6x5xE 6x5xS 6x5xW 6x5xS 6x5xS 6x5xW 6x5xS 6x5xE 6x5xE 6x5xE 6x5xN 6x5xE 6x5xE 6x5xN 6x5xE 6x5xN 5x5xN 5x5xW 5x5xN 5x5xW 5x5xS 5x5xE 5x5xE 5x5xN 4x5xN 3x5xN 3x5xE 3x5xE 3x5xS 3x5xE 3x5xE 3x5xN 2x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xS 1x5xW 1x4xW 1x4xN 1x4xN 1x4xE 1x4xN 1x4xE 1x4xS 1x4xW 1x4xN 1x4xE 1x4xE 1x4xN 1x4xN 1x4xE 1x5xE 1x5xS 1x5xE 1x5xS 1x5xW 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xS 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xW 1x5xS 2x5xS 2x5xE 2x5xN 2x5xE 2x5xS 2x5xE 2x5xS 2x5xW 2x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xN 1x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xW 1x5xS 2x5xS 2x5xE 2x5xS 2x5xE 2x5xS 2x5xW 2x5xW 2x5xS 2x5xE 2x5xN 1x5xN 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xW 1x4xW 1x4xS 1x4xE 1x4xN 1x4xN 1x4xN 1x4xE 1x5xE 1x5xN 1x5xW 1x5xW 1x5xN 1x5xW 1x5xN 1x5xE 1x5xS 1x5xW 1x4xW 1x4xN 1x4xN 1x4xW 1x4xN 1x4xE 1x4xN 1x4xE 1x4xS 1x4xE 1x4xN 1x4xN 1x4xE 1x4xN 1x4xW 1x3xW 1x2xW 1x2xS 1x2xS 2x2xS G Done
+
+Evaluation Number 84 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xS 5x2xE 5x2xS 5x2xS 6x2xS 6x2xW 6x2xN 5x2xN 5x2xE 5x2xN 4x2xN 4x2xE 4x2xN 4x2xN 4x2xW 4x2xN 4x2xW 4x2xN 4x2xE 4x2xN 3x2xN 3x2xW 3x2xN 2x2xN G Done
+
+Evaluation Number 85 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xN 5x2xE 5x3xE 5x3xN 5x3xE 5x3xS 6x3xS 6x3xE 6x4xE 6x4xE 6x4xN 6x4xE 6x4xS 6x4xS 6x4xE 6x5xE 6x5xN 5x5xN 5x5xW 5x5xN 5x5xE 5x5xE 5x5xE 5x5xN 5x5xW 5x5xS 5x5xW 5x5xN 4x5xN 3x5xN 2x5xN 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xW 1x5xN 1x5xW 1x5xS 2x5xS 2x5xE 2x5xN 2x5xW 2x5xW 2x5xN 2x5xE 2x5xE 2x5xE 2x5xN 2x5xE 2x5xS 3x5xS 3x5xW 3x5xN 3x5xE 3x5xE 3x5xS 3x5xE 3x5xS 3x5xE 3x5xE 3x5xN 2x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xE 1x5xS 1x5xW 1x5xW 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xS 1x5xW 1x5xN 1x5xE 1x5xS 1x5xS 1x5xE 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 1x5xW 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 2x5xS 2x5xW 2x4xW 2x4xN 1x4xN 1x4xN 1x4xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xN 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xS 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xN 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xE 1x5xE 1x5xE 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xW 1x5xN 1x5xW 1x5xS 1x5xW 1x5xS 1x5xE 1x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xE 1x5xE 1x5xS 1x5xW 1x5xN 1x5xN 1x5xE 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE Done
+
+Evaluation Number 86 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 4x2xW 4x2xW 4x2xS 4x2xE 4x2xS 4x2xE 4x2xN 4x2xE 4x2xN 4x2xW 4x1xW T Done
+
+Evaluation Number 87 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xW 5x2xN 5x2xE 5x2xN 4x2xN 3x2xN 3x2xN 3x2xE 3x2xN 3x2xN 3x2xE 3x2xN 3x2xN 3x2xE 3x2xN 3x2xW 3x1xW T Done
+
+Evaluation Number 88 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xN 5x2xE 5x2xN 4x2xN 4x2xE 4x2xN 4x2xE 4x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 89 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x3xE 5x3xS 6x3xS 6x3xW 6x3xS 6x3xE 6x3xN 6x3xE 6x3xN 6x3xE 6x3xN 6x3xE 6x3xE 6x4xE 6x4xN 6x4xW 6x4xN 6x4xE 6x4xS 6x4xE 6x5xE 6x5xN 5x5xN 5x5xW 5x5xS 5x5xE 5x5xS 5x5xE 5x5xN 4x5xN 4x5xN 3x5xN 3x5xE 3x5xS 3x5xE 3x5xE 3x5xN 2x5xN 2x5xW 2x4xW 2x3xW 2x2xW G Done
+
+Evaluation Number 90 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xN 4x2xN 3x2xN 3x2xE 3x3xE T Done
+
+Evaluation Number 91 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 4x2xN 4x2xW 4x2xN 4x2xE 4x3xE T Done
+
+Evaluation Number 92 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xS 5x2xS 5x2xE 5x2xS 5x2xW 5x2xN 5x2xE 5x2xE 5x2xN 5x2xW 5x2xS 6x2xS 6x2xE 6x2xS 6x2xS 6x2xW 6x2xS 6x2xE 6x2xN 6x2xE 6x3xE 6x4xE 6x4xS 6x4xE 6x4xN 6x4xE 6x4xS 6x4xE 6x4xN 6x4xW 6x4xS 6x4xS 6x4xE 6x4xE 6x4xS 6x4xS 6x4xS 6x4xE 6x4xS 6x4xS 6x4xW 6x4xS 6x4xE 6x4xN 6x4xN 6x4xE 6x5xE 6x5xS 6x5xE 6x5xS 6x5xW 6x5xN 5x5xN 4x5xN 4x5xW 4x5xS 4x5xE 4x5xS 4x5xE 4x5xE 4x5xE 4x5xN 4x5xE 4x5xN 4x5xN 4x5xN 3x5xN 3x5xE 3x5xE 3x5xE 3x5xS 3x5xW 3x5xS 3x5xE 3x5xN 3x5xN 2x5xN 2x5xN 1x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x5xS 1x5xW 1x5xS 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xW 1x5xW 1x5xN 1x5xW 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xS 1x5xW 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x5xS 2x5xS 2x5xE 2x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xW 1x5xN 1x5xE 1x5xS 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 1x5xW 1x5xS 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE Done
+
+Evaluation Number 93 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xS 5x2xS 5x2xE 5x2xN 5x2xN 5x2xE 5x2xS 5x2xE 5x3xE 5x4xE 5x4xS 5x4xW 5x4xN 5x4xW 5x4xN 5x4xW 5x4xS 5x4xE 5x4xN 4x4xN 4x4xW 4x4xS 4x4xW 4x3xW T Done
+
+Evaluation Number 94 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xS 5x2xE 5x2xN 4x2xN 4x2xW 4x1xW T Done
+
+Evaluation Number 95 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xN 5x2xE 5x2xE 5x2xE 5x2xS 6x2xS 6x2xE 6x2xS 6x2xE 6x2xS 6x2xE 6x3xE 6x4xE 6x4xN 6x4xE 6x4xE 6x4xN 6x4xN 6x4xE 6x4xN 5x4xN 5x4xW 5x4xN 5x4xW 5x3xW 5x2xW 5x2xS 5x2xW 5x2xS 5x2xW 5x2xS 5x2xS 6x2xS 6x2xW 6x2xN 6x2xE 6x2xN 6x2xE 6x3xE 6x4xE 6x4xS 6x4xW 6x4xN 6x4xE 6x5xE 6x5xE 6x5xS 6x5xE 6x5xE 6x5xN 6x5xW 6x5xS 6x5xE 6x5xE 6x5xN 5x5xN 4x5xN 4x5xN 4x5xW 4x5xN 4x5xE 4x5xN 3x5xN 3x5xE 3x5xE 3x5xN 3x5xE 3x5xN 3x5xW 3x5xN 3x5xE 3x5xE 3x5xE 3x5xN 3x5xE 3x5xN 3x5xW 3x5xN 3x5xW 3x5xN 3x5xW 3x5xS 3x5xW 3x5xN 3x5xW 3x5xS 3x5xW 3x5xS 3x5xW 3x5xN 2x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xW 1x4xW 1x4xS 1x4xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xS 1x5xW 1x4xW 1x4xN 1x4xW 1x4xN 1x4xW 1x4xN 1x4xN 1x4xN 1x4xN 1x4xE 1x4xN 1x4xN 1x4xE 1x4xS 1x4xE 1x4xN 1x4xW 1x4xS 1x4xW 1x3xW 1x2xW 1x2xN 1x2xN 1x2xE 1x2xN 1x2xE 1x2xN 1x2xW 1x2xS 1x2xE 1x2xS 2x2xS G Done
+
+Evaluation Number 96 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 4x2xN 4x2xE 4x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 97 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xN 5x2xE 5x2xS 5x2xW 5x2xN 5x2xN 5x2xW 5x1xW 5x1xN 5x1xE 5x1xS 6x1xS 6x1xW 6x1xS 6x1xS 6x1xS 6x1xW 6x1xS 6x1xW 6x1xS 6x1xS 6x1xE 6x2xE 6x2xE 6x2xS 6x2xS 6x2xS 6x2xS 6x2xE 6x2xS 6x2xS 6x2xS 6x2xE 6x2xS 6x2xE 6x3xE 6x4xE 6x4xS 6x4xS 6x4xE 6x4xN 6x4xN 6x4xW 6x4xS 6x4xE 6x4xE 6x5xE 6x5xN 5x5xN 5x5xE 5x5xS 5x5xW 5x5xN 5x5xE 5x5xS 5x5xE 5x5xE 5x5xS 5x5xE 5x5xN 5x5xE 5x5xE 5x5xN 5x5xW 5x5xN 5x5xN 5x5xW 5x5xS 5x5xE 5x5xN 4x5xN 4x5xE 4x5xE 4x5xN 4x5xW 4x5xN 4x5xE 4x5xN 4x5xE 4x5xE 4x5xN 4x5xW 4x5xN 4x5xE 4x5xS 4x5xE 4x5xN 3x5xN 3x5xE 3x5xE 3x5xS 3x5xE 3x5xN 2x5xN 2x5xE 2x5xE 2x5xN 2x5xW 2x5xN 2x5xE 2x5xN 2x5xW 2x5xN 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xW 1x5xS 1x5xW 1x4xW 1x4xW 1x4xW 1x4xS 1x4xS 1x4xW 1x4xN 1x4xE 1x5xE 1x5xS 2x5xS 2x5xE 2x5xN 1x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xW 1x4xW 1x4xS 1x4xE 1x4xS 1x4xE 1x4xS 1x4xE 1x4xN 1x4xN 1x4xW 1x4xS 1x4xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xE 1x5xE 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xS 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xS 1x5xW 1x5xS 1x5xW 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xN 1x5xN 1x5xW 1x4xW 1x4xN 1x4xN 1x4xN 1x4xE 1x4xS 1x4xW 1x4xN 1x4xE 1x4xN 1x4xW 1x4xN 1x4xW 1x4xN 1x4xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xS 1x5xW 1x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xE 1x5xS 1x5xW 1x5xN 1x5xW 1x5xS 1x5xW 1x5xS 1x5xE 1x5xN 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xS 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 1x5xW 1x5xN 1x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN Done
+
+Evaluation Number 98 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xN 4x2xN 4x2xN 4x2xE 4x2xN 4x2xW 4x1xW T Done
+
+Evaluation Number 99 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 4x2xE 4x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 100 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xS 5x2xE 5x3xE 5x3xS 5x3xE 5x3xE 5x3xS 5x3xE 5x3xN 5x3xW 5x3xS 5x3xS 5x3xW 5x3xN 5x3xE 5x4xE 5x4xE 5x5xE 5x5xE 5x5xS 5x5xW 5x5xN 5x5xE 5x5xN 5x5xW 5x5xS 5x5xE 5x5xN 4x5xN 4x5xW 4x5xN 3x5xN 2x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xW 1x4xW 1x4xN 1x4xE 1x4xN 1x4xW 1x4xS 1x4xW 1x4xN 1x4xN 1x4xE 1x5xE 1x5xS 2x5xS 2x5xW 2x5xN 1x5xN 1x5xN 1x5xW 1x4xW 1x4xS 1x4xE 1x4xS 1x4xE 1x4xS 1x4xE 1x4xN 1x4xW 1x4xN 1x4xE 1x4xN 1x4xW 1x4xN 1x4xE 1x4xN 1x4xE 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xS 1x5xW 1x4xW 1x4xN 1x4xE 1x4xE 1x4xN 1x4xW 1x4xS 1x4xE 1x5xE 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xN 1x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xS 2x5xS 2x5xW 2x5xS 2x5xW 2x5xN 1x5xN 1x5xW 1x4xW 1x4xS 1x4xW 1x4xN 1x4xW 1x4xN 1x4xE 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xN 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xS 1x5xW 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xS 1x5xE 1x5xS 1x5xW 1x5xS 1x5xW 1x5xS 1x5xE 1x5xE 1x5xN 1x5xW 1x5xS 1x5xW 1x5xS 1x5xW 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xS 1x5xW 1x5xS 1x5xW 1x5xS 1x5xW 1x5xS 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 1x5xW 1x5xS 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN Done
+
+Evaluation Number 101 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xN 5x2xW 5x2xN 5x2xE 5x3xE 5x4xE 5x4xS 5x4xS 5x4xE 5x5xE 5x5xE 5x5xN 5x5xN 4x5xN 3x5xN 3x5xE 3x5xS 3x5xW 3x5xN 2x5xN 1x5xN 1x5xN 1x5xW 1x5xW 1x5xN 1x5xE 1x5xS 2x5xS 2x5xE 2x5xN 2x5xE 2x5xN 2x5xW 2x5xS 2x5xE 2x5xS 2x5xE 2x5xE 2x5xE 2x5xN 2x5xW 2x5xS 2x5xW 2x5xW 2x5xS 2x5xE 2x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xS 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xW 1x4xW 1x4xN 1x4xE 1x4xN 1x4xN 1x4xE 1x4xN 1x4xW 1x4xS 1x4xW 1x4xN 1x4xW 1x4xN 1x4xN 1x4xN 1x4xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xE 1x5xS 1x5xW 1x5xN 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 1x5xW 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xS 1x5xW 1x5xN 1x5xW 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xN 1x5xW 1x4xW 1x4xN 1x4xW 1x4xS 1x4xE 1x4xS 1x4xS 1x4xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xS 1x5xE 1x5xS 1x5xW 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xS 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xS 1x5xW 1x5xS 1x5xW 1x5xS 1x5xE 1x5xE 1x5xE 1x5xS 2x5xS 2x5xE 2x5xE 2x5xN 2x5xW 2x5xW 2x5xS 2x5xE 2x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xS 1x5xS 1x5xE 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xE 1x5xS 1x5xW 1x5xS 1x5xW 1x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xN 1x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xS 1x5xW 1x5xN Done
+
+Evaluation Number 102 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xN 5x2xW 5x2xN 4x2xN 3x2xN 3x2xW 3x2xN 2x2xN G Done
+
+Evaluation Number 103 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xN 4x2xN 4x2xE 4x2xN 4x2xE 4x2xN 3x2xN 3x2xW 3x2xS 3x2xE 3x2xN 3x2xE 3x2xS 3x2xW 3x1xW T Done
+
+Evaluation Number 104 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xN 5x2xW 5x2xS 5x2xW 5x2xS 6x2xS 6x2xW 6x2xS 6x2xE 6x2xN 5x2xN 5x2xN 4x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 105 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xN 5x2xW 5x2xS 5x2xE 5x3xE 5x3xN 4x3xN T Done
+
+Evaluation Number 106 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 4x2xW 4x1xW T Done
+
+Evaluation Number 107 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x3xE 5x3xS 6x3xS 6x3xS 6x3xS 6x3xE 6x3xE 6x3xS 6x3xW 6x3xS 6x3xS 6x3xE 6x4xE 6x4xN 6x4xE 6x5xE 6x5xS 6x5xW 6x5xS 6x5xW 6x5xS 6x5xE 6x5xS 6x5xE 6x5xN 6x5xE 6x5xE 6x5xE 6x5xN 6x5xW 6x5xS 6x5xE 6x5xS 6x5xS 6x5xE 6x5xS 6x5xS 6x5xE 6x5xN 6x5xE 6x5xN 5x5xN 5x5xE 5x5xN 4x5xN 4x5xN 4x5xE 4x5xN 4x5xW 4x5xN 3x5xN 3x5xE 3x5xS 4x5xS 4x5xW 4x5xN 4x5xW 4x5xS 4x5xW 4x4xW 4x3xW T Done
+
+Evaluation Number 108 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xS 5x2xE 5x2xN 5x2xE 5x2xE 5x3xE 5x4xE 5x4xN 5x4xN 5x4xE 5x5xE 5x5xN 5x5xE 5x5xE 5x5xN 4x5xN 3x5xN 2x5xN 2x5xE 2x5xS 3x5xS 3x5xE 3x5xN 2x5xN 2x5xW 2x5xN 2x5xW 2x4xW 2x3xW 2x3xS 2x3xW 2x3xW 2x3xS 2x3xW 2x2xW G Done
+
+Evaluation Number 109 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 3x2xN 3x2xE 3x2xN 2x2xN G Done
+
+Evaluation Number 110 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xN 4x2xN 4x2xE 4x3xE T Done
+
+Evaluation Number 111 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 4x2xN 3x2xN 3x2xE 3x2xS 3x2xW 3x2xN 2x2xN G Done
+
+Evaluation Number 112 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xS 5x2xE 5x2xS 5x2xW 5x2xN 4x2xN 3x2xN 3x2xE 3x2xS 3x2xE 3x2xN 3x2xW 3x2xN 3x2xN 3x2xE 3x3xE T Done
+
+Evaluation Number 113 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xN 4x2xN 4x2xW 4x1xW T Done
+
+Evaluation Number 114 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xN 4x2xN 4x2xW 4x2xS 4x2xE 4x3xE T Done
+
+Evaluation Number 115 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xN 4x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 116 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xN 5x2xW 5x2xN 5x2xW 5x2xN 5x2xW 5x2xN 5x2xN 5x2xW 5x2xS 5x2xW 5x2xS 5x2xW 5x2xN 5x2xE 5x3xE 5x3xE 5x3xN 5x3xW 5x3xW 5x3xS 6x3xS 6x3xW 6x3xN 6x3xW 6x3xN 6x3xE 6x4xE 6x4xN 6x4xE 6x5xE 6x5xN 6x5xW 6x5xS 6x5xE 6x5xE 6x5xN 6x5xW 6x5xN 6x5xW 6x5xS 6x5xW 6x5xS 6x5xS 6x5xE 6x5xE 6x5xE 6x5xN 5x5xN 5x5xE 5x5xE 5x5xE 5x5xN 5x5xE 5x5xS 5x5xE 5x5xN 4x5xN 4x5xE 4x5xE 4x5xE 4x5xS 4x5xW 4x5xN 4x5xE 4x5xN 4x5xW 4x5xS 4x5xE 4x5xS 4x5xW 4x5xS 4x5xW 4x5xS 4x5xE 4x5xN 4x5xW 4x5xS 4x5xE 4x5xN 3x5xN 2x5xN 1x5xN 1x5xW 1x4xW 1x4xS 1x4xE 1x4xS 2x4xS 2x4xW 2x4xN 2x4xW 2x4xN 2x4xE 2x4xN 2x4xE 2x5xE 2x5xE 2x5xS 2x5xW 2x5xN 1x5xN 1x5xN 1x5xW 1x4xW 1x4xN 1x4xN 1x4xW 1x4xS 1x4xE 1x4xN 1x4xW 1x4xN 1x4xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x5xS 2x5xS 2x5xW 2x5xN 2x5xE 2x5xN 2x5xW 2x5xN 2x5xW 2x5xS 2x5xE 2x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xS 1x5xW 1x5xS 1x5xW 1x5xS 2x5xS 2x5xE 2x5xN 2x5xW 2x5xS 2x5xW 2x5xS 2x5xW 2x5xW 2x5xN 1x5xN 1x5xE 1x5xS 2x5xS 2x5xW 2x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xN 1x5xN 1x5xW 1x4xW 1x4xS 1x4xE 1x4xN 1x4xN 1x4xE 1x4xN 1x4xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xS 1x5xW 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xE 1x5xE Done
+
+Evaluation Number 117 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xW 5x2xS 6x2xS 6x2xE 6x3xE 6x3xS 6x3xE 6x3xE 6x3xN 6x3xW 6x3xS 6x3xS 6x3xE 6x3xS 6x3xE 6x4xE 6x4xE 6x4xS 6x4xE 6x4xS 6x4xS 6x4xS 6x4xE 6x4xN 6x4xN 6x4xE 6x4xS 6x4xE 6x5xE 6x5xE 6x5xE 6x5xN 6x5xE 6x5xN 6x5xE 6x5xS 6x5xE 6x5xN 6x5xW 6x5xN 5x5xN 4x5xN 4x5xN 3x5xN 3x5xE 3x5xN 3x5xW 3x5xN 3x5xE 3x5xE 3x5xS 3x5xE 3x5xN 2x5xN 2x5xW 2x4xW 2x3xW 2x3xN 2x3xW 2x3xW 2x2xW G Done
+
+Evaluation Number 118 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xN 5x2xE 5x2xS 5x2xW 5x2xN 5x2xN 5x2xW 5x2xN 5x2xN 5x2xE 5x3xE 5x3xN 5x3xN 5x3xW 5x3xN 5x3xW 5x3xS 6x3xS 6x3xW 6x3xS 6x3xS 6x3xE 6x3xS 6x3xS 6x3xE 6x4xE 6x4xS 6x4xE 6x4xS 6x4xW 6x4xS 6x4xE 6x4xS 6x4xW 6x4xN 6x4xW 6x4xS 6x4xW 6x4xN 6x4xE 6x4xS 6x4xW 6x4xS 6x4xS 6x4xE 6x4xS 6x4xS 6x4xE 6x5xE 6x5xN 6x5xW 6x5xN 6x5xW 6x5xN 5x5xN 5x5xW 5x5xN 4x5xN 3x5xN 2x5xN 2x5xW 2x5xN 2x5xE 2x5xS 2x5xE 2x5xN 2x5xW 2x5xN 2x5xW 2x5xS 2x5xE 2x5xN 2x5xE 2x5xE 2x5xS 2x5xE 2x5xE 2x5xN 2x5xE 2x5xN 2x5xE 2x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xW 1x5xS 1x5xW 1x4xW 1x4xN 1x4xW 1x4xS 1x4xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xW 1x4xW 1x4xS 1x4xW 1x4xS 1x4xE 1x4xN 1x4xE 1x5xE 1x5xS 1x5xE 1x5xS 1x5xW 1x5xN 1x5xW 1x4xW 1x3xW 1x3xN 1x3xW 1x3xN 1x3xN 1x3xW 1x3xN 1x3xW 1x3xS 1x3xS 1x3xE 1x3xE 1x3xN 1x3xE 1x3xN 1x3xW 1x2xW 1x2xS 2x2xS G Done
+
+Evaluation Number 119 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xN 4x2xN 3x2xN 3x2xE 3x2xS 3x2xE 3x2xN 2x2xN G Done
+
+Evaluation Number 120 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 4x2xW 4x2xW 4x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 121 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x3xE 5x3xN 4x3xN T Done
+
+Evaluation Number 122 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 4x2xE 4x2xN 4x2xW 4x1xW T Done
+
+Evaluation Number 123 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xN 5x2xN 5x2xE 5x2xN 5x2xE 5x2xN 4x2xN 4x2xW 4x2xN 3x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 124 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xS 5x2xE 5x2xN 5x2xN 4x2xN 3x2xN 3x2xN 3x2xN 3x2xE 3x3xE T Done
+
+Evaluation Number 125 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xN 5x2xW 5x2xS 5x2xE 5x2xN 4x2xN 4x2xW 4x2xW 4x2xW 4x2xN 4x2xE 4x2xS 4x2xS 4x2xW 4x2xN 4x2xN 4x2xE 4x2xS 4x2xW 4x1xW T Done
+
+Evaluation Number 126 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xS 5x2xS 6x2xS 6x2xS 6x2xE 6x2xS 6x2xW 6x2xN 5x2xN 5x2xN 4x2xN 4x2xN 4x2xN 4x2xW 4x2xN 4x2xW 4x1xW T Done
+
+Evaluation Number 127 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xN 4x2xN 4x2xE 4x2xS 4x2xW 4x1xW T Done
+
+Evaluation Number 128 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 3x2xN 3x2xN 3x2xE 3x3xE T Done
+
+Evaluation Number 129 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 3x2xN 3x2xW 3x2xS 3x2xW 3x2xW 3x2xW 3x1xW T Done
+
+Evaluation Number 130 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xN 4x2xN 4x2xW 4x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 131 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xS 5x2xW 5x2xS 5x2xE 5x2xE 5x2xS 5x2xW 5x2xS 5x2xE 5x3xE 5x4xE 5x5xE 5x5xS 5x5xE 5x5xN 5x5xE 5x5xN 5x5xE 5x5xN 5x5xW 5x5xN 5x5xW 5x5xN 4x5xN 4x5xN 3x5xN 2x5xN 2x5xE 2x5xS 3x5xS 3x5xE 3x5xN 3x5xN 3x5xE 3x5xE 3x5xE 3x5xE 3x5xE 3x5xN 2x5xN 1x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xS 1x5xW 1x5xN 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xS 1x5xW 1x4xW 1x4xN 1x4xE 1x4xS 1x4xE 1x5xE 1x5xN 1x5xE 1x5xS 2x5xS 2x5xE 2x5xS 2x5xW 2x5xN 2x5xW 2x4xW 2x4xN 2x4xE 2x4xS 2x4xW 2x4xS 2x4xE 2x4xN 2x4xN 2x4xW 2x3xW 2x2xW G Done
+
+Evaluation Number 132 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 133 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xW 5x2xN 4x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 134 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xN 5x2xW 5x2xN 4x2xN 4x2xN 4x2xW 4x2xS 5x2xS 6x2xS 6x2xW 6x2xS 6x2xE 6x2xN 6x2xE 6x2xN 5x2xN 5x2xE 5x2xS 6x2xS 6x2xS 6x2xE 6x3xE 6x3xS 6x3xS 6x3xS 6x3xE 6x3xN 6x3xE 6x4xE 6x4xN 6x4xW 6x4xS 6x4xW 6x4xS 6x4xW 6x4xN 6x4xE 6x4xS 6x4xE 6x4xN 6x4xE 6x5xE 6x5xS 6x5xW 6x5xN 5x5xN 5x5xN 4x5xN 4x5xW 4x5xN 3x5xN 2x5xN 2x5xW 2x5xS 2x5xE 2x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xN 1x5xW 1x4xW 1x4xS 1x4xE 1x4xN 1x4xE 1x4xN 1x4xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xN 1x5xW 1x4xW 1x4xS 1x4xS 1x4xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xW 1x4xW 1x4xS 1x4xE 1x4xN 1x4xN 1x4xW 1x4xS 1x4xW 1x4xN 1x4xN 1x4xE 1x4xE 1x5xE 1x5xN 1x5xN 1x5xW 1x4xW 1x4xN 1x4xE 1x4xN 1x4xW 1x4xS 1x4xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xE 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xS 2x5xS 2x5xW 2x5xS 2x5xE 2x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xS 1x5xW 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xE 1x5xE 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE Done
+
+Evaluation Number 135 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xN 5x2xN 5x2xW 5x2xS 5x2xE 5x2xS 5x2xW 5x2xS 6x2xS 6x2xE 6x3xE 6x4xE 6x5xE 6x5xN 6x5xE 6x5xE 6x5xN 5x5xN 5x5xE 5x5xN 4x5xN 3x5xN 3x5xW 3x5xN 2x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xW 1x4xW 1x4xN 1x4xN 1x4xN 1x4xN 1x4xW 1x4xS 1x4xE 1x5xE 1x5xE 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xW 1x4xW 1x4xS 2x4xS 2x4xW 2x4xN 2x4xN 2x4xE 2x4xS 2x4xE 2x4xN 1x4xN 1x4xW 1x4xS 1x4xE 1x4xS 1x4xW 1x4xN 1x4xN 1x4xE 1x4xS 2x4xS 2x4xW 2x4xS 2x4xW 2x4xN 2x4xN 2x4xE 2x4xS 2x4xE 2x4xN 1x4xN 1x4xN 1x4xE 1x5xE 1x5xE 1x5xS 1x5xW 1x5xS 1x5xW 1x5xS 2x5xS 2x5xE 2x5xN 2x5xW 2x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xS 1x5xW 1x4xW 1x4xS 1x4xW 1x4xN 1x4xE 1x4xS 1x4xE 1x4xS 1x4xW 1x4xS 2x4xS 2x4xW 2x4xS 3x4xS 4x4xS 4x4xE 4x4xS 5x4xS 5x4xW 5x4xS 5x4xW 5x4xN 5x4xE 5x4xE 5x4xS 5x4xW 5x4xS 5x4xE 5x5xE 5x5xE 5x5xE 5x5xS 5x5xW 5x5xN 5x5xW 5x5xN 5x5xE 5x5xE 5x5xN 4x5xN 3x5xN 2x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xE 1x5xS 1x5xE 1x5xS 1x5xS 1x5xW 1x4xW 1x4xN 1x4xN 1x4xN 1x4xW 1x4xS 1x4xW 1x3xW 1x3xN 1x3xW 1x3xN 1x3xN 1x3xN 1x3xE 1x4xE 1x4xS 1x4xW 1x4xS 1x4xE 1x5xE 1x5xN 1x5xW 1x4xW 1x4xN 1x4xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xN 1x5xN 1x5xN 1x5xN 1x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xN 1x5xW 1x4xW 1x4xS 1x4xE 1x4xN 1x4xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE Done
+
+Evaluation Number 136 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 4x2xE 4x2xN 4x2xE 4x2xN 4x2xE 4x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 137 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xN 5x2xW 5x2xS 5x2xW 5x2xS 5x2xE 5x2xS 5x2xW 5x2xN 4x2xN 4x2xE 4x2xN 4x2xE 4x2xN 4x2xN 4x2xE 4x2xS 4x2xW 4x2xW 4x2xN 4x2xE 4x2xS 4x2xS 4x2xE 4x2xS 4x2xW 4x2xN 4x2xE 4x3xE T Done
+
+Evaluation Number 138 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x3xE 5x3xE 5x4xE 5x4xS 6x4xS 6x4xS 6x4xE 6x4xS 6x4xW 6x3xW 6x3xS 6x3xW 6x3xN 6x3xE 6x3xE 6x3xN 5x3xN 5x3xW 5x2xW 5x1xW 5x1xW 5x1xS 5x1xS 6x1xS 6x1xS 6x1xS 6x1xS 6x1xS 6x1xE 6x1xN 6x1xW 6x1xW 6x1xN 6x1xE 6x2xE 6x3xE 6x3xS 6x3xE 6x4xE 6x4xS 6x4xS 6x4xW 6x4xN 6x4xW 6x4xS 6x4xS 6x4xE 6x5xE 6x5xS 6x5xS 6x5xE 6x5xE 6x5xE 6x5xN 5x5xN 5x5xE 5x5xS 5x5xE 5x5xE 5x5xE 5x5xE 5x5xS 5x5xE 5x5xE 5x5xS 5x5xE 5x5xE 5x5xN 5x5xE 5x5xS 5x5xE 5x5xN 4x5xN 3x5xN 2x5xN 2x5xW 2x5xS 2x5xW 2x4xW 2x4xS 3x4xS 3x4xW 3x4xW 3x4xS 3x4xE 3x4xN 3x4xW 3x3xW T Done
+
+Evaluation Number 139 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xS 5x2xW 5x2xS 5x2xE 5x3xE 5x4xE 5x5xE 5x5xS 6x5xS 6x5xE 6x5xE 6x5xN 5x5xN 4x5xN 3x5xN 3x5xW 3x5xW 3x5xS 3x5xE 3x5xS 3x5xE 3x5xN 2x5xN 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 1x5xW 1x5xS 1x5xW 1x5xW 1x4xW 1x3xW 1x2xW 1x2xS 2x2xS G Done
+
+Evaluation Number 140 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xN 5x2xE 5x2xE 5x3xE 5x3xN 5x3xE 5x4xE 5x5xE 5x5xN 4x5xN 3x5xN 3x5xN 2x5xN 2x5xW 2x5xN 2x5xW 2x5xN 2x5xE 2x5xS 2x5xW 2x5xN 2x5xE 2x5xN 2x5xW 2x5xS 2x5xE 2x5xN 2x5xE 2x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xN 1x5xW 1x4xW 1x4xS 2x4xS 2x4xS 2x4xE 2x5xE 2x5xN 2x5xW 2x4xW 2x4xS 2x4xW 2x4xW 2x3xW 2x3xN 2x3xW 2x2xW G Done
+
+Evaluation Number 141 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 4x2xN 4x2xW 4x2xN 4x2xE 4x3xE T Done
+
+Evaluation Number 142 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xS 5x2xE 5x2xN 5x2xE 5x2xN 5x2xE 5x2xN 5x2xE 5x2xN 4x2xN 4x2xN 4x2xE 4x2xS 4x2xE 4x3xE T Done
+
+Evaluation Number 143 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 4x2xW 4x2xS 5x2xS 5x2xS 5x2xE 5x2xS 5x2xE 5x2xN 4x2xN 4x2xE 4x2xS 4x2xE 4x2xS 5x2xS 5x2xE 5x2xN 5x2xE 5x2xN 5x2xE 5x2xS 5x2xE 5x2xE 5x2xN 4x2xN 3x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 144 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xN 5x2xW 5x2xS 5x2xW 5x2xN 5x2xE 5x2xS 6x2xS 6x2xE 6x2xN 5x2xN 4x2xN 3x2xN 3x2xW 3x2xS 3x2xE 3x2xN 3x2xN 3x2xN 3x2xW 3x2xN 2x2xN G Done
+
+Evaluation Number 145 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xE 5x2xS 5x2xE 5x3xE 5x3xS 5x3xS 5x3xE 5x3xE 5x3xS 5x3xE 5x4xE 5x4xE 5x4xN 5x4xE 5x5xE 5x5xN 5x5xW 5x4xW 5x4xS 5x4xW 5x4xS 5x4xW 5x4xS 5x4xE 5x5xE 5x5xN 5x5xE 5x5xE 5x5xE 5x5xN 4x5xN 4x5xE 4x5xE 4x5xE 4x5xN 3x5xN 2x5xN 2x5xE 2x5xE 2x5xE 2x5xE 2x5xE 2x5xN 2x5xW 2x5xS 2x5xE 2x5xN 2x5xW 2x5xW 2x5xN 2x5xE 2x5xE 2x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xE 1x5xS 2x5xS 2x5xE 2x5xN 2x5xW 2x4xW 2x4xN 2x4xE 2x4xN 2x4xE 2x4xN 2x4xW 2x4xS 2x4xE 2x4xS 2x4xE 2x4xN 1x4xN 1x4xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xS 1x5xW 1x4xW 1x4xS 1x4xE 1x4xS 1x4xW 1x4xS 1x4xS 1x4xE 1x4xE 1x4xN 1x4xW 1x4xN 1x4xN 1x4xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xN 1x5xW 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xN 1x5xW 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xS 1x5xW 1x4xW 1x4xN 1x4xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x5xS 1x5xW 1x5xS 2x5xS 2x5xE 2x5xN 2x5xW 2x5xN 2x5xW 2x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xS 1x5xW 1x4xW 1x4xN 1x4xN 1x4xN 1x4xN 1x4xW 1x4xN 1x4xE 1x4xE 1x4xN 1x4xW 1x4xN 1x4xE 1x4xN 1x4xN 1x4xN 1x4xW 1x4xS 1x4xE 1x5xE 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xS 1x5xW 1x5xS 2x5xS 2x5xE 2x5xE 2x5xE 2x5xE 2x5xN 2x5xN 2x5xE 2x5xN 2x5xW 2x5xN 2x5xE 2x5xN 2x5xE 2x5xS 2x5xW 2x5xS 2x5xW 2x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xS 1x5xW 1x5xS 1x5xW 1x5xN 1x5xW 1x5xS 1x5xW 1x5xS 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xE 1x5xS 1x5xW 1x5xS 2x5xS 2x5xW 2x5xN 2x5xE 2x5xE 2x5xE 2x5xS 2x5xE 2x5xE 2x5xE 2x5xS 2x5xE 2x5xE 2x5xE 2x5xN 2x5xN 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xE 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xS 1x5xW 1x5xS 1x5xW 1x5xS 1x5xE 1x5xS 1x5xE Done
+
+Evaluation Number 146 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x3xE 5x3xE 5x3xS 5x3xS 5x3xE 5x3xN 5x3xE 5x3xS 5x3xE 5x4xE 5x4xE 5x5xE 5x5xN 5x5xE 5x5xN 5x5xE 5x5xS 5x5xE 5x5xE 5x5xS 6x5xS 6x5xW 6x4xW 6x4xN 6x4xW 6x4xN 6x4xE 6x4xS 6x4xE 6x5xE 6x5xE 6x5xN 6x5xW 6x5xN 6x5xE 6x5xS 6x5xE 6x5xN 6x5xW 6x5xN 5x5xN 4x5xN 4x5xW 4x5xN 4x5xE 4x5xN 3x5xN 3x5xW 3x5xN 3x5xW 3x5xS 3x5xW 3x5xS 3x5xE 3x5xN 2x5xN 2x5xW 2x5xS 2x5xE 2x5xS 2x5xW 2x5xN 2x5xE 2x5xE 2x5xN 1x5xN 1x5xW 1x5xS 2x5xS 2x5xE 2x5xS 3x5xS 4x5xS 4x5xW 4x5xN 3x5xN 2x5xN 2x5xE 2x5xN 2x5xW 2x5xW 2x4xW 2x4xS 2x4xW 2x4xN 1x4xN 1x4xN 1x4xE 1x4xS 2x4xS 3x4xS 4x4xS 4x4xE 4x4xS 4x4xE 4x5xE 4x5xE 4x5xN 4x5xE 4x5xN 4x5xE 4x5xN 3x5xN 2x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xS 2x5xS 2x5xW 2x5xS 2x5xE 2x5xN 2x5xE 2x5xE 2x5xE 2x5xN 2x5xE 2x5xN 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xW 1x4xW 1x4xS 2x4xS 2x4xS 2x4xW 2x4xN 2x4xE 2x4xN 2x4xW 2x4xN 1x4xN 1x4xW 1x4xS 1x4xE 1x4xS 1x4xS 2x4xS 3x4xS 3x4xE 3x4xN 3x4xW 3x4xN 3x4xW 3x3xW T Done
+
+Evaluation Number 147 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xN 5x2xN 5x2xW 5x2xN 4x2xN 3x2xN 3x2xE 3x2xS 3x2xW 3x2xN 2x2xN G Done
+
+Evaluation Number 148 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 4x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 149 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xN 5x2xE 5x2xS 6x2xS 6x2xE 6x2xS 6x2xE 6x3xE 6x4xE 6x4xN 6x4xW 6x4xN 6x4xW 6x4xN 6x4xE 6x5xE 6x5xN 5x5xN 4x5xN 3x5xN 3x5xE 3x5xE 3x5xS 3x5xW 3x5xN 2x5xN 2x5xE 2x5xN 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xS 2x5xS 2x5xS 2x5xE 2x5xS 2x5xE 2x5xS 2x5xW 2x5xN 2x5xE 2x5xS 2x5xW 2x5xN 2x5xE 2x5xE 2x5xN 2x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xS 1x5xW 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xW 1x4xW 1x3xW 1x3xW 1x3xS 2x3xS 2x3xW 2x3xN 1x3xN 1x3xW 1x3xS 1x3xE 1x3xS 1x3xW 1x3xS 1x3xW 1x3xN 1x3xE 1x4xE 1x4xS 1x4xW 1x4xN 1x4xW 1x4xS 1x4xW 1x4xS 1x4xE 1x4xN 1x4xE 1x4xS 1x4xW 1x4xS 2x4xS 2x4xE 2x4xS 2x4xE 2x4xS 2x4xE 2x4xE 2x5xE 2x5xS 2x5xW 2x5xS 2x5xW 2x5xS 2x5xE 2x5xS 2x5xE 2x5xE 2x5xE 2x5xS 2x5xE 2x5xE 2x5xN 1x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xS 1x5xW 1x5xN 1x5xW 1x5xS 1x5xW 1x5xS 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xW 1x5xW 1x5xS 1x5xW 1x5xN 1x5xN 1x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 2x5xS 2x5xW 2x5xN 2x5xW 2x5xN 2x5xE 2x5xN 2x5xW 2x5xN 2x5xE 2x5xE 2x5xS 2x5xE 2x5xN 2x5xE 2x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xN 1x5xW 1x5xS 2x5xS 2x5xE 2x5xE 2x5xN 1x5xN 1x5xN 1x5xW 1x4xW 1x4xS 2x4xS 2x4xW 2x4xN 2x4xN 1x4xN 1x4xE 1x4xN 1x4xE 1x4xE 1x4xS 1x4xW 1x4xS 1x4xE 1x5xE 1x5xS 1x5xW 1x4xW 1x4xN 1x4xW 1x4xN 1x4xW 1x4xS 1x4xE 1x5xE 1x5xS 1x5xS 1x5xW 1x5xS 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xS 2x5xS 2x5xE 2x5xS 2x5xW 2x5xS 2x5xE 2x5xE 2x5xN 2x5xE 2x5xS 2x5xE 2x5xS 2x5xW 2x5xS 2x5xW 2x5xN 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xN 1x5xW 1x5xS 2x5xS 2x5xW 2x4xW 2x4xS 2x4xW 2x4xS 2x4xE 2x4xS 2x4xW 2x3xW 2x3xN 2x3xN 2x3xE 2x3xN 1x3xN 1x3xN 1x3xE 1x3xN 1x3xE 1x4xE 1x4xS 2x4xS 2x4xW 2x3xW 2x3xN 2x3xN 2x3xE 2x3xN 2x3xE 2x3xN 2x3xN 2x3xN 2x3xW 2x2xW G Done
+
+Evaluation Number 150 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xN 5x2xW 5x2xW 5x2xN 5x2xW 5x2xS 5x2xW 5x2xS 6x2xS 6x2xE 6x3xE 6x4xE 6x5xE 6x5xN 6x5xE 6x5xE 6x5xN 6x5xW 6x5xN 6x5xW 6x5xS 6x5xE 6x5xN 5x5xN 5x5xW 5x5xN 5x5xW 5x5xS 5x5xW 5x5xN 4x5xN 3x5xN 3x5xE 3x5xS 3x5xE 3x5xS 3x5xE 3x5xN 3x5xN 3x5xW 3x5xS 4x5xS 4x5xW 4x5xN 3x5xN 2x5xN 2x5xE 2x5xS 2x5xW 2x5xS 2x5xW 2x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xN 1x5xW 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xS 1x5xW 1x5xN 1x5xW 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xS 1x5xW 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xW 1x4xW 1x4xN 1x4xE 1x4xS 1x4xS 1x4xE 1x4xN 1x4xN 1x4xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 1x5xW 1x5xS 1x5xE 1x5xN 1x5xN 1x5xN 1x5xW 1x4xW 1x4xN 1x4xE 1x4xN 1x4xW 1x4xS 1x4xW 1x4xS 1x4xW 1x4xS 1x4xE 1x4xN 1x4xW 1x4xN 1x4xE 1x4xN 1x4xW 1x4xS 1x4xE 1x4xS 1x4xE 1x4xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xN 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xS 1x5xE 1x5xE 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xW 1x4xW 1x4xS 1x4xW 1x4xN 1x4xE 1x4xN 1x4xN 1x4xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xW 1x5xS 2x5xS 2x5xW 2x5xN 2x5xW 2x5xN 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xE 1x5xE 1x5xS 1x5xW 1x5xS 1x5xW 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xN 1x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xS 2x5xS 2x5xE 2x5xN 2x5xW 2x5xS 2x5xE 2x5xS 2x5xE 2x5xE 2x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xN 1x5xN 1x5xN Done
+
+Evaluation Number 151 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 4x2xE 4x2xN 3x2xN 3x2xE 3x3xE T Done
+
+Evaluation Number 152 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xN 4x2xN 4x2xW 4x1xW T Done
+
+Evaluation Number 153 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xN 5x2xE 5x2xS 5x2xW 5x2xS 5x2xE 5x2xS 5x2xE 5x2xN 4x2xN 4x2xN 4x2xW 4x1xW T Done
+
+Evaluation Number 154 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xN 5x2xN 5x2xW 5x1xW 5x1xS 5x1xE 5x1xE 5x1xS 5x1xS 5x1xE 5x1xN 4x1xN T Done
+
+Evaluation Number 155 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xS 5x2xE 5x2xN 5x2xN 5x2xW 5x2xS 5x2xE 5x2xE 5x2xS 6x2xS 6x2xW 6x2xN 6x2xE 6x3xE 6x3xE 6x4xE 6x4xS 6x4xW 6x4xS 6x4xW 6x4xS 6x4xW 6x4xN 6x4xE 6x5xE 6x5xS 6x5xE 6x5xS 6x5xE 6x5xN 6x5xE 6x5xN 6x5xE 6x5xN 5x5xN 5x5xE 5x5xN 4x5xN 3x5xN 3x5xW 3x5xS 3x5xE 3x5xN 3x5xW 3x5xN 3x5xE 3x5xN 2x5xN 2x5xW 2x4xW 2x4xS 2x4xW 2x4xS 2x4xW 2x4xS 2x4xE 2x4xE 2x4xN 2x4xW 2x4xS 2x4xE 2x4xN 2x4xE 2x4xN 2x4xW 2x4xN 2x4xE 2x5xE 2x5xS 2x5xE 2x5xN 2x5xW 2x5xS 2x5xW 2x5xN 2x5xW 2x5xN 1x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xW 1x4xW 1x3xW 1x3xS 2x3xS 2x3xS 2x3xE 2x3xN 2x3xN 2x3xE 2x3xN 1x3xN 1x3xN 1x3xN 1x3xW 1x3xS 1x3xE 1x4xE 1x5xE 1x5xE 1x5xN 1x5xW 1x5xS 1x5xW 1x5xS 1x5xW 1x4xW 1x3xW 1x3xS 1x3xW 1x3xN 1x3xN 1x3xW 1x2xW 1x2xN 1x2xE 1x2xN 1x2xE 1x2xS 2x2xS G Done
+
+Evaluation Number 156 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xN 4x2xN 4x2xW 4x2xN 4x2xN 4x2xW 4x2xS 4x2xE 4x2xN 4x2xN 4x2xN 3x2xN 3x2xW 3x1xW T Done
+
+Evaluation Number 157 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xS 5x2xE 5x2xN 5x2xN 5x2xW 5x2xS 5x2xW 5x2xS 5x2xE 5x2xS 6x2xS 6x2xS 6x2xS 6x2xS 6x2xE 6x3xE 6x4xE 6x4xS 6x4xW 6x4xN 5x4xN 5x4xW 5x4xS 5x4xE 5x4xE 5x4xN 5x4xW 5x4xS 5x4xE 5x5xE 5x5xE 5x5xN 4x5xN 3x5xN 3x5xW 3x5xS 4x5xS 4x5xS 4x5xE 4x5xN 3x5xN 3x5xE 3x5xN 3x5xW 3x5xN 3x5xW 3x5xS 3x5xE 3x5xN 3x5xE 3x5xS 3x5xE 3x5xN 2x5xN 2x5xE 2x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xS 2x5xS 2x5xW 2x5xN 2x5xW 2x5xS 2x5xE 2x5xN 2x5xW 2x5xN 2x5xW 2x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xE 1x5xS 2x5xS 2x5xE 2x5xN 2x5xE 2x5xS 2x5xW 2x5xN 2x5xW 2x5xN 2x5xN 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xS 2x5xS 2x5xW 2x5xN 2x5xW 2x5xN 2x5xW 2x5xN 2x5xE 2x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xW 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xN 1x5xW 1x4xW 1x4xS 1x4xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x4xW 1x4xS 1x4xE 1x4xN 1x4xN 1x4xW 1x4xN 1x4xE 1x4xN 1x4xW 1x4xS 2x4xS 2x4xE 2x4xE 2x4xN 1x4xN 1x4xE 1x4xS 1x4xW 1x4xS 1x4xE 1x4xN 1x4xN 1x4xW 1x4xS 1x4xE 1x4xN 1x4xE 1x4xN 1x4xN 1x4xW 1x4xN 1x4xE 1x4xS 1x4xW 1x4xN 1x4xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x4xW 1x4xS 1x4xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xN 1x5xW 1x5xN 1x5xE 1x5xS 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xS 1x5xW 1x5xS 1x5xW 1x5xN 1x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 1x5xW 1x5xN 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xS 1x5xS 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xE 1x5xN 1x5xW 1x4xW 1x4xN 1x4xE 1x5xE Done
+
+Evaluation Number 158 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xS 5x2xW 5x2xS 6x2xS 6x2xE 6x2xS 6x2xE 6x2xN 6x2xE 6x3xE 6x3xS 6x3xS 6x3xE 6x4xE 6x4xS 6x4xS 6x4xE 6x5xE 6x5xS 6x5xW 6x4xW 6x4xS 6x4xW 6x4xN 6x4xE 6x5xE 6x5xN 6x5xE 6x5xE 6x5xN 5x5xN 4x5xN 3x5xN 2x5xN 2x5xW 2x5xN 2x5xW 2x5xN 2x5xW 2x5xN 2x5xW 2x4xW 2x4xS 2x4xW 2x4xS 2x4xE 2x4xN 2x4xN 2x4xW 2x4xN 2x4xW 2x4xN 2x4xW 2x3xW 2x3xW 2x2xW G Done
+
+Evaluation Number 159 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xN 5x2xW 5x2xN 5x2xW 5x2xN 4x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 160 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xS 5x2xW 5x2xN 5x2xE 5x2xS 6x2xS 6x2xE 6x2xE 6x3xE 6x3xS 6x3xE 6x3xN 6x3xE 6x4xE 6x4xS 6x4xW 6x4xS 6x4xE 6x4xS 6x4xW 6x4xN 6x4xE 6x4xE 6x4xS 6x4xE 6x4xN 6x4xW 6x4xS 6x4xS 6x4xE 6x4xE 6x4xN 6x4xW 6x4xN 5x4xN 5x4xE 5x4xS 5x4xW 5x4xS 6x4xS 6x4xE 6x5xE 6x5xS 6x5xW 6x5xN 5x5xN 5x5xE 5x5xN 4x5xN 4x5xW 4x4xW 4x4xN 4x4xE 4x4xN 4x4xE 4x4xS 5x4xS 5x4xE 5x4xS 5x4xS 5x4xE 5x4xS 5x4xS 5x4xW 5x4xS 5x4xW 5x4xS 5x4xE 5x4xS 5x4xW 5x4xN 5x4xW 5x4xS 5x4xE 5x5xE 5x5xS 5x5xW 5x5xN 4x5xN 3x5xN 3x5xE 3x5xS 3x5xW 3x5xN 2x5xN 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xS 1x5xW 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xS 2x5xS 2x5xE 2x5xS 2x5xE 2x5xS 2x5xE 2x5xN 2x5xW 2x5xS 2x5xW 2x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xE 1x5xS 1x5xW 1x4xW 1x4xN 1x4xN 1x4xW 1x3xW 1x3xW 1x2xW 1x2xN 1x2xN 1x2xE 1x3xE 1x3xN 1x3xN 1x3xE 1x4xE 1x4xN 1x4xE 1x4xN 1x4xN 1x4xW 1x4xN 1x4xN 1x4xW 1x3xW 1x2xW 1x2xS 1x2xW 1x2xS 1x2xE 1x2xS 2x2xS G Done
+
+Evaluation Number 161 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xN 5x2xN 5x2xE 5x3xE 5x3xN 5x3xW 5x2xW 5x2xN 4x2xN 3x2xN 3x2xW 3x2xS 3x2xW 3x2xN 2x2xN G Done
+
+Evaluation Number 162 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xS 5x2xS 5x2xE 5x3xE 5x3xN 5x3xE 5x3xS 5x3xE 5x3xN 4x3xN T Done
+
+Evaluation Number 163 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xS 5x2xE 5x2xN 5x2xN 5x2xE 5x3xE 5x3xS 5x3xE 5x3xS 6x3xS 6x3xW 6x3xN 6x3xE 6x3xE 6x3xN 6x3xN 6x3xE 6x3xE 6x4xE 6x5xE 6x5xS 6x5xE 6x5xN 6x5xE 6x5xS 6x5xS 6x5xS 6x5xE 6x5xE 6x5xS 6x5xS 6x5xW 6x5xN 5x5xN 4x5xN 3x5xN 2x5xN 2x5xW 2x5xN 2x5xW 2x5xN 2x5xE 2x5xN 2x5xW 2x4xW 2x4xW 2x4xN 2x4xW 2x4xW 2x4xS 2x4xE 2x4xS 2x4xW 2x3xW 2x3xN 2x3xN 1x3xN 1x3xW 1x3xN 1x3xN 1x3xN 1x3xE 1x4xE 1x4xN 1x4xE 1x4xS 1x4xE 1x4xN 1x4xW 1x4xN 1x4xN 1x4xE 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xE 1x5xS 1x5xW 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xS 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xE 1x5xS 1x5xE 1x5xS 1x5xW 1x4xW 1x4xS 1x4xW 1x3xW 1x3xW 1x2xW 1x2xN 1x2xW 1x2xS 1x2xE 1x2xS 2x2xS G Done
+
+Evaluation Number 164 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xN 5x2xE 5x3xE 5x4xE 5x4xE 5x5xE 5x5xE 5x5xN 5x5xW 5x5xS 5x5xE 5x5xE 5x5xE 5x5xE 5x5xS 5x5xW 5x5xN 4x5xN 3x5xN 2x5xN 2x5xW 2x5xW 2x5xN 2x5xE 2x5xS 2x5xW 2x5xS 2x5xW 2x4xW 2x4xN 2x4xW 2x4xW 2x3xW 2x3xW 2x3xN 2x3xW 2x2xW G Done
+
+Evaluation Number 165 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 4x2xW 4x2xS 4x2xW 4x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 166 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 3x2xN 3x2xW 3x2xW 3x2xN 2x2xN G Done
+
+Evaluation Number 167 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x3xE 5x4xE 5x4xN 5x4xW 5x3xW 5x3xS 5x3xE 5x3xN 5x3xW 5x3xN 5x3xN 5x3xE 5x3xE 5x3xN 5x3xW 5x3xS 5x3xE 5x4xE 5x5xE 5x5xS 5x5xS 5x5xS 5x5xW 5x4xW 5x4xS 5x4xS 5x4xE 5x4xS 5x4xS 5x4xW 5x4xS 5x4xE 5x4xN 5x4xE 5x5xE 5x5xE 5x5xN 4x5xN 4x5xE 4x5xN 4x5xW 4x5xS 4x5xE 4x5xN 3x5xN 3x5xW 3x5xN 3x5xW 3x5xS 3x5xW 3x5xN 3x5xW 3x5xS 3x5xW 3x5xS 3x5xW 3x5xN 2x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xN 1x5xW 1x4xW 1x4xS 1x4xW 1x3xW 1x3xN 1x3xE 1x4xE 1x4xS 1x4xE 1x4xS 1x4xE 1x4xN 1x4xW 1x4xN 1x4xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xS 1x5xW 1x5xN 1x5xN 1x5xN 1x5xN 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xE 1x5xE 1x5xS 1x5xW 1x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xS 1x5xW 1x5xN 1x5xW 1x4xW 1x4xW 1x4xS 1x4xE 1x4xN 1x4xE 1x4xN 1x4xE 1x4xN 1x4xN 1x4xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x4xW 1x4xW 1x4xS 1x4xE 1x4xE 1x5xE 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x4xW 1x4xS 2x4xS 2x4xE 2x5xE 2x5xS 2x5xE 2x5xE 2x5xN 2x5xN 2x5xE 2x5xN 2x5xW 2x5xS 2x5xE 2x5xE 2x5xN 2x5xE 2x5xE 2x5xN 2x5xE 2x5xE 2x5xS 2x5xE 2x5xS 2x5xE 2x5xE 2x5xS 2x5xW 2x5xN 2x5xE 2x5xS 2x5xW 2x5xN 2x5xE 2x5xE 2x5xS 2x5xW 2x5xN 2x5xE 2x5xS 2x5xW 2x5xS 2x5xE 2x5xN 2x5xE 2x5xE 2x5xN 2x5xE 2x5xE 2x5xS 2x5xE 2x5xE 2x5xN 2x5xE 2x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xW 1x5xW 1x5xN 1x5xN 1x5xN 1x5xN 1x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xE 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xS 1x5xE 1x5xE 1x5xS 2x5xS 2x5xW 2x5xN 2x5xE 2x5xS 2x5xW 2x5xN 2x5xW 2x5xS 2x5xE 2x5xE 2x5xE 2x5xN 2x5xE 2x5xE 2x5xE 2x5xE 2x5xN 2x5xE 2x5xE 2x5xE 2x5xS 2x5xE 2x5xS 2x5xW 2x5xN 2x5xE 2x5xN 2x5xW 2x5xN 2x5xE 2x5xN 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xS 1x5xE 1x5xS 1x5xW 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xN Done
+
+Evaluation Number 168 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 3x2xN 3x2xW 3x1xW T Done
+
+Evaluation Number 169 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xS 5x2xW 5x2xN 4x2xN 4x2xE 4x2xS 4x2xE 4x2xN 4x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 170 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xN 5x2xE 5x3xE 5x3xE 5x3xS 5x3xW 5x3xS 5x3xW 5x3xN 5x3xE 5x3xS 5x3xE 5x3xN 5x3xE 5x4xE 5x5xE 5x5xN 4x5xN 4x5xN 4x5xW 4x5xS 4x5xE 4x5xS 4x5xE 4x5xE 4x5xN 3x5xN 2x5xN 2x5xW 2x5xS 2x5xW 2x4xW 2x3xW 2x3xN 2x3xW 2x3xN 2x3xE 2x3xN 1x3xN 1x3xE 1x3xS 1x3xS 1x3xW 1x3xS 1x3xS 2x3xS 2x3xE 2x3xE 2x3xS 2x3xS 2x3xW 2x3xN 2x3xE 2x3xN 2x3xW 2x2xW G Done
+
+Evaluation Number 171 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 4x2xE 4x2xE 4x3xE T Done
+
+Evaluation Number 172 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xN 5x2xE 5x2xS 5x2xE 5x3xE 5x3xS 5x3xE 5x3xN 5x3xE 5x3xE 5x3xN 5x3xE 5x4xE 5x4xS 6x4xS 6x4xS 6x4xW 6x4xN 6x4xW 6x4xN 6x4xE 6x5xE 6x5xE 6x5xN 5x5xN 5x5xW 5x5xS 5x5xE 5x5xN 5x5xW 5x5xS 5x5xE 5x5xS 5x5xW 5x4xW 5x3xW 5x3xS 5x3xS 5x3xW 5x3xW 5x3xN 4x3xN T Done
+
+Evaluation Number 173 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xE 5x2xS 5x2xW 5x2xN 5x2xN 4x2xN 4x2xN 4x2xN 4x2xE 4x3xE T Done
+
+Evaluation Number 174 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xN 5x2xE 5x2xN 4x2xN 4x2xE 4x2xN 4x2xW 4x2xS 4x2xE 4x2xN 4x2xN 4x2xW 4x2xN 4x2xN 4x2xE 4x2xN 3x2xN 3x2xW 3x2xN 2x2xN G Done
+
+Evaluation Number 175 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xN 5x2xN 5x2xE 5x2xN 4x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 176 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x3xE 5x4xE 5x4xE 5x5xE 5x5xN 5x5xW 5x5xS 6x5xS 6x5xW 6x5xS 6x5xE 6x5xN 6x5xN 6x5xE 6x5xS 6x5xE 6x5xE 6x5xS 6x5xS 6x5xW 6x5xS 6x5xE 6x5xN 5x5xN 4x5xN 3x5xN 3x5xE 3x5xS 3x5xE 3x5xN 2x5xN 2x5xW 2x4xW 2x3xW 2x2xW G Done
+
+Evaluation Number 177 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xN 5x2xW 5x2xN 5x2xW 5x2xN 4x2xN 3x2xN 3x2xN 3x2xW 3x2xS 3x2xE 3x2xN 2x2xN G Done
+
+Evaluation Number 178 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x3xE 5x3xN 5x3xW 5x3xS 5x3xE 5x3xE 5x4xE 5x4xN 5x4xW 5x4xS 5x4xW 5x4xN 4x4xN 4x4xW 4x4xS 4x4xW 4x4xS 5x4xS 6x4xS 6x4xW 6x4xS 6x4xS 6x4xS 6x4xW 6x4xS 6x4xS 6x4xE 6x5xE 6x5xE 6x5xN 6x5xN 6x5xE 6x5xN 6x5xW 6x5xS 6x5xW 6x5xS 6x5xW 6x5xN 6x5xW 6x5xN 6x5xW 6x5xN 6x5xW 6x5xN 6x5xE 6x5xS 6x5xE 6x5xN 5x5xN 5x5xE 5x5xS 5x5xW 5x5xS 5x5xE 5x5xN 4x5xN 4x5xE 4x5xN 3x5xN 3x5xE 3x5xS 3x5xW 3x5xS 3x5xE 3x5xN 2x5xN 2x5xW 2x5xS 2x5xW 2x5xS 2x5xW 2x5xW 2x5xN 2x5xE 2x5xN 2x5xW 2x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xS 1x5xW 1x4xW 1x4xN 1x4xN 1x4xE 1x4xN 1x4xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xS 2x5xS 2x5xW 2x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xW 1x4xW 1x4xN 1x4xW 1x4xN 1x4xE 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xS 1x5xW 1x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xW 1x5xW 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xE 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xS 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 1x5xW 1x5xS 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xN 1x5xW 1x4xW 1x4xN 1x4xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xW 1x5xN 1x5xW 1x5xS 1x5xE 1x5xS 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xE 1x5xS Done
+
+Evaluation Number 179 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xS 5x2xE 5x2xN 4x2xN 4x2xN 4x2xE 4x2xN 4x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 180 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xN 5x2xW 5x2xN 5x2xN 5x2xW 5x2xW 5x2xS 5x2xE 5x2xN 5x2xE 5x2xE 5x2xS 5x2xE 5x2xS 5x2xE 5x3xE 5x3xN 5x3xE 5x3xS 6x3xS 6x3xW 6x3xN 6x3xE 6x3xN 6x3xE 6x3xE 6x3xN 6x3xN 6x3xW 6x3xS 6x3xE 6x3xN 6x3xW 6x3xS 6x3xE 6x3xE 6x3xS 6x3xE 6x4xE 6x4xN 6x4xE 6x4xN 6x4xE 6x4xN 5x4xN 4x4xN 3x4xN 3x4xW 3x4xS 3x4xE 3x4xN 3x4xN 3x4xW 3x4xN 3x4xW 3x3xW T Done
+
+Evaluation Number 181 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xN 5x2xW 5x2xN 5x2xN 5x2xW 5x1xW 5x1xS 5x1xS 5x1xS 5x1xE 5x2xE 5x3xE 5x3xS 5x3xE 5x3xS 5x3xE 5x4xE 5x4xN 5x4xE 5x5xE 5x5xE 5x5xE 5x5xE 5x5xN 5x5xW 5x4xW 5x4xS 6x4xS 6x4xW 6x3xW 6x3xN 6x3xE 6x4xE 6x4xN 6x4xE 6x4xS 6x4xE 6x4xS 6x4xW 6x4xS 6x4xE 6x4xN 5x4xN 5x4xW 5x3xW 5x3xS 5x3xE 5x4xE 5x5xE 5x5xS 5x5xW 5x5xS 5x5xE 5x5xN 4x5xN 4x5xE 4x5xE 4x5xS 4x5xW 4x5xS 5x5xS 5x5xW 5x5xN 4x5xN 4x5xE 4x5xN 4x5xW 4x4xW 4x4xS 4x4xE 4x4xN 4x4xW 4x4xW 4x4xN 4x4xE 4x5xE 4x5xS 4x5xW 4x5xS 4x5xE 4x5xE 4x5xE 4x5xN 3x5xN 2x5xN 2x5xW 2x5xN 1x5xN 1x5xE 1x5xN 1x5xW 1x5xS 1x5xW 1x5xW 1x5xS 1x5xW 1x4xW 1x3xW 1x2xW 1x2xS 2x2xS G Done
+
+Evaluation Number 182 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xN 5x2xE 5x2xS 5x2xE 5x3xE 5x3xN 4x3xN T Done
+
+Evaluation Number 183 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 4x2xE 4x2xE 4x2xS 5x2xS 5x2xE 5x3xE 5x3xE 5x4xE 5x4xE 5x4xS 5x4xS 6x4xS 6x4xW 6x4xN 6x4xW 6x4xS 6x4xW 6x3xW 6x3xS 6x3xE 6x4xE 6x4xE 6x4xE 6x4xN 6x4xE 6x5xE 6x5xS 6x5xW 6x5xS 6x5xE 6x5xE 6x5xE 6x5xE 6x5xN 5x5xN 5x5xW 5x5xN 4x5xN 4x5xW 4x5xS 4x5xW 4x5xS 4x5xW 4x5xS 4x5xW 4x5xN 4x5xE 4x5xS 4x5xE 4x5xN 3x5xN 3x5xE 3x5xE 3x5xN 2x5xN 2x5xW 2x4xW 2x4xS 2x4xE 2x4xE 2x5xE 2x5xN 2x5xE 2x5xE 2x5xN 2x5xN 2x5xW 2x5xS 2x5xW 2x4xW 2x3xW 2x3xS 3x3xS T Done
+
+Evaluation Number 184 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xE 5x3xE 5x3xS 6x3xS 6x3xS 6x3xW 6x3xS 6x3xS 6x3xW 6x3xN 6x3xE 6x3xN 6x3xN 6x3xW 6x3xS 6x3xW 6x3xS 6x3xW 6x3xS 6x3xS 6x3xE 6x3xN 6x3xE 6x4xE 6x4xS 6x4xS 6x4xE 6x5xE 6x5xS 6x5xE 6x5xE 6x5xS 6x5xW 6x5xS 6x5xE 6x5xN 5x5xN 4x5xN 3x5xN 2x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xS 2x5xS 2x5xE 2x5xS 2x5xE 2x5xN 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xS 1x5xW 1x4xW 1x4xS 1x4xE 1x5xE 1x5xE 1x5xE 1x5xS 1x5xW 1x4xW 1x4xS 2x4xS 2x4xE 2x4xS 2x4xW 2x4xS 2x4xW 2x4xN 2x4xW 2x4xS 2x4xW 2x4xW 2x4xS 2x4xE 2x4xN 2x4xW 2x4xN 1x4xN 1x4xN 1x4xN 1x4xN 1x4xW 1x4xS 1x4xW 1x4xN 1x4xN 1x4xE 1x4xS 1x4xE 1x4xS 1x4xS 1x4xW 1x4xN 1x4xW 1x4xS 1x4xE 1x4xS 1x4xE 1x5xE 1x5xS 1x5xW 1x4xW 1x4xS 1x4xE 1x4xE 1x4xN 1x4xW 1x4xS 1x4xE 1x4xS 1x4xE 1x5xE 1x5xS 1x5xS 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xS 1x5xE 1x5xE 1x5xS 2x5xS 2x5xE 2x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xW 1x5xW 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x4xW 1x4xN 1x4xN 1x4xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x4xW 1x4xN 1x4xE 1x4xN 1x4xN 1x4xN 1x4xN 1x4xN 1x4xE 1x4xN 1x4xN 1x4xW 1x3xW 1x3xS 1x3xW 1x3xS 1x3xW 1x2xW 1x2xS 1x2xS 1x2xS 1x2xS 1x2xW 1x2xS 2x2xS G Done
+
+Evaluation Number 185 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xN 5x2xE 5x2xN 5x2xE 5x2xS 5x2xE 5x3xE 5x3xS 5x3xE 5x3xS 5x3xE 5x3xN 5x3xW 5x3xN 5x3xN 5x3xW 5x2xW 5x2xN 4x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 186 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xS 6x2xS 6x2xE 6x2xS 6x2xW 6x2xN 6x2xE 6x3xE 6x3xN 5x3xN 5x3xN 5x3xW 5x3xS 5x3xE 5x3xS 6x3xS 6x3xW 6x3xN 6x3xN 6x3xE 6x4xE 6x4xN 5x4xN 5x4xW 5x4xN 5x4xE 5x5xE 5x5xS 5x5xW 5x5xS 5x5xE 5x5xE 5x5xN 4x5xN 4x5xW 4x5xN 3x5xN 3x5xE 3x5xN 3x5xW 3x5xN 2x5xN 2x5xW 2x4xW 2x3xW 2x2xW G Done
+
+Evaluation Number 187 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xN 5x2xE 5x2xE 5x2xE 5x2xS 6x2xS 6x2xE 6x2xN 6x2xW 6x2xS 6x2xE 6x3xE 6x3xN 5x3xN 4x3xN T Done
+
+Evaluation Number 188 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xN 5x2xW 5x2xS 6x2xS 6x2xS 6x2xE 6x3xE 6x4xE 6x5xE 6x5xN 6x5xW 6x5xS 6x5xS 6x5xS 6x5xE 6x5xN 5x5xN 4x5xN 4x5xE 4x5xE 4x5xE 4x5xE 4x5xN 4x5xE 4x5xE 4x5xE 4x5xN 4x5xE 4x5xN 4x5xW 4x5xS 4x5xE 4x5xE 4x5xE 4x5xN 3x5xN 2x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x4xW 1x3xW 1x2xW 1x2xS 2x2xS G Done
+
+Evaluation Number 189 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xS 6x2xS 6x2xE 6x2xE 6x2xS 6x2xE 6x3xE 6x3xN 6x3xE 6x4xE 6x5xE 6x5xN 6x5xW 6x5xN 6x5xE 6x5xS 6x5xE 6x5xS 6x5xS 6x5xE 6x5xS 6x5xS 6x5xS 6x5xW 6x5xN 5x5xN 5x5xW 5x5xN 5x5xW 5x5xN 5x5xW 5x5xN 4x5xN 3x5xN 2x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 2x5xS 2x5xW 2x5xS 2x5xE 2x5xN 2x5xE 2x5xN 2x5xE 2x5xE 2x5xN 1x5xN 1x5xW 1x4xW 1x4xS 1x4xW 1x4xS 2x4xS 2x4xW 2x4xN 2x4xW 2x4xN 2x4xE 2x5xE 2x5xS 2x5xE 2x5xN 2x5xE 2x5xE 2x5xS 2x5xW 2x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xS 2x5xS 2x5xE 2x5xN 1x5xN 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 1x5xW 1x5xN 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xS 1x5xW 1x4xW 1x4xS 1x4xW 1x4xN 1x4xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 2x5xS 2x5xW 2x5xN 2x5xE 2x5xS 2x5xE 2x5xS 2x5xW 2x5xS 2x5xW 2x5xS 2x5xE 2x5xE 2x5xE 2x5xN 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xS 1x5xW 1x5xN 1x5xW 1x5xS 1x5xW 1x5xS 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 2x5xS 2x5xE 2x5xS 2x5xE 2x5xE 2x5xE 2x5xN 2x5xE 2x5xN 2x5xW 2x5xN 2x5xW 2x5xS 2x5xE 2x5xN 2x5xW 2x5xS 2x5xE 2x5xS 2x5xE 2x5xN 2x5xW 2x5xS 2x5xE 2x5xN 2x5xE 2x5xN 2x5xW 2x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 1x5xW 1x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xS 1x5xW 1x5xS 1x5xW 1x5xS 1x5xW 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xE 1x5xE 1x5xE 1x5xS 1x5xW 1x5xN 1x5xW 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 2x5xS 2x5xE 2x5xE 2x5xE 2x5xN 2x5xW 2x5xS 2x5xW 2x5xS 2x5xW 2x5xS 2x5xE 2x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xS 1x5xE 1x5xS 1x5xW 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xS 1x5xW 1x5xN 1x5xN 1x5xN 1x5xE 1x5xN Done
+
+Evaluation Number 190 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xS 6x2xS 6x2xW 6x2xS 6x2xE 6x3xE 6x3xE 6x4xE 6x4xN 6x4xW 6x4xS 6x4xE 6x5xE 6x5xN 5x5xN 5x5xE 5x5xE 5x5xN 4x5xN 4x5xE 4x5xN 3x5xN 2x5xN 2x5xE 2x5xE 2x5xE 2x5xN 2x5xW 2x5xN 2x5xW 2x5xN 2x5xE 2x5xE 2x5xN 2x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xE 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xN 1x5xW 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xW 1x4xW 1x4xN 1x4xE 1x4xS 1x4xS 1x4xE 1x4xS 2x4xS 2x4xE 2x5xE 2x5xE 2x5xS 2x5xW 2x5xN 2x5xE 2x5xN 2x5xW 2x5xS 2x5xE 2x5xS 2x5xE 2x5xS 2x5xW 2x5xS 2x5xE 2x5xN 2x5xE 2x5xS 2x5xW 2x5xN 2x5xE 2x5xE 2x5xE 2x5xS 2x5xE 2x5xN 2x5xE 2x5xE 2x5xN 2x5xW 2x5xS 2x5xE 2x5xS 2x5xW 2x5xS 2x5xW 2x5xN 1x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 1x5xW 1x5xS 1x5xW 1x5xN 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xW 1x4xW 1x3xW 1x2xW 1x2xS 1x2xS 2x2xS G Done
+
+Evaluation Number 191 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xN 4x2xN 4x2xW 4x2xN 4x2xW 4x2xS 4x2xW 4x2xN 4x2xE 4x3xE T Done
+
+Evaluation Number 192 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xN 5x2xE 5x2xE 5x2xN 5x2xW 5x2xN 4x2xN 4x2xE 4x2xE 4x3xE T Done
+
+Evaluation Number 193 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 4x2xW 4x2xS 4x2xE 4x2xN 4x2xN 4x2xW 4x1xW T Done
+
+Evaluation Number 194 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xN 4x2xN 3x2xN 3x2xW 3x2xS 3x2xW 3x1xW T Done
+
+Evaluation Number 195 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x3xE 5x3xS 5x3xE 5x3xN 5x3xW 5x3xS 6x3xS 6x3xE 6x3xN 5x3xN 4x3xN T Done
+
+Evaluation Number 196 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 4x2xN 3x2xN 3x2xW 3x2xS 3x2xE 3x2xN 3x2xN 3x2xE 3x2xN 2x2xN G Done
+
+Evaluation Number 197 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xE 5x2xS 5x2xW 5x2xN 5x2xE 5x2xS 6x2xS 6x2xE 6x2xS 6x2xS 6x2xS 6x2xE 6x2xN 5x2xN 5x2xE 5x2xN 4x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 198 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xS 5x2xW 5x2xS 5x2xE 5x2xS 5x2xE 5x3xE 5x3xN 4x3xN T Done
+
+Evaluation Number 199 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xN 5x2xN 4x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 200 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xN 5x2xN 5x2xW 5x2xS 5x2xW 5x2xS 5x2xE 5x2xS 5x2xE 5x2xN 4x2xN 3x2xN 3x2xW 3x2xW 3x2xN 3x2xW 3x2xS 3x2xW 3x2xN 3x2xE 3x2xN 3x2xN 3x2xN 3x2xE 3x3xE T Done
+
+Evaluation Number 201 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xS 5x2xS 5x2xW 5x2xS 5x2xS 6x2xS 6x2xE 6x2xN 6x2xW 6x2xS 6x2xW 6x2xS 6x2xE 6x3xE 6x4xE 6x5xE 6x5xN 5x5xN 5x5xE 5x5xE 5x5xN 4x5xN 3x5xN 3x5xW 3x4xW 3x4xS 3x4xE 3x4xN 2x4xN 1x4xN 1x4xN 1x4xN 1x4xE 1x4xS 1x4xW 1x3xW 1x2xW 1x2xN 1x2xW 1x2xS 2x2xS G Done
+
+Evaluation Number 202 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 4x2xW 4x2xW 4x2xW 4x1xW T Done
+
+Evaluation Number 203 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 4x2xN 3x2xN 3x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 204 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 4x2xN 4x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 205 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 206 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xS 5x2xW 5x2xN 4x2xN 4x2xW 4x2xN 4x2xN 3x2xN 3x2xN 3x2xE 3x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 207 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 4x2xE 4x2xN 3x2xN 3x2xE 3x2xS 3x2xE 3x2xS 3x2xW 3x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 208 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xN 5x2xN 5x2xN 4x2xN 4x2xW 4x2xN 4x2xW 4x1xW T Done
+
+Evaluation Number 209 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 3x2xN 3x2xE 3x2xN 3x2xE 3x2xS 3x2xW 3x1xW T Done
+
+Evaluation Number 210 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xS 6x2xS 6x2xS 6x2xS 6x2xE 6x2xE 6x2xE 6x2xE 6x2xE 6x2xN 6x2xW 6x2xS 6x2xE 6x2xS 6x2xE 6x3xE 6x3xN 5x3xN 5x3xW 5x3xS 5x3xW 5x2xW 5x2xN 5x2xW 5x1xW 5x1xW 5x1xN 5x1xW 5x1xN 4x1xN T Done
+
+Evaluation Number 211 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xS 6x2xS 6x2xE 6x3xE 6x3xS 6x3xW 6x3xW 6x3xS 6x3xS 6x3xW 6x3xS 6x3xE 6x3xN 6x3xE 6x4xE 6x4xS 6x4xE 6x5xE 6x5xS 6x5xE 6x5xN 5x5xN 4x5xN 3x5xN 3x5xE 3x5xN 2x5xN 2x5xN 2x5xE 2x5xE 2x5xS 2x5xW 2x5xS 2x5xW 2x5xS 2x5xE 2x5xE 2x5xS 2x5xE 2x5xN 2x5xE 2x5xS 2x5xW 2x5xN 2x5xW 2x5xW 2x4xW 2x4xS 2x4xW 2x3xW 2x3xS 2x3xS 2x3xW 2x2xW G Done
+
+Evaluation Number 212 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xN 5x2xW 5x2xN 5x2xE 5x2xS 6x2xS 6x2xE 6x3xE 6x4xE 6x4xN 6x4xW 6x4xN 6x4xN 5x4xN 5x4xW 5x4xN 5x4xE 5x4xS 6x4xS 6x4xE 6x4xN 6x4xW 6x4xN 6x4xW 6x4xN 6x4xE 6x4xN 6x4xE 6x5xE 6x5xN 6x5xW 6x5xN 5x5xN 5x5xE 5x5xE 5x5xE 5x5xE 5x5xN 5x5xW 5x5xN 4x5xN 4x5xE 4x5xE 4x5xS 4x5xE 4x5xS 4x5xW 4x5xS 4x5xE 4x5xE 4x5xN 4x5xN 4x5xE 4x5xN 4x5xW 4x5xN 4x5xE 4x5xN 3x5xN 2x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xW 1x4xW 1x4xN 1x4xE 1x4xN 1x4xN 1x4xW 1x4xS 1x4xE 1x4xN 1x4xE 1x4xS 1x4xE 1x4xN 1x4xW 1x4xN 1x4xN 1x4xE 1x4xN 1x4xN 1x4xN 1x4xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xS 1x5xW 1x5xN 1x5xW 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xW 1x5xS 1x5xW 1x5xS 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xS 1x5xS 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xE 1x5xS 1x5xW 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xS 2x5xS 2x5xE 2x5xE 2x5xN 2x5xW 2x5xS 2x5xE 2x5xE 2x5xE 2x5xS 2x5xE 2x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xN 1x5xW 1x5xS 1x5xW 1x4xW 1x3xW 1x2xW 1x2xS 2x2xS G Done
+
+Evaluation Number 213 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xS 5x2xE 5x2xN 5x2xN 5x2xW 5x1xW 5x1xN 5x1xW 5x1xW 5x1xN 4x1xN T Done
+
+Evaluation Number 214 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 4x2xN 4x2xW 4x2xW 4x2xN 4x2xE 4x2xN 4x2xW 4x2xS 5x2xS 6x2xS 6x2xE 6x3xE 6x3xN 5x3xN 4x3xN T Done
+
+Evaluation Number 215 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xN 5x2xE 5x2xN 5x2xE 5x2xN 5x2xN 4x2xN 3x2xN 3x2xE 3x2xN 2x2xN G Done
+
+Evaluation Number 216 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xN 5x2xW 5x2xN 5x2xW 5x2xS 5x2xE 5x2xS 5x2xW 5x2xS 5x2xW 5x2xS 5x2xW 5x2xN 5x2xN 5x2xN 4x2xN 4x2xW 4x1xW T Done
+
+Evaluation Number 217 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xN 5x2xN 4x2xN 4x2xW 4x2xS 4x2xE 4x2xN 4x2xW 4x2xN 4x2xW 4x2xN 3x2xN 3x2xE 3x2xN 2x2xN G Done
+
+Evaluation Number 218 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xN 5x2xW 5x2xN 5x2xE 5x2xN 5x2xE 5x2xS 5x2xE 5x2xN 5x2xN 5x2xE 5x2xS 6x2xS 6x2xW 6x2xN 6x2xE 6x2xN 6x2xE 6x2xS 6x2xE 6x3xE 6x3xN 6x3xE 6x3xN 6x3xE 6x4xE 6x4xS 6x4xW 6x4xN 6x4xW 6x4xS 6x4xE 6x4xS 6x4xS 6x4xS 6x4xS 6x4xS 6x4xE 6x4xS 6x4xE 6x5xE 6x5xE 6x5xE 6x5xE 6x5xN 5x5xN 5x5xE 5x5xE 5x5xN 4x5xN 4x5xE 4x5xE 4x5xN 3x5xN 3x5xE 3x5xN 3x5xW 3x4xW 3x4xN 3x4xE 3x4xN 3x4xN 2x4xN 2x4xN 2x4xW 2x4xN 2x4xN 2x4xW 2x4xW 2x4xW 2x4xW 2x4xN 2x4xE 2x4xN 2x4xE 2x5xE 2x5xE 2x5xS 2x5xW 2x5xS 2x5xE 2x5xN 2x5xW 2x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xS 2x5xS 2x5xE 2x5xS 2x5xE 2x5xE 2x5xN 2x5xN 2x5xW 2x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xS 2x5xS 2x5xW 2x5xS 2x5xE 2x5xE 2x5xS 2x5xW 2x5xN 2x5xE 2x5xS 2x5xW 2x4xW 2x3xW 2x2xW G Done
+
+Evaluation Number 219 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xS 5x2xW 5x2xS 6x2xS 6x2xW 6x2xN 6x2xN 6x2xE 6x2xN 6x2xE 6x3xE 6x4xE 6x5xE 6x5xE 6x5xE 6x5xN 5x5xN 5x5xW 5x5xN 5x5xN 5x5xE 5x5xN 5x5xE 5x5xE 5x5xN 4x5xN 4x5xE 4x5xE 4x5xN 4x5xW 4x5xS 5x5xS 5x5xW 5x5xS 5x5xE 5x5xN 4x5xN 4x5xW 4x4xW 4x4xW 4x4xN 4x4xW 4x4xN 4x4xN 4x4xW 4x4xS 4x4xS 4x4xE 4x4xS 4x4xE 4x4xS 4x4xE 4x4xE 4x4xN 4x4xE 4x5xE 4x5xE 4x5xN 4x5xE 4x5xE 4x5xN 3x5xN 3x5xW 3x4xW 3x3xW T Done
+
+Evaluation Number 220 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 3x2xN 3x2xW 3x2xS 3x2xE 3x2xN 2x2xN G Done
+
+Evaluation Number 221 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xS 5x2xE 5x2xN 4x2xN 3x2xN 3x2xW 3x2xN 3x2xE 3x2xE 3x2xN 2x2xN G Done
+
+Evaluation Number 222 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xS 5x2xE 5x2xS 5x2xE 5x2xN 5x2xW 5x2xS 5x2xW 5x2xN 4x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 223 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x3xE 5x3xN 5x3xE 5x4xE 5x4xE 5x5xE 5x5xE 5x5xS 6x5xS 6x5xE 6x5xN 5x5xN 4x5xN 3x5xN 3x5xE 3x5xN 3x5xW 3x5xW 3x5xN 3x5xW 3x5xW 3x5xN 3x5xN 2x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xW 1x5xN 1x5xW 1x4xW 1x4xN 1x4xW 1x4xW 1x4xN 1x4xW 1x4xS 1x4xW 1x3xW 1x2xW 1x2xS 1x2xE 1x2xS 1x2xS 2x2xS G Done
+
+Evaluation Number 224 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xN 5x2xW 5x2xS 6x2xS 6x2xW 6x2xN 6x2xN 6x2xN 6x2xE 6x3xE 6x4xE 6x5xE 6x5xS 6x5xE 6x5xS 6x5xE 6x5xS 6x5xE 6x5xN 6x5xE 6x5xN 5x5xN 5x5xW 5x5xS 5x5xE 5x5xE 5x5xN 5x5xW 5x5xS 5x5xE 5x5xN 4x5xN 3x5xN 3x5xE 3x5xE 3x5xN 3x5xE 3x5xN 3x5xW 3x5xN 2x5xN 1x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 1x5xW 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xW 1x4xW 1x4xS 1x4xE 1x4xN 1x4xE 1x4xE 1x4xS 1x4xW 1x4xN 1x4xW 1x4xS 1x4xW 1x4xS 1x4xE 1x4xN 1x4xN 1x4xE 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xW 1x4xW 1x4xN 1x4xN 1x4xN 1x4xN 1x4xE 1x4xN 1x4xN 1x4xW 1x3xW 1x2xW 1x2xS 1x2xS 2x2xS G Done
+
+Evaluation Number 225 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xS 6x2xS 6x2xE 6x3xE 6x3xN 6x3xE 6x3xE 6x3xE 6x3xE 6x4xE 6x4xN 5x4xN 5x4xN 4x4xN 4x4xW 4x4xS 4x4xE 4x4xS 4x4xE 4x4xS 4x4xW 4x4xS 4x4xW 4x3xW T Done
+
+Evaluation Number 226 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 4x2xE 4x3xE T Done
+
+Evaluation Number 227 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x3xE 5x4xE 5x4xN 5x4xW 5x4xN 5x4xE 5x4xN 4x4xN 3x4xN 3x4xE 3x4xS 3x4xE 3x4xN 3x4xE 3x4xN 3x4xN 3x4xW 3x3xW T Done
+
+Evaluation Number 228 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 4x2xE 4x2xS 4x2xW 4x2xN 3x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 229 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xN 5x2xE 5x3xE 5x4xE 5x5xE 5x5xE 5x5xN 4x5xN 3x5xN 2x5xN 2x5xN 1x5xN 1x5xN 1x5xN 1x5xW 1x4xW 1x4xN 1x4xN 1x4xW 1x4xN 1x4xW 1x3xW 1x3xS 1x3xW 1x3xS 1x3xW 1x3xN 1x3xE 1x3xN 1x3xW 1x3xN 1x3xW 1x2xW 1x2xS 1x2xE 1x2xS 2x2xS G Done
+
+Evaluation Number 230 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xS 5x2xW 5x2xS 5x2xS 6x2xS 6x2xS 6x2xS 6x2xE 6x2xN 6x2xW 6x2xN 5x2xN 4x2xN 4x2xW 4x2xN 4x2xE 4x3xE T Done
+
+Evaluation Number 231 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 4x2xN 4x2xE 4x2xS 4x2xE 4x3xE T Done
+
+Evaluation Number 232 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 4x2xN 4x2xW 4x2xN 4x2xW 4x2xN 4x2xW 4x2xS 4x2xW 4x2xS 4x2xW 4x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 233 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xS 5x2xS 5x2xW 5x2xN 5x2xN 5x2xN 5x2xW 5x2xS 5x2xS 6x2xS 6x2xE 6x3xE 6x4xE 6x5xE 6x5xN 6x5xE 6x5xN 6x5xE 6x5xN 6x5xW 6x5xS 6x5xE 6x5xS 6x5xS 6x5xS 6x5xS 6x5xE 6x5xE 6x5xS 6x5xS 6x5xS 6x5xS 6x5xE 6x5xE 6x5xN 6x5xE 6x5xS 6x5xW 6x5xS 6x5xE 6x5xN 5x5xN 5x5xN 4x5xN 4x5xW 4x5xN 4x5xN 4x5xW 4x5xN 4x5xE 4x5xN 4x5xW 4x5xN 3x5xN 3x5xE 3x5xN 3x5xE 3x5xN 2x5xN 1x5xN 1x5xW 1x5xW 1x4xW 1x4xS 1x4xW 1x3xW 1x3xN 1x3xW 1x2xW 1x2xS 1x2xE 1x2xS 2x2xS G Done
+
+Evaluation Number 234 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 3x2xN 3x2xE 3x2xE 3x2xN 3x2xE 3x2xN 3x2xW 3x2xW 3x2xS 4x2xS 5x2xS 5x2xE 5x2xS 5x2xE 5x2xS 5x2xE 5x2xS 5x2xE 5x3xE 5x3xE 5x3xS 5x3xE 5x3xS 5x3xW 5x3xN 5x3xW 5x3xS 5x3xS 5x3xE 5x3xN 5x3xE 5x3xN 4x3xN T Done
+
+Evaluation Number 235 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xN 5x2xE 5x2xN 5x2xN 5x2xN 4x2xN 4x2xE 4x2xN 4x2xW 4x2xN 4x2xE 4x3xE T Done
+
+Evaluation Number 236 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xS 5x2xE 5x3xE 5x4xE 5x4xN 5x4xE 5x4xE 5x5xE 5x5xE 5x5xE 5x5xS 5x5xW 5x5xN 4x5xN 4x5xW 4x5xN 3x5xN 3x5xE 3x5xE 3x5xN 2x5xN 2x5xW 2x5xN 2x5xW 2x4xW 2x4xN 1x4xN 1x4xN 1x4xE 1x4xE 1x4xE 1x4xN 1x4xE 1x5xE 1x5xN 1x5xE 1x5xS 2x5xS 2x5xW 2x4xW 2x4xN 2x4xN 2x4xW 2x4xN 2x4xW 2x3xW 2x3xS 2x3xW 2x2xW G Done
+
+Evaluation Number 237 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x3xE 5x4xE 5x4xN 5x4xW 5x4xN 5x4xE 5x4xS 5x4xE 5x4xE 5x4xS 5x4xW 5x4xS 5x4xE 5x4xN 5x4xE 5x4xN 4x4xN 4x4xW 4x4xN 4x4xW 4x3xW T Done
+
+Evaluation Number 238 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xE 5x2xS 5x2xE 5x2xN 5x2xN 5x2xE 5x2xN 5x2xW 5x2xN 4x2xN 4x2xW 4x2xN 4x2xW 4x1xW T Done
+
+Evaluation Number 239 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xS 6x2xS 6x2xW 6x2xS 6x2xE 6x2xN 6x2xE 6x2xS 6x2xE 6x2xS 6x2xW 6x2xN 6x2xE 6x3xE 6x3xS 6x3xE 6x3xS 6x3xE 6x3xE 6x4xE 6x5xE 6x5xE 6x5xS 6x5xW 6x5xS 6x5xE 6x5xE 6x5xE 6x5xE 6x5xE 6x5xE 6x5xN 6x5xN 6x5xW 6x5xN 5x5xN 4x5xN 4x5xE 4x5xE 4x5xE 4x5xE 4x5xN 4x5xE 4x5xN 3x5xN 3x5xW 3x5xN 2x5xN 2x5xE 2x5xS 2x5xW 2x5xS 2x5xW 2x5xN 2x5xE 2x5xE 2x5xE 2x5xN 2x5xE 2x5xE 2x5xE 2x5xE 2x5xS 2x5xW 2x5xS 2x5xW 2x5xW 2x5xN 2x5xW 2x5xN 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xS 1x5xE 1x5xE 1x5xE 1x5xS 1x5xW 1x4xW 1x4xN 1x4xE 1x4xN 1x4xE 1x4xN 1x4xW 1x4xN 1x4xN 1x4xW 1x4xN 1x4xE 1x4xN 1x4xN 1x4xE 1x4xN 1x4xN 1x4xW 1x4xN 1x4xE 1x4xS 1x4xW 1x4xS 1x4xW 1x4xN 1x4xE 1x4xS 1x4xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x4xW 1x4xN 1x4xE 1x5xE 1x5xS 2x5xS 2x5xE 2x5xN 2x5xW 2x5xN 2x5xN 2x5xN 2x5xW 2x5xN 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xS 1x5xW 1x5xN 1x5xN 1x5xE 1x5xE 1x5xS 2x5xS 2x5xE 2x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xW 1x4xW 1x4xN 1x4xN 1x4xW 1x4xN 1x4xN 1x4xE 1x4xN 1x4xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 1x5xW 1x5xN 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xN 1x5xW 1x5xN 1x5xW 1x5xS 1x5xE 1x5xS 1x5xW 1x5xN 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xE 1x5xS 2x5xS 2x5xE 2x5xN 2x5xE 2x5xN 2x5xE 2x5xE 2x5xN 2x5xE 2x5xN 2x5xE 2x5xN 1x5xN 1x5xN 1x5xN 1x5xN 1x5xN 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xE 1x5xS 2x5xS 2x5xW 2x5xW 2x5xS 2x5xE 2x5xN 2x5xE 2x5xN 2x5xE 2x5xS 2x5xE 2x5xS 2x5xE 2x5xS 2x5xE 2x5xN 2x5xE 2x5xS 2x5xE 2x5xN 2x5xE 2x5xN 2x5xE 2x5xE 2x5xE 2x5xE 2x5xE 2x5xE 2x5xE 2x5xE 2x5xE 2x5xN 1x5xN 1x5xE 1x5xS 2x5xS 2x5xW 2x5xN 2x5xW 2x5xN 2x5xE 2x5xN 2x5xW 2x5xN 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xS Done
+
+Evaluation Number 240 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 4x2xW 4x1xW T Done
+
+Evaluation Number 241 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 4x2xW 4x2xW 4x2xN 4x2xW 4x1xW T Done
+
+Evaluation Number 242 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 4x2xN 4x2xW 4x2xW 4x1xW T Done
+
+Evaluation Number 243 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 4x2xW 4x1xW T Done
+
+Evaluation Number 244 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x3xE 5x4xE 5x5xE 5x5xN 5x5xE 5x5xS 5x5xE 5x5xS 6x5xS 6x5xE 6x5xN 5x5xN 5x5xE 5x5xN 5x5xW 5x5xN 5x5xE 5x5xS 5x5xE 5x5xE 5x5xN 5x5xE 5x5xN 4x5xN 3x5xN 3x5xW 3x5xN 3x5xN 3x5xE 3x5xE 3x5xN 3x5xE 3x5xN 2x5xN 2x5xW 2x4xW 2x3xW 2x3xN 2x3xW 2x3xW 2x2xW G Done
+
+Evaluation Number 245 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xN 5x2xE 5x3xE 5x4xE 5x4xS 5x4xW 5x4xN 5x4xN 4x4xN 4x4xE 4x5xE 4x5xS 4x5xW 4x4xW 4x4xS 4x4xS 4x4xW 4x4xN 4x4xE 4x4xS 5x4xS 5x4xE 5x4xN 5x4xE 5x4xS 5x4xW 5x4xN 5x4xW 5x4xS 5x4xW 5x4xS 5x4xW 5x4xS 6x4xS 6x4xS 6x4xE 6x5xE 6x5xN 5x5xN 4x5xN 4x5xE 4x5xS 4x5xE 4x5xN 4x5xW 4x5xS 4x5xE 4x5xN 4x5xW 4x5xN 3x5xN 2x5xN 2x5xN 2x5xW 2x5xN 2x5xE 2x5xS 2x5xE 2x5xS 2x5xE 2x5xE 2x5xS 2x5xE 2x5xE 2x5xN 2x5xN 2x5xE 2x5xN 2x5xW 2x5xW 2x5xW 2x5xN 2x5xW 2x4xW 2x4xS 2x4xW 2x4xS 2x4xW 2x4xS 2x4xW 2x4xN 2x4xN 1x4xN 1x4xW 1x4xN 1x4xW 1x4xN 1x4xE 1x4xS 2x4xS 3x4xS 3x4xE 3x4xS 3x4xE 3x4xN 3x4xN 3x4xW 3x4xN 3x4xE 3x4xN 3x4xW 3x4xN 2x4xN 2x4xE 2x4xN 1x4xN 1x4xE 1x4xN 1x4xE 1x4xN 1x4xE 1x4xS 2x4xS 2x4xE 2x4xS 2x4xW 2x3xW 2x2xW G Done
+
+Evaluation Number 246 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xE 5x2xS 5x2xE 5x2xN 4x2xN 4x2xW 4x2xN 4x2xW 4x2xN 4x2xW 4x2xW 4x2xN 4x2xE 4x2xS 5x2xS 6x2xS 6x2xE 6x2xS 6x2xW 6x2xS 6x2xE 6x3xE 6x3xN 5x3xN 4x3xN T Done
+
+Evaluation Number 247 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xS 6x2xS 6x2xW 6x2xN 6x2xW 6x2xS 6x2xE 6x3xE 6x4xE 6x5xE 6x5xN 6x5xW 6x5xS 6x5xW 6x5xS 6x5xE 6x5xN 5x5xN 5x5xE 5x5xN 4x5xN 3x5xN 2x5xN 2x5xE 2x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xE 1x5xS 1x5xW 1x5xW 1x4xW 1x3xW 1x3xS 1x3xE 1x3xS 1x3xW 1x2xW 1x2xS 2x2xS G Done
+
+Evaluation Number 248 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 3x2xN 3x2xN 3x2xW 3x2xS 3x2xE 3x2xN 3x2xE 3x2xN 3x2xE 3x2xS 3x2xE 3x2xS 3x2xW 3x2xS 3x2xW 3x1xW T Done
+
+Evaluation Number 249 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xN 5x2xE 5x2xS 6x2xS 6x2xE 6x3xE 6x4xE 6x4xS 6x4xE 6x4xE 6x4xN 6x4xE 6x4xN 6x4xE 6x4xN 6x4xE 6x5xE 6x5xN 5x5xN 5x5xW 5x5xN 4x5xN 3x5xN 3x5xE 3x5xN 2x5xN 2x5xW 2x4xW 2x3xW 2x2xW G Done
+
+Evaluation Number 250 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x1xW 5x1xS 5x1xE 5x1xS 5x1xE 5x2xE 5x2xN 4x2xN 4x2xE 4x2xN 4x2xW 4x2xS 4x2xE 4x3xE T Done
+
+Evaluation Number 251 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 4x2xN 3x2xN 3x2xE 3x2xS 3x2xE 3x3xE T Done
+
+Evaluation Number 252 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xS 5x2xW 5x2xS 5x2xW 5x1xW 5x1xN 4x1xN T Done
+
+Evaluation Number 253 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 3x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 254 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xN 4x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 255 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xS 5x2xW 5x2xS 5x2xW 5x2xN 5x2xW 5x2xN 5x2xE 5x2xN 4x2xN 3x2xN 3x2xN 3x2xE 3x2xN 3x2xN 3x2xW 3x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 256 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xE 5x2xN 4x2xN 4x2xW 4x1xW T Done
+
+Evaluation Number 257 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 3x2xN 3x2xW 3x2xN 3x2xW 3x2xS 3x2xE 3x2xE 3x2xN 3x2xE 3x2xS 3x2xE 3x2xE 3x2xS 3x2xE 3x2xN 2x2xN G Done
+
+Evaluation Number 258 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 4x2xE 4x2xN 4x2xE 4x2xN 3x2xN 3x2xW 3x2xN 3x2xW 3x2xS 3x2xW 3x2xW 3x2xS 4x2xS 4x2xW 4x2xS 4x2xE 4x2xE 4x2xE 4x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 259 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xN 4x2xN 3x2xN 3x2xE 3x2xN 2x2xN G Done
+
+Evaluation Number 260 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xS 5x2xE 5x2xN 5x2xE 5x3xE 5x3xE 5x3xE 5x4xE 5x5xE 5x5xN 5x5xW 5x5xN 5x5xW 5x5xS 6x5xS 6x5xE 6x5xS 6x5xE 6x5xE 6x5xN 6x5xE 6x5xE 6x5xS 6x5xS 6x5xE 6x5xS 6x5xS 6x5xE 6x5xN 6x5xW 6x4xW 6x4xN 6x4xE 6x4xS 6x4xS 6x4xS 6x4xE 6x5xE 6x5xN 6x5xE 6x5xN 5x5xN 5x5xN 5x5xE 5x5xN 5x5xE 5x5xN 5x5xW 5x5xS 5x5xW 5x5xW 5x5xN 5x5xE 5x5xN 4x5xN 4x5xW 4x5xN 3x5xN 3x5xE 3x5xN 2x5xN 2x5xE 2x5xN 2x5xE 2x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xS 1x5xW 1x5xN 1x5xW 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xW 1x4xW 1x4xS 1x4xE 1x4xN 1x4xW 1x4xN 1x4xW 1x4xN 1x4xN 1x4xE 1x4xS 1x4xE 1x4xN 1x4xW 1x4xN 1x4xN 1x4xW 1x4xS 1x4xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xS 1x5xW 1x4xW 1x4xS 2x4xS 3x4xS 4x4xS 4x4xE 4x4xE 4x4xS 5x4xS 5x4xE 5x5xE 5x5xN 4x5xN 4x5xW 4x5xW 4x5xN 4x5xE 4x5xN 3x5xN 3x5xN 3x5xE 3x5xS 3x5xE 3x5xE 3x5xN 3x5xN 2x5xN 2x5xE 2x5xE 2x5xE 2x5xN 2x5xN 2x5xW 2x5xS 2x5xE 2x5xN 2x5xN 2x5xE 2x5xE 2x5xN 2x5xE 2x5xN 2x5xE 2x5xE 2x5xE 2x5xE 2x5xN 2x5xW 2x5xW 2x4xW 2x4xS 2x4xE 2x4xE 2x5xE 2x5xS 2x5xW 2x4xW 2x4xN 2x4xE 2x4xN 2x4xE 2x4xE 2x5xE 2x5xS 2x5xE 2x5xS 3x5xS 4x5xS 4x5xW 4x5xS 4x5xE 4x5xS 4x5xW 4x5xN 4x5xE 4x5xE 4x5xE 4x5xE 4x5xS 4x5xE 4x5xE 4x5xN 4x5xE 4x5xE 4x5xN 3x5xN 3x5xE 3x5xN 2x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xS 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xS 1x5xW 1x5xS 1x5xS 1x5xE 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS 2x5xS 2x5xE 2x5xS 2x5xE 2x5xN 2x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xS 1x5xW 1x5xS 1x5xW 1x5xS 2x5xS 2x5xW 2x5xN 2x5xE 2x5xE 2x5xE 2x5xN 2x5xN 1x5xN 1x5xW 1x5xN 1x5xW Done
+
+Evaluation Number 261 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xE 5x3xE 5x4xE 5x4xS 5x4xW 5x4xN 5x4xE 5x4xS 5x4xW 5x4xS 5x4xE 5x4xN 4x4xN 4x4xN 3x4xN 3x4xN 2x4xN 2x4xW 2x4xN 2x4xN 1x4xN 1x4xW 1x4xS 2x4xS 2x4xS 2x4xW 2x4xN 2x4xW 2x3xW 2x2xW G Done
+
+Evaluation Number 262 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xS 6x2xS 6x2xW 6x2xS 6x2xW 6x2xN 6x2xW 6x2xS 6x2xW 6x2xN 5x2xN 4x2xN 4x2xN 3x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 263 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 4x2xN 4x2xE 4x3xE T Done
+
+Evaluation Number 264 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xN 5x2xE 5x2xN 5x2xN 5x2xE 5x2xS 6x2xS 6x2xE 6x3xE 6x4xE 6x4xS 6x4xE 6x4xE 6x4xN 6x4xE 6x4xN 6x4xE 6x4xN 6x4xE 6x4xN 6x4xE 6x4xN 6x4xE 6x5xE 6x5xN 6x5xE 6x5xS 6x5xW 6x5xN 5x5xN 5x5xW 5x5xN 5x5xW 5x5xN 5x5xW 5x5xW 5x5xS 5x5xE 5x5xS 5x5xW 5x5xS 5x5xE 5x5xN 5x5xE 5x5xE 5x5xN 4x5xN 4x5xE 4x5xS 4x5xE 4x5xS 4x5xW 4x5xN 4x5xE 4x5xN 4x5xW 4x5xN 4x5xN 4x5xE 4x5xE 4x5xN 4x5xW 4x5xN 4x5xE 4x5xE 4x5xE 4x5xE 4x5xE 4x5xS 4x5xE 4x5xN 4x5xN 4x5xW 4x4xW 4x4xN 4x4xW 4x4xN 3x4xN 2x4xN 2x4xE 2x5xE 2x5xS 2x5xW 2x5xS 2x5xE 2x5xE 2x5xS 2x5xW 2x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xN 1x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xS 2x5xS 2x5xE 2x5xN 1x5xN 1x5xW 1x5xW 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xE 1x5xS 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xS 1x5xW 1x5xS 1x5xW 1x5xN 1x5xE 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xS 1x5xW 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xW 1x5xS 1x5xW 1x4xW 1x4xN 1x4xN 1x4xE 1x4xS 1x4xE 1x4xN 1x4xW 1x4xS 2x4xS 2x4xE 2x5xE 2x5xE 2x5xE 2x5xN 2x5xE 2x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xW 1x5xW 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xE 1x5xS 1x5xW 1x4xW 1x4xS 1x4xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xW 1x5xS 1x5xW 1x5xS 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xE 1x5xS 2x5xS 2x5xE 2x5xN 2x5xW 2x5xN 2x5xW 2x5xN 2x5xW 2x4xW 2x4xN 1x4xN 1x4xN 1x4xE 1x4xS 1x4xW 1x4xN 1x4xN 1x4xW 1x4xS 2x4xS 2x4xE 2x4xS 2x4xW 2x3xW 2x3xS 2x3xW 2x2xW G Done
+
+Evaluation Number 265 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xN 5x2xE 5x2xE 5x3xE 5x4xE 5x5xE 5x5xN 5x5xW 5x5xS 5x5xW 5x5xS 5x5xW 5x5xN 5x5xW 5x5xN 5x5xW 5x5xN 5x5xE 5x5xS 5x5xE 5x5xN 5x5xW 5x5xN 4x5xN 4x5xW 4x5xN 3x5xN 3x5xW 3x5xS 3x5xE 3x5xN 3x5xN 2x5xN 2x5xE 2x5xN 2x5xE 2x5xN 1x5xN 1x5xW 1x5xW 1x4xW 1x4xS 1x4xE 1x4xN 1x4xE 1x4xN 1x4xN 1x4xE 1x4xN 1x4xE 1x4xN 1x4xW 1x3xW 1x2xW 1x2xN 1x2xE 1x2xN 1x2xE 1x2xS 1x2xS 1x2xS 1x2xE 1x2xS 1x2xE 1x2xS 1x2xE 1x3xE 1x3xN 1x3xE 1x3xS 1x3xE 1x3xS 1x3xE 1x3xE 1x4xE 1x4xN 1x4xW 1x4xS 1x4xE 1x4xN 1x4xW 1x4xN 1x4xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xS 1x5xW 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xE 1x5xS 1x5xW 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xW 1x5xS 2x5xS 2x5xW 2x5xS 2x5xE 2x5xS 2x5xE 2x5xN 2x5xW 2x4xW 2x3xW 2x2xW G Done
+
+Evaluation Number 266 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xN 4x2xN 4x2xE 4x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 267 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 4x2xW 4x2xN 3x2xN 3x2xE 3x2xN 3x2xW 3x2xS 3x2xE 3x2xN 2x2xN G Done
+
+Evaluation Number 268 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xS 6x2xS 6x2xW 6x2xS 6x2xW 6x2xN 5x2xN 4x2xN 4x2xW 4x2xN 4x2xE 4x3xE T Done
+
+Evaluation Number 269 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 3x2xN 3x2xW 3x1xW T Done
+
+Evaluation Number 270 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xE 5x2xS 5x2xS 6x2xS 6x2xE 6x3xE 6x3xN 6x3xE 6x4xE 6x5xE 6x5xN 5x5xN 4x5xN 4x5xE 4x5xE 4x5xE 4x5xN 3x5xN 3x5xW 3x5xS 3x5xW 3x5xN 3x5xE 3x5xS 3x5xE 3x5xN 2x5xN 2x5xW 2x5xN 2x5xE 2x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xW 1x4xW 1x4xN 1x4xW 1x3xW 1x3xW 1x3xN 1x3xN 1x3xE 1x3xS 2x3xS 2x3xW 2x3xN 1x3xN 1x3xW 1x3xS 2x3xS 2x3xE 2x4xE 2x4xE 2x4xS 2x4xW 2x4xS 2x4xW 2x4xS 2x4xW 2x4xS 2x4xW 2x3xW 2x3xN 2x3xW 2x3xS 2x3xS 2x3xW 2x3xW 2x3xN 2x3xE 2x3xS 2x3xE 2x3xS 2x3xE 2x3xS 2x3xE 2x3xN 2x3xW 2x3xW 2x2xW G Done
+
+Evaluation Number 271 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xS 5x2xE 5x2xS 5x2xE 5x2xN 4x2xN 4x2xW 4x2xW 4x2xS 4x2xW 4x2xN 3x2xN 3x2xW 3x1xW T Done
+
+Evaluation Number 272 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x3xE 5x3xN 5x3xE 5x4xE 5x4xS 6x4xS 6x4xE 6x5xE 6x5xS 6x5xS 6x5xW 6x5xN 5x5xN 4x5xN 4x5xW 4x5xN 4x5xE 4x5xN 3x5xN 2x5xN 2x5xW 2x5xS 2x5xE 2x5xS 2x5xE 2x5xE 2x5xE 2x5xE 2x5xN 1x5xN 1x5xW 1x4xW 1x4xW 1x3xW 1x3xN 1x3xW 1x3xN 1x3xN 1x3xW 1x2xW 1x2xN 1x2xN 1x2xW 1x2xN 1x2xE 1x2xS 2x2xS G Done
+
+Evaluation Number 273 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xS 5x2xE 5x2xE 5x2xS 5x2xE 5x2xN 5x2xN 5x2xE 5x3xE 5x3xN 5x3xE 5x4xE 5x4xN 5x4xN 5x4xE 5x5xE 5x5xN 5x5xE 5x5xS 5x5xE 5x5xN 5x5xE 5x5xE 5x5xS 5x5xE 5x5xE 5x5xN 5x5xE 5x5xS 5x5xW 5x5xN 5x5xW 5x5xN 5x5xW 5x5xN 5x5xW 5x5xS 5x5xW 5x5xN 4x5xN 3x5xN 3x5xW 3x5xN 2x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xE 1x5xS 1x5xW 1x4xW 1x4xS 1x4xE 1x5xE 1x5xN 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xN 1x5xW 1x5xS 1x5xW 1x5xS 1x5xW 1x5xS 1x5xE 1x5xN 1x5xW 1x4xW 1x3xW 1x3xS 1x3xE 1x3xS 1x3xW 1x2xW 1x2xS 2x2xS G Done
+
+Evaluation Number 274 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xS 5x2xW 5x2xS 6x2xS 6x2xE 6x2xE 6x2xN 6x2xE 6x3xE 6x3xS 6x3xS 6x3xE 6x3xS 6x3xE 6x3xS 6x3xE 6x3xN 6x3xE 6x3xE 6x4xE 6x4xN 6x4xW 6x3xW 6x3xN 6x3xN 6x3xW 6x3xS 6x3xE 6x4xE 6x5xE 6x5xS 6x5xS 6x5xW 6x5xS 6x5xE 6x5xN 5x5xN 4x5xN 4x5xW 4x5xN 3x5xN 2x5xN 1x5xN 1x5xE 1x5xE 1x5xS 1x5xW 1x4xW 1x3xW 1x2xW 1x2xS 2x2xS G Done
+
+Evaluation Number 275 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xS 5x2xE 5x2xN 5x2xW 5x2xS 5x2xW 5x2xS 5x2xE 5x2xE 5x2xN 5x2xN 5x2xE 5x2xN 4x2xN 3x2xN 3x2xW 3x2xN 2x2xN G Done
+
+Evaluation Number 276 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xS 5x2xE 5x2xN 5x2xW 5x2xW 5x2xN 5x2xW 5x2xN 5x2xN 5x2xN 5x2xE 5x2xE 5x2xS 6x2xS 6x2xS 6x2xS 6x2xE 6x2xS 6x2xE 6x3xE 6x3xS 6x3xE 6x4xE 6x4xN 5x4xN 5x4xE 5x4xS 5x4xE 5x4xN 4x4xN 4x4xE 4x4xS 5x4xS 5x4xW 5x4xN 5x4xW 5x3xW 5x3xN 5x3xW 5x3xN 5x3xN 5x3xW 5x3xN 5x3xW 5x3xN 5x3xW 5x3xS 5x3xS 5x3xE 5x3xN 5x3xE 5x3xS 6x3xS 6x3xE 6x4xE 6x4xS 6x4xS 6x4xE 6x4xE 6x5xE 6x5xS 6x5xS 6x5xE 6x5xE 6x5xE 6x5xE 6x5xS 6x5xS 6x5xS 6x5xW 6x5xS 6x5xE 6x5xN 5x5xN 5x5xE 5x5xE 5x5xE 5x5xN 5x5xE 5x5xS 5x5xW 5x5xN 5x5xW 5x5xN 5x5xW 5x5xN 4x5xN 3x5xN 3x5xW 3x5xN 2x5xN 2x5xE 2x5xE 2x5xS 2x5xW 2x5xS 2x5xW 2x4xW 2x4xS 2x4xE 2x5xE 2x5xE 2x5xE 2x5xN 2x5xE 2x5xN 2x5xW 2x5xW 2x5xS 2x5xE 2x5xE 2x5xN 2x5xW 2x5xS 2x5xE 2x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 1x5xW 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xS 2x5xS 2x5xW 2x5xN 2x5xE 2x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 1x5xW 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xW 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xW 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xS 1x5xW 1x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xS 1x5xW 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xS 1x5xW 1x5xS 1x5xW 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xN 1x5xW 1x5xN 1x5xW 1x5xS 1x5xW 1x5xS 1x5xE 1x5xN Done
+
+Evaluation Number 277 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 4x2xW 4x2xN 4x2xW 4x1xW T Done
+
+Evaluation Number 278 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xS 5x2xE 5x3xE 5x3xS 5x3xW 5x3xS 5x3xE 5x3xS 5x3xE 5x3xE 5x3xS 5x3xE 5x3xN 5x3xE 5x3xN 4x3xN T Done
+
+Evaluation Number 279 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xN 4x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 280 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xN 4x2xN 4x2xW 4x2xS 4x2xE 4x2xS 4x2xW 4x2xN 4x2xN 3x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 281 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xS 5x2xS 5x2xS 5x2xE 5x3xE 5x4xE 5x4xE 5x4xS 6x4xS 6x4xW 6x3xW 6x3xS 6x3xE 6x3xN 6x3xE 6x4xE 6x5xE 6x5xN 6x5xW 6x5xN 5x5xN 5x5xN 5x5xN 4x5xN 3x5xN 2x5xN 2x5xW 2x5xS 2x5xE 2x5xN 1x5xN 1x5xN 1x5xN 1x5xN 1x5xN 1x5xN 1x5xW 1x4xW 1x4xS 1x4xW 1x4xW 1x4xN 1x4xW 1x4xN 1x4xE 1x4xS 1x4xW 1x4xN 1x4xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x5xW 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xE 1x5xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xW 1x5xS 1x5xW 1x4xW 1x4xS 1x4xW 1x4xS 1x4xS 1x4xS 1x4xE 1x4xS 1x4xE 1x4xN 1x4xW 1x4xS 1x4xE 1x4xN 1x4xE 1x4xS 1x4xE 1x4xS 1x4xE 1x4xS 1x4xE 1x5xE 1x5xN 1x5xW 1x4xW 1x4xS 1x4xW 1x4xS 1x4xE 1x4xN 1x4xW 1x4xW 1x4xN 1x4xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xS 1x5xW 1x4xW 1x4xS 1x4xS 2x4xS 2x4xE 2x4xS 2x4xW 2x4xS 2x4xW 2x4xW 2x3xW 2x2xW G Done
+
+Evaluation Number 282 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xS 5x2xW 5x2xS 5x2xW 5x2xN 4x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 283 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xN 5x2xN 4x2xN 4x2xN 3x2xN 3x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 284 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xN 5x2xW 5x1xW 5x1xS 6x1xS 6x1xW 6x1xN 6x1xE 6x1xN 6x1xE 6x2xE 6x2xE 6x3xE 6x3xN 5x3xN 5x3xW 5x3xW 5x3xS 5x3xE 5x3xE 5x3xS 5x3xE 5x4xE 5x5xE 5x5xE 5x5xS 5x5xW 5x5xS 5x5xE 5x5xN 5x5xE 5x5xS 5x5xE 5x5xN 5x5xE 5x5xN 5x5xE 5x5xS 5x5xE 5x5xS 5x5xE 5x5xS 5x5xE 5x5xN 5x5xW 5x5xS 5x5xW 5x5xN 4x5xN 3x5xN 3x5xE 3x5xS 3x5xE 3x5xS 3x5xE 3x5xE 3x5xN 3x5xN 3x5xW 3x5xN 3x5xW 3x5xS 3x5xE 3x5xN 2x5xN 2x5xW 2x5xS 2x5xE 2x5xN 1x5xN 1x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xN 1x5xW 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xS 1x5xW 1x5xS 1x5xW 1x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xE 1x5xS 1x5xW 1x5xN 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xS 2x5xS 2x5xW 2x5xS 2x5xE 2x5xN 2x5xE 2x5xE 2x5xN 2x5xW 2x5xN 2x5xE 2x5xS 2x5xE 2x5xN 2x5xW 2x5xS 2x5xE 2x5xE 2x5xN 2x5xE 2x5xN 2x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xS 2x5xS 2x5xE 2x5xE 2x5xN 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xN 1x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xS 1x5xE 1x5xS 1x5xW 1x5xS 1x5xW 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xW 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xS 1x5xW 1x5xN 1x5xN 1x5xW 1x5xN 1x5xW 1x5xS 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS Done
+
+Evaluation Number 285 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xN 5x2xW 5x1xW 5x1xS 6x1xS 6x1xS 6x1xE 6x2xE 6x3xE 6x3xE 6x3xE 6x3xS 6x3xE 6x3xE 6x3xN 6x3xE 6x4xE 6x4xS 6x4xE 6x5xE 6x5xE 6x5xE 6x5xN 6x5xN 5x5xN 4x5xN 4x5xE 4x5xS 4x5xE 4x5xN 3x5xN 3x5xW 3x5xN 3x5xW 3x5xS 3x5xW 3x5xN 2x5xN 2x5xE 2x5xE 2x5xN 2x5xW 2x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xN 1x5xN 1x5xN 1x5xW 1x4xW 1x4xS 2x4xS 2x4xE 2x5xE 2x5xE 2x5xS 3x5xS 3x5xW 3x5xN 2x5xN 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xW 1x4xW 1x4xS 1x4xW 1x3xW 1x3xN 1x3xE 1x3xN 1x3xN 1x3xN 1x3xN 1x3xE 1x4xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xW 1x4xW 1x4xS 1x4xW 1x4xN 1x4xW 1x4xS 1x4xW 1x4xN 1x4xE 1x5xE 1x5xE 1x5xE 1x5xE 1x5xE 1x5xS 1x5xW 1x5xS 1x5xW 1x4xW 1x4xS 1x4xE 1x4xN 1x4xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xW 1x5xN 1x5xW 1x5xS 1x5xW 1x4xW 1x4xN 1x4xN 1x4xN 1x4xN 1x4xN 1x4xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xW 1x5xW 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xN 1x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xW 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xW 1x5xN 1x5xE 1x5xS 1x5xE 1x5xS 1x5xW 1x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xE 1x5xS 1x5xW 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xS 2x5xS 2x5xW 2x5xN 1x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xS 2x5xS 2x5xE 2x5xN 2x5xW 2x5xN 2x5xE 2x5xE 2x5xS 2x5xE 2x5xE 2x5xS 2x5xE 2x5xN 2x5xW 2x5xS 2x5xW 2x5xN 2x5xW 2x5xN 2x5xE 2x5xE 2x5xN 1x5xN 1x5xN 1x5xN 1x5xE 1x5xS 2x5xS 2x5xW 2x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN Done
+
+Evaluation Number 286 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xN 5x2xE 5x2xN 5x2xW 5x1xW 5x1xS 5x1xE 5x1xS 5x1xE 5x1xN 4x1xN T Done
+
+Evaluation Number 287 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xN 5x2xE 5x2xN 4x2xN 3x2xN 3x2xW 3x2xN 3x2xW 3x1xW T Done
+
+Evaluation Number 288 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 289 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xS 5x2xE 5x2xN 4x2xN 3x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 290 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 4x2xE 4x3xE T Done
+
+Evaluation Number 291 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xN 5x2xE 5x3xE 5x4xE 5x4xN 5x4xW 5x4xS 5x4xS 5x4xE 5x4xN 4x4xN 4x4xE 4x4xE 4x4xS 4x4xE 4x5xE 4x5xN 3x5xN 2x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xW 1x4xW 1x3xW 1x3xN 1x3xN 1x3xW 1x2xW 1x2xN 1x2xW 1x2xS 2x2xS G Done
+
+Evaluation Number 292 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xE 5x2xS 6x2xS 6x2xS 6x2xE 6x2xS 6x2xS 6x2xS 6x2xW 6x2xN 6x2xW 6x2xS 6x2xS 6x2xW 6x2xN 6x2xE 6x3xE 6x4xE 6x4xN 6x4xE 6x5xE 6x5xN 6x5xE 6x5xN 6x5xE 6x5xN 5x5xN 4x5xN 3x5xN 2x5xN 2x5xW 2x4xW 2x3xW 2x2xW G Done
+
+Evaluation Number 293 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xN 4x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 294 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xN 5x2xN 4x2xN 4x2xW 4x2xW 4x2xN 4x2xW 4x2xN 4x2xW 4x1xW T Done
+
+Evaluation Number 295 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xN 4x2xN 4x2xW 4x2xN 3x2xN 3x2xE 3x3xE T Done
+
+Evaluation Number 296 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xS 5x2xE 5x2xN 5x2xE 5x2xE 5x2xN 4x2xN 4x2xE 4x2xE 4x3xE T Done
+
+Evaluation Number 297 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xN 4x2xN 4x2xE 4x3xE T Done
+
+Evaluation Number 298 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xN 5x2xE 5x2xN 5x2xE 5x3xE 5x4xE 5x4xE 5x4xS 5x4xE 5x4xN 5x4xW 5x4xN 5x4xE 5x5xE 5x5xN 5x5xE 5x5xN 5x5xW 5x5xN 5x5xW 5x5xS 5x5xE 5x5xS 5x5xE 5x5xE 5x5xS 5x5xE 5x5xN 4x5xN 3x5xN 2x5xN 1x5xN 1x5xW 1x4xW 1x4xS 1x4xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x4xW 1x4xN 1x4xN 1x4xE 1x4xS 1x4xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xW 1x4xW 1x4xS 2x4xS 2x4xW 2x4xS 2x4xW 2x3xW 2x2xW G Done
+
+Evaluation Number 299 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xS 5x2xW 5x1xW 5x1xN 4x1xN T Done
+
+Evaluation Number 300 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xN 4x2xN 3x2xN 3x2xE 3x2xN 3x2xW 3x1xW T Done
+
+Evaluation Number 301 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xS 5x2xE 5x2xN 5x2xE 5x2xS 5x2xW 5x2xN 5x2xE 5x2xS 5x2xW 5x2xS 5x2xE 5x2xS 5x2xE 5x2xN 5x2xN 5x2xW 5x2xS 5x2xW 5x2xS 6x2xS 6x2xS 6x2xE 6x3xE 6x3xE 6x3xN 6x3xE 6x4xE 6x4xS 6x4xW 6x4xS 6x4xE 6x4xS 6x4xE 6x4xE 6x5xE 6x5xN 6x5xW 6x5xS 6x5xW 6x5xS 6x5xE 6x5xN 6x5xN 6x5xW 6x5xN 5x5xN 5x5xW 5x4xW 5x4xS 5x4xS 5x4xE 5x4xN 5x4xW 5x4xS 6x4xS 6x4xE 6x4xN 6x4xW 6x4xN 6x4xW 6x4xS 6x4xE 6x5xE 6x5xS 6x5xW 6x5xS 6x5xE 6x5xN 5x5xN 4x5xN 3x5xN 2x5xN 2x5xW 2x4xW 2x4xN 2x4xW 2x4xN 2x4xE 2x5xE 2x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xS 1x5xW 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xW 1x5xW 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xW 1x5xS 1x5xE 1x5xS 1x5xE 1x5xS 1x5xW 1x4xW 1x4xN 1x4xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xW 1x5xW 1x5xS 1x5xE 1x5xN 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xS 1x5xW 1x5xN 1x5xW 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 1x5xW 1x5xS 1x5xW 1x5xN 1x5xW 1x5xN 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xS 1x5xW 1x5xN 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xS 1x5xW 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xE 1x5xE 1x5xE 1x5xS 1x5xW 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xW 1x5xS 2x5xS 2x5xE 2x5xE 2x5xN 2x5xE 2x5xE 2x5xS 2x5xE 2x5xS 2x5xW 2x5xS 2x5xW 2x5xN 2x5xE 2x5xE 2x5xN 2x5xE 2x5xS 2x5xE 2x5xN 2x5xW 2x5xS 2x5xW 2x5xN 2x5xE 2x5xE 2x5xN 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN Done
+
+Evaluation Number 302 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xS 5x2xW 5x2xS 5x2xS 5x2xW 5x2xN 5x2xN 5x2xE 5x2xN 5x2xE 5x2xS 5x2xW 5x2xS 5x2xE 5x2xS 5x2xS 5x2xS 6x2xS 6x2xE 6x2xS 6x2xE 6x3xE 6x3xN 6x3xE 6x3xN 6x3xE 6x4xE 6x4xS 6x4xS 6x4xE 6x4xN 6x4xE 6x4xN 6x4xE 6x4xN 5x4xN 5x4xE 5x4xN 5x4xW 5x4xN 5x4xE 5x4xN 5x4xE 5x4xS 5x4xE 5x5xE 5x5xE 5x5xN 5x5xW 5x5xW 5x4xW 5x4xN 5x4xE 5x5xE 5x5xN 4x5xN 4x5xE 4x5xE 4x5xE 4x5xE 4x5xE 4x5xE 4x5xE 4x5xN 4x5xN 4x5xN 3x5xN 2x5xN 2x5xW 2x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 2x5xS 2x5xE 2x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xE 1x5xS 2x5xS 2x5xE 2x5xS 2x5xW 2x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xS 1x5xW 1x4xW 1x4xN 1x4xN 1x4xN 1x4xE 1x5xE 1x5xS 1x5xW 1x4xW 1x4xN 1x4xW 1x4xS 2x4xS 2x4xS 2x4xE 2x4xN 1x4xN 1x4xE 1x4xN 1x4xE 1x4xS 2x4xS 2x4xW 2x3xW 2x3xN 2x3xE 2x3xN 2x3xN 2x3xN 1x3xN 1x3xN 1x3xE 1x3xS 2x3xS 2x3xW 2x3xN 2x3xN 1x3xN 1x3xE 1x3xS 2x3xS 2x3xW 2x3xN 2x3xN 2x3xW 2x3xS 2x3xE 2x3xN 2x3xE 2x3xS 2x3xW 2x3xN 2x3xW 2x3xN 1x3xN 1x3xE 1x3xS 1x3xE 1x3xN 1x3xE 1x3xN 1x3xW 1x3xN 1x3xE 1x3xS 2x3xS 2x3xW 2x2xW G Done
+
+Evaluation Number 303 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xN 5x2xW 5x2xN 5x2xE 5x2xN 5x2xN 4x2xN 3x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 304 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xN 5x2xE 5x2xS 5x2xW 5x2xN 5x2xE 5x2xE 5x3xE 5x3xE 5x3xE 5x4xE 5x5xE 5x5xS 6x5xS 6x5xE 6x5xE 6x5xE 6x5xN 6x5xW 6x5xN 5x5xN 4x5xN 4x5xW 4x5xS 5x5xS 5x5xE 5x5xE 5x5xN 4x5xN 4x5xW 4x5xN 4x5xE 4x5xE 4x5xN 4x5xW 4x5xN 3x5xN 2x5xN 2x5xW 2x5xS 2x5xE 2x5xS 2x5xW 2x5xN 2x5xE 2x5xE 2x5xE 2x5xN 2x5xE 2x5xN 2x5xW 2x5xN 2x5xE 2x5xS 2x5xW 2x5xS 2x5xW 2x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xS 2x5xS 2x5xE 2x5xN 2x5xE 2x5xN 2x5xW 2x4xW 2x4xS 2x4xW 2x4xN 1x4xN 1x4xW 1x4xN 1x4xW 1x4xN 1x4xE 1x4xS 1x4xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xW 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xS 1x5xE 1x5xS 1x5xW 1x5xS 1x5xW 1x5xS 1x5xW 1x5xN 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x4xW 1x4xN 1x4xN 1x4xE 1x4xS 1x4xW 1x4xS 1x4xW 1x3xW 1x3xW 1x3xS 1x3xE 1x3xN 1x3xE 1x3xN 1x3xW 1x2xW 1x2xS 2x2xS G Done
+
+Evaluation Number 305 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xS 6x2xS 6x2xE 6x3xE 6x3xN 6x3xE 6x4xE 6x4xS 6x4xW 6x4xN 6x4xE 6x5xE 6x5xS 6x5xW 6x5xN 6x5xE 6x5xN 6x5xE 6x5xS 6x5xW 6x5xN 6x5xN 5x5xN 4x5xN 4x5xN 3x5xN 3x5xE 3x5xS 3x5xE 3x5xS 3x5xE 3x5xN 3x5xE 3x5xE 3x5xN 2x5xN 2x5xW 2x4xW 2x4xW 2x3xW 2x3xW 2x2xW G Done
+
+Evaluation Number 306 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x3xE 5x4xE 5x5xE 5x5xN 4x5xN 4x5xN 4x5xN 4x5xE 4x5xS 4x5xW 4x5xN 4x5xE 4x5xS 4x5xW 4x5xN 4x5xE 4x5xN 4x5xW 4x5xN 4x5xW 4x5xS 4x5xW 4x5xN 3x5xN 3x5xE 3x5xE 3x5xN 2x5xN 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xS 1x5xW 1x4xW 1x4xS 1x4xE 1x5xE 1x5xE 1x5xS 2x5xS 2x5xE 2x5xE 2x5xE 2x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xS 1x5xW 1x5xN 1x5xN 1x5xW 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xS 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xS 1x5xW 1x5xS 1x5xW 1x5xN 1x5xE 1x5xN 1x5xN 1x5xN 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xS 2x5xS 2x5xE 2x5xN 2x5xE 2x5xE 2x5xE 2x5xN 2x5xW 2x5xW 2x5xS 2x5xE 2x5xS 2x5xW 2x5xN 2x5xE 2x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xW 1x4xW 1x3xW 1x3xN 1x3xE 1x3xS 1x3xE 1x4xE 1x4xN 1x4xN 1x4xW 1x4xN 1x4xE 1x4xN 1x4xN 1x4xE 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 2x5xS 2x5xE 2x5xE 2x5xS 2x5xE 2x5xN 2x5xE 2x5xS 2x5xE 2x5xE 2x5xE 2x5xE 2x5xE 2x5xS 2x5xW 2x5xN 2x5xE 2x5xE 2x5xS 2x5xW 2x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xW 1x5xN 1x5xW 1x5xS 1x5xW 1x5xS 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x5xS 1x5xW 1x5xS 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xS 1x5xW 1x5xN 1x5xN 1x5xW 1x5xN 1x5xW 1x5xS 1x5xE 1x5xS 1x5xW 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xS 2x5xS 2x5xW 2x5xN 2x5xE 2x5xN 2x5xW 2x5xS 2x5xE 2x5xE 2x5xN 2x5xW 2x5xS 2x5xE 2x5xN 2x5xE 2x5xN 2x5xE 2x5xN 2x5xE 2x5xN 2x5xW 2x5xS 2x5xE 2x5xE 2x5xS 2x5xE 2x5xE 2x5xE Done
+
+Evaluation Number 307 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xS 5x2xE 5x3xE 5x4xE 5x4xE 5x4xS 6x4xS 6x4xS 6x4xE 6x4xN 6x4xE 6x4xS 6x4xE 6x5xE 6x5xE 6x5xE 6x5xE 6x5xN 5x5xN 5x5xW 5x5xN 4x5xN 3x5xN 3x5xN 2x5xN 1x5xN 1x5xN 1x5xW 1x4xW 1x3xW 1x2xW 1x2xS 2x2xS G Done
+
+Evaluation Number 308 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xN 5x2xE 5x2xS 5x2xE 5x2xN 5x2xE 5x2xN 5x2xN 5x2xW 5x2xN 5x2xE 5x2xS 5x2xW 5x2xS 5x2xE 5x2xS 5x2xW 5x2xN 5x2xE 5x2xS 5x2xW 5x2xN 4x2xN 3x2xN 3x2xW 3x1xW T Done
+
+Evaluation Number 309 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 3x2xN 3x2xE 3x2xN 2x2xN G Done
+
+Evaluation Number 310 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 4x2xE 4x2xN 3x2xN 3x2xW 3x2xN 3x2xN 3x2xE 3x2xN 2x2xN G Done
+
+Evaluation Number 311 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 4x2xN 4x2xW 4x1xW T Done
+
+Evaluation Number 312 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xN 5x2xE 5x3xE 5x3xN 5x3xE 5x3xS 5x3xS 5x3xW 5x3xN 4x3xN T Done
+
+Evaluation Number 313 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x3xE 5x3xS 5x3xE 5x4xE 5x5xE 5x5xE 5x5xN 5x5xW 5x5xS 5x5xE 5x5xN 4x5xN 3x5xN 2x5xN 2x5xE 2x5xN 1x5xN 1x5xW 1x4xW 1x4xW 1x3xW 1x3xN 1x3xW 1x3xN 1x3xW 1x2xW 1x2xN 1x2xE 1x2xN 1x2xW 1x2xS 2x2xS G Done
+
+Evaluation Number 314 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xN 5x2xW 5x2xS 6x2xS 6x2xS 6x2xE 6x3xE 6x4xE 6x5xE 6x5xS 6x5xW 6x5xS 6x5xE 6x5xE 6x5xE 6x5xN 6x5xN 6x5xE 6x5xN 5x5xN 5x5xW 5x5xN 4x5xN 4x5xN 4x5xE 4x5xE 4x5xN 4x5xE 4x5xN 3x5xN 2x5xN 2x5xE 2x5xN 2x5xN 2x5xE 2x5xN 1x5xN 1x5xW 1x4xW 1x4xS 1x4xE 1x4xS 1x4xE 1x4xN 1x4xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xS 1x5xW 1x4xW 1x4xN 1x4xW 1x4xN 1x4xN 1x4xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xS 2x5xS 2x5xE 2x5xN 2x5xN 2x5xW 2x5xW 2x5xN 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xS 1x5xW 1x5xS 1x5xE 1x5xE 1x5xN 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xS 1x5xW 1x5xS 1x5xW 1x5xS 1x5xW 1x5xS 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xW 1x5xS 1x5xE 1x5xS 1x5xW 1x5xS 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xN 1x5xW 1x4xW 1x4xN 1x4xN 1x4xE 1x5xE 1x5xE 1x5xN 1x5xW 1x4xW 1x4xS 1x4xW 1x4xN 1x4xE 1x4xS 1x4xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xW 1x5xS 2x5xS 2x5xE 2x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xN 1x5xW 1x5xW 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xS 1x5xW 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xN 1x5xN 1x5xN 1x5xN 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xE 1x5xS 1x5xS 1x5xW 1x5xS 1x5xE 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xS 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xS 1x5xW 1x5xS 2x5xS 2x5xE 2x5xE 2x5xE 2x5xN 2x5xE 2x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xS 1x5xS 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xS 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xN 1x5xW Done
+
+Evaluation Number 315 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 4x2xW 4x1xW T Done
+
+Evaluation Number 316 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 4x2xE 4x2xN 3x2xN 3x2xW 3x1xW T Done
+
+Evaluation Number 317 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xS 5x2xE 5x2xN 4x2xN 3x2xN 3x2xW 3x2xS 3x2xE 3x2xE 3x3xE T Done
+
+Evaluation Number 318 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xN 4x2xN 4x2xN 4x2xN 4x2xW 4x1xW T Done
+
+Evaluation Number 319 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xN 5x2xN 5x2xN 5x2xW 5x2xS 5x2xE 5x3xE 5x3xS 5x3xE 5x3xN 4x3xN T Done
+
+Evaluation Number 320 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xE 5x2xS 5x2xE 5x2xS 5x2xE 5x3xE 5x4xE 5x4xS 5x4xE 5x4xN 4x4xN 4x4xE 4x4xE 4x5xE 4x5xN 4x5xE 4x5xS 4x5xE 4x5xN 4x5xE 4x5xN 4x5xW 4x5xS 4x5xE 4x5xN 3x5xN 3x5xW 3x5xS 3x5xE 3x5xS 4x5xS 4x5xW 4x5xN 4x5xW 4x5xS 4x5xE 4x5xN 3x5xN 3x5xE 3x5xS 3x5xW 3x5xS 3x5xE 3x5xE 3x5xS 3x5xW 3x5xN 2x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xN 1x5xN 1x5xW 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xS 1x5xW 1x4xW 1x4xS 1x4xE 1x4xN 1x4xN 1x4xW 1x4xS 2x4xS 2x4xE 2x4xS 2x4xW 2x4xN 2x4xW 2x4xN 2x4xE 2x4xS 2x4xE 2x4xS 2x4xE 2x4xS 2x4xW 2x3xW 2x3xS 2x3xW 2x3xN 2x3xE 2x3xN 2x3xW 2x3xW 2x2xW G Done
+
+Evaluation Number 321 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xS 6x2xS 6x2xS 6x2xE 6x2xN 5x2xN 5x2xN 5x2xE 5x3xE 5x4xE 5x4xN 5x4xW 5x4xN 5x4xE 5x5xE 5x5xN 5x5xE 5x5xN 4x5xN 3x5xN 2x5xN 2x5xE 2x5xN 2x5xW 2x4xW 2x4xN 2x4xN 1x4xN 1x4xW 1x3xW 1x2xW 1x2xN 1x2xW 1x2xS 1x2xW 1x2xS 1x2xS 1x2xE 1x2xN 1x2xW 1x2xS 1x2xW 1x2xN 1x2xE 1x2xN 1x2xE 1x2xS 2x2xS G Done
+
+Evaluation Number 322 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x3xE 5x3xS 6x3xS 6x3xS 6x3xE 6x4xE 6x4xN 6x4xN 5x4xN 4x4xN 4x4xW 4x4xN 4x4xE 4x5xE 4x5xS 4x5xW 4x5xN 4x5xW 4x5xN 4x5xW 4x5xN 4x5xW 4x5xN 3x5xN 3x5xW 3x5xN 3x5xE 3x5xN 2x5xN 2x5xW 2x5xN 2x5xE 2x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x4xW 1x4xW 1x3xW 1x3xS 1x3xW 1x2xW 1x2xS 2x2xS G Done
+
+Evaluation Number 323 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xN 5x2xE 5x2xN 5x2xW 5x1xW 5x1xS 6x1xS 6x1xW 6x1xN 6x1xE 6x1xE 6x1xE 6x1xN 6x1xE 6x2xE 6x2xS 6x2xW 6x2xS 6x2xS 6x2xW 6x2xS 6x2xE 6x3xE 6x3xS 6x3xE 6x4xE 6x5xE 6x5xS 6x5xS 6x5xE 6x5xS 6x5xE 6x5xS 6x5xE 6x5xS 6x5xS 6x5xS 6x5xW 6x5xN 5x5xN 5x5xE 5x5xE 5x5xE 5x5xE 5x5xE 5x5xE 5x5xN 4x5xN 3x5xN 2x5xN 2x5xE 2x5xN 2x5xW 2x4xW 2x4xS 2x4xE 2x5xE 2x5xE 2x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xN 1x5xW 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xW 1x4xW 1x4xS 1x4xE 1x4xS 2x4xS 2x4xE 2x5xE 2x5xE 2x5xN 2x5xE 2x5xN 2x5xW 2x5xS 2x5xW 2x4xW 2x4xN 2x4xW 2x3xW 2x3xN 1x3xN 1x3xN 1x3xE 1x4xE 1x4xS 1x4xW 1x4xN 1x4xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xS 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xN 1x5xW 1x5xN 1x5xW 1x4xW 1x4xN 1x4xE 1x4xS 1x4xE 1x5xE 1x5xS 1x5xW 1x4xW 1x4xN 1x4xW 1x4xN 1x4xE 1x5xE 1x5xN 1x5xN 1x5xW 1x5xN 1x5xW 1x4xW 1x4xS 1x4xE 1x4xN 1x4xN 1x4xN 1x4xE 1x4xS 1x4xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xW 1x5xS 2x5xS 2x5xW 2x5xS 2x5xE 2x5xE 2x5xE 2x5xN 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xN 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 1x5xW 1x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS 2x5xS 2x5xW 2x5xN 2x5xW 2x5xN 2x5xW 2x5xN 1x5xN 1x5xE 1x5xS Done
+
+Evaluation Number 324 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xN 5x2xW 5x2xS 5x2xW 5x2xN 5x2xE 5x2xE 5x2xS 5x2xE 5x2xN 5x2xE 5x2xN 5x2xW 5x2xS 5x2xS 6x2xS 6x2xE 6x2xS 6x2xE 6x2xS 6x2xW 6x2xN 6x2xE 6x3xE 6x4xE 6x5xE 6x5xS 6x5xS 6x5xS 6x5xE 6x5xS 6x5xE 6x5xE 6x5xN 6x5xW 6x5xS 6x5xW 6x5xN 6x5xW 6x5xN 5x5xN 4x5xN 4x5xE 4x5xS 4x5xE 4x5xN 4x5xE 4x5xN 3x5xN 2x5xN 2x5xW 2x4xW 2x4xS 2x4xE 2x4xS 2x4xW 2x4xW 2x4xW 2x4xN 2x4xE 2x4xN 2x4xE 2x4xS 2x4xE 2x4xS 2x4xE 2x5xE 2x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xE 1x5xS 1x5xW 1x5xS 1x5xW 1x5xS 1x5xW 1x5xW 1x4xW 1x4xS 1x4xW 1x3xW 1x3xN 1x3xW 1x3xN 1x3xE 1x3xN 1x3xE 1x4xE 1x4xN 1x4xW 1x4xN 1x4xE 1x5xE 1x5xE 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xE 1x5xS 1x5xE 1x5xS 1x5xW 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS 1x5xW 1x4xW 1x4xW 1x4xN 1x4xW 1x4xN 1x4xW 1x4xS 1x4xW 1x4xS 1x4xE 1x4xE 1x4xS 1x4xW 1x4xN 1x4xN 1x4xN 1x4xW 1x4xS 1x4xW 1x3xW 1x3xN 1x3xN 1x3xE 1x4xE 1x5xE 1x5xN 1x5xN 1x5xW 1x5xN 1x5xW 1x5xS 2x5xS 2x5xW 2x5xS 2x5xW 2x5xS 2x5xE 2x5xS 2x5xE 2x5xN 1x5xN 1x5xW 1x5xN 1x5xW 1x5xS 1x5xW 1x5xS 1x5xW 1x4xW 1x4xS 1x4xW 1x4xW 1x4xS 1x4xW 1x4xS 1x4xW 1x4xS 2x4xS 2x4xW 2x3xW 2x3xW 2x3xW 2x3xS 3x3xS T Done
+
+Evaluation Number 325 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x3xE 5x3xS 5x3xE 5x3xN 5x3xE 5x4xE 5x5xE 5x5xE 5x5xS 5x5xW 5x5xN 5x5xE 5x5xN 4x5xN 4x5xW 4x4xW 4x3xW T Done
+
+Evaluation Number 326 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xS 5x2xW 5x2xN 5x2xN 5x2xW 5x2xS 5x2xE 5x2xS 5x2xE 5x2xS 5x2xW 5x2xN 4x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 327 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xS 5x2xE 5x3xE 5x3xS 5x3xE 5x4xE 5x5xE 5x5xN 5x5xE 5x5xS 5x5xE 5x5xN 4x5xN 3x5xN 2x5xN 2x5xW 2x5xN 2x5xE 2x5xS 2x5xW 2x5xN 2x5xW 2x4xW 2x3xW 2x2xW G Done
+
+Evaluation Number 328 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xN 5x2xW 5x2xN 5x2xN 5x2xW 5x2xS 5x2xW 5x2xS 5x2xS 5x2xS 5x2xW 5x2xN 5x2xE 5x2xE 5x2xS 5x2xE 5x2xS 5x2xS 5x2xE 5x3xE 5x3xE 5x4xE 5x4xS 5x4xE 5x5xE 5x5xN 5x5xW 5x5xS 5x5xW 5x5xN 5x5xE 5x5xE 5x5xS 5x5xW 5x5xS 5x5xW 5x5xN 4x5xN 4x5xE 4x5xS 4x5xE 4x5xE 4x5xE 4x5xN 4x5xW 4x4xW 4x3xW T Done
+
+Evaluation Number 329 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xS 5x2xW 5x2xN 5x2xN 5x2xW 5x2xS 5x2xE 5x3xE 5x3xS 5x3xE 5x3xN 5x3xW 5x3xN 5x3xN 4x3xN T Done
+
+Evaluation Number 330 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xN 5x2xW 5x2xS 5x2xE 5x2xS 6x2xS 6x2xS 6x2xS 6x2xE 6x2xS 6x2xE 6x2xN 5x2xN 5x2xE 5x2xN 4x2xN 4x2xW 4x1xW T Done
+
+Evaluation Number 331 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 3x2xN 3x2xN 3x2xW 3x2xN 3x2xW 3x2xN 2x2xN G Done
+
+Evaluation Number 332 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 4x2xE 4x3xE T Done
+
+Evaluation Number 333 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x3xE 5x3xE 5x3xS 6x3xS 6x3xE 6x4xE 6x5xE 6x5xN 5x5xN 5x5xN 5x5xE 5x5xS 6x5xS 6x5xS 6x5xS 6x5xE 6x5xS 6x5xS 6x5xW 6x4xW 6x4xN 5x4xN 5x4xW 5x4xS 5x4xE 5x4xS 5x4xE 5x5xE 5x5xS 5x5xW 5x5xN 5x5xW 5x5xN 4x5xN 4x5xW 4x5xN 3x5xN 2x5xN 2x5xN 2x5xE 2x5xN 2x5xW 2x4xW 2x4xS 2x4xE 2x5xE 2x5xS 2x5xE 2x5xS 2x5xW 2x5xN 2x5xE 2x5xE 2x5xE 2x5xE 2x5xN 2x5xE 2x5xN 2x5xE 2x5xS 3x5xS 3x5xW 3x5xS 3x5xE 3x5xN 3x5xE 3x5xE 3x5xN 2x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xN 1x5xW 1x4xW 1x4xN 1x4xN 1x4xW 1x4xN 1x4xE 1x5xE 1x5xS 2x5xS 2x5xW 2x5xS 2x5xW 2x5xN 2x5xW 2x5xS 2x5xE 2x5xS 2x5xE 2x5xE 2x5xN 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xE 1x5xS 1x5xW 1x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xS 2x5xS 2x5xE 2x5xN 2x5xE 2x5xN 2x5xW 2x5xN 2x5xE 2x5xE 2x5xS 2x5xE 2x5xS 2x5xW 2x5xN 2x5xE 2x5xN 2x5xN 2x5xE 2x5xE 2x5xS 2x5xW 2x5xN 2x5xE 2x5xN 2x5xE 2x5xE 2x5xE 2x5xN 2x5xW 2x5xN 2x5xW 2x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xW 1x4xW 1x4xS 1x4xW 1x4xN 1x4xE 1x4xN 1x4xW 1x4xN 1x4xW 1x4xN 1x4xW 1x4xN 1x4xW 1x4xN 1x4xW 1x4xS 1x4xE 1x4xN 1x4xN 1x4xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xE 1x5xN 1x5xN 1x5xW 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xW 1x5xN 1x5xW 1x5xS 1x5xW 1x5xS 1x5xW 1x5xS 1x5xE 1x5xS 1x5xE 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xE 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xE 1x5xN Done
+
+Evaluation Number 334 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xE 5x2xN 5x2xW 5x2xN 5x2xN 5x2xE 5x2xS 5x2xE 5x2xN 5x2xN 5x2xE 5x2xN 5x2xW 5x2xS 5x2xE 5x2xS 5x2xS 5x2xE 5x2xE 5x2xE 5x2xN 5x2xE 5x2xS 5x2xS 5x2xE 5x2xN 5x2xW 5x2xW 5x2xS 5x2xW 5x2xS 6x2xS 6x2xS 6x2xW 6x2xW 6x2xS 6x2xS 6x2xE 6x2xN 6x2xE 6x3xE 6x3xN 6x3xN 6x3xW 6x3xS 6x3xE 6x3xE 6x4xE 6x4xN 6x4xW 6x4xS 6x4xW 6x4xN 6x4xE 6x4xN 6x4xE 6x4xN 6x4xE 6x5xE 6x5xN 5x5xN 5x5xE 5x5xS 5x5xE 5x5xE 5x5xE 5x5xN 4x5xN 4x5xN 4x5xN 4x5xE 4x5xE 4x5xN 4x5xE 4x5xN 4x5xE 4x5xN 4x5xN 4x5xW 4x5xN 3x5xN 3x5xW 3x5xN 3x5xE 3x5xN 3x5xN 2x5xN 2x5xE 2x5xN 1x5xN 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xN 1x5xW 1x4xW 1x3xW 1x3xW 1x3xN 1x3xN 1x3xE 1x3xS 1x3xW 1x3xS 1x3xW 1x2xW 1x2xS 1x2xE 1x2xN 1x2xW 1x2xS 2x2xS G Done
+
+Evaluation Number 335 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xN 5x2xW 5x2xS 5x2xE 5x2xE 5x2xN 5x2xE 5x2xS 5x2xW 5x2xS 5x2xS 5x2xS 5x2xE 5x3xE 5x3xE 5x4xE 5x4xS 5x4xE 5x4xN 5x4xE 5x4xE 5x4xE 5x4xS 5x4xE 5x5xE 5x5xS 5x5xW 5x5xW 5x5xN 5x5xN 5x5xW 5x4xW 5x4xS 5x4xW 5x4xS 5x4xE 5x4xE 5x4xE 5x5xE 5x5xS 5x5xW 5x5xS 5x5xW 5x5xN 4x5xN 4x5xE 4x5xE 4x5xN 4x5xN 4x5xN 4x5xW 4x5xN 3x5xN 2x5xN 2x5xE 2x5xN 2x5xN 2x5xW 2x4xW 2x4xW 2x4xW 2x4xW 2x4xS 2x4xE 2x4xS 2x4xE 2x4xS 2x4xW 2x4xN 2x4xW 2x4xN 2x4xW 2x4xW 2x3xW 2x3xW 2x3xW 2x2xW G Done
+
+Evaluation Number 336 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xS 5x2xW 5x2xN 4x2xN 4x2xW 4x2xN 3x2xN 3x2xW 3x2xS 4x2xS 4x2xW 4x2xW 4x2xS 4x2xE 4x2xS 4x2xW 4x2xN 4x2xN 4x2xW 4x2xW 4x2xS 4x2xW 4x2xN 4x2xE 4x2xN 4x2xE 4x2xE 4x2xS 4x2xE 4x2xN 4x2xN 4x2xN 4x2xE 4x2xS 4x2xE 4x2xS 5x2xS 5x2xE 5x2xN 5x2xE 5x2xN 5x2xE 5x2xS 5x2xE 5x2xN 5x2xN 5x2xW 5x2xS 5x2xW 5x2xS 6x2xS 6x2xS 6x2xW 6x2xS 6x2xW 6x2xS 6x2xS 6x2xE 6x2xS 6x2xS 6x2xE 6x2xN 6x2xE 6x3xE 6x4xE 6x4xN 6x4xN 6x4xE 6x4xE 6x5xE 6x5xN 6x5xW 6x5xS 6x5xE 6x5xN 5x5xN 5x5xE 5x5xS 5x5xE 5x5xS 5x5xE 5x5xN 5x5xE 5x5xN 5x5xN 5x5xE 5x5xS 5x5xE 5x5xS 5x5xE 5x5xE 5x5xE 5x5xE 5x5xN 4x5xN 4x5xN 3x5xN 3x5xN 3x5xN 3x5xE 3x5xN 3x5xW 3x5xN 2x5xN 2x5xN 2x5xN 2x5xE 2x5xN 1x5xN 1x5xW 1x4xW 1x4xN 1x4xW 1x4xS 1x4xW 1x4xN 1x4xW 1x4xN 1x4xE 1x4xS 1x4xE 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xN 1x5xN 1x5xE 1x5xS 2x5xS 2x5xE 2x5xN 2x5xW 2x5xN 2x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xE 1x5xS 1x5xW 1x4xW 1x4xS 1x4xE 1x4xS 1x4xW 1x4xS 2x4xS 2x4xE 2x4xE 2x4xS 2x4xE 2x4xS 2x4xW 2x4xW 2x4xS 2x4xE 2x4xE 2x4xN 2x4xN 2x4xE 2x4xE 2x4xE 2x4xS 2x4xE 2x4xE 2x5xE 2x5xS 2x5xE 2x5xS 2x5xW 2x5xW 2x5xS 2x5xW 2x5xW 2x5xN 2x5xW 2x5xN 2x5xW 2x5xS 2x5xE 2x5xS 2x5xE 2x5xN 2x5xE 2x5xE 2x5xE 2x5xN 2x5xW 2x5xS 2x5xW 2x5xN 2x5xW 2x5xN 2x5xW 2x5xN 2x5xE 2x5xS 2x5xW 2x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xN 1x5xW 1x5xS 2x5xS 2x5xE 2x5xN 2x5xE 2x5xN 2x5xE 2x5xN 2x5xE 2x5xE 2x5xS 2x5xE 2x5xE 2x5xE 2x5xN 2x5xE 2x5xN 2x5xW 2x5xN 2x5xW 2x5xW 2x5xN 2x5xE 2x5xN 2x5xE 2x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xE 1x5xS 1x5xS 1x5xW 1x5xS 1x5xW 1x5xS 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN Done
+
+Evaluation Number 337 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xN 5x2xN 5x2xN 4x2xN 4x2xN 4x2xW 4x2xN 4x2xE 4x2xS 4x2xW 4x2xS 4x2xS 4x2xW 4x2xW 4x1xW T Done
+
+Evaluation Number 338 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xN 5x2xW 5x2xW 5x2xN 5x2xN 4x2xN 4x2xN 4x2xN 4x2xN 4x2xE 4x2xS 4x2xE 4x2xS 4x2xS 4x2xS 4x2xE 4x2xE 4x2xS 4x2xE 4x2xN 4x2xE 4x2xS 4x2xS 4x2xE 4x2xN 4x2xE 4x2xE 4x2xE 4x2xE 4x2xS 4x2xE 4x2xN 3x2xN 3x2xE 3x2xS 3x2xE 3x2xN 3x2xW 3x2xS 3x2xW 3x2xN 3x2xW 3x1xW T Done
+
+Evaluation Number 339 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xN 4x2xN 4x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 340 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xS 5x2xE 5x3xE 5x3xS 5x3xE 5x3xE 5x4xE 5x4xE 5x4xS 5x4xE 5x4xS 5x4xE 5x4xE 5x4xS 6x4xS 6x4xE 6x5xE 6x5xS 6x5xW 6x5xN 5x5xN 5x5xW 5x4xW 5x4xS 5x4xE 5x4xE 5x5xE 5x5xE 5x5xE 5x5xS 5x5xE 5x5xN 5x5xW 5x4xW 5x4xW 5x4xS 5x4xW 5x4xN 5x4xW 5x4xS 5x4xE 5x4xS 5x4xE 5x4xE 5x4xN 5x4xE 5x4xN 5x4xN 5x4xE 5x4xN 5x4xN 5x4xE 5x4xE 5x5xE 5x5xN 5x5xN 5x5xW 5x5xN 5x5xE 5x5xN 5x5xN 5x5xN 5x5xW 5x4xW 5x3xW 5x3xN 5x3xE 5x4xE 5x4xE 5x5xE 5x5xE 5x5xN 5x5xE 5x5xS 5x5xE 5x5xN 5x5xE 5x5xN 5x5xE 5x5xE 5x5xS 5x5xW 5x5xS 5x5xW 5x5xS 5x5xW 5x5xS 5x5xW 5x5xS 5x5xE 5x5xE 5x5xN 5x5xN 5x5xN 5x5xE 5x5xE 5x5xE 5x5xN 4x5xN 4x5xE 4x5xN 4x5xE 4x5xN 4x5xN 3x5xN 2x5xN 2x5xW 2x5xS 2x5xW 2x5xW 2x5xW 2x5xN 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 1x5xW 1x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xS 1x5xW 1x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xE 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xE 1x5xS 1x5xW 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xW 1x5xS 1x5xW 1x5xS 1x5xE 1x5xS 1x5xW 1x5xS 1x5xW 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xW 1x5xS 1x5xW 1x5xW 1x5xW 1x5xN 1x5xE 1x5xS 1x5xE 1x5xS 1x5xW 1x5xS 1x5xW 1x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xW 1x5xW 1x4xW 1x4xN 1x4xN 1x4xE 1x4xS 1x4xE 1x4xS 1x4xS 1x4xW 1x4xN 1x4xE 1x4xE 1x4xN 1x4xW 1x4xN 1x4xN 1x4xE 1x4xE 1x4xS 1x4xE 1x4xN 1x4xW 1x4xS 1x4xS 1x4xW 1x4xN 1x4xE 1x4xN 1x4xW 1x4xN 1x4xW 1x4xN 1x4xE 1x4xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xS 1x5xW 1x5xS 1x5xW 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xE 1x5xS 1x5xS 1x5xW 1x5xW 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS 2x5xS 2x5xW 2x5xS 2x5xW 2x5xS 2x5xW 2x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN Done
+
+Evaluation Number 341 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xN 5x2xE 5x2xN 5x2xW 5x2xN 4x2xN 4x2xW 4x1xW T Done
+
+Evaluation Number 342 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xS 5x2xE 5x2xN 4x2xN 4x2xN 4x2xN 4x2xN 4x2xE 4x2xE 4x2xE 4x3xE T Done
+
+Evaluation Number 343 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 4x2xN 4x2xE 4x2xN 4x2xE 4x2xN 4x2xW 4x2xN 4x2xE 4x2xN 4x2xW 4x2xS 4x2xW 4x2xN 4x2xN 4x2xN 3x2xN 3x2xW 3x2xN 3x2xN 3x2xE 3x2xE 3x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 344 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xE 5x2xN 5x2xE 5x2xN 4x2xN 4x2xE 4x3xE T Done
+
+Evaluation Number 345 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xN 5x2xE 5x2xN 5x2xE 5x2xS 5x2xE 5x2xN 4x2xN 3x2xN 3x2xW 3x2xN 3x2xE 3x2xN 3x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 346 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xS 5x2xW 5x2xN 5x2xN 5x2xE 5x2xE 5x3xE 5x3xS 5x3xS 5x3xW 5x3xS 5x3xS 5x3xW 5x3xW 5x2xW 5x2xN 5x2xE 5x2xE 5x2xE 5x3xE 5x3xS 5x3xE 5x4xE 5x4xN 5x4xN 5x4xE 5x4xS 5x4xE 5x4xS 5x4xS 5x4xW 5x4xS 6x4xS 6x4xE 6x4xN 6x4xN 6x4xN 5x4xN 5x4xW 5x4xN 5x4xE 5x4xN 5x4xW 5x4xN 5x4xW 5x4xS 5x4xE 5x5xE 5x5xN 5x5xW 5x5xS 5x5xE 5x5xN 4x5xN 4x5xN 3x5xN 3x5xE 3x5xS 3x5xW 3x5xS 3x5xW 3x5xS 3x5xE 3x5xN 3x5xE 3x5xN 2x5xN 2x5xW 2x5xS 2x5xW 2x5xS 2x5xE 2x5xN 2x5xN 2x5xW 2x5xW 2x5xS 2x5xE 2x5xN 2x5xW 2x5xN 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 1x5xW 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xS 2x5xS 2x5xE 2x5xN 2x5xW 2x5xS 2x5xE 2x5xN 2x5xN 2x5xW 2x5xS 2x5xE 2x5xN 2x5xN 2x5xE 2x5xS 2x5xW 2x5xS 2x5xW 2x5xS 2x5xW 2x5xW 2x5xN 2x5xW 2x5xN 2x5xW 2x5xS 2x5xE 2x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xW 1x5xW 1x4xW 1x4xS 1x4xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xW 1x4xW 1x4xN 1x4xE 1x4xS 1x4xE 1x5xE 1x5xE 1x5xS 1x5xW 1x5xN 1x5xN 1x5xE 1x5xS 1x5xS 1x5xE 1x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xW 1x5xS 1x5xW 1x5xS 1x5xE 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xN 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xN 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xE 1x5xS 1x5xW 1x5xN 1x5xN 1x5xW 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xW 1x5xN 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xS 1x5xW 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE Done
+
+Evaluation Number 347 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xS 5x2xE 5x2xN 5x2xN 5x2xW 5x2xW 5x2xN 5x2xE 5x2xN 4x2xN 4x2xN 3x2xN 3x2xE 3x2xN 3x2xW 3x2xW 3x2xN 3x2xN 3x2xW 3x2xN 3x2xN 3x2xN 3x2xE 3x2xE 3x2xN 3x2xN 3x2xN 3x2xE 3x3xE T Done
+
+Evaluation Number 348 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xN 5x2xN 5x2xW 5x2xS 5x2xE 5x2xS 5x2xE 5x3xE 5x3xN 5x3xN 5x3xW 5x3xN 5x3xN 5x3xW 5x3xS 5x3xS 5x3xW 5x3xN 5x3xW 5x3xS 5x3xW 5x3xS 5x3xW 5x3xS 5x3xS 5x3xS 5x3xS 5x3xE 5x3xE 5x3xN 5x3xW 5x2xW 5x2xN 5x2xE 5x2xS 6x2xS 6x2xS 6x2xS 6x2xE 6x2xS 6x2xW 6x2xN 6x2xW 6x2xN 6x2xE 6x2xE 6x2xE 6x2xS 6x2xS 6x2xS 6x2xE 6x2xN 6x2xE 6x3xE 6x4xE 6x4xS 6x4xE 6x4xS 6x4xW 6x4xN 6x4xW 6x4xN 6x4xE 6x4xE 6x5xE 6x5xN 5x5xN 4x5xN 3x5xN 3x5xE 3x5xS 3x5xS 4x5xS 4x5xW 4x5xN 4x5xE 4x5xN 4x5xE 4x5xN 4x5xE 4x5xN 4x5xE 4x5xN 3x5xN 3x5xN 3x5xW 3x5xN 3x5xE 3x5xN 2x5xN 2x5xN 2x5xE 2x5xN 2x5xE 2x5xN 2x5xE 2x5xS 3x5xS 3x5xW 3x5xN 2x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xW 1x4xW 1x4xS 2x4xS 2x4xE 2x4xS 2x4xW 2x4xW 2x4xN 2x4xW 2x4xS 2x4xW 2x4xW 2x4xW 2x4xN 2x4xW 2x3xW 2x2xW G Done
+
+Evaluation Number 349 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xS 5x2xE 5x2xN 5x2xN 5x2xE 5x2xS 5x2xS 5x2xS 5x2xE 5x2xS 5x2xE 5x2xS 6x2xS 6x2xW 6x2xS 6x2xS 6x2xE 6x2xE 6x2xS 6x2xS 6x2xS 6x2xW 6x2xN 6x2xE 6x3xE 6x3xN 6x3xE 6x4xE 6x5xE 6x5xE 6x5xS 6x5xS 6x5xE 6x5xE 6x5xN 6x5xW 6x5xN 6x5xE 6x5xN 5x5xN 4x5xN 4x5xE 4x5xN 4x5xW 4x5xS 4x5xE 4x5xS 4x5xE 4x5xN 4x5xE 4x5xE 4x5xN 3x5xN 3x5xE 3x5xS 3x5xE 3x5xE 3x5xS 3x5xE 3x5xE 3x5xS 3x5xW 3x5xS 3x5xW 3x5xN 2x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xW 1x4xW 1x4xS 2x4xS 2x4xW 2x4xW 2x4xW 2x4xN 2x4xW 2x4xN 1x4xN 1x4xN 1x4xN 1x4xW 1x4xS 1x4xE 1x4xN 1x4xW 1x4xN 1x4xW 1x4xN 1x4xE 1x4xN 1x4xE 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xW 1x5xW 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 1x5xW 1x5xS 1x5xW 1x5xS 1x5xW 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xS 1x5xW 1x4xW 1x4xS 1x4xE 1x4xN 1x4xN 1x4xE 1x4xS 2x4xS 2x4xE 2x4xN 2x4xE 2x4xS 2x4xW 2x4xW 2x4xN 2x4xN 2x4xN 2x4xW 2x4xW 2x4xS 2x4xW 2x4xW 2x4xW 2x4xN 2x4xW 2x4xS 2x4xW 2x4xN 1x4xN 1x4xE 1x4xS 1x4xE 1x5xE 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 2x5xS 2x5xE 2x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xS 1x5xW 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xS 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xS 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xW 1x5xS 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xS 1x5xW 1x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xS 1x5xW 1x5xS 2x5xS 2x5xW 2x5xN 2x5xE 2x5xN 2x5xW 2x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xW 1x5xS 2x5xS Done
+
+Evaluation Number 350 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xN 5x2xN 4x2xN 4x2xW 4x2xS 4x2xW 4x2xS 4x2xW 4x2xN 4x2xN 4x2xN 4x2xE 4x2xN 4x2xN 4x2xE 4x2xE 4x2xN 4x2xN 3x2xN 3x2xW 3x2xS 4x2xS 4x2xW 4x2xS 4x2xW 4x1xW T Done
+
+Evaluation Number 351 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 4x2xN 4x2xN 4x2xW 4x2xN 4x2xW 4x2xW 4x1xW T Done
+
+Evaluation Number 352 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xS 5x2xS 5x2xE 5x2xS 5x2xE 5x2xE 5x3xE 5x4xE 5x4xN 4x4xN 4x4xN 4x4xW 4x4xS 4x4xE 4x4xN 4x4xW 4x4xW 4x4xN 4x4xE 4x4xS 4x4xE 4x4xN 4x4xE 4x4xN 4x4xE 4x4xS 4x4xW 4x4xW 4x4xS 4x4xS 4x4xE 4x4xE 4x4xN 4x4xN 4x4xE 4x4xE 4x4xE 4x4xE 4x4xE 4x4xE 4x4xE 4x4xN 4x4xW 4x4xW 4x4xN 4x4xN 4x4xW 4x4xN 4x4xW 4x4xS 4x4xW 4x4xS 4x4xE 4x5xE 4x5xN 4x5xW 4x5xS 4x5xW 4x5xN 4x5xW 4x5xS 4x5xE 4x5xN 4x5xE 4x5xS 4x5xE 4x5xN 3x5xN 2x5xN 2x5xE 2x5xE 2x5xS 2x5xE 2x5xE 2x5xN 2x5xW 2x5xS 2x5xE 2x5xN 2x5xE 2x5xE 2x5xN 2x5xW 2x5xW 2x4xW 2x4xS 2x4xW 2x4xW 2x4xS 2x4xE 2x4xS 2x4xW 2x4xS 2x4xE 2x4xE 2x4xE 2x4xE 2x4xN 2x4xE 2x4xE 2x4xS 2x4xE 2x4xN 2x4xN 2x4xW 2x4xN 2x4xE 2x4xN 2x4xW 2x4xN 2x4xE 2x4xS 2x4xW 2x4xS 2x4xW 2x3xW 2x2xW G Done
+
+Evaluation Number 353 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xN 5x2xW 5x2xN 5x2xN 5x2xE 5x2xS 5x2xW 5x2xS 5x2xW 5x2xN 5x2xW 5x2xN 4x2xN 3x2xN 3x2xE 3x2xN 2x2xN G Done
+
+Evaluation Number 354 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xN 4x2xN 4x2xE 4x2xN 4x2xW 4x2xW 4x2xN 4x2xN 4x2xE 4x2xS 4x2xE 4x3xE T Done
+
+Evaluation Number 355 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xN 5x2xE 5x2xS 5x2xE 5x2xN 5x2xW 5x2xS 5x2xE 5x2xN 4x2xN 3x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 356 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xN 5x2xW 5x2xN 5x2xE 5x2xS 6x2xS 6x2xE 6x2xS 6x2xW 6x2xS 6x2xW 6x2xS 6x2xE 6x2xN 6x2xE 6x2xN 6x2xE 6x3xE 6x4xE 6x4xS 6x4xS 6x4xW 6x4xN 6x4xE 6x5xE 6x5xN 6x5xW 6x5xN 6x5xN 6x5xE 6x5xS 6x5xW 6x5xN 6x5xE 6x5xE 6x5xE 6x5xN 5x5xN 5x5xW 5x5xS 5x5xW 5x5xN 5x5xE 5x5xE 5x5xE 5x5xS 5x5xE 5x5xS 5x5xE 5x5xE 5x5xN 4x5xN 4x5xN 4x5xE 4x5xN 4x5xN 4x5xE 4x5xN 4x5xN 3x5xN 3x5xW 3x5xN 2x5xN 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xW 1x4xW 1x4xN 1x4xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xN 1x5xW 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xN 1x5xW 1x5xS 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xE 1x5xE 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xN 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xN 1x5xW 1x5xS 2x5xS 2x5xW 2x5xS 2x5xW 2x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xS 1x5xE 1x5xE 1x5xS 1x5xW 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xW 1x5xS 1x5xW 1x5xS 1x5xE 1x5xN 1x5xN 1x5xN 1x5xN 1x5xN 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xW 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xS 1x5xW 1x4xW 1x4xS 1x4xE 1x4xE 1x4xS 1x4xS 1x4xE 1x4xE 1x4xS 1x4xE 1x4xS 1x4xE 1x4xS 1x4xE 1x4xS 1x4xE 1x4xE 1x4xE 1x4xN 1x4xE 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xS 1x5xW 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xS 1x5xW 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xE 1x5xS 1x5xW 1x5xS 1x5xW 1x5xN 1x5xN 1x5xE Done
+
+Evaluation Number 357 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xN 4x2xN 4x2xN 4x2xE 4x2xE 4x2xS 4x2xE 4x2xE 4x2xS 4x2xS 4x2xE 4x2xN 4x2xW 4x2xW 4x2xS 4x2xE 4x2xN 4x2xE 4x2xE 4x2xE 4x2xN 4x2xN 4x2xE 4x3xE T Done
+
+Evaluation Number 358 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xN 5x2xE 5x2xE 5x2xN 5x2xW 5x2xN 5x2xE 5x2xN 5x2xW 5x2xN 4x2xN 3x2xN 3x2xN 3x2xW 3x2xS 3x2xE 3x2xN 3x2xW 3x2xN 3x2xE 3x2xN 3x2xE 3x2xN 3x2xN 3x2xW 3x2xN 3x2xW 3x2xW 3x2xS 3x2xE 3x2xN 3x2xE 3x2xS 3x2xE 3x2xN 2x2xN G Done
+
+Evaluation Number 359 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xN 5x2xE 5x2xS 5x2xS 5x2xE 5x2xN 4x2xN 4x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 360 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 4x2xE 4x2xE 4x2xN 4x2xE 4x2xE 4x2xN 3x2xN 3x2xW 3x2xN 3x2xN 3x2xE 3x2xN 3x2xE 3x2xN 2x2xN G Done
+
+Evaluation Number 361 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xN 5x2xW 5x2xS 5x2xE 5x2xN 5x2xN 5x2xN 5x2xW 5x2xN 5x2xW 5x2xS 5x2xS 5x2xS 6x2xS 6x2xE 6x2xE 6x2xS 6x2xE 6x2xE 6x2xN 6x2xE 6x2xE 6x3xE 6x3xS 6x3xS 6x3xE 6x3xE 6x3xN 6x3xN 6x3xE 6x4xE 6x5xE 6x5xE 6x5xN 5x5xN 4x5xN 4x5xW 4x5xS 4x5xE 4x5xE 4x5xN 3x5xN 3x5xN 3x5xE 3x5xE 3x5xS 3x5xS 3x5xE 3x5xN 3x5xE 3x5xS 3x5xW 3x5xN 3x5xN 3x5xE 3x5xN 2x5xN 2x5xN 2x5xE 2x5xE 2x5xS 2x5xW 2x5xN 2x5xW 2x5xN 2x5xE 2x5xE 2x5xS 2x5xW 2x5xN 2x5xE 2x5xE 2x5xN 2x5xW 2x5xS 2x5xW 2x5xS 2x5xE 2x5xS 2x5xE 2x5xN 2x5xW 2x5xN 2x5xN 2x5xE 2x5xN 2x5xW 2x5xN 2x5xE 2x5xE 2x5xE 2x5xN 2x5xE 2x5xN 2x5xW 2x5xN 2x5xN 2x5xW 2x5xN 2x5xE 2x5xE 2x5xS 2x5xE 2x5xE 2x5xN 2x5xE 2x5xE 2x5xS 2x5xW 2x5xN 1x5xN 1x5xN 1x5xW 1x5xW 1x5xN 1x5xE 1x5xN 1x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xE 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 1x5xW 1x5xS 1x5xE 1x5xS 1x5xW 1x5xN 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xS 2x5xS 2x5xE 2x5xN 2x5xE 2x5xE 2x5xE 2x5xS 2x5xE 2x5xE 2x5xN 2x5xW 2x5xS 2x5xE 2x5xS 2x5xE 2x5xE 2x5xN 2x5xW 2x5xS 2x5xE 2x5xE 2x5xN 1x5xN 1x5xE 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xW 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xN 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 1x5xW 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x4xW 1x4xS 1x4xE 1x4xS 1x4xE 1x4xN 1x4xN 1x4xE 1x4xS 1x4xW 1x4xS 1x4xE 1x4xE 1x4xE 1x4xS 1x4xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xE 1x5xS 1x5xW 1x5xN 1x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x5xN 1x5xW 1x5xS 1x5xW 1x5xS 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xW 1x5xS 2x5xS 2x5xE 2x5xE 2x5xE 2x5xE 2x5xE 2x5xN 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xW 1x5xS 2x5xS 2x5xE 2x5xE 2x5xN 2x5xN 1x5xN 1x5xN 1x5xN 1x5xN 1x5xN 1x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xS Done
+
+Evaluation Number 362 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xN 5x2xE 5x2xS 5x2xW 5x2xS 5x2xE 5x2xN 5x2xE 5x3xE 5x3xN 5x3xN 5x3xN 4x3xN T Done
+
+Evaluation Number 363 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x1xW 5x1xS 5x1xE 5x1xE 5x1xS 6x1xS 6x1xE 6x2xE 6x2xE 6x3xE 6x3xS 6x3xE 6x4xE 6x4xS 6x4xW 6x4xN 5x4xN 4x4xN 4x4xE 4x4xN 4x4xE 4x4xN 4x4xN 4x4xE 4x4xN 4x4xW 4x4xS 4x4xE 4x4xE 4x4xS 5x4xS 6x4xS 6x4xW 6x4xS 6x4xE 6x4xS 6x4xW 6x4xN 6x4xW 6x4xN 6x4xE 6x4xN 6x4xE 6x4xS 6x4xE 6x4xE 6x5xE 6x5xN 5x5xN 5x5xE 5x5xN 4x5xN 4x5xE 4x5xE 4x5xS 4x5xE 4x5xE 4x5xS 4x5xE 4x5xS 4x5xW 4x5xS 5x5xS 5x5xE 5x5xS 5x5xW 5x5xN 5x5xW 5x5xS 5x5xE 5x5xE 5x5xS 5x5xE 5x5xS 5x5xE 5x5xE 5x5xN 4x5xN 3x5xN 3x5xN 3x5xW 3x5xS 3x5xS 3x5xE 3x5xN 3x5xN 3x5xW 3x4xW 3x4xW 3x4xN 3x4xN 3x4xW 3x4xN 3x4xW 3x3xW T Done
+
+Evaluation Number 364 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xN 5x2xW 5x2xN 5x2xE 5x2xN 5x2xN 5x2xN 5x2xE 5x2xS 5x2xS 5x2xE 5x2xE 5x2xN 5x2xN 5x2xN 5x2xW 5x2xS 5x2xS 5x2xW 5x2xS 5x2xW 5x2xN 5x2xW 5x2xN 5x2xW 5x2xS 5x2xS 6x2xS 6x2xE 6x3xE 6x4xE 6x5xE 6x5xS 6x5xE 6x5xE 6x5xN 6x5xN 5x5xN 4x5xN 4x5xW 4x5xS 4x5xE 4x5xE 4x5xS 4x5xW 4x5xS 4x5xE 4x5xN 3x5xN 2x5xN 2x5xE 2x5xN 2x5xE 2x5xN 2x5xW 2x5xN 2x5xW 2x4xW 2x4xS 2x4xW 2x4xW 2x4xS 2x4xE 2x4xS 2x4xW 2x4xN 2x4xE 2x4xN 1x4xN 1x4xN 1x4xW 1x4xS 1x4xE 1x4xS 1x4xE 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xS 1x5xS 1x5xW 1x5xN 1x5xN 1x5xE 1x5xS 1x5xW 1x5xS 1x5xW 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xE 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xS 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xN 1x5xN 1x5xN 1x5xN 1x5xE 1x5xS 1x5xW 1x4xW 1x3xW 1x2xW 1x2xS 2x2xS G Done
+
+Evaluation Number 365 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x3xE 5x3xE 5x3xN 5x3xE 5x3xN 5x3xE 5x4xE 5x4xN 5x4xE 5x4xE 5x4xN 5x4xW 5x4xS 5x4xE 5x4xN 5x4xN 5x4xN 5x4xE 5x4xN 5x4xE 5x4xE 5x4xS 5x4xE 5x5xE 5x5xS 6x5xS 6x5xW 6x5xN 6x5xE 6x5xS 6x5xE 6x5xN 6x5xW 6x5xN 6x5xE 6x5xS 6x5xE 6x5xE 6x5xN 6x5xE 6x5xN 6x5xE 6x5xE 6x5xE 6x5xN 6x5xN 6x5xN 6x5xN 5x5xN 4x5xN 4x5xW 4x5xW 4x5xN 4x5xW 4x5xN 4x5xE 4x5xS 5x5xS 5x5xE 5x5xN 5x5xE 5x5xN 5x5xN 5x5xE 5x5xN 4x5xN 4x5xE 4x5xS 4x5xE 4x5xN 4x5xN 3x5xN 3x5xN 3x5xW 3x5xS 3x5xW 3x5xW 3x5xS 3x5xE 3x5xN 3x5xW 3x5xS 3x5xW 3x5xN 2x5xN 2x5xE 2x5xN 1x5xN 1x5xE 1x5xE 1x5xE 1x5xS 1x5xW 1x5xN 1x5xW 1x5xS 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xS 1x5xW 1x5xN 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xN 1x5xN 1x5xE 1x5xN 1x5xW 1x4xW 1x4xS 1x4xE 1x4xS 1x4xW 1x4xS 1x4xW 1x4xS 1x4xE 1x4xN 1x4xN 1x4xE 1x4xN 1x4xW 1x4xS 1x4xE 1x4xE 1x5xE 1x5xN 1x5xN 1x5xN 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xW 1x5xN 1x5xW 1x5xS 1x5xE 1x5xS 1x5xW 1x5xS 1x5xE 1x5xS 1x5xW 1x4xW 1x4xS 1x4xW 1x3xW 1x3xS 1x3xW 1x2xW 1x2xN 1x2xE 1x2xS 1x2xE 1x2xS 1x2xW 1x2xS 1x2xS 1x2xS 1x2xE 1x2xN 1x2xW 1x2xS 1x2xS 1x2xW 1x2xS 1x2xS 1x2xE 1x2xS 1x2xW 1x2xN 1x2xE 1x3xE 1x3xS 1x3xW 1x3xS 1x3xW 1x3xS 2x3xS 3x3xS T Done
+
+Evaluation Number 366 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xN 5x2xW 5x2xN 4x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 367 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xS 5x2xS 5x2xE 5x2xE 5x2xN 5x2xN 5x2xW 5x2xS 5x2xE 5x2xE 5x2xN 5x2xE 5x3xE 5x4xE 5x4xE 5x4xS 5x4xS 5x4xW 5x4xN 5x4xE 5x4xS 5x4xW 5x4xS 5x4xE 5x4xE 5x4xE 5x4xE 5x4xE 5x4xS 5x4xE 5x4xE 5x5xE 5x5xN 5x5xW 5x5xN 4x5xN 4x5xE 4x5xN 4x5xE 4x5xN 3x5xN 2x5xN 2x5xW 2x5xN 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x5xS 1x5xW 1x5xN 1x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xE 1x5xE 1x5xS 1x5xW 1x5xS 1x5xW 1x4xW 1x3xW 1x2xW 1x2xS 1x2xS 1x2xS 1x2xW 1x2xS 1x2xE 1x2xS 1x2xE 1x3xE 1x3xN 1x3xE 1x3xN 1x3xN 1x3xN 1x3xW 1x2xW 1x2xN 1x2xN 1x2xW 1x2xS 1x2xW 1x2xS 1x2xE 1x2xN 1x2xW 1x2xS 1x2xS 1x2xW 1x2xS 2x2xS G Done
+
+Evaluation Number 368 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xN 5x2xE 5x2xN 5x2xN 5x2xE 5x3xE 5x3xE 5x3xN 5x3xW 5x3xS 5x3xS 5x3xE 5x3xE 5x3xN 5x3xN 5x3xE 5x3xN 5x3xN 4x3xN T Done
+
+Evaluation Number 369 
+eNVIRONMENT NO 0.16
+5x2xN 4x2xN 4x2xE 4x2xS 4x2xE 4x2xS 4x2xW 4x1xW T Done
+
+Evaluation Number 370 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xE 5x2xS 5x2xE 5x2xN 4x2xN 4x2xW 4x2xW 4x2xN 4x2xN 3x2xN 3x2xE 3x2xN 3x2xE 3x2xN 3x2xE 3x2xN 3x2xN 3x2xN 2x2xN G Done
+
+Evaluation Number 371 
+eNVIRONMENT NO 0.16
+5x2xN 5x2xW 5x2xN 5x2xN 5x2xN 5x2xE 5x2xS 5x2xE 5x3xE 5x3xE 5x4xE 5x5xE 5x5xE 5x5xS 5x5xW 5x5xW 5x5xW 5x5xS 5x5xW 5x5xS 5x5xW 5x5xN 5x5xW 5x5xN 5x5xW 5x5xN 5x5xN 4x5xN 3x5xN 3x5xW 3x5xS 3x5xW 3x5xW 3x5xS 3x5xW 3x5xN 3x5xE 3x5xE 3x5xE 3x5xN 3x5xW 3x5xN 3x5xN 3x5xE 3x5xS 3x5xW 3x5xN 3x5xW 3x5xW 3x5xN 3x5xE 3x5xN 3x5xW 3x5xN 3x5xN 2x5xN 2x5xE 2x5xS 2x5xE 2x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xW 1x5xS 1x5xE 1x5xS 1x5xE 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xN 1x5xW 1x4xW 1x4xS 1x4xW 1x4xS 1x4xE 1x4xN 1x4xW 1x4xS 1x4xE 1x4xN 1x4xW 1x4xN 1x4xN 1x4xN 1x4xE 1x4xN 1x4xN 1x4xW 1x4xN 1x4xN 1x4xN 1x4xE 1x4xE 1x4xN 1x4xW 1x4xN 1x4xW 1x4xN 1x4xW 1x4xS 1x4xE 1x5xE 1x5xN 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xN 1x5xN 1x5xW 1x5xS 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xN 1x5xE 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x4xW 1x4xN 1x4xW 1x4xN 1x4xE 1x4xN 1x4xW 1x4xN 1x4xN 1x4xE 1x4xN 1x4xN 1x4xN 1x4xE 1x4xE 1x4xS 1x4xE 1x4xS 1x4xW 1x3xW 1x2xW 1x2xS 2x2xS G Done
+
+Evaluation Number 372 
+eNVIRONMENT NO 0.16

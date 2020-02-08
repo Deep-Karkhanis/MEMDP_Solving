@@ -1,0 +1,265 @@
+/home/dkarkhan/ReCA_MEMDP/ReCA/Code
+
+Compiling mainMEMDP
+/usr/bin/g++-7 -O3 -Wl,-rpath,/usr/lib/gcc/x86_64-linux-gnu/7.3.0/ -DNITEMSPRM= -DHISTPRM=2 -DNPROFILESPRM= -std=c++11 mazemodel.cpp recomodel.cpp utils.cpp main_MEMDP.cpp -o mainMEMDP -I /home/dkarkhan/ReCA_MEMDP/AI-Toolbox/include -I /usr/local/include/eigen3/ -L /usr/local/include/lpsolve -L /home/dkarkhan/ReCA_MEMDP/AI-Toolbox/build -l AIToolboxMDP -l AIToolboxPOMDP -l lpsolve55 -lz -lboost_iostreams
+
+Running mainMEMDP on /home/dkarkhan/ReCA_MEMDP/ReCA/Code/Models/avoid_risk1000/avoid_risk1000 with pamcp solver
+./mainMEMDP /home/dkarkhan/ReCA_MEMDP/ReCA/Code/Models/avoid_risk1000/avoid_risk1000 maze pamcp 0.95 10000 1000 0.01 1000 500 0 0
+
+12-06-2018 10:33:46 - Loading appropriate model
+Setting undiscounted model   -> The model contains 143 observations
+   -> The model contains 3 actions
+   -> The model contains 1144 states
+   -> The model contains 8 environments
+
+12-06-2018 10:33:46 - Starting pamcp solver...!
+12-06-2018 10:33:46 - Starting evaluation!
+
+
+EVALUATION NUMBER 1 STARTED
+Environment Chosen :0 Path followed: S 7x2xN 7x2xE 7x2xN 7x2xW 7x2xS 7x2xE 7x3xE 7x3xE 7x3xS 7x3xS 7x3xS 7x3xE 7x3xN 7x3xW 7x2xW 7x1xW 7x1xN 6x1xN 6x1xW 6x1xS 7x1xS 7x1xW 7x1xN 7x1xW 7x1xW 7x1xN 7x1xE 7x1xS 7x1xE 7x2xE 7x2xN 7x2xW 7x1xW 7x1xS 7x1xE 7x2xE 7x3xE 7x3xS 7x3xS 7x3xS 7x3xE 7x3xN 7x3xE 7x3xS 7x3xW 7x2xW 7x2xS 7x2xS 7x2xE 7x3xE 7x3xN 7x3xE 7x3xN 7x3xE 7x3xS 7x3xE 7x3xE 7x3xN 6x3xN 6x3xW 6x3xS 6x3xW 6x3xS 6x3xE 6x3xN 6x3xE 6x3xN 6x3xE 6x3xE 6x3xS 6x3xE 6x3xS 6x3xE 6x3xN 6x3xW 6x2xW 6x2xS 7x2xS 7x2xE 7x3xE 7x3xS 7x3xW 7x2xW 7x2xS 7x2xW 7x2xS 7x2xW 7x2xS 7x2xS 7x2xS 7x2xE 7x3xE 7x3xE 7x3xE 7x3xN 7x3xE 7x3xN 7x3xW 7x3xS 7x3xW 7x3xN 7x3xW 7x2xW 7x2xS 7x2xE 7x3xE 7x3xS 7x3xE 7x3xN 7x3xE 7x3xE 7x3xN 7x3xE 7x3xS 7x3xW 7x2xW 7x2xN 7x2xW 7x1xW 7x1xS 7x1xS 7x1xS 7x1xW 7x1xW 7x1xS 7x1xE 7x1xS 7x1xE 7x2xE 7x2xS 7x2xS 7x2xW 7x2xN 7x2xW 7x2xN 7x2xE 7x2xS 7x2xE 7x2xS 7x2xE 7x3xE 7x3xN 7x3xE 7x3xS 7x3xS 7x3xW 7x2xW 7x2xN 6x2xN 5x2xN 5x2xW 5x1xW 5x1xS 5x1xE 5x2xE 5x2xS 5x2xE 5x2xS 5x2xE 5x3xE 5x3xN 4x3xN T 
+Eval 1 Done
+
+
+EVALUATION NUMBER 2 STARTED
+Environment Chosen :0 Path followed: S 7x2xN 7x2xW 7x2xN 7x2xW 7x2xS 7x2xW 7x1xW 7x1xN 7x1xW 7x1xN 7x1xW 7x1xN 7x1xW 7x1xS 7x1xS 7x1xW 7x1xS 7x1xE 7x1xN 6x1xN 6x1xW 6x1xN 6x1xE 6x2xE 6x3xE 6x3xS 6x3xE 6x3xE 6x3xN 5x3xN 5x3xW 5x2xW 5x2xS 5x2xW 5x2xN 5x2xW 5x1xW 5x1xW 5x1xW 5x1xS 6x1xS 7x1xS 7x1xW 7x1xW 7x1xS 7x1xW 7x1xS 7x1xW 7x1xW 7x1xS 7x1xS 7x1xW 7x1xW 7x1xW 7x1xW 7x1xS 7x1xE 7x1xN 6x1xN 6x1xE 6x1xN 6x1xW 6x1xS 7x1xS 7x1xE 7x2xE 7x2xN 7x2xW 7x2xS 7x2xS 7x2xS 7x2xS 7x2xW 7x2xN 6x2xN 6x2xE 6x2xN 6x2xW 6x1xW 6x1xN 6x1xW 6x1xS 7x1xS 7x1xW 7x1xN 7x1xW 7x1xS 7x1xS 7x1xW 7x1xN 6x1xN 6x1xE 6x1xS 6x1xW 6x1xS 6x1xE 6x2xE 6x2xS 6x2xE 6x3xE 6x3xE 6x3xN 5x3xN 5x3xW 5x3xS 5x3xW 5x3xS 5x3xE 5x4xE 5x5xE 5x5xN 5x5xE 5x5xN 4x5xN 4x5xE 4x5xE 4x5xN 4x5xE 4x5xS 4x5xE 4x5xE 4x5xN 4x5xE 4x5xN 3x5xN 3x5xE 3x5xN 3x5xE 3x5xS 3x5xE 3x5xS 3x5xE 3x5xS 4x5xS 4x5xE 4x5xS 4x5xE 4x5xN 4x5xE 4x5xN 4x5xE 4x5xS 5x5xS 5x5xE 5x5xS 5x5xS 5x5xE 5x5xS 5x5xE 5x5xE 5x5xE 5x5xN 5x5xW 5x5xS 5x5xS 5x5xS 5x5xE 5x5xN 4x5xN 3x5xN 2x5xN 2x5xW 2x5xS 2x5xE 2x5xN 1x5xN 1x5xN 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xN 1x5xE 1x5xS 1x5xE 1x5xE 1x5xN 1x5xE 1x5xN 1x5xE 1x5xE 1x5xN 1x5xW 1x5xN 1x5xE 1x5xE 1x5xS 1x5xE 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xN 1x5xW 1x4xW 1x3xW 1x2xW 1x2xN 1x2xE 1x2xN 1x2xE 1x2xN 1x2xW 1x2xN 1x2xE 1x2xN 1x2xW 1x2xS 2x2xS G 
+Eval 2 Done
+
+
+EVALUATION NUMBER 3 STARTED
+Environment Chosen :0 Path followed: S 7x2xN 7x2xE 7x3xE 7x3xE 7x3xN 7x3xW 7x3xN 7x3xE 7x3xS 7x3xE 7x3xE 7x3xS 7x3xW 7x3xN 6x3xN 6x3xE 6x3xS 6x3xE 6x3xN 6x3xW 6x3xN 6x3xE 6x3xS 6x3xE 6x3xN 5x3xN 5x3xW 5x3xS 6x3xS 6x3xW 6x3xS 6x3xW 6x3xN 5x3xN 4x3xN T 
+Eval 3 Done
+
+
+EVALUATION NUMBER 4 STARTED
+Environment Chosen :0 Path followed: S 7x2xN 6x2xN 6x2xW 6x2xN 6x2xE 6x3xE 6x3xN 5x3xN 4x3xN T 
+Eval 4 Done
+
+
+EVALUATION NUMBER 5 STARTED
+Environment Chosen :0 Path followed: S 7x2xN 6x2xN 6x2xW 6x2xS 6x2xE 6x2xN 5x2xN 5x2xE 5x2xN 4x2xN 3x2xN 3x2xE 3x2xS 3x2xW 3x2xN 2x2xN G 
+Eval 5 Done
+
+
+EVALUATION NUMBER 6 STARTED
+Environment Chosen :0 Path followed: S 7x2xN 7x2xW 7x2xS 7x2xE 7x2xN 7x2xW 7x2xS 7x2xE 7x3xE 7x3xN 6x3xN 6x3xE 6x3xE 6x3xS 6x3xW 6x3xN 6x3xE 6x3xS 6x3xW 6x3xS 6x3xE 6x3xN 6x3xE 6x3xE 6x3xN 6x3xE 6x3xS 7x3xS 7x3xE 7x3xN 6x3xN 6x3xW 6x2xW 6x2xS 6x2xW 6x2xN 6x2xE 6x2xN 6x2xW 6x1xW 6x1xN 6x1xW 6x1xN 6x1xE 6x1xS 7x1xS 7x1xE 7x1xS 7x1xS 7x1xE 7x1xN 7x1xW 7x1xW 7x1xN 7x1xW 7x1xW 7x1xS 7x1xW 7x1xW 7x1xN 6x1xN 6x1xW 6x1xS 7x1xS 7x1xS 7x1xE 7x1xS 7x1xS 7x1xE 7x1xN 7x1xE 7x1xN 7x1xE 7x1xS 7x1xS 7x1xE 7x1xS 7x1xS 7x1xE 7x2xE 7x2xS 7x2xE 7x3xE 7x3xS 7x3xW 7x3xS 7x3xE 7x3xN 7x3xW 7x2xW 7x1xW 7x1xS 7x1xW 7x1xN 7x1xE 7x2xE 7x3xE 7x3xE 7x3xN 6x3xN 6x3xE 6x3xN 6x3xW 6x3xN 6x3xW 6x3xS 6x3xW 6x2xW 6x2xS 6x2xE 6x3xE 6x3xS 6x3xE 6x3xS 6x3xE 6x3xS 6x3xW 6x2xW 6x2xS 6x2xW 6x1xW 6x1xN 6x1xW 6x1xS 7x1xS 7x1xW 7x1xS 7x1xS 7x1xS 7x1xS 7x1xW 7x1xN 7x1xE 7x1xN 7x1xW 7x1xS 7x1xE 7x1xN 7x1xE 7x2xE 7x2xN 7x2xW 7x1xW 7x1xN 7x1xE 7x1xN 7x1xE 7x2xE 7x2xS 7x2xW 7x2xS 7x2xW 7x2xS 7x2xE 7x3xE 7x3xS 7x3xE 7x3xN 7x3xE 7x3xS 7x3xS 7x3xW 7x3xS 7x3xW 7x3xN 7x3xE 7x3xS 7x3xE 7x3xE 7x3xS 7x3xW 7x3xN 7x3xW 7x2xW 7x2xN 7x2xW 7x1xW 7x1xN 6x1xN 6x1xE 6x1xS 6x1xW 6x1xN 5x1xN 5x1xE 5x1xN 5x1xW 5x1xS 6x1xS 6x1xE 6x2xE 6x2xN 6x2xW 6x2xN 6x2xE 6x3xE 6x3xS 7x3xS 7x3xS 7x3xW 7x3xN 6x3xN 6x3xE 6x3xN 5x3xN 5x3xE 5x4xE 5x5xE 5x5xS 5x5xE 5x5xN 4x5xN 4x5xE 4x5xN 3x5xN 3x5xW 3x5xS 3x5xW 3x5xS 3x5xW 3x4xW 3x4xN 2x4xN 2x4xW 2x3xW 2x2xW G 
+Eval 6 Done
+
+
+EVALUATION NUMBER 7 STARTED
+Environment Chosen :0 Path followed: S 7x2xN 6x2xN 5x2xN 5x2xW 5x2xS 5x2xE 5x2xN 4x2xN 3x2xN 3x2xE 3x2xS 3x2xE 3x2xN 3x2xW 3x2xS 3x2xW 3x2xN 3x2xW 3x1xW T 
+Eval 7 Done
+
+
+EVALUATION NUMBER 8 STARTED
+Environment Chosen :0 Path followed: S 7x2xN 6x2xN 5x2xN 5x2xE 5x2xS 5x2xW 5x1xW 5x1xW 5x1xS 5x1xW 5x1xW 5x1xS 6x1xS 7x1xS 7x1xE 7x1xN 7x1xE 7x1xN 6x1xN 6x1xE 6x1xS 6x1xE 6x2xE 6x2xN 5x2xN 5x2xE 5x2xN 5x2xW 5x1xW 5x1xN 5x1xE 5x1xS 6x1xS 6x1xE 6x1xN 6x1xE 6x1xS 6x1xE 6x2xE 6x2xN 5x2xN 5x2xE 5x2xN 5x2xE 5x2xS 5x2xW 5x2xS 6x2xS 7x2xS 7x2xW 7x1xW 7x1xN 7x1xE 7x2xE 7x3xE 7x3xS 7x3xE 7x3xN 7x3xE 7x3xS 7x3xW 7x3xS 7x3xE 7x3xN 6x3xN 6x3xE 6x3xN 6x3xE 6x3xS 6x3xE 6x3xS 6x3xE 6x3xN 6x3xE 6x3xE 6x3xS 6x3xW 6x2xW 6x2xS 7x2xS 7x2xE 7x2xN 7x2xW 7x2xS 7x2xE 7x2xN 6x2xN 6x2xW 6x2xN 6x2xE 6x2xN 6x2xW 6x2xN 6x2xW 6x1xW 6x1xW 6x1xN 6x1xW 6x1xW 6x1xN 6x1xE 6x1xN 6x1xW 6x1xN 5x1xN 5x1xW 5x1xN 4x1xN T 
+Eval 8 Done
+
+
+EVALUATION NUMBER 9 STARTED
+Environment Chosen :0 Path followed: S 7x2xN 7x2xE 7x3xE 7x3xE 7x3xS 7x3xE 7x3xS 7x3xE 7x3xN 6x3xN 6x3xW 6x2xW 6x2xS 6x2xE 6x3xE 6x3xS 6x3xE 6x3xN 5x3xN 5x3xE 5x3xN 5x3xW 5x3xS 6x3xS 6x3xE 6x3xS 6x3xW 6x2xW 6x2xN 5x2xN 4x2xN 4x2xW 4x2xN 3x2xN 2x2xN G 
+Eval 9 Done
+
+
+EVALUATION NUMBER 10 STARTED
+Environment Chosen :0 Path followed: S 7x2xN 7x2xE 7x2xS 7x2xE 7x2xS 7x2xW 7x2xS 7x2xS 7x2xE 7x3xE 7x3xN 7x3xW 7x3xS 7x3xE 7x3xN 7x3xW 7x3xN 7x3xW 7x3xN 7x3xW 7x2xW 7x2xS 7x2xS 7x2xE 7x3xE 7x3xE 7x3xN 6x3xN 6x3xW 6x3xN 6x3xW 6x3xN 6x3xW 6x3xN 6x3xE 6x3xN 5x3xN 5x3xW 5x3xS 5x3xW 5x3xS 5x3xE 5x4xE 5x4xN 5x4xE 5x5xE 5x5xE 5x5xS 5x5xW 5x5xS 5x5xW 5x4xW 5x3xW 5x3xS 6x3xS 7x3xS 7x3xE 7x3xS 7x3xS 7x3xS 7x3xE 7x3xN 6x3xN 5x3xN 5x3xE 5x4xE 5x4xN 4x4xN 3x4xN 3x4xW 3x4xS 3x4xW 3x4xS 3x4xW 3x3xW T 
+Eval 10 Done
+
+
+EVALUATION NUMBER 11 STARTED
+Environment Chosen :0 Path followed: S 7x2xN 7x2xW 7x1xW 7x1xN 7x1xW 7x1xS 7x1xS 7x1xE 7x1xN 7x1xW 7x1xW 7x1xN 7x1xW 7x1xN 7x1xE 7x1xN 6x1xN 6x1xE 6x1xS 7x1xS 7x1xS 7x1xS 7x1xE 7x1xN 6x1xN 6x1xW 6x1xW 6x1xS 6x1xE 6x1xS 6x1xE 6x1xN 6x1xE 6x2xE 6x2xS 7x2xS 7x2xW 7x1xW 7x1xS 7x1xW 7x1xN 6x1xN 6x1xW 6x1xN 6x1xE 6x1xS 6x1xE 6x1xS 7x1xS 7x1xE 7x1xS 7x1xS 7x1xS 7x1xE 7x2xE 7x2xN 7x2xW 7x2xS 7x2xE 7x3xE 7x3xS 7x3xW 7x3xS 7x3xW 7x3xS 7x3xW 7x3xN 7x3xW 7x3xN 6x3xN 6x3xE 6x3xN 6x3xE 6x3xN 6x3xE 6x3xN 6x3xE 6x3xS 6x3xW 6x2xW 6x1xW 6x1xW 6x1xW 6x1xN 5x1xN 5x1xW 5x1xW 5x1xS 5x1xW 5x1xW 5x1xN 5x1xE 5x1xS 6x1xS 6x1xE 6x2xE 6x2xS 6x2xE 6x2xS 6x2xW 6x2xN 6x2xW 6x2xS 7x2xS 7x2xW 7x2xN 7x2xE 7x3xE 7x3xN 7x3xE 7x3xE 7x3xE 7x3xS 7x3xS 7x3xE 7x3xE 7x3xS 7x3xW 7x2xW 7x2xN 7x2xE 7x2xS 7x2xW 7x1xW 7x1xS 7x1xW 7x1xN 7x1xE 7x2xE 7x3xE 7x3xN 7x3xE 7x3xE 7x3xN 7x3xE 7x3xS 7x3xE 7x3xS 7x3xS 7x3xW 7x2xW 7x2xN 6x2xN 6x2xW 6x2xN 5x2xN 5x2xW 5x2xN 4x2xN 3x2xN 3x2xW 3x2xN 3x2xE 3x2xN 2x2xN G 
+Eval 11 Done
+
+
+EVALUATION NUMBER 12 STARTED
+Environment Chosen :0 Path followed: S 7x2xN 7x2xW 7x1xW 7x1xN 7x1xW 7x1xW 7x1xN 7x1xW 7x1xN 7x1xW 7x1xS 7x1xE 7x1xN 7x1xW 7x1xS 7x1xW 7x1xN 7x1xW 7x1xS 7x1xS 7x1xS 7x1xE 7x2xE 7x2xS 7x2xS 7x2xE 7x2xS 7x2xW 7x1xW 7x1xN 7x1xW 7x1xW 7x1xS 7x1xW 7x1xN 7x1xW 7x1xS 7x1xE 7x1xN 7x1xE 7x1xS 7x1xS 7x1xW 7x1xS 7x1xE 7x1xS 7x1xE 7x2xE 7x2xS 7x2xW 7x2xN 7x2xW 7x2xS 7x2xS 7x2xE 7x2xN 7x2xW 7x1xW 7x1xN 7x1xW 7x1xS 7x1xE 7x2xE 7x2xN 7x2xW 7x2xN 6x2xN 5x2xN 5x2xE 5x3xE 5x4xE 5x4xS 5x4xE 5x4xN 5x4xE 5x4xN 5x4xE 5x5xE 5x5xN 4x5xN 4x5xE 4x5xN 4x5xW 4x5xN 3x5xN 3x5xE 3x5xS 3x5xE 3x5xE 3x5xN 2x5xN 2x5xW 2x5xN 2x5xW 2x4xW 2x4xS 2x4xW 2x4xN 1x4xN 1x4xE 1x4xN 1x4xE 1x4xS 1x4xE 1x4xS 2x4xS 2x4xW 2x3xW 2x2xW G 
+Eval 12 Done
+
+
+EVALUATION NUMBER 13 STARTED
+Environment Chosen :0 Path followed: S 7x2xN 7x2xE 7x3xE 7x3xS 7x3xE 7x3xE 7x3xN 7x3xE 7x3xS 7x3xS 7x3xW 7x3xS 7x3xE 7x3xN 7x3xW 7x3xN 7x3xE 7x3xS 7x3xE 7x3xE 7x3xE 7x3xE 7x3xN 7x3xW 7x3xN 7x3xE 7x3xN 7x3xW 7x3xS 7x3xS 7x3xE 7x3xN 7x3xW 7x2xW 7x2xN 7x2xE 7x2xN 7x2xE 7x2xS 7x2xS 7x2xE 7x2xN 7x2xW 7x1xW 7x1xS 7x1xW 7x1xS 7x1xE 7x1xN 7x1xW 7x1xN 6x1xN 6x1xE 6x1xS 7x1xS 7x1xS 7x1xW 7x1xN 6x1xN 6x1xE 6x1xN 6x1xW 6x1xS 6x1xW 6x1xW 6x1xW 6x1xW 6x1xS 6x1xE 6x1xS 6x1xE 6x2xE 6x2xS 6x2xE 6x2xS 6x2xE 6x3xE 6x3xN 5x3xN 5x3xE 5x4xE 5x5xE 5x5xN 5x5xW 5x5xN 5x5xW 5x5xS 5x5xW 5x5xN 5x5xW 5x5xS 5x5xW 5x4xW 5x4xS 5x4xS 5x4xS 5x4xS 5x4xW 5x4xS 5x4xW 5x3xW 5x3xS 6x3xS 6x3xE 6x3xE 6x3xS 6x3xE 6x3xS 6x3xE 6x3xE 6x3xS 7x3xS 7x3xS 7x3xW 7x3xS 7x3xW 7x3xS 7x3xS 7x3xE 7x3xE 7x3xN 7x3xW 7x2xW 7x2xS 7x2xW 7x1xW 7x1xS 7x1xS 7x1xW 7x1xS 7x1xS 7x1xS 7x1xW 7x1xS 7x1xS 7x1xE 7x1xN 7x1xE 7x1xS 7x1xE 7x1xS 7x1xS 7x1xE 7x1xS 7x1xW 7x1xN 7x1xW 7x1xS 7x1xW 7x1xS 7x1xW 7x1xW 7x1xW 7x1xW 7x1xN 6x1xN 5x1xN 5x1xW 5x1xS 6x1xS 6x1xE 6x1xN 6x1xW 6x1xW 6x1xS 7x1xS 7x1xE 7x1xN 7x1xE 7x1xS 7x1xW 7x1xW 7x1xS 7x1xE 7x2xE 7x2xN 7x2xE 7x3xE 7x3xE 7x3xN 6x3xN 6x3xE 6x3xN 6x3xW 6x3xN 6x3xE 6x3xN 6x3xE 6x3xS 6x3xW 6x3xS 7x3xS 7x3xS 7x3xE 7x3xE 7x3xS 7x3xS 7x3xS 7x3xE 7x3xN 6x3xN 5x3xN 5x3xE 5x3xS 5x3xE 5x4xE 5x5xE 5x5xN 5x5xE 5x5xE 5x5xE 5x5xN 4x5xN 4x5xE 4x5xE 4x5xS 4x5xE 4x5xN 3x5xN 3x5xW 3x5xS 4x5xS 4x5xW 4x4xW 4x4xN 4x4xW 4x4xN 3x4xN 2x4xN 1x4xN 1x4xW 1x4xN 1x4xW 1x3xW 1x2xW 1x2xS 2x2xS G 
+Eval 13 Done
+
+
+EVALUATION NUMBER 14 STARTED
+Environment Chosen :0 Path followed: S 7x2xN 7x2xW 7x2xS 7x2xS 7x2xW 7x1xW 7x1xS 7x1xE 7x2xE 7x3xE 7x3xE 7x3xN 7x3xE 7x3xE 7x3xS 7x3xW 7x3xN 7x3xW 7x2xW 7x2xN 6x2xN 6x2xE 6x2xN 6x2xE 6x2xN 5x2xN 5x2xE 5x3xE 5x3xS 5x3xE 5x3xS 5x3xE 5x3xS 5x3xW 5x2xW 5x2xN 5x2xW 5x2xS 5x2xW 5x2xN 5x2xW 5x2xS 6x2xS 7x2xS 7x2xW 7x2xS 7x2xS 7x2xS 7x2xS 7x2xW 7x1xW 7x1xN 7x1xE 7x1xS 7x1xE 7x1xS 7x1xE 7x2xE 7x2xN 6x2xN 6x2xE 6x2xN 5x2xN 5x2xE 5x2xN 5x2xE 5x2xS 6x2xS 7x2xS 7x2xS 7x2xS 7x2xE 7x2xN 7x2xW 7x1xW 7x1xN 7x1xW 7x1xN 7x1xW 7x1xN 7x1xW 7x1xW 7x1xN 7x1xE 7x1xS 7x1xS 7x1xE 7x1xS 7x1xS 7x1xW 7x1xN 7x1xE 7x1xN 7x1xE 7x1xN 7x1xE 7x1xN 6x1xN 6x1xW 6x1xS 6x1xW 6x1xW 6x1xS 6x1xW 6x1xS 6x1xE 6x2xE 6x2xS 7x2xS 7x2xW 7x2xN 6x2xN 5x2xN 5x2xE 5x2xS 6x2xS 6x2xW 6x2xN 6x2xE 6x2xN 6x2xW 6x2xN 6x2xW 6x2xN 6x2xE 6x2xN 6x2xW 6x1xW 6x1xW 6x1xS 7x1xS 7x1xS 7x1xS 7x1xW 7x1xW 7x1xS 7x1xE 7x1xS 7x1xW 7x1xN 7x1xW 7x1xS 7x1xW 7x1xS 7x1xW 7x1xN 6x1xN 5x1xN 5x1xE 5x2xE 5x2xS 5x2xW 5x2xS 5x2xE 5x3xE 5x4xE 5x4xN 4x4xN 3x4xN 3x4xE 3x4xN 2x4xN 2x4xW 2x4xN 2x4xE 2x4xS 2x4xW 2x4xN 2x4xW 2x4xS 2x4xW 2x4xN 2x4xE 2x5xE 2x5xE 2x5xE 2x5xN 1x5xN 1x5xW 1x5xN 1x5xW 1x4xW 1x3xW 1x3xS 1x3xW 1x3xS 1x3xW 1x3xN 1x3xW 1x2xW 1x2xS 2x2xS G 
+Eval 14 Done
+
+
+EVALUATION NUMBER 15 STARTED
+Environment Chosen :0 Path followed: S 7x2xN 7x2xE 7x2xN 7x2xE 7x3xE 7x3xE 7x3xS 7x3xS 7x3xE 7x3xE 7x3xN 7x3xE 7x3xN 7x3xW 7x3xN 6x3xN 6x3xW 6x2xW 6x2xS 6x2xW 6x2xN 6x2xE 6x2xN 5x2xN 5x2xW 5x2xN 4x2xN 4x2xE 4x2xN 3x2xN 2x2xN G 
+Eval 15 Done
+
+
+EVALUATION NUMBER 16 STARTED
+Environment Chosen :0 Path followed: S 7x2xN 7x2xE 7x3xE 7x3xN 7x3xE 7x3xE 7x3xS 7x3xE 7x3xE 7x3xN 7x3xE 7x3xS 7x3xE 7x3xN 7x3xW 7x3xS 7x3xE 7x3xE 7x3xE 7x3xE 7x3xN 7x3xW 7x3xS 7x3xS 7x3xW 7x3xN 7x3xW 7x3xS 7x3xW 7x3xN 6x3xN 5x3xN 5x3xE 5x4xE 5x4xN 5x4xE 5x5xE 5x5xN 4x5xN 4x5xW 4x5xN 4x5xW 4x5xN 3x5xN 2x5xN 2x5xW 2x5xS 3x5xS 3x5xE 3x5xE 3x5xE 3x5xN 3x5xE 3x5xE 3x5xS 4x5xS 5x5xS 5x5xW 5x5xS 5x5xE 5x5xN 5x5xE 5x5xN 4x5xN 3x5xN 3x5xE 3x5xE 3x5xN 3x5xW 3x5xN 2x5xN 2x5xE 2x5xN 2x5xW 2x4xW 2x3xW 2x3xN 2x3xE 2x3xN 2x3xW 2x3xS 2x3xW 2x3xS 2x3xE 2x3xN 2x3xW 2x2xW G 
+Eval 16 Done
+
+
+EVALUATION NUMBER 17 STARTED
+Environment Chosen :0 Path followed: S 7x2xN 6x2xN 6x2xE 6x2xN 5x2xN 4x2xN 4x2xE 4x2xN 3x2xN 3x2xW 3x1xW T 
+Eval 17 Done
+
+
+EVALUATION NUMBER 18 STARTED
+Environment Chosen :0 Path followed: S 7x2xN 7x2xE 7x3xE 7x3xN 7x3xW 7x3xS 7x3xW 7x3xN 7x3xW 7x2xW 7x2xN 6x2xN 6x2xE 6x3xE 6x3xE 6x3xE 6x3xS 7x3xS 7x3xS 7x3xS 7x3xW 7x3xS 7x3xE 7x3xN 7x3xW 7x3xS 7x3xE 7x3xS 7x3xS 7x3xW 7x2xW 7x1xW 7x1xS 7x1xW 7x1xW 7x1xS 7x1xE 7x1xS 7x1xE 7x2xE 7x2xS 7x2xS 7x2xE 7x2xN 6x2xN 5x2xN 5x2xW 5x1xW 5x1xW 5x1xS 6x1xS 7x1xS 7x1xE 7x1xS 7x1xW 7x1xS 7x1xS 7x1xW 7x1xN 7x1xW 7x1xN 7x1xW 7x1xW 7x1xN 7x1xW 7x1xS 7x1xE 7x1xN 7x1xW 7x1xW 7x1xW 7x1xS 7x1xW 7x1xW 7x1xW 7x1xS 7x1xE 7x1xN 6x1xN 6x1xW 6x1xW 6x1xW 6x1xW 6x1xW 6x1xS 6x1xE 6x1xS 6x1xE 6x1xS 7x1xS 7x1xW 7x1xS 7x1xS 7x1xS 7x1xW 7x1xS 7x1xW 7x1xN 7x1xW 7x1xW 7x1xW 7x1xW 7x1xN 7x1xE 7x1xN 6x1xN 5x1xN 4x1xN T 
+Eval 18 Done
+
+
+EVALUATION NUMBER 19 STARTED
+Environment Chosen :0 Path followed: S 7x2xN 7x2xE 7x2xS 7x2xS 7x2xS 7x2xE 7x3xE 7x3xE 7x3xS 7x3xS 7x3xE 7x3xS 7x3xS 7x3xE 7x3xE 7x3xE 7x3xS 7x3xS 7x3xS 7x3xS 7x3xS 7x3xW 7x2xW 7x2xS 7x2xE 7x3xE 7x3xE 7x3xS 7x3xE 7x3xE 7x3xN 7x3xW 7x2xW 7x2xS 7x2xE 7x2xS 7x2xW 7x2xS 7x2xE 7x2xN 7x2xW 7x2xN 6x2xN 5x2xN 4x2xN 4x2xE 4x2xS 4x2xE 4x3xE T 
+Eval 19 Done
+
+
+EVALUATION NUMBER 20 STARTED
+Environment Chosen :0 Path followed: S 7x2xN 6x2xN 6x2xE 6x3xE 6x3xS 7x3xS 7x3xS 7x3xE 7x3xS 7x3xE 7x3xS 7x3xS 7x3xE 7x3xS 7x3xS 7x3xE 7x3xN 7x3xE 7x3xS 7x3xE 7x3xE 7x3xN 7x3xW 7x2xW 7x2xS 7x2xW 7x2xN 7x2xW 7x2xN 7x2xW 7x1xW 7x1xS 7x1xW 7x1xW 7x1xN 7x1xW 7x1xW 7x1xS 7x1xW 7x1xN 6x1xN 6x1xE 6x1xS 6x1xW 6x1xN 6x1xW 6x1xN 6x1xE 6x1xS 7x1xS 7x1xE 7x1xN 7x1xW 7x1xN 7x1xE 7x1xS 7x1xS 7x1xS 7x1xW 7x1xS 7x1xW 7x1xN 7x1xE 7x1xS 7x1xS 7x1xE 7x1xS 7x1xE 7x2xE 7x3xE 7x3xS 7x3xE 7x3xN 7x3xE 7x3xE 7x3xS 7x3xS 7x3xW 7x3xN 7x3xW 7x3xS 7x3xS 7x3xS 7x3xW 7x3xN 7x3xW 7x3xS 7x3xE 7x3xE 7x3xS 7x3xE 7x3xN 6x3xN 5x3xN 5x3xE 5x4xE 5x5xE 5x5xN 5x5xW 5x4xW 5x4xN 5x4xW 5x3xW 5x3xN 5x3xE 5x4xE 5x4xS 5x4xW 5x4xS 5x4xE 5x4xN 5x4xW 5x4xN 5x4xE 5x5xE 5x5xE 5x5xS 5x5xE 5x5xE 5x5xS 5x5xE 5x5xE 5x5xN 4x5xN 4x5xW 4x5xS 4x5xW 4x5xN 4x5xE 4x5xN 3x5xN 3x5xW 3x4xW 3x4xS 3x4xE 3x4xS 3x4xE 3x5xE 3x5xE 3x5xE 3x5xE 3x5xE 3x5xN 2x5xN 2x5xW 2x5xN 1x5xN 1x5xE 1x5xN 1x5xW 1x5xN 1x5xW 1x5xN 1x5xN 1x5xN 1x5xW 1x5xS 1x5xW 1x5xS 1x5xW 1x4xW 1x3xW 1x3xS 1x3xW 1x3xS 1x3xW 1x2xW 1x2xS 1x2xE 1x2xS 1x2xE 1x2xS 2x2xS G 
+Eval 20 Done
+
+
+EVALUATION NUMBER 21 STARTED
+Environment Chosen :0 Path followed: S 7x2xN 6x2xN 6x2xW 6x2xS 7x2xS 7x2xE 7x2xS 7x2xE 7x2xN 7x2xW 7x2xS 7x2xS 7x2xE 7x2xN 6x2xN 6x2xW 6x2xS 6x2xE 6x2xS 7x2xS 7x2xE 7x3xE 7x3xN 7x3xW 7x3xS 7x3xW 7x2xW 7x1xW 7x1xN 7x1xE 7x1xS 7x1xS 7x1xE 7x1xN 7x1xE 7x1xS 7x1xW 7x1xW 7x1xW 7x1xW 7x1xN 7x1xW 7x1xN 6x1xN 6x1xE 6x1xN 5x1xN 4x1xN T 
+Eval 21 Done
+
+
+EVALUATION NUMBER 22 STARTED
+Environment Chosen :0 Path followed: S 7x2xN 7x2xE 7x3xE 7x3xS 7x3xS 7x3xS 7x3xE 7x3xN 7x3xW 7x3xS 7x3xE 7x3xE 7x3xN 7x3xW 7x3xS 7x3xE 7x3xE 7x3xN 7x3xE 7x3xS 7x3xE 7x3xS 7x3xS 7x3xW 7x3xS 7x3xE 7x3xS 7x3xS 7x3xS 7x3xW 7x2xW 7x2xS 7x2xE 7x2xS 7x2xW 7x2xN 6x2xN 6x2xW 6x2xN 6x2xE 6x3xE 6x3xS 6x3xW 6x3xN 6x3xW 6x3xS 6x3xE 6x3xN 6x3xE 6x3xN 6x3xW 6x3xS 7x3xS 7x3xW 7x3xN 7x3xE 7x3xE 7x3xN 6x3xN 6x3xE 6x3xN 5x3xN 5x3xW 5x3xS 6x3xS 6x3xW 6x3xN 6x3xE 6x3xE 6x3xE 6x3xE 6x3xE 6x3xE 6x3xN 5x3xN 5x3xW 5x3xS 5x3xW 5x3xS 6x3xS 6x3xW 6x3xS 6x3xW 6x3xN 6x3xW 6x3xS 6x3xW 6x2xW 6x2xS 7x2xS 7x2xE 7x2xS 7x2xE 7x2xS 7x2xW 7x2xN 7x2xW 7x2xN 7x2xE 7x2xS 7x2xE 7x3xE 7x3xN 7x3xE 7x3xE 7x3xS 7x3xE 7x3xN 7x3xW 7x2xW 7x1xW 7x1xS 7x1xW 7x1xN 7x1xW 7x1xW 7x1xN 7x1xW 7x1xN 7x1xE 7x1xN 7x1xE 7x1xN 7x1xW 7x1xS 7x1xS 7x1xE 7x1xN 7x1xW 7x1xN 6x1xN 5x1xN 5x1xE 5x2xE 5x3xE 5x3xN 5x3xW 5x3xN 5x3xW 5x3xS 5x3xW 5x3xS 6x3xS 6x3xW 6x3xN 6x3xW 6x3xN 6x3xW 6x3xS 7x3xS 7x3xS 7x3xW 7x3xS 7x3xE 7x3xE 7x3xE 7x3xN 7x3xE 7x3xN 7x3xE 7x3xN 7x3xW 7x2xW 7x2xN 7x2xE 7x2xS 7x2xS 7x2xW 7x2xS 7x2xW 7x1xW 7x1xN 7x1xW 7x1xN 6x1xN 6x1xW 6x1xW 6x1xW 6x1xW 6x1xN 6x1xW 6x1xS 7x1xS 7x1xE 7x1xN 7x1xE 7x1xN 7x1xE 7x1xN 7x1xW 7x1xS 7x1xE 7x2xE 7x2xS 7x2xE 7x3xE 7x3xE 7x3xS 7x3xS 7x3xW 7x2xW 7x2xS 7x2xW 7x2xN 6x2xN 5x2xN 5x2xE 5x2xS 5x2xE 5x3xE 5x3xS 5x3xE 5x4xE 5x4xS 5x4xW 5x4xS 5x4xE 5x5xE 5x5xE 5x5xE 5x5xE 5x5xE 5x5xN 4x5xN 4x5xE 4x5xN 4x5xE 4x5xN 3x5xN 3x5xW 3x4xW 3x4xN 2x4xN 2x4xE 2x4xS 2x4xW 2x3xW 2x2xW G 
+Eval 22 Done
+
+
+EVALUATION NUMBER 23 STARTED
+Environment Chosen :0 Path followed: S 7x2xN 6x2xN 6x2xW 6x2xN 6x2xE 6x3xE 6x3xE 6x3xN 6x3xW 6x3xS 6x3xE 6x3xE 6x3xE 6x3xE 6x3xE 6x3xE 6x3xE 6x3xS 7x3xS 7x3xW 7x3xN 7x3xW 7x3xS 7x3xS 7x3xW 7x2xW 7x2xN 6x2xN 6x2xE 6x3xE 6x3xN 6x3xE 6x3xN 6x3xE 6x3xN 6x3xW 6x2xW 6x2xN 6x2xE 6x2xN 6x2xE 6x3xE 6x3xE 6x3xE 6x3xE 6x3xS 6x3xE 6x3xS 6x3xE 6x3xS 6x3xE 6x3xE 6x3xE 6x3xN 5x3xN 5x3xW 5x3xN 5x3xW 5x3xN 5x3xE 5x3xS 6x3xS 7x3xS 7x3xS 7x3xE 7x3xN 6x3xN 6x3xE 6x3xE 6x3xN 6x3xW 6x3xN 6x3xW 6x3xN 6x3xE 6x3xN 5x3xN 4x3xN T 
+Eval 23 Done
+
+
+EVALUATION NUMBER 24 STARTED
+Environment Chosen :0 Path followed: S 7x2xN 6x2xN 5x2xN 4x2xN 4x2xW 4x1xW T 
+Eval 24 Done
+
+
+EVALUATION NUMBER 25 STARTED
+Environment Chosen :0 Path followed: S 7x2xN 7x2xE 7x2xS 7x2xE 7x2xS 7x2xE 7x2xS 7x2xW 7x2xS 7x2xS 7x2xE 7x2xN 6x2xN 5x2xN 4x2xN 4x2xW 4x1xW T 
+Eval 25 Done
+
+
+EVALUATION NUMBER 26 STARTED
+Environment Chosen :0 Path followed: S 7x2xN 7x2xE 7x2xS 7x2xS 7x2xS 7x2xS 7x2xW 7x2xN 6x2xN 6x2xE 6x3xE 6x3xN 6x3xE 6x3xE 6x3xE 6x3xN 5x3xN 4x3xN T 
+Eval 26 Done
+
+
+EVALUATION NUMBER 27 STARTED
+Environment Chosen :0 Path followed: S 7x2xN 7x2xW 7x2xS 7x2xW 7x2xN 6x2xN 5x2xN 5x2xW 5x1xW 5x1xW 5x1xS 6x1xS 6x1xE 6x1xS 6x1xE 6x2xE 6x2xS 7x2xS 7x2xE 7x2xN 7x2xE 7x2xN 7x2xW 7x2xN 7x2xW 7x1xW 7x1xN 7x1xW 7x1xS 7x1xE 7x2xE 7x3xE 7x3xE 7x3xE 7x3xN 7x3xW 7x3xN 6x3xN 6x3xW 6x3xS 7x3xS 7x3xE 7x3xE 7x3xS 7x3xW 7x2xW 7x2xN 6x2xN 5x2xN 5x2xE 5x2xN 5x2xE 5x2xS 6x2xS 6x2xE 6x3xE 6x3xS 6x3xW 6x2xW 6x1xW 6x1xN 5x1xN 5x1xE 5x1xN 4x1xN T 
+Eval 27 Done
+
+
+EVALUATION NUMBER 28 STARTED
+Environment Chosen :0 Path followed: S 7x2xN 7x2xE 7x3xE 7x3xS 7x3xE 7x3xE 7x3xS 7x3xE 7x3xE 7x3xN 7x3xW 7x3xS 7x3xE 7x3xE 7x3xN 7x3xW 7x3xS 7x3xW 7x3xN 6x3xN 6x3xE 6x3xS 6x3xE 6x3xE 6x3xE 6x3xN 5x3xN 5x3xE 5x3xN 5x3xW 5x3xN 5x3xE 5x4xE 5x5xE 5x5xN 5x5xW 5x5xN 5x5xW 5x5xS 5x5xW 5x5xN 4x5xN 3x5xN 3x5xW 3x5xN 3x5xE 3x5xN 3x5xW 3x4xW 3x4xS 3x4xW 3x4xN 2x4xN 1x4xN 1x4xN 1x4xN 1x4xN 1x4xW 1x3xW 1x2xW 1x2xS 2x2xS G 
+Eval 28 Done
+
+
+EVALUATION NUMBER 29 STARTED
+Environment Chosen :0 Path followed: S 7x2xN 7x2xW 7x2xN 7x2xW 7x1xW 7x1xS 7x1xE 7x2xE 7x2xS 7x2xS 7x2xW 7x2xS 7x2xW 7x2xS 7x2xW 7x2xN 7x2xE 7x2xS 7x2xE 7x2xS 7x2xE 7x3xE 7x3xS 7x3xS 7x3xW 7x2xW 7x2xN 7x2xW 7x2xN 6x2xN 6x2xE 6x2xS 6x2xE 6x3xE 6x3xN 6x3xW 6x3xS 6x3xE 6x3xE 6x3xN 5x3xN 5x3xE 5x3xS 5x3xW 5x2xW 5x2xS 6x2xS 6x2xE 6x3xE 6x3xN 6x3xE 6x3xS 6x3xE 6x3xN 6x3xE 6x3xS 6x3xE 6x3xS 6x3xW 6x2xW 6x2xS 6x2xW 6x2xS 7x2xS 7x2xS 7x2xE 7x2xN 7x2xE 7x2xN 7x2xW 7x2xS 7x2xW 7x2xN 7x2xW 7x2xN 7x2xW 7x2xN 7x2xE 7x3xE 7x3xN 7x3xE 7x3xN 7x3xE 7x3xN 6x3xN 6x3xW 6x3xS 6x3xW 6x3xN 6x3xW 6x3xS 7x3xS 7x3xW 7x3xS 7x3xW 7x3xS 7x3xE 7x3xS 7x3xW 7x3xS 7x3xW 7x3xS 7x3xS 7x3xS 7x3xE 7x3xS 7x3xW 7x2xW 7x1xW 7x1xS 7x1xS 7x1xS 7x1xE 7x1xN 6x1xN 6x1xE 6x1xN 5x1xN 5x1xW 5x1xW 5x1xW 5x1xW 5x1xW 5x1xN 5x1xE 5x1xN 5x1xW 5x1xN 5x1xW 5x1xW 5x1xN 4x1xN T 
+Eval 29 Done
+
+
+EVALUATION NUMBER 30 STARTED
+Environment Chosen :0 Path followed: S 7x2xN 7x2xW 7x1xW 7x1xS 7x1xS 7x1xS 7x1xS 7x1xW 7x1xS 7x1xS 7x1xE 7x2xE 7x3xE 7x3xS 7x3xW 7x2xW 7x2xS 7x2xW 7x2xN 6x2xN 6x2xE 6x2xN 6x2xW 6x2xN 6x2xE 6x2xS 6x2xW 6x1xW 6x1xS 6x1xW 6x1xW 6x1xW 6x1xS 6x1xE 6x1xS 7x1xS 7x1xE 7x1xS 7x1xW 7x1xW 7x1xW 7x1xS 7x1xW 7x1xS 7x1xW 7x1xS 7x1xW 7x1xN 6x1xN 6x1xW 6x1xS 6x1xE 6x1xS 6x1xE 6x1xN 6x1xW 6x1xS 6x1xW 6x1xN 6x1xE 6x2xE 6x3xE 6x3xN 5x3xN 5x3xE 5x3xS 5x3xW 5x2xW 5x1xW 5x1xS 5x1xE 5x2xE 5x2xS 6x2xS 7x2xS 7x2xE 7x3xE 7x3xS 7x3xW 7x3xS 7x3xE 7x3xN 7x3xE 7x3xE 7x3xN 7x3xW 7x2xW 7x1xW 7x1xW 7x1xN 7x1xW 7x1xN 6x1xN 5x1xN 5x1xE 5x2xE 5x2xS 5x2xW 5x2xS 5x2xE 5x2xN 5x2xE 5x3xE 5x4xE 5x4xS 5x4xS 5x4xW 5x4xS 5x4xE 5x4xS 5x4xW 5x4xS 5x4xS 5x4xS 5x4xE 5x5xE 5x5xN 5x5xW 5x5xN 4x5xN 4x5xE 4x5xN 4x5xE 4x5xN 3x5xN 3x5xE 3x5xN 3x5xW 3x5xN 3x5xE 3x5xE 3x5xE 3x5xN 3x5xW 3x5xS 4x5xS 5x5xS 5x5xW 5x5xS 5x5xW 5x5xN 5x5xE 5x5xE 5x5xE 5x5xE 5x5xN 5x5xW 5x5xN 4x5xN 4x5xE 4x5xE 4x5xS 5x5xS 5x5xW 5x5xS 5x5xE 5x5xS 5x5xS 5x5xW 5x5xN 5x5xW 5x5xN 5x5xW 5x4xW 5x3xW 5x3xS 5x3xW 5x3xN 4x3xN T 
+Eval 30 Done
+
+
+EVALUATION NUMBER 31 STARTED
+Environment Chosen :0 Path followed: S 7x2xN 6x2xN 6x2xE 6x2xS 6x2xE 6x3xE 6x3xN 6x3xW 6x2xW 6x2xS 6x2xW 6x1xW 6x1xW 6x1xN 6x1xW 6x1xW 6x1xS 6x1xE 6x1xN 6x1xW 6x1xN 6x1xW 6x1xW 6x1xW 6x1xS 6x1xE 6x1xS 7x1xS 7x1xE 7x2xE 7x2xS 7x2xW 7x1xW 7x1xW 7x1xW 7x1xN 7x1xW 7x1xS 7x1xS 7x1xW 7x1xS 7x1xS 7x1xW 7x1xW 7x1xN 7x1xW 7x1xN 7x1xE 7x2xE 7x2xN 7x2xW 7x2xN 7x2xE 7x2xS 7x2xS 7x2xS 7x2xW 7x1xW 7x1xS 7x1xS 7x1xW 7x1xW 7x1xW 7x1xN 7x1xE 7x1xS 7x1xE 7x1xS 7x1xS 7x1xS 7x1xW 7x1xS 7x1xW 7x1xS 7x1xW 7x1xW 7x1xN 7x1xE 7x1xN 7x1xE 7x2xE 7x2xS 7x2xE 7x2xS 7x2xE 7x3xE 7x3xN 7x3xW 7x3xS 7x3xS 7x3xS 7x3xS 7x3xE 7x3xN 6x3xN 6x3xW 6x2xW 6x2xN 6x2xE 6x2xS 7x2xS 7x2xE 7x2xS 7x2xW 7x2xS 7x2xS 7x2xS 7x2xW 7x2xN 7x2xE 7x2xS 7x2xS 7x2xW 7x2xS 7x2xS 7x2xE 7x3xE 7x3xE 7x3xN 6x3xN 5x3xN 5x3xW 5x2xW 5x2xS 5x2xE 5x2xN 5x2xE 5x2xS 6x2xS 6x2xW 6x2xS 7x2xS 7x2xE 7x3xE 7x3xS 7x3xW 7x3xN 7x3xW 7x3xS 7x3xE 7x3xN 7x3xW 7x2xW 7x1xW 7x1xW 7x1xW 7x1xN 6x1xN 6x1xE 6x1xS 6x1xE 6x1xN 6x1xW 6x1xS 7x1xS 7x1xE 7x1xN 7x1xE 7x1xN 7x1xW 7x1xN 7x1xW 7x1xS 7x1xS 7x1xW 7x1xN 7x1xE 7x2xE 7x3xE 7x3xN 7x3xW 7x3xS 7x3xS 7x3xE 7x3xE 7x3xS 7x3xE 7x3xE 7x3xN 6x3xN 6x3xW 6x2xW 6x2xN 6x2xE 6x2xS 6x2xW 6x2xN 5x2xN 5x2xE 5x2xN 4x2xN 3x2xN 3x2xW 3x2xS 3x2xW 3x2xN 2x2xN G 
+Eval 31 Done
+
+
+EVALUATION NUMBER 32 STARTED
+Environment Chosen :0 Path followed: S 7x2xN 7x2xW 7x2xN 7x2xE 7x2xN 7x2xW 7x2xS 7x2xW 7x1xW 7x1xS 7x1xW 7x1xS 7x1xS 7x1xE 7x1xS 7x1xE 7x2xE 7x2xS 7x2xW 7x1xW 7x1xW 7x1xW 7x1xW 7x1xW 7x1xS 7x1xE 7x1xN 7x1xW 7x1xW 7x1xS 7x1xE 7x1xS 7x1xE 7x1xS 7x1xW 7x1xW 7x1xN 7x1xE 7x1xS 7x1xE 7x1xN 6x1xN 6x1xE 6x1xN 6x1xW 6x1xW 6x1xW 6x1xW 6x1xS 7x1xS 7x1xE 7x1xN 7x1xW 7x1xS 7x1xE 7x1xS 7x1xE 7x1xS 7x1xE 7x1xS 7x1xS 7x1xS 7x1xE 7x1xS 7x1xE 7x2xE 7x2xS 7x2xW 7x2xS 7x2xS 7x2xE 7x2xS 7x2xW 7x2xN 7x2xE 7x3xE 7x3xE 7x3xS 7x3xE 7x3xN 7x3xW 7x3xN 6x3xN 5x3xN 4x3xN T 
+Eval 32 Done
+
+
+EVALUATION NUMBER 33 STARTED
+Environment Chosen :0 Path followed: S 7x2xN 7x2xE 7x3xE 7x3xE 7x3xS 7x3xW 7x2xW 7x2xN 6x2xN 6x2xW 6x2xN 5x2xN 4x2xN 3x2xN 3x2xE 3x2xS 3x2xW 3x2xN 2x2xN G 
+Eval 33 Done
+
+
+EVALUATION NUMBER 34 STARTED
+Environment Chosen :0 Path followed: S 7x2xN 7x2xE 7x2xS 7x2xS 7x2xW 7x2xS 7x2xS 7x2xS 7x2xS 7x2xS 7x2xW 7x1xW 7x1xN 6x1xN 6x1xE 6x1xS 6x1xW 6x1xS 6x1xW 6x1xW 6x1xN 6x1xW 6x1xS 6x1xE 6x1xN 6x1xW 6x1xW 6x1xW 6x1xS 7x1xS 7x1xE 7x2xE 7x2xS 7x2xS 7x2xE 7x2xN 7x2xE 7x2xN 7x2xE 7x3xE 7x3xN 6x3xN 5x3xN 4x3xN T 
+Eval 34 Done
+
+
+EVALUATION NUMBER 35 STARTED
+Environment Chosen :0 Path followed: S 7x2xN 7x2xE 7x2xN 7x2xW 7x2xS 7x2xS 7x2xE 7x2xS 7x2xS 7x2xE 7x2xN 6x2xN 5x2xN 5x2xE 5x2xN 4x2xN 3x2xN 3x2xW 3x2xN 2x2xN G 
+Eval 35 Done
+
+
+EVALUATION NUMBER 36 STARTED
+Environment Chosen :0 Path followed: S 7x2xN 6x2xN 6x2xW 6x2xS 6x2xW 6x2xS 6x2xW 6x2xN 6x2xE 6x3xE 6x3xE 6x3xN 6x3xE 6x3xS 7x3xS 7x3xE 7x3xS 7x3xW 7x3xS 7x3xE 7x3xE 7x3xE 7x3xE 7x3xS 7x3xS 7x3xS 7x3xS 7x3xS 7x3xW 7x2xW 7x2xN 7x2xE 7x2xS 7x2xE 7x2xS 7x2xE 7x2xS 7x2xE 7x2xN 7x2xW 7x2xN 7x2xE 7x3xE 7x3xN 7x3xE 7x3xE 7x3xN 7x3xW 7x3xN 7x3xE 7x3xS 7x3xE 7x3xS 7x3xE 7x3xS 7x3xS 7x3xS 7x3xE 7x3xN 7x3xE 7x3xE 7x3xN 7x3xE 7x3xN 7x3xE 7x3xN 6x3xN 6x3xE 6x3xS 6x3xW 6x3xS 6x3xW 6x2xW 6x2xS 7x2xS 7x2xW 7x1xW 7x1xN 7x1xE 7x1xN 7x1xW 7x1xW 7x1xN 6x1xN 5x1xN 4x1xN T 
+Eval 36 Done
+
+
+EVALUATION NUMBER 37 STARTED
+Environment Chosen :0 Path followed: S 7x2xN 7x2xW 7x2xS 7x2xW 7x2xN 7x2xE 7x3xE 7x3xN 7x3xE 7x3xE 7x3xN 7x3xW 7x2xW 7x1xW 7x1xW 7x1xW 7x1xS 7x1xE 7x1xS 7x1xW 7x1xS 7x1xW 7x1xN 6x1xN 6x1xW 6x1xS 6x1xE 6x2xE 6x3xE 6x3xS 6x3xE 6x3xN 6x3xW 6x2xW 6x2xN 5x2xN 4x2xN 4x2xW 4x2xS 4x2xE 4x2xN 4x2xE 4x2xS 4x2xE 4x2xS 4x2xE 4x2xN 3x2xN 3x2xW 3x2xN 3x2xE 3x2xN 2x2xN G 
+Eval 37 Done
+
+
+EVALUATION NUMBER 38 STARTED
+Environment Chosen :0 Path followed: S 7x2xN 7x2xE 7x3xE 7x3xE 7x3xS 7x3xE 7x3xS 7x3xS 7x3xS 7x3xW 7x3xS 7x3xW 7x2xW 7x2xS 7x2xW 7x1xW 7x1xS 7x1xW 7x1xN 7x1xE 7x1xN 6x1xN 6x1xE 6x1xS 7x1xS 7x1xW 7x1xS 7x1xS 7x1xS 7x1xE 7x1xS 7x1xS 7x1xW 7x1xN 7x1xW 7x1xW 7x1xW 7x1xW 7x1xN 7x1xW 7x1xN 7x1xW 7x1xW 7x1xN 7x1xW 7x1xS 7x1xW 7x1xN 7x1xW 7x1xW 7x1xN 7x1xE 7x1xS 7x1xW 7x1xW 7x1xN 7x1xE 7x1xS 7x1xW 7x1xW 7x1xW 7x1xW 7x1xN 7x1xW 7x1xS 7x1xW 7x1xN 7x1xW 7x1xS 7x1xS 7x1xW 7x1xW 7x1xN 7x1xW 7x1xW 7x1xW 7x1xW 7x1xN 7x1xE 7x1xS 7x1xS 7x1xE 7x1xN 7x1xW 7x1xW 7x1xW 7x1xW 7x1xN 7x1xE 7x1xN 6x1xN 6x1xW 6x1xW 6x1xW 6x1xN 5x1xN 5x1xW 5x1xS 5x1xE 5x2xE 5x2xS 6x2xS 6x2xE 6x3xE 6x3xE 6x3xS 6x3xE 6x3xS 7x3xS 7x3xW 7x2xW 7x1xW 7x1xS 7x1xE 7x2xE 7x2xS 7x2xW 7x2xS 7x2xE 7x3xE 7x3xN 7x3xW 7x2xW 7x2xN 7x2xE 7x2xS 7x2xS 7x2xS 7x2xE 7x3xE 7x3xE 7x3xE 7x3xN 7x3xE 7x3xS 7x3xS 7x3xE 7x3xE 7x3xE 7x3xS 7x3xE 7x3xN 7x3xE 7x3xS 7x3xE 7x3xS 7x3xE 7x3xN 6x3xN 6x3xW 6x2xW 6x2xS 7x2xS 7x2xE 7x2xN 7x2xW 7x2xS 7x2xW 7x2xN 7x2xE 7x2xN 7x2xE 7x3xE 7x3xS 7x3xE 7x3xS 7x3xE 7x3xS 7x3xE 7x3xS 7x3xS 7x3xS 7x3xE 7x3xN 7x3xW 7x3xN 7x3xW 7x3xN 7x3xE 7x3xE 7x3xN 6x3xN 6x3xW 6x3xS 6x3xE 6x3xS 6x3xW 6x3xN 6x3xW 6x3xS 6x3xW 6x3xS 7x3xS 7x3xE 7x3xS 7x3xE 7x3xN 7x3xW 7x3xS 7x3xS 7x3xW 7x3xN 6x3xN 5x3xN 5x3xE 5x3xS 5x3xW 5x3xS 6x3xS 6x3xE 6x3xS 6x3xW 6x2xW 6x2xN 5x2xN 4x2xN 4x2xE 4x2xN 3x2xN 3x2xW 3x2xS 3x2xW 3x2xS 3x2xE 3x2xS 4x2xS 4x2xE 4x2xN 3x2xN 3x2xW 3x2xN 3x2xW 3x2xN 3x2xE 3x2xS 3x2xW 3x2xS 3x2xW 3x2xN 2x2xN G 
+Eval 38 Done
+
+
+EVALUATION NUMBER 39 STARTED
+Environment Chosen :0 Path followed: S 7x2xN 6x2xN 5x2xN 4x2xN 4x2xW 4x1xW T 
+Eval 39 Done
+
+
+EVALUATION NUMBER 40 STARTED
+Environment Chosen :0 Path followed: S 7x2xN 7x2xW 7x2xN 6x2xN 5x2xN 5x2xW 5x2xN 5x2xE 5x2xN 5x2xW 5x2xN 5x2xE 5x3xE 5x4xE 5x4xN 5x4xW 5x4xN 5x4xE 5x4xN 5x4xW 5x4xS 5x4xE 5x5xE 5x5xE 5x5xS 5x5xE 5x5xN 5x5xE 5x5xN 5x5xE 5x5xE 5x5xE 5x5xN 5x5xW 5x5xS 5x5xS 5x5xW 5x5xN 4x5xN 4x5xW 4x5xN 3x5xN 3x5xW 3x5xN 3x5xW 3x4xW 3x4xN 3x4xW 3x4xN 2x4xN 2x4xE 2x4xN 1x4xN 1x4xN 1x4xE 1x4xN 1x4xE 1x4xN 1x4xN 1x4xN 1x4xE 1x4xS 2x4xS 2x4xW 2x3xW 2x2xW G 
+Eval 40 Done
+
+
+EVALUATION NUMBER 41 STARTED
+Environment Chosen :0 Path followed: S 7x2xN 6x2xN 6x2xE 6x2xN 5x2xN 5x2xE 5x2xN 4x2xN 4x2xW 4x2xS 4x2xE 4x2xS 4x2xW 4x1xW T 
+Eval 41 Done
+
+
+EVALUATION NUMBER 42 STARTED
+Environment Chosen :0 Path followed: S 7x2xN 7x2xE 7x3xE 7x3xS 7x3xE 7x3xE 7x3xS 7x3xS 7x3xE 7x3xS 7x3xE 7x3xE 7x3xN 7x3xW 7x2xW 7x1xW 7x1xN 6x1xN 5x1xN 4x1xN T 
+Eval 42 Done
+
+
+EVALUATION NUMBER 43 STARTED
+Environment Chosen :0 Path followed: S 7x2xN 7x2xW 7x2xS 7x2xS 7x2xE 7x2xS 7x2xW 7x1xW 7x1xN 7x1xE 7x2xE 7x2xN 7x2xW 7x1xW 7x1xW 7x1xS 7x1xS 7x1xW 7x1xS 7x1xW 7x1xW 7x1xN 7x1xE 7x1xS 7x1xE 7x2xE 7x3xE 7x3xE 7x3xN 7x3xE 7x3xN 7x3xW 7x3xS 7x3xS 7x3xS 7x3xW 7x2xW 7x1xW 7x1xW 7x1xW 7x1xS 7x1xE 7x2xE 7x2xN 7x2xE 7x3xE 7x3xN 7x3xE 7x3xE 7x3xS 7x3xE 7x3xS 7x3xE 7x3xE 7x3xN 7x3xW 7x3xN 6x3xN 6x3xE 6x3xE 6x3xE 6x3xN 5x3xN 5x3xW 5x3xS 5x3xE 5x4xE 5x4xS 5x4xS 5x4xE 5x5xE 5x5xS 5x5xW 5x4xW 5x4xN 4x4xN 4x4xE 4x5xE 4x5xN 3x5xN 2x5xN 1x5xN 1x5xN 1x5xW 1x4xW 1x3xW 1x3xN 1x3xW 1x3xS 1x3xW 1x3xS 2x3xS 2x3xW 2x3xN 2x3xW 2x2xW G 
+Eval 43 Done
+
+
+EVALUATION NUMBER 44 STARTED
+Environment Chosen :0 Path followed: S 7x2xN 7x2xW 7x2xS 7x2xW 7x1xW 7x1xS 7x1xE 7x1xN 7x1xE 7x2xE 7x2xN 7x2xE 7x2xN 7x2xW 7x1xW 7x1xN 7x1xW 7x1xN 7x1xE 7x2xE 7x2xN 7x2xE 7x2xN 6x2xN 6x2xW 6x1xW 6x1xS 7x1xS 7x1xW 7x1xS 7x1xE 7x2xE 7x2xN 6x2xN 6x2xE 6x3xE 6x3xN 6x3xW 6x3xS 6x3xW 6x3xS 7x3xS 7x3xW 7x3xS 7x3xS 7x3xW 7x3xN 6x3xN 5x3xN 5x3xE 5x3xN 5x3xW 5x3xN 5x3xE 5x3xN 5x3xW 5x2xW 5x2xS 6x2xS 7x2xS 7x2xS 7x2xW 7x2xS 7x2xW 7x2xN 7x2xW 7x2xS 7x2xS 7x2xW 7x2xN 6x2xN 5x2xN 4x2xN 4x2xE 4x3xE T 
+Eval 44 Done
+
+
+EVALUATION NUMBER 45 STARTED
+Environment Chosen :0 Path followed: S 7x2xN 6x2xN 6x2xE 6x3xE 6x3xN 6x3xW 6x3xS 6x3xE 6x3xN 5x3xN 4x3xN T 
+Eval 45 Done
+
+
+EVALUATION NUMBER 46 STARTED
+Environment Chosen :0 Path followed: S 7x2xN 7x2xW 7x2xN 6x2xN 5x2xN 4x2xN 3x2xN 3x2xE 3x2xN 3x2xE 3x2xS 4x2xS 4x2xW 4x2xS 5x2xS 5x2xW 5x2xN 5x2xE 5x2xN 5x2xE 5x3xE 5x3xS 5x3xE 5x4xE 5x5xE 5x5xS 5x5xE 5x5xE 5x5xN 4x5xN 3x5xN 3x5xW 3x5xS 3x5xW 3x5xS 3x5xE 3x5xE 3x5xE 3x5xN 3x5xE 3x5xS 3x5xW 3x5xS 3x5xE 3x5xE 3x5xS 4x5xS 4x5xE 4x5xS 5x5xS 5x5xW 5x5xS 5x5xS 5x5xS 5x5xS 5x5xE 5x5xS 5x5xE 5x5xE 5x5xN 4x5xN 4x5xW 4x5xS 4x5xE 4x5xS 5x5xS 5x5xS 5x5xW 5x4xW 5x4xS 5x4xW 5x4xN 4x4xN 3x4xN 2x4xN 2x4xW 2x4xN 2x4xE 2x4xN 2x4xE 2x4xS 2x4xW 2x3xW 2x2xW G 
+Eval 46 Done
+
+
+EVALUATION NUMBER 47 STARTED
+Environment Chosen :0 Path followed: S 7x2xN 6x2xN 6x2xW 6x1xW 6x1xN 5x1xN 4x1xN T 
+Eval 47 Done
+
+
+EVALUATION NUMBER 48 STARTED
+Environment Chosen :0 Path followed: S 7x2xN 7x2xE 7x2xS 7x2xE 7x3xE 7x3xN 7x3xW 7x3xN 7x3xE 7x3xN 7x3xE 7x3xE 7x3xS 7x3xE 7x3xS 7x3xW 7x3xN 7x3xW 7x3xN 6x3xN 5x3xN 5x3xE 5x4xE 5x4xS 5x4xE 5x5xE 5x5xN 4x5xN 4x5xE 4x5xN 3x5xN 3x5xE 3x5xE 3x5xN 3x5xE 3x5xN 3x5xW 3x4xW 3x4xN 3x4xW 3x4xS 3x4xE 3x4xS 3x4xW 3x4xS 4x4xS 4x4xE 4x5xE 4x5xN 4x5xE 4x5xN 4x5xE 4x5xN 4x5xW 4x5xN 4x5xW 4x5xN 4x5xE 4x5xN 3x5xN 2x5xN 2x5xE 2x5xN 1x5xN 1x5xN 1x5xW 1x4xW 1x4xN 1x4xN 1x4xW 1x4xN 1x4xW 1x3xW 1x3xS 1x3xW 1x3xN 1x3xW 1x3xN 1x3xE 1x4xE 1x4xS 2x4xS 2x4xE 2x5xE 2x5xS 2x5xW 2x4xW 2x3xW 2x3xN 1x3xN 1x3xW 1x2xW 1x2xS 2x2xS G 
+Eval 48 Done
+
+
+EVALUATION NUMBER 49 STARTED
+Environment Chosen :0 Path followed: S 7x2xN 6x2xN 6x2xW 6x2xN 6x2xE 6x2xN 5x2xN 5x2xE 5x3xE 5x3xS 6x3xS 6x3xE 6x3xN 6x3xE 6x3xN 6x3xE 6x3xE 6x3xN 5x3xN 5x3xW 5x2xW 5x1xW 5x1xW 5x1xS 6x1xS 6x1xE 6x1xN 6x1xE 6x2xE 6x2xS 6x2xW 6x2xN 6x2xW 6x2xN 5x2xN 5x2xW 5x2xN 5x2xE 5x2xN 4x2xN 3x2xN 2x2xN G 
+Eval 49 Done
+
+
+EVALUATION NUMBER 50 STARTED
+

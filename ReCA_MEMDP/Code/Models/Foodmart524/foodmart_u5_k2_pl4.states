@@ -1,0 +1,13 @@
+0.000000	#|#
+1.000000	#|Drink
+2.000000	#|Food
+3.000000	#|Non-Consumable
+4.000000	Drink|Drink
+5.000000	Drink|Food
+6.000000	Drink|Non-Consumable
+7.000000	Food|Drink
+8.000000	Food|Food
+9.000000	Food|Non-Consumable
+10.000000	Non-Consumable|Drink
+11.000000	Non-Consumable|Food
+12.000000	Non-Consumable|Non-Consumable

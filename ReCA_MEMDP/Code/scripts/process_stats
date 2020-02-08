@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "Normal_Risks" > stats
+echo -e "1x2\t2x3\t3x3"
