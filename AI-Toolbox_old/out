@@ -1,0 +1,2091 @@
+commit 1403f2ed0929792ca38485e02ca9d4b9a2f10ca1
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Thu Aug 11 16:28:40 2016 +0200
+
+    Fixed docs for POMDP::SparseModel
+
+commit 59a07b60e0cde7b0d6b932f01b23f4bdb41d0943
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Thu Aug 11 16:24:59 2016 +0200
+
+    Fixed docs errors in QLearning
+
+commit 2da5a93ae1afc696db21c16e4f94946d55138de7
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Thu Aug 11 14:58:04 2016 +0200
+
+    Fixed grammar mistake
+
+commit 2ffe6995685920bea32372b6c167fd835f88c4a4
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Thu Aug 11 14:57:46 2016 +0200
+
+    Added POMDP Models to Python bindings
+
+commit 1d46decdb2e121fdf95901ae80b499435f784822
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sun Jul 24 20:20:36 2016 +0200
+
+    Fixed MDP::Values initialization
+
+commit fdd80ade4845a28b8e270286a189830d32dd1d93
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sun Jul 24 20:10:47 2016 +0200
+
+    Ported BeliefGenerator and AMDP to Eigen, added sparse generation method for AMDP, can now build MDP::Model and MDP::SparseModel without data checks
+
+commit ee7afc736d8d597b1e6a3f5ac8ba617563d12b47
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Tue Jun 7 00:09:19 2016 +0200
+
+    Added container in order to implement factored MDPs
+
+commit d23e21e883cfe50f5e92fdf9fae1eb2cb8e359f3
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Mon Jun 6 21:38:57 2016 +0200
+
+    Fixed documentation mentioning MDP instead of POMDP
+
+commit f64aabc46df678eef556196db1bdd5d438edc59d
+Author: Eugenio Bargiacchi <svalorzen@develer.com>
+Date:   Fri Apr 29 22:33:20 2016 +0200
+
+    Possibly missing header file added
+
+commit 44a954432ae7a0266efdf441db6c7b594728ac13
+Author: Eugenio Bargiacchi <svalorzen@develer.com>
+Date:   Fri Apr 29 22:19:00 2016 +0200
+
+    Forgot dots in readme
+
+commit ff524c1cb6d042285185b01aca9092ecc8c78f6e
+Author: Eugenio Bargiacchi <svalorzen@develer.com>
+Date:   Fri Apr 29 22:17:28 2016 +0200
+
+    Updated readme with Python commands
+
+commit 808215bce8cd626ac759404901b3a6dac95b9cfa
+Author: Eugenio Bargiacchi <svalorzen@develer.com>
+Date:   Fri Apr 29 22:16:10 2016 +0200
+
+    Fixed bugs in QSoftmaxPolicy
+
+commit 7fc8af88becc8287467017f2a81c6e666b965fe7
+Author: Eugenio Bargiacchi <svalorzen@develer.com>
+Date:   Fri Apr 29 18:20:12 2016 +0200
+
+    Fixed missing temperature check for QSoftmaxPolicy
+
+commit 5fa3c96dd64fee540569b6598446d7720668ef26
+Author: Eugenio Bargiacchi <svalorzen@develer.com>
+Date:   Fri Apr 29 12:23:25 2016 +0200
+
+    Fixed horrible inefficiency in RLModels
+
+commit 996d586e2fc0f5e4e3089e384988c985654790d4
+Author: Eugenio Bargiacchi <svalorzen@develer.com>
+Date:   Thu Apr 21 10:47:14 2016 +0200
+
+    Hidden from docs ugly types
+
+commit c9f4ad9b60d4c9214a73be8fc2ba171ed30c97fc
+Author: Eugenio Bargiacchi <svalorzen@gmail.com>
+Date:   Mon Apr 11 09:49:14 2016 +0200
+
+    Update README.md
+
+commit 6a83c00bfbd1d73b97029df1591e17cb366b44b4
+Author: Eugenio Bargiacchi <svalorzen@develer.com>
+Date:   Wed Apr 6 18:29:50 2016 +0200
+
+    Introducing QSoftmaxPolicy
+
+commit 864548b65e5866e57f8368b14044dc47894a51ce
+Author: Eugenio Bargiacchi <svalorzen@develer.com>
+Date:   Wed Apr 6 17:24:20 2016 +0200
+
+    Added missing Python docs
+
+commit af1ec0cf7a2ee2b18642966f17307f2d3e0176fe
+Author: Eugenio Bargiacchi <svalorzen@develer.com>
+Date:   Wed Apr 6 17:02:05 2016 +0200
+
+    Modified docs for an inherited function in WoLFPolicy
+
+commit feb36483404002339c38713e34ae6ad9b3a367bd
+Author: Eugenio Bargiacchi <svalorzen@develer.com>
+Date:   Tue Apr 5 19:39:34 2016 +0200
+
+    Fixes
+
+commit 55151b32bb530f6fb6fc98cfdf806d97f2b48047
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Mon Apr 4 22:12:11 2016 +0200
+
+    Added Python docs for WoLFPolicy
+
+commit f1538895cc7f7c108ae40a4488001466b0b7c030
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Mon Apr 4 21:44:56 2016 +0200
+
+    Added Python docs for MCTS
+
+commit 03b53fabd884cd9ad4533c914fb17d5785ae0a51
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Mon Apr 4 21:44:43 2016 +0200
+
+    Fixed missing parentheses
+
+commit 7199532689138adfcfd314e57a0c9cb30ba90b8f
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Mon Apr 4 21:32:05 2016 +0200
+
+    Removed useless whitespace
+
+commit d7b3e68244361d87c136163d2e12432fbc51a16b
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Mon Apr 4 21:25:29 2016 +0200
+
+    Added Python docs for PrioritizedSweeping
+
+commit f0533e2bd554dfdbb9b765a81878b08720a62d52
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Mon Apr 4 21:03:03 2016 +0200
+
+    Added Python docs for SARSA
+
+commit d10929ff3ebe521082e3046bf5f53b4633d3ac95
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Mon Apr 4 20:55:05 2016 +0200
+
+    Improved QLearning docs a bit
+
+commit 8e97d40739fac33b23a81f73abfee2b0fe908f65
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Mon Apr 4 20:48:20 2016 +0200
+
+    Added Python docs for QLearning
+
+commit d36091c831b624a4db680e65ea3b7106c20a1acd
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Mon Apr 4 00:39:11 2016 +0200
+
+    Added Python docs for ValueIteration
+
+commit 201ebfddb5dd7cbd5014895948b2fe231d77debc
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Mon Apr 4 00:39:02 2016 +0200
+
+    Added Python docs for PolicyInterface
+
+commit cec29ba81498069da2218133b67adfa4d4609236
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Mon Apr 4 00:38:30 2016 +0200
+
+    Removed briefs
+
+commit c313637b3eb427dd3bc216aea1f4af03f61b9ecc
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Mon Apr 4 00:02:29 2016 +0200
+
+    Added Python docs for SparseExperience
+
+commit 20799526fc3484f428a2717bd09611c7831752b2
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sun Apr 3 22:31:48 2016 +0200
+
+    Added Python docs for SparseRLModel
+
+commit 635ac196f445c4a31e8b3c9e7fa5f410f1eae39e
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sun Apr 3 20:20:38 2016 +0200
+
+    Added Python docs for RLModel
+
+commit 39e02089ef54736fed2999a6cbdf2ea2da13205c
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Mon Mar 7 18:47:44 2016 +0100
+
+    Added python docs for SparseModel
+
+commit 9be62d277a7bb442aecbe429fe180c4dc0fbf38d
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Mon Mar 7 11:31:07 2016 +0100
+
+    Set shape as an attribute rather than a method
+
+commit 34f6b87973d9318c0ada26a2a78b6688485c062e
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Mon Mar 7 10:41:44 2016 +0100
+
+    Added some comments about Python in README
+
+commit b88e795ae463e75741f6bf572da5cc81eb9ac142
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Mon Mar 7 10:32:32 2016 +0100
+
+    Added len/shape methods to Vector and Matrix2D
+
+commit 09d55a769babfb5bdbe1a844d8536a68e7cc7d69
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sun Mar 6 20:45:23 2016 +0100
+
+    Set docs for Python MDP Experience
+
+commit 1d57f92a54dd287cb70e9fbed470d0c3b4876027
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Fri Mar 4 15:30:42 2016 +0100
+
+    Trying suggested method for finding correct python
+
+commit 2ec27f5fe680d2b2fb578145291de380ce6363e6
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Thu Mar 3 19:56:52 2016 +0100
+
+    Fixed docs, added functions to copy from known containers
+
+commit ee967879821576994e0aaf8dc8312d9deac51a44
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Thu Mar 3 19:56:12 2016 +0100
+
+    Removed check for higher than one since it was unnecessary (we already check that the sum is one)
+
+commit c3f96f15e43344a86b62a387c9bb930356b501f8
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Thu Mar 3 19:55:26 2016 +0100
+
+    Fixed docs and added two functions to copy from known containers
+
+commit d7b92a83806963030dca574d92bd60f44fcc63de
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Thu Mar 3 18:39:51 2016 +0100
+
+    Removed relics from doc
+
+commit ef3692b374e8f8b18b0395b66cfb6dcc80ec0ba0
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Thu Mar 3 18:39:18 2016 +0100
+
+    Normalized formatting
+
+commit b941652d26dd44b4007c77e810b958569e1ea9ac
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Thu Mar 3 18:14:51 2016 +0100
+
+    Named parameters for Python MDP Model!
+
+commit f177af3197354a1eebfba45dbe2d42f8e8b1a15a
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Thu Mar 3 10:37:41 2016 +0100
+
+    Trying to get travis to run python tests
+
+commit 243a687288cd5446ff71115508523d57d7b547ee
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Thu Mar 3 10:18:23 2016 +0100
+
+    Forced exact on the interpreter
+
+commit d61c947d35782965e957ab76f8d55da1f5bc7820
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Thu Mar 3 10:14:58 2016 +0100
+
+    Removed exact from pythonlibs since it is not required
+
+commit 8b59f3cc1fc035b5d5a34b9d2285aef0aad4ed46
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Wed Mar 2 20:09:00 2016 +0100
+
+    Forced python 2.7 since everything compiles with 3.4 but that boost version gives problems
+
+commit 78af7c2031efb38ec62fe4c10ed216ad0ad378af
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Tue Mar 1 18:15:32 2016 +0100
+
+    Added infrastructure for Python tests and docs + MCTS
+
+commit afeb0db3542567f4b3a8a5526b4e2cbc8b76a426
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Mon Feb 8 22:02:41 2016 +0100
+
+    Added WoLFPolicy and fixed its tests since I finally got what the paper meant
+
+commit beb9c4cb4b87017984002904d4f1825486b0baa6
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Mon Feb 8 22:02:08 2016 +0100
+
+    Added PrioritizedSweeping to Python
+
+commit 7835df0eeed4c8aeda9dae0ca942057ba317e64b
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Mon Feb 8 22:01:46 2016 +0100
+
+    Fixed tests
+
+commit b5ae7a075e81bfd20af77ece0bf8c4d7e27409a4
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Mon Feb 8 22:01:28 2016 +0100
+
+    Removed Model requirement from QLearning and SARSA because it made no sense
+
+commit b6b29d6d8c24be46fd20c508d6da5ccae231d261
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Mon Feb 8 21:59:41 2016 +0100
+
+    Removed whitespace
+
+commit 62b78a5e025805329b29ab37d33783fe3d6d98ec
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sun Feb 7 20:11:18 2016 +0100
+
+    Removed redundant values from QLearning and SARSA
+
+commit 3e2ed185f51d50b72a5b26d5769788c72141acac
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Fri Feb 5 23:20:55 2016 +0100
+
+    Modified Prioritized Sweeping so that it can work on Sparse Models too
+
+commit 0643ddce6c04b0365b76d821a8235452ed0ed24a
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sun Jan 24 23:28:04 2016 +0100
+
+    Removed debug print from test
+
+commit a29a4c7d19f9464d449fe73ba909e15b2586d2f6
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sun Jan 24 21:41:44 2016 +0100
+
+    Added EpsilonPolicy to Python
+
+commit ba94d5254ee4b2c3393aa4383ffe82b811319cf0
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sun Jan 24 21:06:01 2016 +0100
+
+    Added QGreedyPolicy to Python
+
+commit 7a1ed744064621627e9e163332531e0746a63dc9
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Wed Jan 20 03:01:15 2016 +0100
+
+    Bunch of fixes for parts that did not work, plus added ValueIteration to Python (still to finish up)
+
+commit 9ae3e2ed14a370984adac5bbe9a12dc2e21bd577
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Wed Jan 20 00:04:49 2016 +0100
+
+    Added boost python to travis
+
+commit 909d3ef6a9c275f5d1938c5a9bbe192064bc50a6
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Wed Jan 20 00:01:38 2016 +0100
+
+    Added new classes to Python, and QLearning too!
+
+commit 275fda421fa4ebe4d5a7390153bfeef36926d98a
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Wed Dec 30 18:31:41 2015 +0100
+
+    Initial support for Python. Any bug report is welcome!
+
+commit 06271954f157841cd27e115f4c282624a6d10260
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sun Dec 20 21:03:02 2015 +0100
+
+    Removing debug builds since theres a bug in Eigen and they don't work.. you need at least eigen 3.2.5 to have them work
+
+commit fdba89eb00363b3dba251427d63185409da8ec17
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sun Dec 20 20:57:13 2015 +0100
+
+    Left CC as is.. let's try if it works
+
+commit af809959080129185cead0632df4544ab8263761
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sun Dec 20 20:41:29 2015 +0100
+
+    Imply -y on all installations
+
+commit dd8089c52fa1950111441144f0dfaef9d0d86966
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sun Dec 20 20:37:24 2015 +0100
+
+    Updating boost version with those compatible in ubuntu 14.04
+
+commit 2667cebad2fd3bcda640e41ea285ab219da88664
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sun Dec 20 20:32:11 2015 +0100
+
+    Trying to use ubuntu 14 default packages instead of old ppas
+
+commit b93c69c104487222e75d197bb49b66f37b6570e0
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sun Dec 20 20:27:48 2015 +0100
+
+    Fixed mistake in travis file
+
+commit db35971a23a35dbbbc07cdf2f3ad466c6a07104b
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sun Dec 20 20:26:13 2015 +0100
+
+    Fixed a comment in tests
+
+commit eec7658576f3f07f1dfee0a984508963560e0a35
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sun Dec 20 20:26:01 2015 +0100
+
+    Modified travis to run on 14.04 because I can't reproduce the build failures (it's something with Eigen..)
+
+commit f03da98e70deeab47980b99a1863568e6cb2120a
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sun Dec 20 20:08:29 2015 +0100
+
+    Added verbose travis to understand better where tests fail
+
+commit 187888b4a07c7592d3829969836526426ec34086
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Fri Dec 18 18:28:23 2015 +0100
+
+    Added SparseExperience for big models which have few used states. Also fixed bugs in the I/O for the experiences..
+
+commit 2dae3f8dc49045ec468682ac455cf1e377b810e7
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Wed Dec 16 17:48:30 2015 +0100
+
+    Templatized both the RLModel and SparseRLModel so we can have a sparse Experience.. coming soon
+
+commit 2e64cfa6d50f91753baa7928665fd7ab6f9721fb
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Tue Dec 15 18:10:48 2015 +0100
+
+    Added sparse support for RLModel, soon adding it too Experience and supporting Experience as a template type
+
+commit ec386bead5a27809c7ade310c1b2b49568147d51
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Tue Dec 15 12:52:42 2015 +0100
+
+    Added initial support for Eigen in POMDPs
+
+commit 0029320c7e6c13591431c7e3356bc0b797949066
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Mon Sep 7 01:45:47 2015 +0200
+
+    PrioritizedSweeping fully Eigenized. Finished porting of MDP methods, now working on POMDP ones
+
+commit cad72bafd0dab81f9aa841679971387959726408
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sat Aug 29 22:20:55 2015 +0200
+
+    Added tests for non-Eigen version of ValueIteration
+
+commit 255d35bb00549ddae98e7f42ab598e9726288869
+Author: Eugenio Bargiacchi <svalorzen@gmail.com>
+Date:   Mon Jul 6 10:59:38 2015 +0200
+
+    Update README.md
+
+commit 6ea55eff395ff04e6f8df38407047f9625ded2da
+Author: Eugenio Bargiacchi <svalorzen@gmail.com>
+Date:   Wed Jul 1 11:30:18 2015 +0200
+
+    Limit travis resource usage so that release does not collapse.
+
+commit 7392da299ebdb65b7f040eaca970ea3f395c425e
+Author: Eugenio Bargiacchi <svalorzen@gmail.com>
+Date:   Wed Jul 1 09:44:46 2015 +0200
+
+    Add ppa to enable travis to sparse eigen matrices.
+
+commit 1ce03d6bb49aa5dcad8eebc5aee9a95b7c1637c7
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Wed Jul 1 01:28:18 2015 +0200
+
+    Added find module for eigen since travis does not have one
+
+commit d58f282a095842cb91a5b27f635293b715b2aba5
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Wed Jul 1 01:12:20 2015 +0200
+
+    Updated Cmake so that it can find Eigen
+
+commit 2ff50355c2656100715c6296a6c8c8bac1025676
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Wed Jul 1 00:54:12 2015 +0200
+
+    Updated README and Travis with Eigen3 requirement
+
+commit b5c3870c970a628f4c021b3abd198138111cc574
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Wed Jul 1 00:49:39 2015 +0200
+
+    Value Iteration can now run on Eigen! Improved performance all around!
+
+commit 6ca165b22985cefbbeb0c1f26d854692cb2390f0
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Fri Jun 26 22:31:42 2015 +0200
+
+    Updated all models with methods used to leverage Eigen
+
+commit e93ca8266f19ec2909aaad627a8956ddf098e310
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Wed Jun 24 23:24:49 2015 +0200
+
+    Added POMDP Sparse Model
+
+commit 9306187252ecdf7dc4b7470cf0d5a6244f48f475
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Wed Jun 24 19:19:27 2015 +0200
+
+    Converted SparseModel to eigen
+
+commit e0d1f157039a3dfa8c1b533db34c0947cba025ce
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sat Jun 20 15:40:30 2015 +0200
+
+    First step in introducing Eigen for linear algebra
+    
+    Both MDP::Model and POMDP::Model now internally work with Eigen, but all
+    algorithms still need to take advantage of this. Also need to convert
+    all the Models.
+
+commit 94e717447f512a4e7dfa3e16074181654d185623
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Fri Jun 5 21:52:51 2015 +0200
+
+    Final fix for tutorial code
+
+commit 3ad7ba5e1969140289aa7062e8044724d4c116e9
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Fri Jun 5 19:52:08 2015 +0200
+
+    Fixed bug in tutorial
+
+commit 5df7815b9d70142fb331abb8a3f06b60e9eb8150
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Thu Jun 4 23:47:41 2015 +0200
+
+    Introducing SparseModel for MDP, minor movement of probability functions
+
+commit 9df3b8e60d6c3ac625353a0f18fee0b45801b19e
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sat Jun 27 10:59:31 2015 +0200
+
+    Added comments for POMCP because why not
+
+commit 561cd6b1b78b500254b46abd23f14eab0ed640e1
+Author: Eugenio Bargiacchi <svalorzen@gmail.com>
+Date:   Mon Jun 22 11:46:31 2015 +0200
+
+    Update README.md
+    
+    Kept note about gcc 4.8 not working since it has a bug.
+
+commit 0d1048f6f9fd29eef172d5bab185ac98bec717c8
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sat Jun 20 15:15:05 2015 +0200
+
+    Improved README
+
+commit 8ff77823d7cfcc9f989171c87dd90bdca3a844bc
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Fri Jun 19 20:28:17 2015 +0200
+
+    Forgot then
+
+commit 0edee0d0e3001967a8a1a280c3b074907d1858d3
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Fri Jun 19 20:23:08 2015 +0200
+
+    Retry with travis since I found a project where gcc 4.9 seems to work
+
+commit ee30c76bf1be7222da1f9c5bb31d8ac657e84371
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Mon Jan 19 21:57:39 2015 +0100
+
+    Added PERSEUS to Readme
+
+commit b42eb64ed094426ca55966af595dd75357347bf4
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Mon Jan 19 21:56:28 2015 +0100
+
+    Mostly comments, added epsilon to PBVI, removed PERSEUS tests since they were too approximate to have sense
+
+commit ce695a31d459239e981b7f08b848043997ef6166
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Wed Nov 12 22:34:56 2014 +0100
+
+    Adjusted comments in PBVI
+
+commit 75dc77be239df898feabd5406504b26485e997d8
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Mon Nov 10 00:36:17 2014 +0100
+
+    Introducing PERSEUS, though not sure if it's correct
+
+commit 4c9111cb8d20fbdac04034da7f0302c35706dfda
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Tue Oct 28 18:44:49 2014 +0100
+
+    Bugfix for MCTS and POMCP
+
+commit ca851de1cbe643b1ae3983f5424b08a8621aa989
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Fri Oct 24 20:38:42 2014 +0200
+
+    Including YouCompleteMe helper file in repo
+
+commit c191f66b4bfb8ff4dfa2b0f2382e2b5388449636
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Fri Oct 17 23:14:17 2014 +0200
+
+    Introducing Witness!
+
+commit af6ac808f95392888a2c0ca501ae0b600e8c9736
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Thu Oct 16 20:58:39 2014 +0200
+
+    Introducing AMDP!
+
+commit 3baf36ef75d63c8d7526844940b8dafcf5eee1e4
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Wed Oct 15 17:27:22 2014 +0200
+
+    Separated belief dependent computations from RTBSS
+
+commit 0a81e40a72285668cf4571e7f630e33d04465fcc
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Wed Oct 15 17:26:31 2014 +0200
+
+    Separated belief generation functionality from PBVI
+
+commit face2f0891e0b3cf0d80483902f9666ef26b461a
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Tue Oct 14 11:25:59 2014 +0200
+
+    Moved test executables in their own subfolder
+
+commit 728c72f86d18b0a67d5f3e5b008b1b9a8d0e5f2a
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Mon Oct 13 14:18:40 2014 +0200
+
+    Forgot useless include in PBVI
+
+commit 672c67655a557ea8a1c5841c3662e6d83f5a6485
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Mon Oct 13 14:15:08 2014 +0200
+
+    PBVI finally works as it should!
+
+commit b754b0fd7ab0e5bf81e9c578e40c427e7a8d1850
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sun Oct 12 14:12:37 2014 +0200
+
+    Minor embellishments
+
+commit 3415ec6ff7c1fe61519c53d58cea27e4e8af712d
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sat Oct 11 17:10:33 2014 +0200
+
+    Improved performance of IncrementalPruning
+
+commit 446511ecef4ffa15b9b6c3cded20873063f4f751
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Fri Oct 10 14:20:13 2014 +0200
+
+    Fixed comment in test
+
+commit 01b92f1055a75f0eb0e3697dd709b32cda4a5e48
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Fri Oct 10 00:57:55 2014 +0200
+
+    Introducing WitnessLP_clp
+    
+    This is an alternative to the lp_solve solver. However, at the moment
+    this class is not efficient at all, since it does a lot of reallocations
+    internally since I have not figured out how to force it to keep memory
+    allocated inside. At the same time, it might be nice for people to have
+    at least an alternative implementation for the LP.
+    
+    The CMake build file is already ready to use it, you just need to
+    uncomment the new parts that were added with this commit.
+
+commit 469e24911827352afb3d83ae35065496355fcdb7
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Fri Oct 10 00:52:15 2014 +0200
+
+    Small fixes for WitnessLP_lpsolve
+
+commit 20a62cf29f7d7ece34a787246129a63f1cae81d3
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Fri Oct 10 00:51:25 2014 +0200
+
+    Added PBVI tests
+
+commit fab4cf907e47bb0ac5d133dac89c8f1be100b1f9
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Wed Oct 8 13:00:15 2014 +0200
+
+    Small style changes
+
+commit b80115a8f67753b219fa8d7fad0d2fe53bd3595a
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Wed Oct 8 12:49:31 2014 +0200
+
+    Implemented extractAtSimplexCorners more efficiently without dot products
+
+commit 55df274b309913494899dc05073744a2eb01ae96
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Wed Oct 8 12:37:32 2014 +0200
+
+    Postpone memory allocation until needed and recude overall consume, speeds up!
+
+commit 61a25985e3b1ae5aacc2bcbf68b79cec7de562d1
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Wed Oct 8 12:18:40 2014 +0200
+
+    Added assert for internal method of Value Iteration which takes a pointer
+
+commit f3a413fa98bd3d24b9de8f61da8c47a46d8673d6
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Wed Oct 8 12:16:13 2014 +0200
+
+    Fixed old comment in Value Iteration
+
+commit d125eb67295a8d56ff96d04f63de7afd20f98c28
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Wed Oct 8 12:15:13 2014 +0200
+
+    Added more warnings, fixed new warnings
+
+commit 5fa617a7be5311702197bc5af410cdbc0b66d0bd
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Thu Sep 25 17:39:35 2014 +0200
+
+    Fixed a bug in POMCP where the particle belief would not get updated with horizon 1
+
+commit c80c8bd48f996a864d468c6d431dd3a96c29a90c
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Thu Sep 25 14:39:28 2014 +0200
+
+    Fixed small mistake in WitnessLP_lpsolve
+
+commit 48c76e3b88669e01f60d8a401ec462e17038cc67
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Thu Sep 25 14:35:50 2014 +0200
+
+    Added interface checker for a WitnessLP, changed filename for WitnessLP_lpsolve
+
+commit 470bf974a7976a6c350f804fdd23d35465db10bb
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Thu Sep 25 14:18:32 2014 +0200
+
+    Significantly simplified Pruner, and now takes a template LP solver
+
+commit 92503c4cf45130d7f1d5820f9568efe242850462
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Thu Sep 25 13:51:34 2014 +0200
+
+    Simplified WitnessLP and renamed it, removed dotProd
+
+commit 3fee77c70572c5bc683e60d35084d2c6f57e7f86
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Thu Sep 25 13:00:03 2014 +0200
+
+    Separated LP code from the rest.
+    
+    This will allow changing the LP library more easily. Currently
+    considering COIN-OR since it appears to be several time faster
+    than lp_solve, is available as package on Ubuntu, and is free
+    to use.
+
+commit d07cb72337a7ee43c16eddbee206dd36a19df3e0
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Wed Sep 24 23:25:16 2014 +0200
+
+    Removed wrong comment in RTBSS test file
+
+commit b1d0db2c375a7892223d04400cb7ade7d84d274f
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Wed Sep 24 15:41:53 2014 +0200
+
+    Fixed header guard for RTBSS
+
+commit 89bea27d6ef8445e8f3d7ffe5df81f5a5434c193
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Wed Sep 24 15:33:24 2014 +0200
+
+    Fixed probability check for RTBSS
+
+commit f590685e55b9defb2c76d7148183167be4a1b93b
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Wed Sep 24 15:12:14 2014 +0200
+
+    Added copy constructors for MDP::Model and POMDP::Model
+
+commit 14256d176a6b74656e760332c401ed8c7c7753b1
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Tue Sep 23 20:55:13 2014 +0200
+
+    Updated tutorial code
+
+commit ecb4ffaab321e8c8c1cf2b9cfc30d132a16adbb1
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Tue Sep 23 20:46:29 2014 +0200
+
+    Added load from file POMDP::Model functionality. Moved all IO code to the IO files
+
+commit a128e2a1d54aabe05e91cfcb408b37acdfdae197
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Tue Sep 23 14:32:59 2014 +0200
+
+    Added loading from file functionality for MDP::Model
+
+commit 583242296982f47b55f535c1de79e9f569027e7b
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Thu Sep 18 18:38:22 2014 +0200
+
+    Added SARSA, added different method to check floating point equalities for numbers that may be far from 1
+
+commit 15949e9aac4d7130e58148ae2a06994cbad783fb
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Tue Sep 16 15:08:59 2014 +0200
+
+    Small fix for horizon tests in POMCP.
+
+commit 5d3d9c1d81753ab357940395917599a56257c657
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Tue Sep 16 15:08:40 2014 +0200
+
+    Added RTBSS
+
+commit cb480cfa61e5fc3e28223c854ca9ceaefb6e48a1
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Tue Sep 16 13:31:00 2014 +0200
+
+    Replaced C macro with C++ equivalent of infinity.
+
+commit d787c975fa2aba7576915fd53f71e255e4091ca9
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Thu Jul 10 17:44:35 2014 +0200
+
+    Updated README
+
+commit 7e8ae1cb043bcb4d771408661214a010ee52fb10
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Thu Jul 10 17:43:48 2014 +0200
+
+    Introducing QMDP!
+
+commit 70855691cc4eab373dfcde94bf0ddccc6bb7cf54
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Tue Jul 8 22:01:43 2014 +0200
+
+    IncrementalPruning now supports an epsilon bound too.
+
+commit b2297ce899bf9fdb07255a373be3f91026af87a8
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Tue Jul 8 20:44:02 2014 +0200
+
+    ValueIteration can now be used to solve for any horizon.
+    
+    In addition it still allows for infinite horizon using the epsilon
+    bound. The epsilon bound is now kept the same as the one the user sets,
+    differently from what the MATLAB MDPToolbox does.
+    
+    ValueIteration will iterate until either the specified horizon is
+    reached, or convergence within the provided epsilon is reached. The
+    boolean returned specifies which of the two conditions triggered the
+    stop.
+
+commit e3bcbd53925720fd6c01058c2b5487aacde87c45
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Tue Jul 8 18:01:54 2014 +0200
+
+    Updated README with MCTS
+
+commit f82c5fa88442de75b07163b5ce0e54a0d02e8841
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Tue Jul 8 17:59:47 2014 +0200
+
+    Introducing Monte Carlo Tree Search!
+    
+    This is mostly copied back from POMCP, since the algorithms are
+    basically the same.
+
+commit 5c72cc33b19e7c76db16444b14d0a9269822b87b
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sat Jun 28 01:42:54 2014 +0200
+
+    Added some comments to the tutorial code file
+
+commit b90b3f1b06700acdef21cca4d18dc8a01f36e125
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Fri Jun 27 02:41:44 2014 +0200
+
+    Text fixes
+
+commit 4348b2e61d6ca88b91146c5286bf9f47024a9991
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Fri Jun 27 01:52:53 2014 +0200
+
+    Finished first part of MDP documentation
+
+commit 239da52521f8a68e9fea29a83876a89acaabbe42
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Thu Jun 26 21:28:56 2014 +0200
+
+    Writing the main documentation page
+
+commit 93c36acedc3ca410da5a6833e5e68c3fe1f0668a
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Tue Jun 24 19:42:29 2014 +0200
+
+    More README fixes
+
+commit 3af40e93284b74aa5a6c8d5652d5d2ed64a952ab
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Tue Jun 24 19:35:45 2014 +0200
+
+    Updated README to provide a very basic introduction to the library
+
+commit ef66468c718f211d42c57179ffd64a329e834afe
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Mon Jun 23 04:38:10 2014 +0200
+
+    Added tons of documentation, modified QLearning to mirror other methods
+
+commit 1aa3f1462610874cb264b21d57b442e643887be0
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sun Jun 22 03:44:56 2014 +0200
+
+    Updated gitignore
+
+commit ef390d07b86a164781a257e5a989479e95bf4d5e
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sun Jun 22 03:42:23 2014 +0200
+
+    Added README note about travis failures
+
+commit eec51e18da2410eea7fb6968824a684b04b6df1f
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sun Jun 22 03:35:02 2014 +0200
+
+    New algorithm PBVI. Projecter class. Also changes in the API.
+    
+    Now I'm trying to be more consistent in the functions that require
+    passing a size variable for iterating over containers (this is due to
+    high cost of calling size() in tight loops). PBVI does not yet have a
+    test however since I'm not sure how to verify that its results make
+    sense, and the Tiger problem does not seem to be optimal for its belief
+    finder.
+
+commit 2a65a6aa0916ac25a8b3b91be00f2d79bc82bcda
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sat Jun 21 23:57:46 2014 +0200
+
+    Moved projection functionality into its own class
+
+commit b19de278df4cba3c558433d259a6da804b774a8a
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sat Jun 21 21:48:41 2014 +0200
+
+    Moved updateBelief function to POMDP Utils file
+
+commit 93432cac5fcf5219231b4fe02fd121e53617b426
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sat Jun 21 21:31:41 2014 +0200
+
+    Removed unused TODO file
+
+commit c5665738fcfedef2e1dc8974d689e75dd1f74e90
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sat Jun 21 02:22:31 2014 +0200
+
+    Misc changes, nothing important.
+
+commit b2027458af40cb325b8e206d94e1cc1ee35c8381
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Fri Jun 20 20:59:14 2014 +0200
+
+    Updated POMCP to use maps for observations
+
+commit 7b741e480baf3d9ba370bb9f3f42a1f10bedaf65
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Fri Jun 20 20:54:33 2014 +0200
+
+    Updated travis to use multiple cores and updated method name in tests
+
+commit ca13d4d238ae6f37de917b4d221aff9a265ca08f
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Wed Jun 18 12:49:09 2014 +0200
+
+    Fixed parameters for POMCP tests
+
+commit f4b6bdda17603636302b4b6393884360c206b0d4
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Wed Jun 18 12:44:47 2014 +0200
+
+    Introducing POMCP
+
+commit c7e25790a557121fd40e7a0a9fc239394c8d629b
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Tue Jun 10 10:58:51 2014 +0200
+
+    Removed g++ build since travis does not provide g++-4.9 yet
+    
+    See travis-ci/travis-ci#1379, which in turn would require an Ubuntu update.
+
+commit 613210a1e51c42cd9ec8589044ba6b9030cf2ab6
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Mon Jun 9 01:00:27 2014 +0200
+
+    Created generative interfaces, updated Models accordingly.
+    
+    Please note that this change breaks compilation under g++ 4.8. g++ 4.9
+    and Clang 3.4 work fine.
+
+commit 546fb26f32151619de9678b62c966c72ea4b5479
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Thu Jun 5 03:28:27 2014 +0200
+
+    Updated compilation instruction.
+
+commit 22770242a5d956740b984d19caede3012ea0f7b4
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Wed Jun 4 18:05:27 2014 +0200
+
+    Now POMDP::Policies can be streamed in and out, makind them more useful.
+
+commit e1804a46c51927da0172373a18b1ed31a1664e66
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Wed Jun 4 02:14:14 2014 +0200
+
+    Forgot prints in tests
+
+commit 1cbcdec32256016b30eeac2660e83255679bc113
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Wed Jun 4 02:10:08 2014 +0200
+
+    Added new test for IncrementalPruning
+
+commit e1d3e305d3b313ec10abf11121c2e380bd82803f
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Tue Jun 3 14:56:07 2014 +0200
+
+    Updated some documentation
+
+commit f3a86c050dd2b33328341ed3a4f03d74869d5319
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Tue Jun 3 14:37:19 2014 +0200
+
+    Updated README
+
+commit a156c9969eeb03d9814c9befd806a47b07c17875
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Tue Jun 3 01:24:07 2014 +0200
+
+    POMDP::Policy is now able to read a ValueFunction!
+
+commit 09229df5f019574b39c1f89981f33be98484b28b
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Mon Jun 2 21:04:08 2014 +0200
+
+    Updated MDP::Policy to accept an MDP::ValueFunction for construction.
+
+commit 4233d83d99768db49da6138c88aa5d5845c15c10
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Mon Jun 2 15:06:50 2014 +0200
+
+    Added test for obtained ValueFunction in ValueIteration.
+
+commit 4f91c428ae9d4cd3d1b9140ea6c0b57385f1c8fa
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Mon Jun 2 14:34:25 2014 +0200
+
+    100% Completed IncrementalPruning.
+    
+    In addition, this commit modifies how ValueFunctions work, since
+    now they store both the values, and the actions related to those
+    values. This makes sense as values alone offer little useful
+    information. In addition, this makes it consistent with POMDP value
+    functions which are pretty much required to store the actions they need
+    inside or recomputing them is nearly impossible. The old ValueFunction
+    type still exists, but it was renamed MDP::Values.
+
+commit 2b23525298d1c9503067eedb83d430483638f39f
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sun Jun 1 21:44:46 2014 +0200
+
+    Refined Pruner so that multiple extractions can be performed at less cost
+
+commit 09f4f860b61c1a2381d0ef9904097dd9826257a5
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sat May 24 13:16:27 2014 +0200
+
+    Silenced lp_solve again
+
+commit d1d3aeeb39fced9ee4dd06de1fa735da21e81be2
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sat May 24 04:36:59 2014 +0200
+
+    Optimized as much as possible Pruner
+
+commit 69ecb30bf8741a6da99d0f9c426ccc5b22ccdbd4
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sat May 24 00:26:51 2014 +0200
+
+    Sane test
+
+commit a098d496a1c476e7c565d391cce5dbac2dea0ed6
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Fri May 23 23:36:29 2014 +0200
+
+    Grouped pruning routines in single class
+
+commit d6ea8fdda9a47f982201d951c457c52e8985fbe4
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Wed May 21 21:33:14 2014 +0200
+
+    VList now pairs actions and ValueFunctions.
+
+commit f7bb5acc5e43b8cf6cd35c16e3c9e91b2e2680b7
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Wed May 21 20:10:17 2014 +0200
+
+    Make cmake fail if lp_solve is not found and is needed
+
+commit e9bf154c68d87c1040143d9cc2201df9c13ad47c
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Mon May 19 20:13:28 2014 +0200
+
+    First version of working IncrementalPruning
+
+commit ce1e43a35a67dd9f5089e63382fe02a4b7a58eb8
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Mon May 19 15:33:52 2014 +0200
+
+    Updated printing function for MDP models
+
+commit 68b366dfdc9a8cfbd849fbbcf03022c9d9bf22ca
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sat May 17 03:37:52 2014 +0200
+
+    Avoided bad numerical errors in new sync function.
+
+commit eec3b0ea636048bcef5a7fd7b873651438096f4e
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sat May 17 01:07:56 2014 +0200
+
+    Fixed zero check using the probability functions.
+
+commit 8d155090d255633fb79996597ae359907dca954c
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sat May 17 01:06:43 2014 +0200
+
+    New, faster RLModel function for syncing.
+    
+    This function avoids reading lots of values from Experience, and thus
+    results way faster for bigger statespaces. At the same time, it may
+    produce numerical instabilities after a while. I'm looking into this,
+    it made sense to introduce the new function now.
+
+commit f61c3166ccd3cc8a75b99623233c26b032905600
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Mon May 12 01:08:44 2014 +0200
+
+    Removed linking of AIToolboxPOMDP against AIToolboxMDP
+
+commit 6cc62ce1ca478079e2c138615a07262924afc523
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sun May 11 23:39:59 2014 +0200
+
+    Updated README once again.
+
+commit d557e08eb4b28c432e8c316df8ec0063d5a6a471
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sun May 11 23:28:47 2014 +0200
+
+    Updated README syntax high in GitHub hopefully.
+
+commit c98b9f1805dec926455f2e888b206d30bb8965ea
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sun May 11 23:20:56 2014 +0200
+
+    Improved cmake flags
+
+commit f95fb51edf3bfb2529b529df918eea4f2912f1f2
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sun May 11 23:20:25 2014 +0200
+
+    Updated README.
+
+commit f800ce65786e0165a91dc19a3cf5df720bffe6d5
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sun May 11 21:35:35 2014 +0200
+
+    Updated travis to install lp_solve
+
+commit 0bd7d217d5af35d7f1a7b8a8e0d3b471ebe41393
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sun May 11 21:31:15 2014 +0200
+
+    Multiple updates
+    
+    - Experience moved in MDP namespace.
+    - Added default values for discount parameters in MDP models.
+    - Added discount parameter in basic constructor of MDP::Model.
+    - POMDP constructor now takes its parameters plus the ones taken
+      from its parent class. This allows finally for freely inheriting
+      POMDP::Model from any correct MDP model class.
+    - Added the IncrementalPruningTests.cpp file. As of now it is not doing
+    anything, but I am using it to debug a variety of classes to finish up
+    the IncrementalPruning algorithm.
+
+commit ecc467f67cb1dbc64e86a2bb79768a7fb7f0ac01
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sun May 11 21:03:54 2014 +0200
+
+    Initial work for the IncrementalPruning Algorithm.
+
+commit 53d3e6009cf42f500f579f81f7afffc39c56f0f3
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Thu May 8 03:07:33 2014 +0200
+
+    New solution for is_model type traits that takes into account inherited methods. Thank you StackOverflow
+
+commit 5b0cf7445d20dabe11c8b35b6cf7ca038789d8d9
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Tue May 6 13:15:14 2014 +0200
+
+    Updated text in POMDP::is_model
+
+commit 7801c1161bcad6dbf3b05845434db75685428ef5
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Tue May 6 13:14:41 2014 +0200
+
+    Added LpSolve to CMake, and modified Model since OF conflicted with
+    LpSolve's #defines...
+
+commit 25c25b3dfb07e38a83f0c8f0363f797b82cfd915
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sat May 3 16:35:33 2014 +0200
+
+    Modified sample behaviour for POMDP::Policy
+
+commit 1db7683c7f81cba6f5cdc9b7f787f9f2485e830d
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sat May 3 15:56:31 2014 +0200
+
+    Discount factor is now within Model, not the solving method.
+
+commit 232ab44c7e96ebe5bca327e4cf8061f34e3404ad
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Fri May 2 01:24:27 2014 +0200
+
+    Code block in docs now colored!
+
+commit 513c26d54bdc7745a043c2723a552dfffbecfc7d
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Fri May 2 01:08:38 2014 +0200
+
+    An initial header for a POMDP Policy implementation, which will be useful as soon as I finish the incremental pruning implementation.
+
+commit 6ff853e6b501165175368512c4d57cceba310faa
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Fri May 2 00:46:14 2014 +0200
+
+    More documentation for MDP::Policy
+
+commit 22c61c5670143a921e022b5a3fbcb7b3c4b3d1a9
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Fri May 2 00:43:50 2014 +0200
+
+    Corrected minor mistake in MDP::Policy constructor
+
+commit bb6aa35340dc7c16bb9ecfa7cc3963c55e62cce2
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Fri May 2 00:36:57 2014 +0200
+
+    Updated text for observation function, it depends on the final state, not the starting one
+
+commit ba78ed34d0cd23eb4005187b619be5844265ccef
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Fri May 2 00:36:07 2014 +0200
+
+    Moved MDP Policy into MDP namespace
+
+commit 855f183f432010344e72a0d469ad3531b8e0e7aa
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Wed Apr 23 21:35:01 2014 +0200
+
+    Added full custom constructor for POMDP::Model
+
+commit ff8b560938ffd5cd44bf4729ae8ac4f6e5662cb7
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Thu Apr 17 19:09:38 2014 +0200
+
+    Improved implementation of POMDP Model.
+    
+    POMDP now inherits from any MDP Model, in order
+    to provide all of their methods, and to speed up calls
+    to the underlying MDP as well. Keep in mind that this
+    is only an implementation, and as long as a class
+    implements the methods described in POMDP::is_model then
+    all algorithms are guaranteed to be applicable to it.
+
+commit a8e9eabc4fc0d38a6e822c244f6f26de78c501b7
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Wed Apr 16 01:19:33 2014 +0200
+
+    Restuctured hierarchy of cpp and test files.
+    
+    In order to make space for POMDP source files and tests, the source
+    files now mirror the structure found in the include/ folder. In addition
+    tests are now divided by type (MDP, POMDP, etc). This also allows for
+    users to compile for example only the MDP library, without the POMDP
+    library (since this last one will probably have more requirements, such
+    as lp_solve).
+    In addition an invalid access bug in WolfPolicy has been fixed.
+
+commit 235982ac62328b4b428496d6ea3b22d9b6f358cd
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Tue Apr 15 12:35:53 2014 +0200
+
+    Inlined functions to prevent redefinitions in linking
+
+commit 0d818a22a30818c27a094a22f66e9427b7087353
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Tue Apr 15 12:34:24 2014 +0200
+
+    New functions to test equality/difference with probability values and
+    appropriate fixes.
+
+commit 8bd344c98415f2ed85c3a6f9eae8f9f2d4a150c0
+Merge: b57ac61 0712f22
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Tue Apr 15 12:11:36 2014 +0200
+
+    Merge pull request #8 from EHadoux/hotfix/QGreedyPolicy
+    
+    Fixes QGreedyPolicy.cpp. May have to fix elsewhere.
+
+commit 0712f225df7a090d9be939d0b8aa04b1c164213e
+Author: Emmanuel Hadoux <emmanuel.hadoux@gmail.com>
+Date:   Tue Apr 15 12:02:41 2014 +0200
+
+    Fix simplification.
+
+commit 688de1f7e8c386dfe8307d3690e9bdee2d0b1c3d
+Author: Emmanuel Hadoux <emmanuel.hadoux@gmail.com>
+Date:   Tue Apr 15 11:35:14 2014 +0200
+
+    Fixes QGreedyPolicy.cpp. May have to fix elsewhere.
+
+commit b57ac61b76d31c3d6cd338eaa02095f467b6ffc3
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Tue Apr 15 01:13:44 2014 +0200
+
+    EpsilonPolicy now has a common interface: EpsilonPolicyInterface.
+    
+    Before EpsilonPolicy was implemented solely in terms of discrete
+    states. Now it is an interface that can be used both with
+    discrete states that with Beliefs.
+    The old EpsilonPolicy is now simply an instantiation of the templated
+    class EpsilonPolicyInterface. It was also moved inside the MDP
+    namespace, as all other MDP policies are.
+
+commit 8d9c8fb9c34c215dfdd4cedfa1c7e95b35440821
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sun Apr 13 19:54:23 2014 +0200
+
+    Update README.md
+    
+    Added waffle.io badge and managing issues. Fixes #2.
+
+commit 6d7e9b7c3c1e42d3275c8504dba28f729f64d5c0
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sun Apr 13 19:12:17 2014 +0200
+
+    Update README.md
+    
+    Now contains travis icon.
+
+commit 619278a13f8338096f7ced68f99a3c477386bc4e
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sun Apr 13 19:09:30 2014 +0200
+
+    Updated travis and reduced boost requirements for building
+
+commit 3407bc7246f320c6f80a55a0eb2944b70398dd1c
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sun Apr 13 18:56:48 2014 +0200
+
+    Fixed travis file
+
+commit bc6a741ad8a49e0dbbcfa50bd42407b3882e8265
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sun Apr 13 18:51:55 2014 +0200
+
+    Added .travis.yml file in request to #2
+
+commit 8cd09db122b76ef4199175ef903c9cd9ac808cda
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sun Apr 13 18:40:57 2014 +0200
+
+    Another change to avoid double comparison problems.
+
+commit 8830f975b03577e1b4f1da69572090bc63056191
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sun Apr 13 18:36:50 2014 +0200
+
+    Fixes #3 and #4.
+    Modified public API of (hopefully) all classes to accept the tuple S,A,S' which replaces the
+    previous accepted tuple of S,S',A. In addition, modified underlying implementation in the
+    same way, mostly to allow handling of probability vectors without the need for strange loops.
+    New file ProbabilityUtils contains functions to handle probability vectors.
+
+commit da36bc16154433c8dc96b9b07f9c7fa4dce24545
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Wed Mar 26 20:25:00 2014 +0100
+
+    Started work on the Witness Algorithm
+
+commit 7eba0dd7fe86046b39f0acdba5d6a66265b0c2db
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Wed Mar 26 19:39:12 2014 +0100
+
+    Moved default printing code for PolicyInterface<size_t> to MDP/IO.hpp
+
+commit 6923844b812be42645e6c12f4034231718fe80e8
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Wed Mar 26 19:19:13 2014 +0100
+
+    Improved directory structure, and templatized PolicyInterface to support beliefs in POMDPs
+
+commit 27f0ed4152ba22683c7636e66b6a7d87113123fb
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Tue Mar 25 14:13:53 2014 +0100
+
+    Updated TODO
+
+commit 409c72e9a416f4ddadad275f2633c53912e3da05
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Mon Mar 24 22:06:03 2014 +0100
+
+    Better README
+
+commit 5b188debbf04b4d7177e9d34314cb16131cb2e82
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Wed Mar 19 20:28:15 2014 +0100
+
+    Updated README.md
+
+commit 432f94947eb6f3bd19eb805a9345d6ab1447409a
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Wed Mar 19 01:52:50 2014 +0100
+
+    Introducing POMDPs, for now just a stub WIP.
+
+commit 2fa4d7063f94826d0e40ed71becee314e0839122
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sun Mar 16 19:12:13 2014 +0100
+
+    Many changes:
+    Experience now keeps sums of state-action pair experiences, so RLModel synching
+    is now super-fast. It also changed the function names to obtain the internal
+    table data.
+    
+    Fixed a bug in MDP::Model where mdpCheck function would not sum correctly.
+    
+    Now leveraging boost::multi_array default initialization, since apparently it
+    does that.
+    
+    Created a nice test for ValueIteration.
+
+commit 39116c5f45bf6965edf94434ce91ec183bdcca56
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Wed Mar 12 13:31:51 2014 +0100
+
+    PrioritizedSweeping can now be seeded with QFunction values.
+
+commit f6ee66c979b7f4bc81de8301c837205271f43e2c
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Mon Mar 3 18:38:43 2014 +0100
+
+    Added new policy type: WoLF
+
+commit d8cc03309f424e37b35ac345f94d3f71113ef769
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Fri Feb 21 00:13:37 2014 +0100
+
+    Added new elements to TODO list
+
+commit 579fe084dcbdd6c0d76d08cfdccaa1296b63f4e7
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Thu Feb 20 21:41:53 2014 +0100
+
+    Propagated changes to the rest of the library.
+
+commit 069ff212eab7db92b8907dd9e8e09cbf9bb9f42b
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Thu Feb 20 21:38:55 2014 +0100
+
+    Small change in Experience API.
+
+commit ff6058af2a1af02ef9e2ca58ff866509c5b05665
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Tue Feb 18 19:32:56 2014 +0100
+
+    Created TODO file containing needed work.
+
+commit 06f8249bfd1c365dc42406739cc497676a0f00ce
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Fri Feb 14 02:52:05 2014 +0100
+
+    Documentation for Seeder
+
+commit 6b7c75ed3e9244f6a2404d6f1321f444b2110073
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Fri Feb 14 02:48:36 2014 +0100
+
+    Documentation for is_model
+
+commit 6d9665cde339ad761fc9fcb1491c3a53c9ee636f
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Fri Feb 14 02:41:59 2014 +0100
+
+    Removed class duplicates from documentation
+
+commit 71b07f5d12fdfe702b9bc77f9d151f27e483b56d
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Fri Feb 14 02:34:37 2014 +0100
+
+    Fixed tests and references to Seeder after new API
+
+commit 000cbeab91a63c67625a17594925135565c32b9d
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Fri Feb 14 02:28:26 2014 +0100
+
+    Removed DynaQInterface and finalized DynaQ. Improved API and docs for DynaQ, PrioritizedSweeping and QLearning.
+
+commit 677defcb781da6515bc29fbaa9f33f89bfb0e84c
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Tue Feb 11 02:29:41 2014 +0100
+
+    QLearning now is self-contained, breaks DynaQ building.
+
+commit 988de7d5229a5e9433aca97ab6639e5584f7b774
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Tue Feb 11 02:25:25 2014 +0100
+
+    Improved naming for theta getter/setter
+
+commit 423fa9ad596c15f5f42fdd12ee913c49bd904512
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Tue Feb 11 02:22:03 2014 +0100
+
+    Templatized PrioritizedSweeping
+
+commit cc4bf35eb7950dc376f06d05bc53ca52fd1cb53c
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Wed Feb 5 16:34:34 2014 +0100
+
+    Prioritized sweeping completed
+
+commit e1ffd1d2bc0d740f132550af986bf88297566a9c
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Mon Feb 3 12:20:36 2014 +0100
+
+    Improved QLearning tests.
+
+commit ac196c21ead09f52416ba60466f9589de05fbdb9
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Mon Feb 3 12:02:25 2014 +0100
+
+    Created tests for QLearning.
+
+commit ec9e9e16cbcf0d2889138430161c3b41e00443fe
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Mon Feb 3 11:56:31 2014 +0100
+
+    Forced QLearning to fail on wrong parameter set
+
+commit b88d6c19bae7929ef02e0ef6c5e0a39d6da637a1
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Mon Feb 3 11:51:48 2014 +0100
+
+    Sampling test for RLModel. Small improvements
+
+commit eb70d8c6f6d7378b2ffd6313091390d286f84cdb
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Mon Feb 3 01:23:09 2014 +0100
+
+    Fixed small mistake
+
+commit 4ced625127fe1988bc58fed6adba975a9c8ef1f0
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sun Feb 2 20:15:19 2014 +0100
+
+    Swapped priority queue to increasable priority queue, to avoid
+    duplicating existing elements.
+
+commit 2d6204649a14a600d0536d993e563d3d8e51d640
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sun Feb 2 18:22:32 2014 +0100
+
+    Started to detach PrioritizedSweeping from QLearning family in
+    order to templatize all algorithms. Added getQueueLength to
+    help users tune their parameters.
+
+commit 6b883c6aa8a8b00582642a04320e7f0b04eaead6
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sun Feb 2 18:16:09 2014 +0100
+
+    QGreedyPolicy fixed.
+
+commit 4af0c82fc237cd3643203c8e598ffaa8e69ce7f0
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sun Feb 2 15:57:57 2014 +0100
+
+    Testing QGreedyPolicy
+
+commit dd7b87232f91ca0c3179419aae08687d645b0780
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sun Feb 2 15:52:53 2014 +0100
+
+    Fixed sampling for QGreedyPolicy
+
+commit ea8051ad1e1062722fc91502a93eccf7f3f9849b
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sun Feb 2 15:05:55 2014 +0100
+
+    Fixed PrioritizedSweeping bug, IO fixes, tests improvement
+
+commit a0fdfb4f45be0f17c02edf7fd49112d8e1e60c29
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Wed Jan 29 13:38:24 2014 +0100
+
+    postfix ++ to prefix ++
+
+commit 114ff2538b9b0f93a7167b5f2cbf354a5cf77c42
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Wed Jan 29 12:13:22 2014 +0100
+
+    Fixed CMake testing problems, now can call make test OK
+
+commit c2078c29845f2f4c54ba6214ffaead64b36327f0
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Wed Jan 29 11:45:19 2014 +0100
+
+    Separated Model and RLModel, templatized ValueIteration
+
+commit ec8022b7ce4ccd9fad17d4324a6f4367bf0e5b17
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Tue Jan 28 12:36:19 2014 +0100
+
+    Finalized Experience Tests
+
+commit 3cb9661ae2998d3298c6a0fdade8b02187f7be90
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Tue Jan 28 00:40:48 2014 +0100
+
+    Small fixes in code while waiting for refactoring
+
+commit e5c14dd4e05979307f4b357005de4895ef2ff7b2
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sat Jan 25 19:29:25 2014 +0100
+
+    Added Experience test suite
+
+commit 493246cf385269d82e566a5cb2167ba04e8b64ec
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Fri Jan 24 20:04:32 2014 +0100
+
+    Added 'override' keyword on virtual methods
+
+commit e6e2b5e5c95e22f3267ee89ada5714910342f9d2
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Fri Jan 24 19:30:25 2014 +0100
+
+    Added virtual destructors for polymorphic base classes
+
+commit f88e2f4a654261ea4017edcacc6d54c113110b87
+Merge: b6a177e 1d79474
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Wed Jan 22 22:48:46 2014 +0100
+
+    Merge remote-tracking branch 'origin/master'
+
+commit b6a177ebbae4ca16bee06a25e56adbb2282511b5
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Wed Jan 22 22:42:42 2014 +0100
+
+    QLearning algorithm was wrong, also missing the learning rate parameter.
+
+commit b9551531bf25246a2fc0032f3befef594a9a53fc
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Wed Jan 22 22:19:45 2014 +0100
+
+    EpsilonPolicy should inherit publicly.
+
+commit 1d794743333e6267ae22dd105a6154785d4f7b0f
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Wed Jan 22 17:48:03 2014 +0100
+
+    Create License.md
+    
+    Changed license.
+
+commit cf5dc4d2fc756c510343621f6d386ded1fb9775f
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Wed Jan 22 17:46:30 2014 +0100
+
+    Delete LICENSE
+
+commit 27c83de9a223c5ad9dc495d8c1c8ea86e818be1e
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Mon Jan 20 21:08:23 2014 +0100
+
+    Forgot EpsilonPolicy.cpp in cmake file
+
+commit ce2f6b0a6d34905f4597bbe1dcb3a233d6462ba7
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Mon Jan 20 18:22:14 2014 +0100
+
+    Modified project name in Cmake
+
+commit 9d3b0c85797bc126870bc010dc9ddbc8eed0df9b
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sun Jan 19 22:37:33 2014 +0100
+
+    Reverted inherited constructor as it is not supported by VS2013
+
+commit cecb81805124d2dbb3485a7d4e9c5effa2b18762
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sun Jan 19 22:27:04 2014 +0100
+
+    Reformed QPolicies
+
+commit 84fa9c98ac55e495d4c4ce70740899ea03c32c41
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sun Jan 19 18:55:53 2014 +0100
+
+    New seeding and set printing interface for all policies
+
+commit 6f0aae2c70790af915195a56b29dc90090d390a1
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Fri Jan 17 13:53:24 2014 +0100
+
+    Improved cmake handling of includes
+
+commit 46c02b9ae725fed967363d63943c91854898110b
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Thu Jan 16 19:21:28 2014 +0100
+
+    Failed reads from files for Policy and Experience now set failbit.
+
+commit 79e383b3348442fc11b1bc9cab35ff8155bd7608
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sun Dec 1 01:55:54 2013 +0100
+
+    Modified doxyfile to use README as main page
+
+commit f31eddb253cd10dc3faf6228830cf95c4d73118c
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sun Dec 1 01:50:23 2013 +0100
+
+    Updated readme to mirror online docs
+
+commit 70d38a325dfe064e076489b64d212445e2d98567
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sun Dec 1 01:03:45 2013 +0100
+
+    Fixed wording in Readme
+
+commit b5d1ac1fb8aaaeb92daeb9815b3eee34db54603a
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sun Dec 1 01:02:40 2013 +0100
+
+    Forgot make command in build instructions
+
+commit 0a45373009df4ab303e9f9508e154a396c31f8f3
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sun Dec 1 01:01:01 2013 +0100
+
+    Fixed boost link
+
+commit dffc695680141b03ec164caf14f6068b52b35214
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sun Dec 1 00:59:58 2013 +0100
+
+    Modified CAPS title in readme
+
+commit 7932baea9209dd972da18594a14514438a80445b
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sun Dec 1 00:59:14 2013 +0100
+
+    Updated readme and fixed doc typo
+
+commit 02283b7f599347afac300fd9a6eaeb60259bbe47
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sun Dec 1 00:49:47 2013 +0100
+
+    Fixed doc typos
+
+commit 6a75a529c17899e34d53c30b909fb0fa29927b8f
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sun Dec 1 00:45:31 2013 +0100
+
+    Fixed QPolicy missing documentation.
+
+commit 91158718f4744474ddf01a6a0eff18a5aff27c88
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sun Dec 1 00:41:21 2013 +0100
+
+    Epsilon policy wrapper.
+
+commit 3b392e10753255c9f772e22baf686d29468247fd
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sun Dec 1 00:18:55 2013 +0100
+
+    Removed private members from Doxygen.
+
+commit c63d588eaf16931d4dd4dc80820f3218b10e3499
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sat Nov 30 18:24:48 2013 +0100
+
+    Implemented and documented PrioritizedSweeping.
+
+commit 18e28ceac57015bd0356b04ad83879dc9d864989
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sat Nov 30 17:29:02 2013 +0100
+
+    Implemented and documented DynaQ. Untested yet..
+
+commit 5c9834aaaff5e419924108294e14f3532a8c2d6f
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sat Nov 30 03:31:34 2013 +0100
+
+    Fixed pointer bug
+
+commit 01fabc600dd7ba4f5e9dc418fd58a0e98284ab6f
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sat Nov 30 03:09:21 2013 +0100
+
+    Policy is for some reason inverted, but more files, more docs.
+
+commit 41575370526f5c0ed3cf43222c00c59d6a2cde22
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Fri Nov 29 15:50:51 2013 +0100
+
+    More documentation.
+
+commit 620b27ec59197483cb5b7ee4bc0eacd98c384e33
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Fri Nov 29 01:42:16 2013 +0100
+
+    Improved file handling of Policy and Experience.
+
+commit 30596c2ad6a47701c3b7a940dd63f27ead8f1abc
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Fri Nov 29 01:12:38 2013 +0100
+
+    Started framework for RLMDP Methods.
+
+commit 017fbc65ef385e9af6a3e700fe47f3815174122e
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Thu Nov 28 21:34:22 2013 +0100
+
+    Debugged new hierarchy: OK.
+
+commit 4d35300abdc1c561e8afe6ef76116c8bfbae2129
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Thu Nov 28 20:31:28 2013 +0100
+
+    Modified main to work with new structure.
+
+commit 91571c4ede97f6e16d4785d82ccc0deb489de25e
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Thu Nov 28 20:24:54 2013 +0100
+
+    Splitted MDP into Model, Solvers and Solutions.
+
+commit 8a30fcd9cdc288c5a24720d1c8feaa7dd6623299
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Wed Nov 27 00:34:42 2013 +0100
+
+    Update README.md
+
+commit 6315dc67ef3bd52f82d4f5d90ae1a79a33ec27a7
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Wed Nov 27 00:33:30 2013 +0100
+
+    Split MDP class in two parts: MDP and RLMDP.
+    
+    In addition the Experience and MDP classes now support
+    again insertion of data through arbitrary container,
+    given they support operator[] and are of the correct sizes.
+    
+    Source code for the both MDP and RLMDP needs to be correctly
+    written.
+    
+    MDPSolver still needs refactoring.
+
+commit c3cf63564c5b2cb5326b745b4e224736b311bd96
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Tue Nov 26 00:36:26 2013 +0100
+
+    Updated README
+
+commit 2a552158738a447f426636acf9905112986c4025
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Tue Nov 26 00:30:17 2013 +0100
+
+    Renaming of classes due to their contents.
+    
+    In addition tested the code again, and produces the expected policy.
+
+commit f302fa669ce3a97b28514aa8564c81d180030ca9
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Mon Nov 25 22:46:35 2013 +0100
+
+    Many changes!
+    
+    New class: Model.
+    
+    In this commit we added a Doxygen file and started documenting
+    classes: Experience and Model.
+    
+    Incomplete refactoring of MDP based on changes due to new class Model.
+    
+    Modified namespace and library name from MDPToolbox to AIToolbox.
+
+commit e42920c700147046257c2a9820944548da9d933e
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sun Nov 24 17:25:19 2013 +0100
+
+    Basic DynaQ backloop done
+
+commit bee05f55ded04a3db749da8babb239fd9aabdb1c
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Fri Nov 22 18:37:33 2013 +0100
+
+    New API tested OK
+
+commit a985531b53114d93e3a31fca0e689491f2108410
+Author: Eugenio Bargiacchi <svalorzen@gmail.com>
+Date:   Thu Nov 21 15:07:55 2013 +0100
+
+    Added stub for DynaQ update
+
+commit b1eedbbd8d02f8be76afcd8ebcc4c03fbc44a447
+Author: Eugenio Bargiacchi <svalorzen@gmail.com>
+Date:   Thu Nov 21 14:23:01 2013 +0100
+
+    Improved MDP API
+
+commit 15583e6dd615f9bc2a5ae8adf5305fe3f0f7f591
+Author: Eugenio Bargiacchi <svalorzen@gmail.com>
+Date:   Thu Nov 21 13:36:31 2013 +0100
+
+    Added declaration for updateModel function
+
+commit 235be74304673d482ce60acac025075c5146d275
+Author: Eugenio Bargiacchi <svalorzen@gmail.com>
+Date:   Thu Nov 21 13:19:21 2013 +0100
+
+    Fixed variable name in header
+
+commit 2b85f7743edd33db877d3ebcdb370d504cf0e193
+Author: Eugenio Bargiacchi <svalorzen@gmail.com>
+Date:   Thu Nov 21 13:14:50 2013 +0100
+
+    Improved Experience API
+
+commit b1f74eafa8ae7e62796fad85b2e3256b3bc1a415
+Author: Eugenio Bargiacchi <svalorzen@gmail.com>
+Date:   Thu Nov 21 13:07:24 2013 +0100
+
+    Improved Policy print and test code. Can extract policy from Q function in MDP.
+
+commit 29e2b6b64f48ca612389fb7b0cf6a84cd341ef75
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sun Nov 17 00:35:54 2013 +0100
+
+    Fixed table reading bug + optimized vector away
+
+commit da32f84f432eedc7177323b7a75dfb085b290750
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sun Nov 17 00:05:41 2013 +0100
+
+    Fixed small bug with policy updating
+
+commit 54aeede3e83dcb775158ddc745f85d82fa427745
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sat Nov 16 23:16:28 2013 +0100
+
+    Modified unsupported VLA to std::vector
+
+commit 968f9ea16ef7e7e8eea2f28cc4e6918cdedb47ed
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sat Nov 16 23:15:11 2013 +0100
+
+    MDP now contains Q-V functions and Policy
+
+commit 01f2400d7d053966c5828f390fa4a7a8b2ae2fee
+Merge: d8517a5 ceb6d0b
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sat Nov 16 20:32:19 2013 +0100
+
+    Merge remote-tracking branch 'origin/master'
+
+commit ceb6d0b3ef31e8e6149d2d1e755c8cebe50ce594
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Sat Nov 16 11:30:35 2013 -0800
+
+    Initial commit
+
+commit d8517a59e44824072a08bb013be16b5bfc29de53
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Thu Nov 14 00:09:31 2013 +0100
+
+    Policy can now be sampled with e-greedy
+
+commit dbf85e8e255b05ef5c0be18c1377a5b802857b9f
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Wed Nov 13 22:56:26 2013 +0100
+
+    Experience now saves and loads with streams
+
+commit 2d7a04df7dd9c73303d77aeef8cca3101b3ae101
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Wed Nov 13 22:28:25 2013 +0100
+
+    Improved output formatting for test application
+
+commit 5a49621d91412935627709de835ec0b3eebde404
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Wed Nov 13 22:20:49 2013 +0100
+
+    Included folder manipulation for debug files
+
+commit 2b68fb5385cbf58f01320f930a97d59c3ac20553
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Wed Nov 13 22:06:36 2013 +0100
+
+    Swapped to boost multi_array
+
+commit c510056319f06660338524cf162bd80804aa9615
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Wed Nov 13 01:13:39 2013 +0100
+
+    Fixed value iteration, tested against MDPToolbox
+
+commit 53d54aa7772505a48ac5136d5ebb904d02026b5c
+Author: Svalorzen <svalorzen@gmail.com>
+Date:   Tue Nov 5 23:49:28 2013 +0100
+
+    Initialized git repository.
+    
+    As initial code we have an untested version of Value Iteration,
+    and a mockup test binary.

@@ -1,0 +1,10 @@
+/home/dkarkhan/ReCA_MEMDP/AI-Toolbox/examples/pomdp_pbvi/POMDP_PBVISolver/Code
+
+Compiling mainMDP
+/usr/bin/g++-7 -O3 -Wl,-rpath,/usr/lib/gcc/x86_64-linux-gnu/7.3.0/ -DNITEMSPRM= -DHISTPRM=2 -DNPROFILESPRM= -std=c++11 mazemodel.cpp recomodel.cpp main_POMDP.cpp -o mainPOMDP -I ../../../..//include -I /usr/local/include/eigen3/ -L ../../../..//build -l AIToolboxMDP -l AIToolboxPOMDP -l lpsolve55 -lz -lboost_iostreams
+
+Running mainMDP on /home/dkarkhan/ReCA_MEMDP/AI-Toolbox/examples/pomdp_pbvi/POMDP_PBVISolver/Code/Models/s1k_x100_e6_h500/s1k_x100_e6_h500
+
+02-07-2018 03:05:25 - Loading appropriate model
+/home/dkarkhan/ReCA_MEMDP/AI-Toolbox/examples/pomdp_pbvi/POMDP_PBVISolver/Code/Models/s1k_x100_e6_h500/s1k_x100_e6_h500
+
